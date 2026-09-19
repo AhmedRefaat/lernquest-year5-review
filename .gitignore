@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Local working output, never published
+logs/
+
+# Mini-game packages are not wired into the app yet
+src/games/*.zip

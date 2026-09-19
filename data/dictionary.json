@@ -1,0 +1,5606 @@
+{
+  "accusative": {
+    "ar": "حالة النصب (المفعول به)",
+    "de": "Akkusativ (der 4. Fall)",
+    "examplesAr": [
+      "حالة النصب هي الحالة الرابعة.",
+      "عبارة «الكلبَ» (المفعول به) تقف في حالة النصب."
+    ],
+    "examplesDe": [
+      "Der Akkusativ ist der vierte Fall.",
+      "Die Wortgruppe „den Hund“ (das Objekt) steht im Akkusativ."
+    ]
+  },
+  "action": {
+    "ar": "حدث / فعل",
+    "de": "Handlung",
+    "examplesAr": [
+      "الفعل يدل على حدث.",
+      "الركض حدث."
+    ],
+    "examplesDe": [
+      "Das Verb zeigt eine Handlung.",
+      "Laufen ist eine Handlung."
+    ]
+  },
+  "addiere": {
+    "ar": "اجمع (أضف الأعداد)",
+    "de": "addieren (zusammenzählen)",
+    "examplesAr": [
+      "اجمع الرقمين معًا.",
+      "اجمع 5 و3."
+    ],
+    "examplesDe": [
+      "Addiere die beiden Zahlen.",
+      "Addiere 5 und 3."
+    ]
+  },
+  "addition": {
+    "ar": "الجمع (عملية حسابية)",
+    "de": "das Zusammenzählen",
+    "examplesAr": [
+      "الجمع عملية حسابية.",
+      "نتدرب على الجمع."
+    ],
+    "examplesDe": [
+      "Die Addition ist eine Rechenart.",
+      "Wir üben die Addition."
+    ]
+  },
+  "akkusativobjekt": {
+    "ar": "المفعول به",
+    "de": "Satzglied im 4. Fall (Akkusativ)",
+    "examplesAr": [
+      "«الكرة» هي المفعول به.",
+      "المفعول به يكون في الحالة الرابعة (حالة النصب)."
+    ],
+    "examplesDe": [
+      "„Den Ball“ ist das Akkusativobjekt.",
+      "Das Akkusativobjekt steht im 4. Fall."
+    ]
+  },
+  "allein": {
+    "ar": "وحده",
+    "de": "ohne andere, für sich",
+    "examplesAr": [
+      "يلعب وحده في الحديقة.",
+      "أنا وحدي في البيت اليوم."
+    ],
+    "examplesDe": [
+      "Er spielt allein im Garten.",
+      "Ich bin heute allein zu Hause."
+    ]
+  },
+  "alone": {
+    "ar": "وحيد",
+    "de": "allein",
+    "examplesAr": [
+      "هي وحدها في البيت اليوم.",
+      "يحب أن يلعب وحده."
+    ],
+    "examplesDe": [
+      "Sie ist heute allein zu Hause.",
+      "Er spielt gern allein."
+    ]
+  },
+  "aloud": {
+    "ar": "بصوت عالٍ",
+    "de": "laut (hörbar)",
+    "examplesAr": [
+      "اقرأ الجملة بصوت عالٍ.",
+      "يقرأ القصيدة بصوت عالٍ."
+    ],
+    "examplesDe": [
+      "Lies den Satz laut vor.",
+      "Er liest das Gedicht laut."
+    ]
+  },
+  "altogether": {
+    "ar": "بالمجموع",
+    "de": "insgesamt",
+    "examplesAr": [
+      "لدينا عشر تفاحات بالمجموع.",
+      "جاء عشرون طفلاً بالمجموع."
+    ],
+    "examplesDe": [
+      "Wir haben insgesamt zehn Äpfel.",
+      "Insgesamt kamen zwanzig Kinder."
+    ]
+  },
+  "among": {
+    "ar": "من بين",
+    "de": "unter (mehreren)",
+    "examplesAr": [
+      "الكرة موجودة من بين الأوراق.",
+      "هي بين أصدقائها."
+    ],
+    "examplesDe": [
+      "Der Ball liegt unter den Blättern.",
+      "Sie ist unter Freunden."
+    ]
+  },
+  "andere": {
+    "ar": "آخر / أخرى",
+    "de": "nicht diese/r, sondern eine weitere Person oder Sache",
+    "examplesAr": [
+      "خذ الحقيبة الأخرى.",
+      "اسأل طالبًا آخر."
+    ],
+    "examplesDe": [
+      "Nimm die andere Tasche.",
+      "Frag einen anderen Schüler."
+    ]
+  },
+  "anfang": {
+    "ar": "بداية",
+    "de": "Beginn",
+    "examplesAr": [
+      "في البداية كانت الجملة قصيرة.",
+      "بداية القصة مشوقة."
+    ],
+    "examplesDe": [
+      "Am Anfang war der Satz kurz.",
+      "Der Anfang der Geschichte ist spannend."
+    ]
+  },
+  "anfangslaut": {
+    "ar": "الصوت الأول في الكلمة",
+    "de": "erster Laut eines Wortes",
+    "examplesAr": [
+      "الصوت الأول في كلمة Schule هو Sch.",
+      "ابحث عن الصوت الأول للكلمة."
+    ],
+    "examplesDe": [
+      "Der Anfangslaut von „Schule“ ist „Sch“.",
+      "Finde den Anfangslaut des Wortes."
+    ]
+  },
+  "answer": {
+    "ar": "إجابة",
+    "de": "Antwort",
+    "examplesAr": [
+      "اكتب إجابتك.",
+      "كانت إجابته واضحة."
+    ],
+    "examplesDe": [
+      "Schreibe deine Antwort.",
+      "Seine Antwort war klar."
+    ]
+  },
+  "antwort": {
+    "ar": "إجابة",
+    "de": "Reaktion auf eine Frage",
+    "examplesAr": [
+      "اكتب إجابتك.",
+      "كانت إجابته صحيحة."
+    ],
+    "examplesDe": [
+      "Schreibe deine Antwort auf.",
+      "Seine Antwort war richtig."
+    ]
+  },
+  "antwortet": {
+    "ar": "يجيب",
+    "de": "gibt eine Antwort (er/sie/es)",
+    "examplesAr": [
+      "هي تجيب عن السؤال.",
+      "هو يجيب بسرعة."
+    ],
+    "examplesDe": [
+      "Sie antwortet auf die Frage.",
+      "Er antwortet schnell."
+    ]
+  },
+  "apfel": {
+    "ar": "تفاحة",
+    "de": "runde Frucht vom Apfelbaum",
+    "examplesAr": [
+      "أنا آكل تفاحة.",
+      "التفاحة حمراء."
+    ],
+    "examplesDe": [
+      "Ich esse einen Apfel.",
+      "Der Apfel ist rot."
+    ]
+  },
+  "apostroph": {
+    "ar": "علامة الحذف",
+    "de": "Auslassungszeichen ’",
+    "examplesAr": [
+      "علامة الحذف تدل على حرف محذوف.",
+      "في كلمة geht’s توجد علامة حذف."
+    ],
+    "examplesDe": [
+      "Der Apostroph zeigt eine Auslassung.",
+      "Bei „geht’s“ steht ein Apostroph."
+    ]
+  },
+  "apostrophe": {
+    "ar": "علامة الحذف",
+    "de": "Apostroph",
+    "examplesAr": [
+      "توجد علامة الحذف في it’s.",
+      "علامة الحذف تدل على صيغة مختصرة."
+    ],
+    "examplesDe": [
+      "Der Apostroph steht bei „it’s“.",
+      "Ein Apostroph zeigt eine Kurzform."
+    ]
+  },
+  "apple": {
+    "ar": "تفاحة",
+    "de": "Apfel",
+    "examplesAr": [
+      "التفاحة طعمها حلو.",
+      "هي تأكل تفاحة."
+    ],
+    "examplesDe": [
+      "Der Apfel schmeckt süß.",
+      "Sie isst einen Apfel."
+    ]
+  },
+  "around": {
+    "ar": "حول",
+    "de": "um … herum",
+    "examplesAr": [
+      "يركض الأطفال حول الشجرة.",
+      "يوجد سياج حول الحديقة."
+    ],
+    "examplesDe": [
+      "Die Kinder laufen um den Baum herum.",
+      "Ein Zaun steht um den Garten herum."
+    ]
+  },
+  "arrive": {
+    "ar": "يصل",
+    "de": "ankommen",
+    "examplesAr": [
+      "نصل الساعة الثامنة.",
+      "يصل القطار في الموعد."
+    ],
+    "examplesDe": [
+      "Wir kommen um acht Uhr an.",
+      "Der Zug kommt pünktlich an."
+    ]
+  },
+  "artikel": {
+    "ar": "أداة التعريف",
+    "de": "Begleiter eines Nomens (der/die/das)",
+    "examplesAr": [
+      "«der» أداة تعريف.",
+      "كل اسم يحتاج إلى أداة تعريف."
+    ],
+    "examplesDe": [
+      "„Der“ ist ein Artikel.",
+      "Jedes Nomen braucht einen Artikel."
+    ]
+  },
+  "aufgabe": {
+    "ar": "مهمة أو مسألة",
+    "de": "Übung oder Problem",
+    "examplesAr": [
+      "أنا أحل المسألة.",
+      "هذه المسألة ليست صعبة."
+    ],
+    "examplesDe": [
+      "Ich löse die Aufgabe.",
+      "Diese Aufgabe ist nicht schwer."
+    ]
+  },
+  "ausführt": {
+    "ar": "ينفذ",
+    "de": "macht, erledigt (er/sie/es führt aus)",
+    "examplesAr": [
+      "هو ينفذ المهمة.",
+      "هي تنفذ الأمر."
+    ],
+    "examplesDe": [
+      "Er führt die Aufgabe aus.",
+      "Sie führt den Befehl aus."
+    ]
+  },
+  "ausgewählten": {
+    "ar": "المختارة",
+    "de": "ausgesucht (gebeugte Form)",
+    "examplesAr": [
+      "الإجابات المختارة صحيحة.",
+      "انظر إلى الكلمات المختارة."
+    ],
+    "examplesDe": [
+      "Die ausgewählten Antworten sind richtig.",
+      "Schau dir die ausgewählten Wörter an."
+    ]
+  },
+  "aussagesatz": {
+    "ar": "جملة خبرية",
+    "de": "Satz, der etwas mitteilt (Punkt am Ende)",
+    "examplesAr": [
+      "الجملة الخبرية تنتهي بنقطة.",
+      "«أذهب إلى المدرسة» جملة خبرية."
+    ],
+    "examplesDe": [
+      "Ein Aussagesatz endet mit einem Punkt.",
+      "„Ich gehe zur Schule.“ ist ein Aussagesatz."
+    ]
+  },
+  "backpack": {
+    "ar": "حقيبة ظهر",
+    "de": "Rucksack",
+    "examplesAr": [
+      "يحمل حقيبة الظهر إلى المدرسة.",
+      "حقيبة ظهرها ثقيلة."
+    ],
+    "examplesDe": [
+      "Er trägt den Rucksack zur Schule.",
+      "Ihr Rucksack ist schwer."
+    ]
+  },
+  "becomes": {
+    "ar": "يصبح",
+    "de": "wird",
+    "examplesAr": [
+      "تصبح gehen هي ging.",
+      "تصبح السماء مظلمة."
+    ],
+    "examplesDe": [
+      "Aus „gehen“ wird „ging“.",
+      "Der Himmel wird dunkel."
+    ]
+  },
+  "bedeutet": {
+    "ar": "يعني",
+    "de": "hat die Bedeutung von",
+    "examplesAr": [
+      "تعني هذه الكلمة «سريع».",
+      "ماذا تعني هذه الجملة؟"
+    ],
+    "examplesDe": [
+      "Das Wort bedeutet „schnell“.",
+      "Was bedeutet dieser Satz?"
+    ]
+  },
+  "beendet": {
+    "ar": "أنهى",
+    "de": "abgeschlossen, fertig gemacht",
+    "examplesAr": [
+      "أنهت المهمة.",
+      "ينهي اللعبة."
+    ],
+    "examplesDe": [
+      "Sie hat die Aufgabe beendet.",
+      "Er beendet das Spiel."
+    ]
+  },
+  "before": {
+    "ar": "قبل",
+    "de": "bevor / vorher",
+    "examplesAr": [
+      "قبل ذلك كانت جائعة.",
+      "قبل أن تأكل، غسلت يديها."
+    ],
+    "examplesDe": [
+      "Vorher hatte sie Hunger.",
+      "Bevor sie aß, wusch sie die Hände."
+    ]
+  },
+  "beginnend": {
+    "ar": "يبدأ بـ",
+    "de": "am Anfang stehend",
+    "examplesAr": [
+      "كلمة تبدأ بحرف S.",
+      "بدءًا من الخطوة الأولى."
+    ],
+    "examplesDe": [
+      "Ein mit „S“ beginnendes Wort.",
+      "Beginnend mit dem ersten Schritt."
+    ]
+  },
+  "behind": {
+    "ar": "خلف",
+    "de": "hinter",
+    "examplesAr": [
+      "الكرة خلف الكرسي.",
+      "هي تقف خلفي."
+    ],
+    "examplesDe": [
+      "Der Ball liegt hinter dem Stuhl.",
+      "Sie steht hinter mir."
+    ]
+  },
+  "bekommt": {
+    "ar": "يحصل على",
+    "de": "erhält (er/sie/es)",
+    "examplesAr": [
+      "يحصل على هدية.",
+      "تحصل على درجات جيدة."
+    ],
+    "examplesDe": [
+      "Er bekommt ein Geschenk.",
+      "Sie bekommt gute Noten."
+    ]
+  },
+  "benachbarten": {
+    "ar": "المجاورة",
+    "de": "daneben liegend, nahe",
+    "examplesAr": [
+      "الأرقام المجاورة هي 9 و10.",
+      "انظر إلى الخانات المجاورة."
+    ],
+    "examplesDe": [
+      "Die benachbarten Zahlen sind 9 und 10.",
+      "Schau auf die benachbarten Felder."
+    ]
+  },
+  "benutzt": {
+    "ar": "يستخدم",
+    "de": "verwendet",
+    "examplesAr": [
+      "يستخدم مسطرة.",
+      "تستخدم الحاسوب."
+    ],
+    "examplesDe": [
+      "Er benutzt ein Lineal.",
+      "Sie benutzt den Computer."
+    ]
+  },
+  "beschreibt": {
+    "ar": "يصف",
+    "de": "erklärt, wie etwas ist",
+    "examplesAr": [
+      "الصفة تصف الاسم.",
+      "هي تصف الصورة."
+    ],
+    "examplesDe": [
+      "Das Adjektiv beschreibt das Nomen.",
+      "Sie beschreibt das Bild."
+    ]
+  },
+  "bestimmten": {
+    "ar": "المحددة",
+    "de": "genau festgelegten",
+    "examplesAr": [
+      "يبدأ الدرس في وقت محدد.",
+      "اختر الكلمات المحددة."
+    ],
+    "examplesDe": [
+      "Zu einer bestimmten Uhrzeit beginnt der Unterricht.",
+      "Wähle die bestimmten Wörter aus."
+    ]
+  },
+  "besucht": {
+    "ar": "يزور",
+    "de": "geht zu Besuch",
+    "examplesAr": [
+      "هي تزور جدتها.",
+      "هو يزور المدرسة."
+    ],
+    "examplesDe": [
+      "Sie besucht ihre Oma.",
+      "Er besucht die Schule."
+    ]
+  },
+  "between": {
+    "ar": "بين",
+    "de": "zwischen",
+    "examplesAr": [
+      "تجلس القطة بين الكرسيين.",
+      "اختر بين إجابتين."
+    ],
+    "examplesDe": [
+      "Die Katze sitzt zwischen den Stühlen.",
+      "Wähle zwischen zwei Antworten."
+    ]
+  },
+  "bevor": {
+    "ar": "قبل أن",
+    "de": "bevor etwas anderes passiert",
+    "examplesAr": [
+      "نأكل قبل أن نلعب.",
+      "رتّب غرفتك قبل أن تخرج."
+    ],
+    "examplesDe": [
+      "Wir essen, bevor wir spielen.",
+      "Räum dein Zimmer auf, bevor du rausgehst."
+    ]
+  },
+  "bilden": {
+    "ar": "يشكّل / يكوّن",
+    "de": "formen, herstellen",
+    "examplesAr": [
+      "كوّن جملة بهذه الكلمة.",
+      "نكوّن مجموعات ثنائية."
+    ],
+    "examplesDe": [
+      "Bilde einen Satz mit diesem Wort.",
+      "Wir bilden Gruppen zu zweit."
+    ]
+  },
+  "bleibe": {
+    "ar": "أبقى (المتكلم من bleiben)",
+    "de": "1. Person Singular von „bleiben“",
+    "examplesAr": [
+      "أبقى في البيت لأن الجو ممطر.",
+      "أبقى في المدرسة أطول اليوم."
+    ],
+    "examplesDe": [
+      "Ich bleibe zu Hause, weil es regnet.",
+      "Ich bleibe heute länger in der Schule."
+    ]
+  },
+  "bleiben": {
+    "ar": "يبقى",
+    "de": "an einem Ort verweilen",
+    "examplesAr": [
+      "نبقى هنا بعد المدرسة.",
+      "تبقى الأرقام كما هي."
+    ],
+    "examplesDe": [
+      "Wir bleiben nach der Schule hier.",
+      "Die Zahlen bleiben gleich."
+    ]
+  },
+  "blume": {
+    "ar": "زهرة",
+    "de": "Pflanze mit Blüten",
+    "examplesAr": [
+      "تتفتح الزهرة في الحديقة.",
+      "تهديني زهرة."
+    ],
+    "examplesDe": [
+      "Die Blume blüht im Garten.",
+      "Sie schenkt mir eine Blume."
+    ]
+  },
+  "blumen": {
+    "ar": "زهور",
+    "de": "Mehrzahl von Blume",
+    "examplesAr": [
+      "تتفتح أزهار كثيرة في الحديقة.",
+      "تقطف أزهارًا ملونة."
+    ],
+    "examplesDe": [
+      "Im Garten blühen viele Blumen.",
+      "Sie pflückt bunte Blumen."
+    ]
+  },
+  "books": {
+    "ar": "كتب",
+    "de": "Bücher",
+    "examplesAr": [
+      "أحب قراءة الكتب.",
+      "توجد كتب كثيرة على الرف."
+    ],
+    "examplesDe": [
+      "Ich lese gerne Bücher.",
+      "Im Regal stehen viele Bücher."
+    ]
+  },
+  "boxes": {
+    "ar": "صناديق",
+    "de": "Kisten / Schachteln",
+    "examplesAr": [
+      "الصناديق موجودة في القبو.",
+      "نضع الكتب في الصناديق."
+    ],
+    "examplesDe": [
+      "Die Boxen stehen im Keller.",
+      "Wir packen Bücher in Boxen."
+    ]
+  },
+  "breit": {
+    "ar": "عريض",
+    "de": "mit großer Breite, nicht schmal",
+    "examplesAr": [
+      "النهر عريض جدًا.",
+      "المستطيل أعرض من ارتفاعه."
+    ],
+    "examplesDe": [
+      "Der Fluss ist sehr breit.",
+      "Das Rechteck ist breiter als hoch."
+    ]
+  },
+  "breite": {
+    "ar": "العرض",
+    "de": "Maß von einer Seite zur anderen",
+    "examplesAr": [
+      "قِس عرض الطاولة.",
+      "العرض يساوي خمسة أمتار."
+    ],
+    "examplesDe": [
+      "Miss die Breite des Tisches.",
+      "Die Breite beträgt fünf Meter."
+    ]
+  },
+  "bridge": {
+    "ar": "جسر",
+    "de": "Brücke",
+    "examplesAr": [
+      "الجسر يمتد فوق النهر.",
+      "نعبر الجسر."
+    ],
+    "examplesDe": [
+      "Die Brücke führt über den Fluss.",
+      "Wir gehen über die Brücke."
+    ]
+  },
+  "brief": {
+    "ar": "موجز / قصير",
+    "de": "kurz (zeitlich)",
+    "examplesAr": [
+      "أعطِ إجابة موجزة.",
+      "النص قصير وموجز."
+    ],
+    "examplesDe": [
+      "Gib eine kurze Antwort.",
+      "Der Text ist kurz und knapp."
+    ]
+  },
+  "bright": {
+    "ar": "مشرق / ساطع",
+    "de": "hell",
+    "examplesAr": [
+      "المصباح مشرق جدًا.",
+      "السماء مشرقة في النهار."
+    ],
+    "examplesDe": [
+      "Die Lampe ist sehr hell.",
+      "Am Tag ist der Himmel hell."
+    ]
+  },
+  "brighter": {
+    "ar": "أكثر إشراقًا",
+    "de": "heller (Vergleichsform)",
+    "examplesAr": [
+      "هذا المصباح أكثر إشراقًا من الآخر.",
+      "يصبح النهار أكثر إشراقًا."
+    ],
+    "examplesDe": [
+      "Diese Lampe ist heller als die andere.",
+      "Der Tag wird heller."
+    ]
+  },
+  "brother": {
+    "ar": "أخ",
+    "de": "Bruder",
+    "examplesAr": [
+      "أخي يلعب كرة القدم.",
+      "أخوها أكبر منها."
+    ],
+    "examplesDe": [
+      "Mein Bruder spielt Fußball.",
+      "Ihr Bruder ist älter."
+    ]
+  },
+  "bruch": {
+    "ar": "كسر (عدد كسري)",
+    "de": "Zahl mit Zähler und Nenner",
+    "examplesAr": [
+      "الكسر يتكون من بسط ومقام.",
+      "نحسب باستخدام كسر."
+    ],
+    "examplesDe": [
+      "Ein Bruch besteht aus Zähler und Nenner.",
+      "Wir rechnen mit einem Bruch."
+    ]
+  },
+  "brücke": {
+    "ar": "جسر",
+    "de": "Bauwerk über einen Fluss oder Weg",
+    "examplesAr": [
+      "الجسر يمتد فوق النهر.",
+      "علامة الحذف تشبه جسرًا صغيرًا."
+    ],
+    "examplesDe": [
+      "Die Brücke führt über den Fluss.",
+      "Der Apostroph ist wie eine kleine Brücke."
+    ]
+  },
+  "buchstaben": {
+    "ar": "حروف",
+    "de": "Zeichen des Alphabets",
+    "examplesAr": [
+      "الكلمة تتكون من خمسة حروف.",
+      "الأسماء تبدأ بحرف كبير في الألمانية."
+    ],
+    "examplesDe": [
+      "Das Wort hat fünf Buchstaben.",
+      "Nomen tragen eine große Buchstaben-Krone."
+    ]
+  },
+  "bücher": {
+    "ar": "كتب",
+    "de": "Mehrzahl von Buch",
+    "examplesAr": [
+      "أحب قراءة الكتب.",
+      "الكتب موجودة في الرف."
+    ],
+    "examplesDe": [
+      "Ich lese gern Bücher.",
+      "Die Bücher stehen im Regal."
+    ]
+  },
+  "bücherregal": {
+    "ar": "رف الكتب",
+    "de": "Möbelstück für Bücher",
+    "examplesAr": [
+      "رف الكتب يقف بجانب النافذة.",
+      "أضع كتابي الجديد على رف الكتب."
+    ],
+    "examplesDe": [
+      "Das Bücherregal steht neben dem Fenster.",
+      "Ich stelle mein neues Buch ins Bücherregal."
+    ]
+  },
+  "calculate": {
+    "ar": "احسب",
+    "de": "berechnen",
+    "examplesAr": [
+      "احسب المجموع.",
+      "أحسب المحيط."
+    ],
+    "examplesDe": [
+      "Berechne die Summe.",
+      "Ich berechne den Umfang."
+    ]
+  },
+  "called": {
+    "ar": "نادى / سُمّي",
+    "de": "genannt, gerufen",
+    "examplesAr": [
+      "نادى صديقه.",
+      "تم استدعاؤها إلى السبورة."
+    ],
+    "examplesDe": [
+      "Er rief seinen Freund.",
+      "Sie wurde zur Tafel gerufen."
+    ]
+  },
+  "calmly": {
+    "ar": "بهدوء",
+    "de": "ruhig",
+    "examplesAr": [
+      "تجيب بهدوء.",
+      "يبقى هادئًا في الاختبار."
+    ],
+    "examplesDe": [
+      "Sie antwortet ruhig.",
+      "Er bleibt ruhig bei der Prüfung."
+    ]
+  },
+  "cannot": {
+    "ar": "لا يستطيع",
+    "de": "kann nicht",
+    "examplesAr": [
+      "لا أستطيع الحضور اليوم.",
+      "لا يستطيع حمل الكتاب الثقيل."
+    ],
+    "examplesDe": [
+      "Ich kann heute nicht kommen.",
+      "Er kann das schwere Buch nicht tragen."
+    ]
+  },
+  "capital": {
+    "ar": "حرف كبير",
+    "de": "Großbuchstabe",
+    "examplesAr": [
+      "تبدأ الأسماء بحرف كبير.",
+      "تبدأ الجملة بحرف كبير."
+    ],
+    "examplesDe": [
+      "Nomen beginnen mit einem Großbuchstaben.",
+      "Der Satz beginnt mit einem Großbuchstaben."
+    ]
+  },
+  "carrying": {
+    "ar": "يحمل",
+    "de": "tragend (er/sie trägt)",
+    "examplesAr": [
+      "يحمل حقيبة الظهر.",
+      "تحمل حقيبة ثقيلة."
+    ],
+    "examplesDe": [
+      "Er trägt den Rucksack.",
+      "Sie trägt eine schwere Tasche."
+    ]
+  },
+  "chair": {
+    "ar": "كرسي",
+    "de": "Stuhl",
+    "examplesAr": [
+      "الكرسي بجانب الطاولة.",
+      "تجلس على الكرسي."
+    ],
+    "examplesDe": [
+      "Der Stuhl steht am Tisch.",
+      "Sie sitzt auf dem Stuhl."
+    ]
+  },
+  "characters": {
+    "ar": "شخصيات / رموز",
+    "de": "Figuren / Zeichen",
+    "examplesAr": [
+      "القصة فيها شخصيات كثيرة.",
+      "الكلمة تتكون من خمسة رموز."
+    ],
+    "examplesDe": [
+      "Die Geschichte hat viele Figuren.",
+      "Das Wort besteht aus fünf Zeichen."
+    ]
+  },
+  "chess": {
+    "ar": "شطرنج",
+    "de": "Schach",
+    "examplesAr": [
+      "يلعب توم وميا الشطرنج.",
+      "أتعلم الآن لعب الشطرنج."
+    ],
+    "examplesDe": [
+      "Tom und Mia spielen Schach.",
+      "Ich lerne gerade Schach spielen."
+    ]
+  },
+  "children": {
+    "ar": "أطفال",
+    "de": "Kinder",
+    "examplesAr": [
+      "يلعب الأطفال في الحديقة.",
+      "يذهب أطفال كثيرون إلى المدرسة."
+    ],
+    "examplesDe": [
+      "Die Kinder spielen im Garten.",
+      "Viele Kinder gehen zur Schule."
+    ]
+  },
+  "choose": {
+    "ar": "يختار",
+    "de": "wählen",
+    "examplesAr": [
+      "اختر الإجابة الصحيحة.",
+      "نختار لعبة."
+    ],
+    "examplesDe": [
+      "Wähle die richtige Antwort.",
+      "Wir wählen ein Spiel."
+    ]
+  },
+  "clause": {
+    "ar": "جملة / جزء جملة (جملة رئيسية أو جملة فرعية)",
+    "de": "Satz / Teilsatz (Haupt- oder Nebensatz)",
+    "examplesAr": [
+      "الجملة الفرعية نوع من أجزاء الجملة.",
+      "الجملة الرئيسية جزء آخر من الجملة."
+    ],
+    "examplesDe": [
+      "Ein Nebensatz ist eine Art von Teilsatz.",
+      "Der Hauptsatz ist ein anderer Teilsatz."
+    ]
+  },
+  "clean": {
+    "ar": "ينظّف",
+    "de": "putzen",
+    "examplesAr": [
+      "تنظف غرفتها كل يوم.",
+      "ننظف المطبخ معًا."
+    ],
+    "examplesDe": [
+      "Sie putzt jeden Tag ihr Zimmer.",
+      "Wir putzen zusammen die Küche."
+    ]
+  },
+  "cleaned": {
+    "ar": "نظّف",
+    "de": "sauber gemacht",
+    "examplesAr": [
+      "نظّفت غرفتها.",
+      "نظّف السبورة."
+    ],
+    "examplesDe": [
+      "Sie hat ihr Zimmer geputzt.",
+      "Er hat die Tafel gereinigt."
+    ]
+  },
+  "cleans": {
+    "ar": "ينظف",
+    "de": "macht sauber (er/sie/es)",
+    "examplesAr": [
+      "ينظف غرفته كل يوم.",
+      "تنظف السبورة."
+    ],
+    "examplesDe": [
+      "Er putzt jeden Tag sein Zimmer.",
+      "Sie reinigt die Tafel."
+    ]
+  },
+  "clock": {
+    "ar": "ساعة",
+    "de": "Uhr",
+    "examplesAr": [
+      "الساعة معلقة على الحائط.",
+      "انظر إلى الساعة."
+    ],
+    "examplesDe": [
+      "Die Uhr hängt an der Wand.",
+      "Schau auf die Uhr."
+    ]
+  },
+  "colder": {
+    "ar": "أبرد",
+    "de": "kälter (Vergleichsform)",
+    "examplesAr": [
+      "اليوم أبرد من الأمس.",
+      "الشمال أبرد من الجنوب."
+    ],
+    "examplesDe": [
+      "Heute ist es kälter als gestern.",
+      "Der Norden ist kälter als der Süden."
+    ]
+  },
+  "color": {
+    "ar": "لون",
+    "de": "Farbe",
+    "examplesAr": [
+      "لوني المفضل هو الأزرق.",
+      "ما لون التفاحة؟"
+    ],
+    "examplesDe": [
+      "Meine Lieblingsfarbe ist Blau.",
+      "Welche Farbe hat der Apfel?"
+    ]
+  },
+  "comma": {
+    "ar": "فاصلة",
+    "de": "Komma",
+    "examplesAr": [
+      "توضع الفاصلة غالبًا قبل «لكن».",
+      "ضع الفاصلة في المكان الصحيح."
+    ],
+    "examplesDe": [
+      "Vor „aber“ steht oft ein Komma.",
+      "Setze das Komma richtig."
+    ]
+  },
+  "comparative": {
+    "ar": "صيغة المقارنة",
+    "de": "Vergleichsform (mit -er)",
+    "examplesAr": [
+      "كلمة kälter هي صيغة المقارنة من kalt.",
+      "كوّن صيغة المقارنة من كلمة schnell."
+    ],
+    "examplesDe": [
+      "„Kälter“ ist der Komparativ von „kalt“.",
+      "Bilde den Komparativ von „schnell“."
+    ]
+  },
+  "compare": {
+    "ar": "يقارن",
+    "de": "vergleichen",
+    "examplesAr": [
+      "نقارن بين رقمين.",
+      "قارن أطوال الخطوط."
+    ],
+    "examplesDe": [
+      "Wir vergleichen zwei Zahlen.",
+      "Vergleiche die Längen der Linien."
+    ]
+  },
+  "compared": {
+    "ar": "تمت مقارنته",
+    "de": "verglichen",
+    "examplesAr": [
+      "تمت مقارنة الرقمين.",
+      "قارن الأطوال."
+    ],
+    "examplesDe": [
+      "Die beiden Zahlen wurden verglichen.",
+      "Er hat die Längen verglichen."
+    ]
+  },
+  "complete": {
+    "ar": "أكمل / كامل",
+    "de": "vervollständigen / vollständig",
+    "examplesAr": [
+      "أكمل الجملة.",
+      "الجملة كاملة."
+    ],
+    "examplesDe": [
+      "Vervollständige den Satz.",
+      "Der Satz ist vollständig."
+    ]
+  },
+  "consonant": {
+    "ar": "حرف ساكن",
+    "de": "Mitlaut (Konsonant)",
+    "examplesAr": [
+      "حرف B هو حرف ساكن.",
+      "الحروف الساكنة تقف بجانب حروف العلة."
+    ],
+    "examplesDe": [
+      "„B“ ist ein Konsonant.",
+      "Konsonanten stehen neben Vokalen."
+    ]
+  },
+  "contraction": {
+    "ar": "صيغة مختصرة",
+    "de": "Kurzform mit Apostroph",
+    "examplesAr": [
+      "كلمة don’t صيغة مختصرة من do not.",
+      "الصيغ المختصرة غالبًا فيها علامة حذف."
+    ],
+    "examplesDe": [
+      "„Don’t“ ist eine Kurzform von „do not“.",
+      "Kurzformen haben oft einen Apostroph."
+    ]
+  },
+  "cooked": {
+    "ar": "طبخ",
+    "de": "gekocht",
+    "examplesAr": [
+      "طبخت أمي الحساء.",
+      "طبخ الطعام."
+    ],
+    "examplesDe": [
+      "Meine Mutter hat Suppe gekocht.",
+      "Er hat das Essen gekocht."
+    ]
+  },
+  "cooks": {
+    "ar": "يطبخ",
+    "de": "kocht (er/sie/es)",
+    "examplesAr": [
+      "تطبخ أمي كل مساء.",
+      "يحب طبخ المعكرونة."
+    ],
+    "examplesDe": [
+      "Meine Mutter kocht jeden Abend.",
+      "Er kocht gern Nudeln."
+    ]
+  },
+  "correct": {
+    "ar": "صحيح",
+    "de": "richtig",
+    "examplesAr": [
+      "الإجابة صحيحة.",
+      "إجابتان صحيحتان تكفيان."
+    ],
+    "examplesDe": [
+      "Die Antwort ist richtig.",
+      "Zwei richtige Antworten reichen."
+    ]
+  },
+  "darum": {
+    "ar": "لهذا السبب",
+    "de": "deshalb, aus diesem Grund",
+    "examplesAr": [
+      "كانت مريضة، لهذا بقيت في البيت.",
+      "لهذا السبب الإجابة صحيحة."
+    ],
+    "examplesDe": [
+      "Sie war krank, darum blieb sie zu Hause.",
+      "Darum ist die Antwort richtig."
+    ]
+  },
+  "davon": {
+    "ar": "منه / منها",
+    "de": "von dieser Sache",
+    "examplesAr": [
+      "خذ نصف ذلك.",
+      "لم أكن أعرف شيئًا عن ذلك."
+    ],
+    "examplesDe": [
+      "Nimm die Hälfte davon.",
+      "Ich habe nichts davon gewusst."
+    ]
+  },
+  "describe": {
+    "ar": "يصف",
+    "de": "beschreiben",
+    "examplesAr": [
+      "صف الصورة بدقة.",
+      "الصفات تصف الأسماء."
+    ],
+    "examplesDe": [
+      "Beschreibe das Bild genau.",
+      "Adjektive beschreiben Nomen."
+    ]
+  },
+  "deshalb": {
+    "ar": "لذلك",
+    "de": "aus diesem Grund",
+    "examplesAr": [
+      "إنها تمطر، لذلك سنبقى في الداخل.",
+      "تتدرب كثيرًا، لذلك هي ماهرة."
+    ],
+    "examplesDe": [
+      "Es regnet, deshalb bleiben wir drinnen.",
+      "Sie übt viel, deshalb ist sie gut."
+    ]
+  },
+  "deutscher": {
+    "ar": "ألماني (صفة مذكر)",
+    "de": "deutsch (männliche gebeugte Form)",
+    "examplesAr": [
+      "هذه أداة تعريف ألمانية.",
+      "يقرأ نصًا ألمانيًا."
+    ],
+    "examplesDe": [
+      "Das ist ein deutscher Artikel.",
+      "Er liest ein deutscher Text nach."
+    ]
+  },
+  "different": {
+    "ar": "مختلف",
+    "de": "unterschiedlich, verschieden",
+    "examplesAr": [
+      "الإجابتان مختلفتان.",
+      "كل اسم له أداة تعريف مختلفة."
+    ],
+    "examplesDe": [
+      "Die beiden Antworten sind unterschiedlich.",
+      "Jedes Nomen hat einen anderen Artikel."
+    ]
+  },
+  "differenz": {
+    "ar": "الفرق (ناتج الطرح)",
+    "de": "Ergebnis einer Subtraktion",
+    "examplesAr": [
+      "الفرق بين 9 و3 هو 6.",
+      "احسب الفرق بين العددين."
+    ],
+    "examplesDe": [
+      "Die Differenz von 9 und 3 ist 6.",
+      "Berechne die Differenz der Zahlen."
+    ]
+  },
+  "digits": {
+    "ar": "أرقام",
+    "de": "Ziffern",
+    "examplesAr": [
+      "الرقم يتكون من ثلاث أرقام.",
+      "اكتب الأرقام في الجدول."
+    ],
+    "examplesDe": [
+      "Die Zahl hat drei Ziffern.",
+      "Schreibe die Ziffern in die Tabelle."
+    ]
+  },
+  "dinge": {
+    "ar": "أشياء",
+    "de": "Sachen, Gegenstände",
+    "examplesAr": [
+      "توجد أشياء كثيرة في الغرفة.",
+      "رتّب الأشياء."
+    ],
+    "examplesDe": [
+      "Im Zimmer liegen viele Dinge.",
+      "Räume die Dinge auf."
+    ]
+  },
+  "division": {
+    "ar": "القسمة",
+    "de": "Teilen (Rechenart)",
+    "examplesAr": [
+      "القسمة عملية حسابية.",
+      "نتدرب على القسمة اليوم."
+    ],
+    "examplesDe": [
+      "Die Division ist eine Rechenart.",
+      "Wir üben die Division heute."
+    ]
+  },
+  "doing": {
+    "ar": "يفعل (الآن)",
+    "de": "am Tun / machend",
+    "examplesAr": [
+      "ماذا تفعل الآن؟",
+      "هي تنجز واجبها الآن."
+    ],
+    "examplesDe": [
+      "Was machst du gerade?",
+      "Sie ist gerade am Hausaufgabenmachen."
+    ]
+  },
+  "einem": {
+    "ar": "صيغة من «واحد» (حالة الجر)",
+    "de": "gebeugte Form von „ein“ (Dativ)",
+    "examplesAr": [
+      "تسكن في بيت واحد.",
+      "يساعد صديقًا واحدًا."
+    ],
+    "examplesDe": [
+      "Sie wohnt in einem Haus.",
+      "Er hilft einem Freund."
+    ]
+  },
+  "einen": {
+    "ar": "صيغة من أداة التنكير «ein» في حالة النصب، بمعنى «a/an»",
+    "de": "gebeugte Form von „ein“ (Akkusativ)",
+    "examplesAr": [
+      "لدي أخ.",
+      "تشتري تفاحة."
+    ],
+    "examplesDe": [
+      "Ich habe einen Bruder.",
+      "Sie kauft einen Apfel."
+    ]
+  },
+  "einer": {
+    "ar": "صيغة من «واحد» (مؤنث)",
+    "de": "gebeugte Form von „ein“ (Genitiv/Dativ feminin)",
+    "examplesAr": [
+      "تتحدث مع صديقة واحدة.",
+      "هذه مهمة طالبة واحدة."
+    ],
+    "examplesDe": [
+      "Sie spricht mit einer Freundin.",
+      "Das ist die Aufgabe einer Schülerin."
+    ]
+  },
+  "elephant": {
+    "ar": "فيل",
+    "de": "Elefant",
+    "examplesAr": [
+      "الفيل كبير جدًا.",
+      "رأينا فيلاً في حديقة الحيوان."
+    ],
+    "examplesDe": [
+      "Der Elefant ist sehr groß.",
+      "Im Zoo sahen wir einen Elefanten."
+    ]
+  },
+  "endet": {
+    "ar": "ينتهي",
+    "de": "hört auf, hat ein Ende",
+    "examplesAr": [
+      "تنتهي المدرسة في الساعة الواحدة.",
+      "تنتهي الجملة الخبرية بنقطة."
+    ],
+    "examplesDe": [
+      "Die Schule endet um ein Uhr.",
+      "Der Aussagesatz endet mit einem Punkt."
+    ]
+  },
+  "equal": {
+    "ar": "متساوٍ",
+    "de": "gleich",
+    "examplesAr": [
+      "الجانبان متساويان في الطول.",
+      "الأرقام متساوية في القيمة."
+    ],
+    "examplesDe": [
+      "Beide Seiten sind gleich lang.",
+      "Die Zahlen sind gleich groß."
+    ]
+  },
+  "equally": {
+    "ar": "بالتساوي",
+    "de": "gleichmäßig",
+    "examplesAr": [
+      "وزّع الكعكة بالتساوي.",
+      "وزّع الأوراق بالتساوي."
+    ],
+    "examplesDe": [
+      "Teile den Kuchen gleichmäßig auf.",
+      "Verteile die Blätter gleichmäßig."
+    ]
+  },
+  "erzählt": {
+    "ar": "يحكي / يروي",
+    "de": "berichtet (er/sie/es)",
+    "examplesAr": [
+      "تحكي قصة.",
+      "يروي عن رحلته."
+    ],
+    "examplesDe": [
+      "Sie erzählt eine Geschichte.",
+      "Er erzählt von seinem Urlaub."
+    ]
+  },
+  "essen": {
+    "ar": "يأكل",
+    "de": "Nahrung zu sich nehmen",
+    "examplesAr": [
+      "نأكل قبل أن نلعب.",
+      "نأكل معًا في الظهيرة."
+    ],
+    "examplesDe": [
+      "Wir essen, bevor wir spielen.",
+      "Am Mittag essen wir zusammen."
+    ]
+  },
+  "etwas": {
+    "ar": "شيء ما",
+    "de": "eine unbestimmte Sache",
+    "examplesAr": [
+      "نسيت شيئًا ما.",
+      "هل تريد أن تشرب شيئًا؟"
+    ],
+    "examplesDe": [
+      "Ich habe etwas vergessen.",
+      "Möchtest du etwas trinken?"
+    ]
+  },
+  "every": {
+    "ar": "كل",
+    "de": "jede/r/s",
+    "examplesAr": [
+      "كل طالب لديه كتاب.",
+      "تتناول الفطور كل صباح."
+    ],
+    "examplesDe": [
+      "Jeder Schüler hat ein Buch.",
+      "Jeden Morgen frühstückt sie."
+    ]
+  },
+  "fahrrad": {
+    "ar": "دراجة هوائية",
+    "de": "Zweirad zum Fahren",
+    "examplesAr": [
+      "يذهب إلى المدرسة بالدراجة.",
+      "دراجتها جديدة."
+    ],
+    "examplesDe": [
+      "Er fährt mit dem Fahrrad zur Schule.",
+      "Ihr Fahrrad ist neu."
+    ]
+  },
+  "faster": {
+    "ar": "أسرع",
+    "de": "schneller (Vergleichsform)",
+    "examplesAr": [
+      "يركض أسرع مني.",
+      "تسير السيارة أسرع."
+    ],
+    "examplesDe": [
+      "Er läuft schneller als ich.",
+      "Das Auto fährt schneller."
+    ]
+  },
+  "fehlen": {
+    "ar": "ينقص / يفتقد",
+    "de": "nicht vorhanden sein",
+    "examplesAr": [
+      "تنقص بعض الحروف في هذا المكان.",
+      "يغيب طفلان اليوم."
+    ],
+    "examplesDe": [
+      "An der Stelle fehlen Buchstaben.",
+      "Zwei Kinder fehlen heute."
+    ]
+  },
+  "fenster": {
+    "ar": "نافذة",
+    "de": "Öffnung in der Wand mit Glas",
+    "examplesAr": [
+      "النافذة مفتوحة.",
+      "تنظر من النافذة."
+    ],
+    "examplesDe": [
+      "Das Fenster ist geöffnet.",
+      "Sie schaut aus dem Fenster."
+    ]
+  },
+  "figur": {
+    "ar": "شكل هندسي",
+    "de": "geometrische Form",
+    "examplesAr": [
+      "المستطيل شكل هندسي.",
+      "ارسم شكلاً هندسيًا."
+    ],
+    "examplesDe": [
+      "Das Rechteck ist eine Figur.",
+      "Zeichne eine geometrische Figur."
+    ]
+  },
+  "figuren": {
+    "ar": "أشكال هندسية",
+    "de": "Mehrzahl von Figur",
+    "examplesAr": [
+      "نقارن بين شكلين هندسيين.",
+      "لوّن الأشكال الهندسية."
+    ],
+    "examplesDe": [
+      "Wir vergleichen zwei Figuren.",
+      "Male die Figuren bunt an."
+    ]
+  },
+  "findet": {
+    "ar": "يجد",
+    "de": "entdeckt (er/sie/es)",
+    "examplesAr": [
+      "تجد الخطأ بسرعة.",
+      "يجد الإجابة الصحيحة."
+    ],
+    "examplesDe": [
+      "Sie findet den Fehler schnell.",
+      "Er findet die richtige Antwort."
+    ]
+  },
+  "first": {
+    "ar": "الأول",
+    "de": "erste/r/s",
+    "examplesAr": [
+      "هو الطالب الأول.",
+      "الكلمة الأولى مهمة."
+    ],
+    "examplesDe": [
+      "Er ist der erste Schüler.",
+      "Das erste Wort ist wichtig."
+    ]
+  },
+  "football": {
+    "ar": "كرة القدم",
+    "de": "Fußball",
+    "examplesAr": [
+      "أخي يحب كرة القدم.",
+      "نلعب كرة القدم في الحديقة."
+    ],
+    "examplesDe": [
+      "Mein Bruder mag Fußball.",
+      "Wir spielen Fußball im Garten."
+    ]
+  },
+  "forward": {
+    "ar": "إلى الأمام",
+    "de": "vorwärts",
+    "examplesAr": [
+      "تقدم ثلاث خطوات إلى الأمام.",
+      "تسير السيارة إلى الأمام."
+    ],
+    "examplesDe": [
+      "Geh drei Schritte vorwärts.",
+      "Das Auto fährt vorwärts."
+    ]
+  },
+  "frage": {
+    "ar": "سؤال",
+    "de": "Satz, der etwas erfragt",
+    "examplesAr": [
+      "لدي سؤال.",
+      "أجب عن السؤال بدقة."
+    ],
+    "examplesDe": [
+      "Ich habe eine Frage.",
+      "Beantworte die Frage genau."
+    ]
+  },
+  "fragen": {
+    "ar": "يسأل",
+    "de": "eine Frage stellen",
+    "examplesAr": [
+      "هل يمكنني أن أسألك شيئًا؟",
+      "نسأل المعلم."
+    ],
+    "examplesDe": [
+      "Darf ich dich etwas fragen?",
+      "Wir fragen den Lehrer."
+    ]
+  },
+  "fragte": {
+    "ar": "صيغة الماضي من fragen",
+    "de": "Präteritum von „fragen“",
+    "examplesAr": [
+      "سألت عن الطريق.",
+      "سأل معلمه."
+    ],
+    "examplesDe": [
+      "Sie fragte nach dem Weg.",
+      "Er fragte seinen Lehrer."
+    ]
+  },
+  "freund": {
+    "ar": "صديق",
+    "de": "Person, die man gern mag",
+    "examplesAr": [
+      "صديقي يساعدني.",
+      "هو صديق جيد."
+    ],
+    "examplesDe": [
+      "Mein Freund hilft mir.",
+      "Er ist ein guter Freund."
+    ]
+  },
+  "freunde": {
+    "ar": "أصدقاء",
+    "de": "Mehrzahl von Freund",
+    "examplesAr": [
+      "يأتي أصدقائي للزيارة.",
+      "نلتقي بأصدقائنا."
+    ],
+    "examplesDe": [
+      "Meine Freunde kommen zu Besuch.",
+      "Wir treffen unsere Freunde."
+    ]
+  },
+  "freundin": {
+    "ar": "صديقة",
+    "de": "weibliche Form von „Freund“",
+    "examplesAr": [
+      "بعد المدرسة تزور لينا صديقتها.",
+      "صديقتي تحب لعب كرة القدم."
+    ],
+    "examplesDe": [
+      "Nach der Schule besucht Lina ihre Freundin.",
+      "Meine Freundin spielt gern Fußball."
+    ]
+  },
+  "fröhlich": {
+    "ar": "مرح / سعيد",
+    "de": "voller Freude",
+    "examplesAr": [
+      "يلعب الطفل بمرح في الحديقة.",
+      "تضحك بسعادة مع أصدقائها."
+    ],
+    "examplesDe": [
+      "Im Garten spielt das Kind fröhlich.",
+      "Sie lacht fröhlich mit ihren Freunden."
+    ]
+  },
+  "fußballplatz": {
+    "ar": "ملعب كرة القدم",
+    "de": "Platz zum Fußballspielen",
+    "examplesAr": [
+      "ملعب كرة القدم يقع خلف المدرسة.",
+      "نلتقي في ملعب كرة القدم."
+    ],
+    "examplesDe": [
+      "Der Fußballplatz liegt hinter der Schule.",
+      "Wir treffen uns auf dem Fußballplatz."
+    ]
+  },
+  "fährt": {
+    "ar": "يقود / يسير",
+    "de": "bewegt sich mit einem Fahrzeug (er/sie/es)",
+    "examplesAr": [
+      "يذهب بالدراجة إلى المدرسة.",
+      "يغادر القطار في الموعد."
+    ],
+    "examplesDe": [
+      "Er fährt mit dem Fahrrad zur Schule.",
+      "Der Zug fährt pünktlich ab."
+    ]
+  },
+  "färbe": {
+    "ar": "ألوّن",
+    "de": "gebe Farbe (ich färbe)",
+    "examplesAr": [
+      "ألوّن الزهرة باللون الأصفر.",
+      "ألوّن الصورة بألوان زاهية."
+    ],
+    "examplesDe": [
+      "Ich färbe die Blume gelb.",
+      "Ich färbe das Bild bunt."
+    ]
+  },
+  "garden": {
+    "ar": "حديقة",
+    "de": "Garten",
+    "examplesAr": [
+      "الحديقة مليئة بالزهور.",
+      "نلعب في الحديقة."
+    ],
+    "examplesDe": [
+      "Der Garten ist voller Blumen.",
+      "Wir spielen im Garten."
+    ]
+  },
+  "garten": {
+    "ar": "حديقة",
+    "de": "Fläche mit Pflanzen bei einem Haus",
+    "examplesAr": [
+      "الحديقة مليئة بالزهور.",
+      "نلعب في الحديقة."
+    ],
+    "examplesDe": [
+      "Der Garten ist voller Blumen.",
+      "Wir spielen im Garten."
+    ]
+  },
+  "gartenzaun": {
+    "ar": "سياج الحديقة",
+    "de": "Zaun um den Garten",
+    "examplesAr": [
+      "سياج الحديقة مطلي حديثًا.",
+      "تقفز القطة فوق سياج الحديقة."
+    ],
+    "examplesDe": [
+      "Der Gartenzaun ist frisch gestrichen.",
+      "Die Katze springt über den Gartenzaun."
+    ]
+  },
+  "gebeugte": {
+    "ar": "الصيغة المصرّفة",
+    "de": "veränderte (grammatische) Form eines Wortes",
+    "examplesAr": [
+      "كلمة einem هي الصيغة المصرفة من ein.",
+      "ابحث عن الصيغة المصرفة للكلمة."
+    ],
+    "examplesDe": [
+      "„Einem“ ist die gebeugte Form von „ein“.",
+      "Finde die gebeugte Form des Wortes."
+    ]
+  },
+  "gebildet": {
+    "ar": "تكوّن / تشكّل",
+    "de": "geformt, hergestellt",
+    "examplesAr": [
+      "يتكوّن الجمع بطرق مختلفة.",
+      "تتشكل كلمة جديدة من كلمتين."
+    ],
+    "examplesDe": [
+      "Der Plural wird unterschiedlich gebildet.",
+      "Aus zwei Wörtern wird ein neues Wort gebildet."
+    ]
+  },
+  "gehen": {
+    "ar": "يذهب",
+    "de": "sich zu Fuß fortbewegen",
+    "examplesAr": [
+      "عندما تشرق الشمس نخرج للخارج.",
+      "نذهب إلى المدرسة كل يوم."
+    ],
+    "examplesDe": [
+      "Wenn die Sonne scheint, gehen wir hinaus.",
+      "Wir gehen jeden Tag zur Schule."
+    ]
+  },
+  "gehört": {
+    "ar": "سمع",
+    "de": "mit den Ohren wahrgenommen",
+    "examplesAr": [
+      "سمعت الإجابة.",
+      "سمعت السؤال."
+    ],
+    "examplesDe": [
+      "Ich habe die Antwort gehört.",
+      "Sie hat die Frage gehört."
+    ]
+  },
+  "geschichte": {
+    "ar": "قصة",
+    "de": "erzählter Text mit Handlung",
+    "examplesAr": [
+      "القصة مشوقة.",
+      "يحكي قصة."
+    ],
+    "examplesDe": [
+      "Die Geschichte ist spannend.",
+      "Er erzählt eine Geschichte."
+    ]
+  },
+  "geschieht": {
+    "ar": "يحدث",
+    "de": "passiert (es geschieht)",
+    "examplesAr": [
+      "ماذا يحدث في القصة؟",
+      "يحدث هذا كثيرًا في الخريف."
+    ],
+    "examplesDe": [
+      "Was geschieht in der Geschichte?",
+      "Das geschieht oft im Herbst."
+    ]
+  },
+  "geschlecht": {
+    "ar": "جنس الكلمة (مذكر/مؤنث)",
+    "de": "grammatisches Merkmal (der/die/das)",
+    "examplesAr": [
+      "لكل اسم جنس نحوي.",
+      "جنس الكلمة يحدد أداة التعريف."
+    ],
+    "examplesDe": [
+      "Jedes Nomen hat ein Geschlecht.",
+      "Das Geschlecht bestimmt den Artikel."
+    ]
+  },
+  "gestern": {
+    "ar": "أمس",
+    "de": "am Tag vor heute",
+    "examplesAr": [
+      "كان أمس يوم الاثنين.",
+      "لعبنا كرة القدم أمس."
+    ],
+    "examplesDe": [
+      "Gestern war Montag.",
+      "Gestern haben wir Fußball gespielt."
+    ]
+  },
+  "getan": {
+    "ar": "فعل",
+    "de": "Perfekt von tun",
+    "examplesAr": [
+      "ماذا فعلت اليوم؟",
+      "أنجز عمله."
+    ],
+    "examplesDe": [
+      "Was hast du heute getan?",
+      "Er hat seine Arbeit getan."
+    ]
+  },
+  "getrennt": {
+    "ar": "منفصل",
+    "de": "voneinander gelöst, nicht zusammen",
+    "examplesAr": [
+      "تُكتب الكلمتان منفصلتين.",
+      "يجلسان منفصلين اليوم."
+    ],
+    "examplesDe": [
+      "Die Wörter werden getrennt geschrieben.",
+      "Sie sitzen heute getrennt."
+    ]
+  },
+  "gibst": {
+    "ar": "تعطي",
+    "de": "übergibst (du gibst)",
+    "examplesAr": [
+      "تعطيني الكتاب.",
+      "هل تعطيني قلمًا من فضلك؟"
+    ],
+    "examplesDe": [
+      "Du gibst mir das Buch.",
+      "Gibst du mir bitte einen Stift?"
+    ]
+  },
+  "gleich": {
+    "ar": "متساوٍ / نفسه",
+    "de": "genauso, identisch",
+    "examplesAr": [
+      "الجانبان متساويان في الطول.",
+      "سنعود حالاً."
+    ],
+    "examplesDe": [
+      "Die beiden Seiten sind gleich lang.",
+      "Wir kommen gleich zurück."
+    ]
+  },
+  "gleiche": {
+    "ar": "نفس / ذات",
+    "de": "identische, dieselbe",
+    "examplesAr": [
+      "لدينا نفس الإجابة.",
+      "يرتديان نفس اللون."
+    ],
+    "examplesDe": [
+      "Wir haben die gleiche Antwort.",
+      "Sie tragen die gleiche Farbe."
+    ]
+  },
+  "gleichen": {
+    "ar": "نفس (صيغة مصرفة)",
+    "de": "identischen (gebeugte Form)",
+    "examplesAr": [
+      "كلاهما له نفس الاسم.",
+      "يحلان نفس المسائل."
+    ],
+    "examplesDe": [
+      "Beide haben den gleichen Namen.",
+      "Sie lösen die gleichen Aufgaben."
+    ]
+  },
+  "gleichmäßig": {
+    "ar": "بشكل متساوٍ",
+    "de": "in gleichen Teilen, ausgewogen",
+    "examplesAr": [
+      "وزّع الكعكة بشكل متساوٍ.",
+      "النقاط موزعة بشكل متساوٍ."
+    ],
+    "examplesDe": [
+      "Teile den Kuchen gleichmäßig auf.",
+      "Die Punkte sind gleichmäßig verteilt."
+    ]
+  },
+  "grammatisches": {
+    "ar": "نحوي / قواعدي",
+    "de": "die Grammatik betreffend",
+    "examplesAr": [
+      "الجنس النحوي سمة قواعدية.",
+      "هذه مشكلة نحوية."
+    ],
+    "examplesDe": [
+      "Das Geschlecht ist ein grammatisches Merkmal.",
+      "Das ist ein grammatisches Problem."
+    ]
+  },
+  "grandma": {
+    "ar": "جدة",
+    "de": "Oma",
+    "examplesAr": [
+      "تزور إيما جدتها.",
+      "جدتي تحب خبز الكعك."
+    ],
+    "examplesDe": [
+      "Emma besucht ihre Oma.",
+      "Meine Oma backt gern Kuchen."
+    ]
+  },
+  "groups": {
+    "ar": "مجموعات",
+    "de": "Gruppen",
+    "examplesAr": [
+      "نكوّن مجموعات من أربعة.",
+      "قسّم الصف إلى مجموعات."
+    ],
+    "examplesDe": [
+      "Wir bilden Gruppen zu viert.",
+      "Teile die Klasse in Gruppen ein."
+    ]
+  },
+  "große": {
+    "ar": "كبيرة",
+    "de": "nicht kleine, groß (gebeugte Form)",
+    "examplesAr": [
+      "يسكن في بيت كبير.",
+      "هذا رقم كبير."
+    ],
+    "examplesDe": [
+      "Er wohnt in einem großen Haus.",
+      "Das ist eine große Zahl."
+    ]
+  },
+  "gruppen": {
+    "ar": "مجموعات",
+    "de": "Mehrzahl von Gruppe",
+    "examplesAr": [
+      "نعمل في مجموعات.",
+      "كوّن أربع مجموعات."
+    ],
+    "examplesDe": [
+      "Wir arbeiten in Gruppen.",
+      "Bilde vier Gruppen."
+    ]
+  },
+  "größte": {
+    "ar": "الأكبر",
+    "de": "am meisten / am höchsten",
+    "examplesAr": [
+      "تسعة هو العدد الأكبر.",
+      "عشرة هو الأكبر في القائمة."
+    ],
+    "examplesDe": [
+      "Neun ist die größte Zahl.",
+      "Zehn ist größte Zahl in der Liste."
+    ]
+  },
+  "größten": {
+    "ar": "الأكبر (صيغة مصرفة)",
+    "de": "am meisten, am höchsten (gebeugte Form)",
+    "examplesAr": [
+      "لديها أكبر قدمين.",
+      "هذا أقرب إلى الرقم الأكبر."
+    ],
+    "examplesDe": [
+      "Sie hat die größten Füße.",
+      "Das ist der größten Zahl am nächsten."
+    ]
+  },
+  "gärten": {
+    "ar": "حدائق",
+    "de": "Mehrzahl von Garten",
+    "examplesAr": [
+      "الحدائق مليئة بالزهور.",
+      "نزور حدائق كثيرة."
+    ],
+    "examplesDe": [
+      "Die Gärten sind voller Blumen.",
+      "Wir besuchen viele Gärten."
+    ]
+  },
+  "haben": {
+    "ar": "يملك / لديه",
+    "de": "besitzen",
+    "examplesAr": [
+      "لدينا كتب كثيرة.",
+      "لديهم سؤال."
+    ],
+    "examplesDe": [
+      "Wir haben viele Bücher.",
+      "Sie haben eine Frage."
+    ]
+  },
+  "handlung": {
+    "ar": "الحدث / الأحداث",
+    "de": "das, was in einer Geschichte passiert",
+    "examplesAr": [
+      "أحداث القصة مشوقة.",
+      "الفعل يدل على الحدث."
+    ],
+    "examplesDe": [
+      "Die Handlung der Geschichte ist spannend.",
+      "Das Verb zeigt die Handlung."
+    ]
+  },
+  "happened": {
+    "ar": "حدث",
+    "de": "geschah (Vergangenheit von happen)",
+    "examplesAr": [
+      "ماذا حدث أمس؟",
+      "حدث الحادث في الصباح."
+    ],
+    "examplesDe": [
+      "Was geschah gestern?",
+      "Der Unfall geschah am Morgen."
+    ]
+  },
+  "happening": {
+    "ar": "يحدث (الآن)",
+    "de": "geschehend, gerade passierend",
+    "examplesAr": [
+      "ماذا يحدث الآن في القصة؟",
+      "شيء مثير يحدث الآن."
+    ],
+    "examplesDe": [
+      "Was passiert gerade in der Geschichte?",
+      "Etwas Spannendes passiert gerade."
+    ]
+  },
+  "happier": {
+    "ar": "أسعد",
+    "de": "glücklicher (Vergleichsform)",
+    "examplesAr": [
+      "هي أسعد من الأمس.",
+      "يبدو أسعد اليوم."
+    ],
+    "examplesDe": [
+      "Sie ist glücklicher als gestern.",
+      "Er wirkt heute glücklicher."
+    ]
+  },
+  "happy": {
+    "ar": "سعيد",
+    "de": "glücklich",
+    "examplesAr": [
+      "إنها سعيدة جدًا اليوم.",
+      "يضحك الطفل بسعادة."
+    ],
+    "examplesDe": [
+      "Sie ist heute sehr glücklich.",
+      "Das Kind lacht glücklich."
+    ]
+  },
+  "hauptsatz": {
+    "ar": "الجملة الرئيسية",
+    "de": "Satz, der allein stehen kann",
+    "examplesAr": [
+      "الجملة الرئيسية يمكن أن تقف وحدها.",
+      "«ميا تضحك» جملة رئيسية."
+    ],
+    "examplesDe": [
+      "Der Hauptsatz kann allein stehen.",
+      "„Mia lacht“ ist ein Hauptsatz."
+    ]
+  },
+  "hausaufgabe": {
+    "ar": "واجب منزلي",
+    "de": "Aufgabe für zu Hause",
+    "examplesAr": [
+      "واجبي المنزلي سهل اليوم.",
+      "أنجز واجبي المنزلي على الطاولة."
+    ],
+    "examplesDe": [
+      "Meine Hausaufgabe ist heute leicht.",
+      "Ich mache meine Hausaufgabe am Tisch."
+    ]
+  },
+  "hause": {
+    "ar": "البيت (في تعبير zu Hause)",
+    "de": "in „zu Hause“ oder „nach Hause“",
+    "examplesAr": [
+      "أبقى في البيت لأن الجو ممطر.",
+      "بعد المدرسة نذهب إلى البيت."
+    ],
+    "examplesDe": [
+      "Ich bleibe zu Hause, weil es regnet.",
+      "Nach der Schule gehen wir nach Hause."
+    ]
+  },
+  "heißen": {
+    "ar": "يُسمّى",
+    "de": "genannt werden",
+    "examplesAr": [
+      "يُطلق على القطط اسم Katzen.",
+      "ما اسم والديك؟"
+    ],
+    "examplesDe": [
+      "Mehrere Katzen heißen „Katzen“.",
+      "Wie heißen deine Eltern?"
+    ]
+  },
+  "heißt": {
+    "ar": "يُسمّى / معناه",
+    "de": "wird genannt (es heißt)",
+    "examplesAr": [
+      "ما اسمك؟",
+      "معنى هذه الكلمة «سريع»."
+    ],
+    "examplesDe": [
+      "Wie heißt du?",
+      "Das Wort heißt „schnell“."
+    ]
+  },
+  "heller": {
+    "ar": "أكثر إشراقًا",
+    "de": "mehr hell (Vergleichsform)",
+    "examplesAr": [
+      "هذا المصباح أكثر إشراقًا.",
+      "يصبح الصباح أكثر إشراقًا."
+    ],
+    "examplesDe": [
+      "Diese Lampe ist heller.",
+      "Der Morgen wird heller."
+    ]
+  },
+  "helped": {
+    "ar": "ساعد",
+    "de": "half (Vergangenheit von help)",
+    "examplesAr": [
+      "ساعد صديقه.",
+      "ساعدت في الواجب المنزلي."
+    ],
+    "examplesDe": [
+      "Er half seinem Freund.",
+      "Sie half bei den Hausaufgaben."
+    ]
+  },
+  "helps": {
+    "ar": "يساعد",
+    "de": "hilft",
+    "examplesAr": [
+      "يساعد أخته.",
+      "تساعد في الترتيب."
+    ],
+    "examplesDe": [
+      "Er hilft seiner Schwester.",
+      "Sie hilft beim Aufräumen."
+    ]
+  },
+  "heute": {
+    "ar": "اليوم",
+    "de": "an diesem Tag",
+    "examplesAr": [
+      "يركض الكلب بسرعة اليوم.",
+      "تقرأ ميا كتابًا مشوقًا اليوم."
+    ],
+    "examplesDe": [
+      "Der Hund läuft heute schnell.",
+      "Heute liest Mia ein spannendes Buch."
+    ]
+  },
+  "hinaus": {
+    "ar": "إلى الخارج",
+    "de": "nach draußen",
+    "examplesAr": [
+      "عندما تشرق الشمس نخرج للخارج.",
+      "يركض الكلب إلى الخارج من الباب."
+    ],
+    "examplesDe": [
+      "Wenn die Sonne scheint, gehen wir hinaus.",
+      "Der Hund rennt zur Tür hinaus."
+    ]
+  },
+  "hinweis": {
+    "ar": "تلميح / إشارة",
+    "de": "ein Tipp oder eine Erklärung",
+    "examplesAr": [
+      "يساعد التلميح في حل المسألة.",
+      "اقرأ التلميح جيدًا."
+    ],
+    "examplesDe": [
+      "Der Hinweis hilft bei der Aufgabe.",
+      "Lies den Hinweis genau."
+    ]
+  },
+  "house": {
+    "ar": "منزل",
+    "de": "Haus",
+    "examplesAr": [
+      "المنزل كبير.",
+      "نسكن في منزل."
+    ],
+    "examplesDe": [
+      "Das Haus ist groß.",
+      "Wir wohnen in einem Haus."
+    ]
+  },
+  "houses": {
+    "ar": "منازل",
+    "de": "Häuser",
+    "examplesAr": [
+      "تصطف المنازل في صف.",
+      "كثير من المنازل لها حديقة."
+    ],
+    "examplesDe": [
+      "Die Häuser stehen in einer Reihe.",
+      "Viele Häuser haben einen Garten."
+    ]
+  },
+  "hunde": {
+    "ar": "كلاب (جمع Hund)",
+    "de": "Mehrzahl von „Hund“",
+    "examplesAr": [
+      "تنبح الكلاب بصوت عالٍ.",
+      "تلعب كلاب كثيرة في الحديقة."
+    ],
+    "examplesDe": [
+      "Die Hunde bellen laut.",
+      "Im Park spielen viele Hunde."
+    ]
+  },
+  "hunderter": {
+    "ar": "خانة المئات",
+    "de": "Stellenwert für Hunderte einer Zahl",
+    "examplesAr": [
+      "الرقم 4 في 240 في خانة المئات.",
+      "تُظهر خانة المئات عدد المئات."
+    ],
+    "examplesDe": [
+      "Die 4 in 240 steht an der Hunderterstelle.",
+      "Der Hunderter zeigt, wie viele Hunderte es gibt."
+    ]
+  },
+  "hunderterfeld": {
+    "ar": "شبكة المئة (أداة حسابية)",
+    "de": "ein Rechenfeld mit 100 Kästchen",
+    "examplesAr": [
+      "نعد حتى 100 في شبكة المئة.",
+      "لوّن الرقم 37 في شبكة المئة."
+    ],
+    "examplesDe": [
+      "Im Hunderterfeld zählen wir bis 100.",
+      "Male die Zahl 37 im Hunderterfeld an."
+    ]
+  },
+  "hunderterstelle": {
+    "ar": "خانة المئات في الرقم",
+    "de": "die Stelle einer Zahl, an der die Hunderter stehen",
+    "examplesAr": [
+      "في خانة المئات من 240 يوجد الرقم 2.",
+      "تُظهر خانة المئات عدد المئات."
+    ],
+    "examplesDe": [
+      "An der Hunderterstelle von 240 steht die 2.",
+      "Die Hunderterstelle zeigt die Anzahl der Hunderter."
+    ]
+  },
+  "hundreds": {
+    "ar": "مئات",
+    "de": "Hunderter",
+    "examplesAr": [
+      "يحتوي الرقم على ثلاث مئات.",
+      "نحسب بالمئات."
+    ],
+    "examplesDe": [
+      "Die Zahl hat drei Hunderter.",
+      "Wir rechnen in Hundertern."
+    ]
+  },
+  "häuser": {
+    "ar": "منازل (جمع Haus)",
+    "de": "Mehrzahl von Haus",
+    "examplesAr": [
+      "تقع المنازل على النهر.",
+      "كثير من المنازل لها سقف أحمر."
+    ],
+    "examplesDe": [
+      "Die Häuser stehen am Fluss.",
+      "Viele Häuser haben ein rotes Dach."
+    ]
+  },
+  "höchsten": {
+    "ar": "الأعلى (صيغة التفضيل من hoch)",
+    "de": "Steigerungsform von „hoch“ (am höchsten)",
+    "examplesAr": [
+      "الجبل هو الأعلى.",
+      "هذا هو أعلى برج في المدينة."
+    ],
+    "examplesDe": [
+      "Der Berg ist am höchsten.",
+      "Das ist der höchste Turm der Stadt."
+    ]
+  },
+  "hören": {
+    "ar": "يسمع",
+    "de": "mit den Ohren wahrnehmen",
+    "examplesAr": [
+      "نستمع إلى الموسيقى.",
+      "هل تسمع هذا الصوت؟"
+    ],
+    "examplesDe": [
+      "Wir hören Musik.",
+      "Kannst du das Geräusch hören?"
+    ]
+  },
+  "hörte": {
+    "ar": "صيغة الماضي من hören (سمع)",
+    "de": "Präteritum von „hören“",
+    "examplesAr": [
+      "سمع الموسيقى.",
+      "سمعت صوتًا."
+    ],
+    "examplesDe": [
+      "Er hörte die Musik.",
+      "Sie hörte ein Geräusch."
+    ]
+  },
+  "ihrem": {
+    "ar": "ضمير ملكية، حالة الجر (لها)",
+    "de": "Possessivpronomen, Dativ (z. B. „ihrem Bruder“)",
+    "examplesAr": [
+      "تساعد أخاها.",
+      "يعطي كلبها طعامًا."
+    ],
+    "examplesDe": [
+      "Sie hilft ihrem Bruder.",
+      "Er gibt ihrem Hund Futter."
+    ]
+  },
+  "imagine": {
+    "ar": "يتخيل",
+    "de": "sich vorstellen",
+    "examplesAr": [
+      "تخيل النتيجة.",
+      "هل يمكنك أن تتخيل ذلك؟"
+    ],
+    "examplesDe": [
+      "Stell dir das Ergebnis vor.",
+      "Kannst du dir das vorstellen?"
+    ]
+  },
+  "immer": {
+    "ar": "دائمًا",
+    "de": "zu jeder Zeit, ständig",
+    "examplesAr": [
+      "هو دائمًا في الموعد.",
+      "هذه القاعدة تنطبق دائمًا."
+    ],
+    "examplesDe": [
+      "Er ist immer pünktlich.",
+      "Die Regel gilt immer."
+    ]
+  },
+  "information": {
+    "ar": "معلومة",
+    "de": "Auskunft, Angabe",
+    "examplesAr": [
+      "خريطة الطقس تعطي معلومة عن المطر.",
+      "يعطي معلومة مهمة."
+    ],
+    "examplesDe": [
+      "Die Wetterkarte gibt eine Information über den Regen.",
+      "Er gibt eine wichtige Information."
+    ]
+  },
+  "insgesamt": {
+    "ar": "بالمجموع",
+    "de": "alles zusammengezählt",
+    "examplesAr": [
+      "لديها 12 تفاحة بالمجموع.",
+      "كم عددها بالمجموع؟"
+    ],
+    "examplesDe": [
+      "Insgesamt hat sie 12 Äpfel.",
+      "Wie viele sind es insgesamt?"
+    ]
+  },
+  "island": {
+    "ar": "جزيرة",
+    "de": "Insel",
+    "examplesAr": [
+      "الجزيرة في البحر.",
+      "نذهب بالقارب إلى الجزيرة."
+    ],
+    "examplesDe": [
+      "Die Insel liegt im Meer.",
+      "Wir fahren mit dem Boot zur Insel."
+    ]
+  },
+  "jedes": {
+    "ar": "كل (للمحايد)",
+    "de": "jedes einzelne (Neutrum von „jeder“)",
+    "examplesAr": [
+      "كل طفل يحصل على تفاحة.",
+      "كل كلمة مهمة."
+    ],
+    "examplesDe": [
+      "Jedes Kind bekommt einen Apfel.",
+      "Jedes Wort zählt."
+    ]
+  },
+  "jemand": {
+    "ar": "شخص ما",
+    "de": "eine nicht genannte Person",
+    "examplesAr": [
+      "يطرق شخص ما الباب.",
+      "هل عرف أحد الإجابة؟"
+    ],
+    "examplesDe": [
+      "Jemand klopft an die Tür.",
+      "Hat jemand die Antwort gewusst?"
+    ]
+  },
+  "joins": {
+    "ar": "يصل / يربط",
+    "de": "verbindet",
+    "examplesAr": [
+      "الفاصلة تربط جملتين.",
+      "هي تربط الكلمات."
+    ],
+    "examplesDe": [
+      "Das Komma verbindet zwei Sätze.",
+      "Sie verbindet die Wörter."
+    ]
+  },
+  "jumped": {
+    "ar": "قفز",
+    "de": "sprang (Vergangenheit von „jump“)",
+    "examplesAr": [
+      "قفز الضفدع في الماء.",
+      "قفز فوق البركة."
+    ],
+    "examplesDe": [
+      "Der Frosch sprang ins Wasser.",
+      "Er sprang über die Pfütze."
+    ]
+  },
+  "jumps": {
+    "ar": "يقفز",
+    "de": "springt",
+    "examplesAr": [
+      "يقفز الأرنب عاليًا.",
+      "تقفز فوق الحبل."
+    ],
+    "examplesDe": [
+      "Der Hase springt hoch.",
+      "Sie springt über das Seil."
+    ]
+  },
+  "jünger": {
+    "ar": "أصغر سنًا (صيغة المقارنة من jung)",
+    "de": "Komparativ von „jung“",
+    "examplesAr": [
+      "أخي أصغر مني.",
+      "تبدو أصغر سنًا."
+    ],
+    "examplesDe": [
+      "Mein Bruder ist jünger als ich.",
+      "Sie sieht jünger aus."
+    ]
+  },
+  "katze": {
+    "ar": "قطة",
+    "de": "ein kleines Haustier, das miaut",
+    "examplesAr": [
+      "القطة تنام على الأريكة.",
+      "قطتي تحب الحليب."
+    ],
+    "examplesDe": [
+      "Die Katze schläft auf dem Sofa.",
+      "Meine Katze mag Milch."
+    ]
+  },
+  "katzen": {
+    "ar": "قطط (جمع Katze)",
+    "de": "Mehrzahl von Katze",
+    "examplesAr": [
+      "تلعب القطط في الحديقة.",
+      "تجلس قطتان على السطح."
+    ],
+    "examplesDe": [
+      "Die Katzen spielen im Garten.",
+      "Zwei Katzen sitzen auf dem Dach."
+    ]
+  },
+  "kaufen": {
+    "ar": "يشتري",
+    "de": "Geld gegen eine Ware tauschen",
+    "examplesAr": [
+      "نشتري الخبز من المخبز.",
+      "تريد شراء كتاب جديد."
+    ],
+    "examplesDe": [
+      "Wir kaufen Brot beim Bäcker.",
+      "Sie will ein neues Buch kaufen."
+    ]
+  },
+  "kaufte": {
+    "ar": "صيغة الماضي من kaufen (اشترى)",
+    "de": "Präteritum von „kaufen“",
+    "examplesAr": [
+      "اشترى تفاحة.",
+      "اشترت كتابًا جديدًا."
+    ],
+    "examplesDe": [
+      "Er kaufte einen Apfel.",
+      "Sie kaufte ein neues Buch."
+    ]
+  },
+  "kinder": {
+    "ar": "أطفال (جمع Kind)؛ وبالإنجليزية صيغة مقارنة لكلمة kind",
+    "de": "Mehrzahl von „Kind“; im Englischen auch Komparativ von „kind“ (netter)",
+    "examplesAr": [
+      "يلعب الأطفال في الحديقة.",
+      "يذهب كثير من الأطفال إلى المدرسة."
+    ],
+    "examplesDe": [
+      "Die Kinder spielen im Garten.",
+      "Viele Kinder gehen in die Schule."
+    ]
+  },
+  "kinderzimmer": {
+    "ar": "غرفة الأطفال",
+    "de": "Zimmer für Kinder",
+    "examplesAr": [
+      "غرفة الأطفال مطلية بألوان زاهية.",
+      "ألعابي موجودة في غرفة الأطفال."
+    ],
+    "examplesDe": [
+      "Das Kinderzimmer ist bunt gestrichen.",
+      "Meine Spielsachen liegen im Kinderzimmer."
+    ]
+  },
+  "klein": {
+    "ar": "صغير",
+    "de": "nicht groß",
+    "examplesAr": [
+      "السيارة صغيرة.",
+      "لديها يدان صغيرتان."
+    ],
+    "examplesDe": [
+      "Das Auto ist klein.",
+      "Sie hat kleine Hände."
+    ]
+  },
+  "kleine": {
+    "ar": "صغيرة",
+    "de": "klein (weiblich/Plural, dekliniert)",
+    "examplesAr": [
+      "لديها قطة صغيرة.",
+      "تتفتح الزهرة الصغيرة."
+    ],
+    "examplesDe": [
+      "Sie hat eine kleine Katze.",
+      "Die kleine Blume blüht."
+    ]
+  },
+  "kleiner": {
+    "ar": "أصغر (صيغة المقارنة من klein)",
+    "de": "Komparativ von „klein“",
+    "examplesAr": [
+      "الكتاب أصغر من الطاولة.",
+      "هو أصغر من أخيه."
+    ],
+    "examplesDe": [
+      "Das Buch ist kleiner als der Tisch.",
+      "Er ist kleiner als sein Bruder."
+    ]
+  },
+  "kleines": {
+    "ar": "صغير (للمحايد)",
+    "de": "klein (sächlich, dekliniert)",
+    "examplesAr": [
+      "هذا منزل صغير.",
+      "لديها هدية صغيرة."
+    ],
+    "examplesDe": [
+      "Das ist ein kleines Haus.",
+      "Sie hat ein kleines Geschenk."
+    ]
+  },
+  "klüger": {
+    "ar": "أذكى (صيغة المقارنة من klug)",
+    "de": "Komparativ von „klug“",
+    "examplesAr": [
+      "هو أذكى من صديقه.",
+      "تصبح أذكى باستمرار."
+    ],
+    "examplesDe": [
+      "Er ist klüger als sein Freund.",
+      "Sie wird immer klüger."
+    ]
+  },
+  "komma": {
+    "ar": "الفاصلة",
+    "de": "das Satzzeichen „,“",
+    "examplesAr": [
+      "توجد فاصلة بين الجملتين.",
+      "ضع فاصلة هنا."
+    ],
+    "examplesDe": [
+      "Zwischen den Sätzen steht ein Komma.",
+      "Setze hier ein Komma."
+    ]
+  },
+  "kommst": {
+    "ar": "تأتي (المخاطب المفرد من kommen)",
+    "de": "2. Person Singular von „kommen“",
+    "examplesAr": [
+      "متى تصل؟",
+      "تأتي متأخرًا."
+    ],
+    "examplesDe": [
+      "Wann kommst du an?",
+      "Du kommst zu spät."
+    ]
+  },
+  "kommt": {
+    "ar": "يأتي (الغائب المفرد من kommen)",
+    "de": "3. Person Singular von „kommen“",
+    "examplesAr": [
+      "يصل الساعة الثامنة.",
+      "يأتي القطار في الموعد."
+    ],
+    "examplesDe": [
+      "Er kommt um acht Uhr an.",
+      "Der Zug kommt pünktlich."
+    ]
+  },
+  "komparativ": {
+    "ar": "صيغة المقارنة",
+    "de": "die Vergleichsform eines Adjektivs (mit -er)",
+    "examplesAr": [
+      "«Schneller» هي صيغة المقارنة من «schnell».",
+      "كوّن صيغة المقارنة من «groß»."
+    ],
+    "examplesDe": [
+      "„Schneller“ ist der Komparativ von „schnell“.",
+      "Bilde den Komparativ von „groß“."
+    ]
+  },
+  "krone": {
+    "ar": "تاج",
+    "de": "ein Schmuckstück für den Kopf eines Königs",
+    "examplesAr": [
+      "يرتدي الملك تاجًا.",
+      "يلمع التاج بلون ذهبي."
+    ],
+    "examplesDe": [
+      "Der König trägt eine Krone.",
+      "Die Krone glänzt golden."
+    ]
+  },
+  "kälter": {
+    "ar": "أبرد (صيغة المقارنة من kalt)",
+    "de": "Komparativ von „kalt“",
+    "examplesAr": [
+      "اليوم أبرد من أمس.",
+      "الطقس أبرد في الشمال."
+    ],
+    "examplesDe": [
+      "Heute ist es kälter als gestern.",
+      "Im Norden ist es kälter."
+    ]
+  },
+  "lachen": {
+    "ar": "يضحك",
+    "de": "Freude durch Geräusche zeigen",
+    "examplesAr": [
+      "يضحك الأطفال بصوت عالٍ.",
+      "نضحك على النكتة."
+    ],
+    "examplesDe": [
+      "Die Kinder lachen laut.",
+      "Wir lachen über den Witz."
+    ]
+  },
+  "lachte": {
+    "ar": "صيغة الماضي من lachen (ضحك)",
+    "de": "Präteritum von „lachen“",
+    "examplesAr": [
+      "ضحك على النكتة.",
+      "ضحكت بصوت عالٍ."
+    ],
+    "examplesDe": [
+      "Er lachte über den Witz.",
+      "Sie lachte laut."
+    ]
+  },
+  "landepunkt": {
+    "ar": "نقطة الهبوط / الوصول",
+    "de": "die Stelle, an der man (z. B. bei einer Zahlenreihe) ankommt",
+    "examplesAr": [
+      "نقطة الوصول التالية في السلسلة هي 11.",
+      "يقفز الضفدع إلى نقطة الهبوط التالية."
+    ],
+    "examplesDe": [
+      "Der nächste Landepunkt der Reihe ist 11.",
+      "Der Frosch springt zum nächsten Landepunkt."
+    ]
+  },
+  "landest": {
+    "ar": "تهبط (المخاطب المفرد من landen)",
+    "de": "2. Person Singular von „landen“",
+    "examplesAr": [
+      "أين تهبط بعد ذلك؟",
+      "تهبط بالضبط على الرقم."
+    ],
+    "examplesDe": [
+      "Wo landest du als Nächstes?",
+      "Du landest genau auf der Zahl."
+    ]
+  },
+  "landing": {
+    "ar": "هبوط",
+    "de": "Landung",
+    "examplesAr": [
+      "تهبط الطائرة بسلاسة.",
+      "كان الهبوط في الموعد."
+    ],
+    "examplesDe": [
+      "Das Flugzeug landet sanft.",
+      "Die Landung war pünktlich."
+    ]
+  },
+  "largest": {
+    "ar": "الأكبر",
+    "de": "am größten",
+    "examplesAr": [
+      "هذا هو أكبر منزل.",
+      "لديها أكبر تفاحة."
+    ],
+    "examplesDe": [
+      "Das ist das größte Haus.",
+      "Sie hat den größten Apfel."
+    ]
+  },
+  "laufen": {
+    "ar": "يجري / يركض",
+    "de": "sich zu Fuß schnell fortbewegen",
+    "examplesAr": [
+      "يجري الأطفال في الحديقة.",
+      "نركض إلى المدرسة."
+    ],
+    "examplesDe": [
+      "Die Kinder laufen im Park.",
+      "Wir laufen zur Schule."
+    ]
+  },
+  "laughing": {
+    "ar": "يضحك (صيغة المضارع المستمر)",
+    "de": "lachend, am Lachen",
+    "examplesAr": [
+      "الطفل يضحك الآن.",
+      "غادرت الغرفة وهي تضحك."
+    ],
+    "examplesDe": [
+      "Das Kind ist am Lachen.",
+      "Lachend verließ sie den Raum."
+    ]
+  },
+  "lauter": {
+    "ar": "أعلى صوتًا (صيغة المقارنة من laut)",
+    "de": "Komparativ von „laut“",
+    "examplesAr": [
+      "الموسيقى أعلى صوتًا من أمس.",
+      "يتحدث بصوت أعلى."
+    ],
+    "examplesDe": [
+      "Die Musik ist lauter als gestern.",
+      "Er spricht lauter."
+    ]
+  },
+  "lautet": {
+    "ar": "تكون صيغته",
+    "de": "heißt / ist formuliert",
+    "examplesAr": [
+      "ما صيغة الإجابة؟",
+      "ما اسمك؟"
+    ],
+    "examplesDe": [
+      "Wie lautet die Antwort?",
+      "Wie lautet dein Name?"
+    ]
+  },
+  "leftmost": {
+    "ar": "الأقصى إلى اليسار",
+    "de": "am weitesten links",
+    "examplesAr": [
+      "الرقم الأقصى إلى اليسار هو أكبر خانة.",
+      "يقف في أقصى اليسار."
+    ],
+    "examplesDe": [
+      "Die Ziffer ganz links ist die größte Stelle.",
+      "Er steht ganz links."
+    ]
+  },
+  "lehrer": {
+    "ar": "معلم",
+    "de": "eine Person, die in der Schule unterrichtet (männlich)",
+    "examplesAr": [
+      "يشرح المعلم التمرين.",
+      "معلمنا لطيف."
+    ],
+    "examplesDe": [
+      "Der Lehrer erklärt die Aufgabe.",
+      "Unser Lehrer ist nett."
+    ]
+  },
+  "lehrerin": {
+    "ar": "معلمة",
+    "de": "eine Person, die in der Schule unterrichtet (weiblich)",
+    "examplesAr": [
+      "تكتب المعلمة على السبورة.",
+      "معلمتنا صبورة."
+    ],
+    "examplesDe": [
+      "Die Lehrerin schreibt an die Tafel.",
+      "Unsere Lehrerin ist geduldig."
+    ]
+  },
+  "lehrerinnen": {
+    "ar": "معلمات (جمع Lehrerin)",
+    "de": "Mehrzahl von Lehrerin",
+    "examplesAr": [
+      "تجتمع المعلمات في غرفة المعلمين.",
+      "تُدرّس معلمات كثيرات اللغة الألمانية."
+    ],
+    "examplesDe": [
+      "Die Lehrerinnen treffen sich im Lehrerzimmer.",
+      "Viele Lehrerinnen unterrichten Deutsch."
+    ]
+  },
+  "lerne": {
+    "ar": "أتعلم (المتكلم المفرد من lernen)",
+    "de": "1. Person Singular von „lernen“",
+    "examplesAr": [
+      "أتعلم من أجل المدرسة.",
+      "أتعلم كلمات جديدة كل يوم."
+    ],
+    "examplesDe": [
+      "Ich lerne für die Schule.",
+      "Ich lerne jeden Tag neue Wörter."
+    ]
+  },
+  "lernen": {
+    "ar": "يتعلم",
+    "de": "sich Wissen aneignen",
+    "examplesAr": [
+      "نتعلم من أجل الاختبار.",
+      "يتعلم الأطفال بسرعة."
+    ],
+    "examplesDe": [
+      "Wir lernen für die Prüfung.",
+      "Kinder lernen schnell."
+    ]
+  },
+  "lernt": {
+    "ar": "يتعلم (الغائب المفرد من lernen)",
+    "de": "3. Person Singular von „lernen“",
+    "examplesAr": [
+      "رغم أنه متعب، فإنه يتعلم.",
+      "أختي تتعلم كل مساء."
+    ],
+    "examplesDe": [
+      "Obwohl er müde ist, lernt er.",
+      "Meine Schwester lernt jeden Abend."
+    ]
+  },
+  "lernte": {
+    "ar": "صيغة الماضي من lernen (تعلّم)",
+    "de": "Präteritum von „lernen“",
+    "examplesAr": [
+      "تعلّم بجد.",
+      "تعلّمت كلمات جديدة."
+    ],
+    "examplesDe": [
+      "Er lernte fleißig.",
+      "Sie lernte neue Wörter."
+    ]
+  },
+  "letter": {
+    "ar": "حرف / رسالة",
+    "de": "Buchstabe / Brief",
+    "examplesAr": [
+      "الحرف الأول هو S.",
+      "تكتب رسالة."
+    ],
+    "examplesDe": [
+      "Der erste Buchstabe ist ein S.",
+      "Sie schreibt einen Brief."
+    ]
+  },
+  "letters": {
+    "ar": "حروف / رسائل",
+    "de": "Buchstaben / Briefe",
+    "examplesAr": [
+      "الكلمة تتكون من خمسة أحرف.",
+      "يجمع رسائل قديمة."
+    ],
+    "examplesDe": [
+      "Das Wort hat fünf Buchstaben.",
+      "Er sammelt alte Briefe."
+    ]
+  },
+  "liest": {
+    "ar": "يقرأ (الغائب المفرد من lesen)",
+    "de": "3. Person Singular von „lesen“",
+    "examplesAr": [
+      "يقرأ كتابًا.",
+      "تقرأ كل مساء."
+    ],
+    "examplesDe": [
+      "Er liest ein Buch.",
+      "Sie liest jeden Abend."
+    ]
+  },
+  "likes": {
+    "ar": "يحب (الغائب المفرد من mögen)",
+    "de": "mag (3. Person Singular von „mögen“)",
+    "examplesAr": [
+      "أخي يحب كرة القدم.",
+      "هي تحب الكتب الملونة."
+    ],
+    "examplesDe": [
+      "Mein Bruder mag Fußball.",
+      "Sie mag bunte Bücher."
+    ]
+  },
+  "links": {
+    "ar": "يسار",
+    "de": "die linke Seite / Richtung",
+    "examplesAr": [
+      "ينعطف إلى اليسار.",
+      "الرقم موجود على اليسار."
+    ],
+    "examplesDe": [
+      "Er biegt nach links ab.",
+      "Die Zahl steht links."
+    ]
+  },
+  "lives": {
+    "ar": "يعيش / يسكن",
+    "de": "wohnt / lebt",
+    "examplesAr": [
+      "تسكن في منزل.",
+      "يعيش في المدينة."
+    ],
+    "examplesDe": [
+      "Sie wohnt in einem Haus.",
+      "Er lebt in der Stadt."
+    ]
+  },
+  "location": {
+    "ar": "موقع",
+    "de": "Ort, Stelle",
+    "examplesAr": [
+      "تُظهر خانة الرقم قيمته.",
+      "اختر الموقع الصحيح."
+    ],
+    "examplesDe": [
+      "Die Stelle einer Ziffer zeigt ihren Wert.",
+      "Wähle den richtigen Ort."
+    ]
+  },
+  "länge": {
+    "ar": "طول",
+    "de": "wie lang etwas ist",
+    "examplesAr": [
+      "طول المستطيل 5 سم.",
+      "قِس طول الخط."
+    ],
+    "examplesDe": [
+      "Die Länge des Rechtecks ist 5 cm.",
+      "Miss die Länge der Strecke."
+    ]
+  },
+  "länger": {
+    "ar": "أطول (صيغة المقارنة من lang)",
+    "de": "Komparativ von „lang“",
+    "examplesAr": [
+      "الجسر أطول من الشارع.",
+      "ينتظر لفترة أطول."
+    ],
+    "examplesDe": [
+      "Die Brücke ist länger als die Straße.",
+      "Er wartet länger."
+    ]
+  },
+  "läuft": {
+    "ar": "يجري (الغائب المفرد من laufen)",
+    "de": "3. Person Singular von „laufen“",
+    "examplesAr": [
+      "يجري بسرعة إلى المدرسة.",
+      "تجري كل صباح."
+    ],
+    "examplesDe": [
+      "Er läuft schnell zur Schule.",
+      "Sie läuft jeden Morgen."
+    ]
+  },
+  "machen": {
+    "ar": "يفعل / يصنع",
+    "de": "etwas tun, herstellen",
+    "examplesAr": [
+      "نقوم بالواجب المنزلي.",
+      "تلتقط صورة."
+    ],
+    "examplesDe": [
+      "Wir machen die Hausaufgaben.",
+      "Sie macht ein Foto."
+    ]
+  },
+  "macht": {
+    "ar": "يفعل (الغائب المفرد من machen)",
+    "de": "3. Person Singular von „machen“",
+    "examplesAr": [
+      "يقوم بالواجب المنزلي.",
+      "تلتقط صورة."
+    ],
+    "examplesDe": [
+      "Er macht die Hausaufgaben.",
+      "Sie macht ein Foto."
+    ]
+  },
+  "machte": {
+    "ar": "صيغة الماضي من machen (فعل)",
+    "de": "Präteritum von „machen“",
+    "examplesAr": [
+      "أنهى الواجب.",
+      "التقطت صورة."
+    ],
+    "examplesDe": [
+      "Er machte die Aufgabe fertig.",
+      "Sie machte ein Foto."
+    ]
+  },
+  "matched": {
+    "ar": "طابق",
+    "de": "passte zusammen",
+    "examplesAr": [
+      "تطابقت الألوان.",
+      "طابق الأزواج."
+    ],
+    "examplesDe": [
+      "Die Farben passten zusammen.",
+      "Er hat die Paare zugeordnet."
+    ]
+  },
+  "means": {
+    "ar": "يعني",
+    "de": "bedeutet",
+    "examplesAr": [
+      "تعني الكلمة «كبير».",
+      "ماذا تعني هذه الجملة؟"
+    ],
+    "examplesDe": [
+      "Das Wort bedeutet „groß“.",
+      "Was bedeutet dieser Satz?"
+    ]
+  },
+  "mehrere": {
+    "ar": "عدة / عدد من",
+    "de": "nicht nur eines, einige",
+    "examplesAr": [
+      "قرأت عدة كتب.",
+      "توجد عدة إجابات صحيحة."
+    ],
+    "examplesDe": [
+      "Sie hat mehrere Bücher gelesen.",
+      "Es gibt mehrere richtige Antworten."
+    ]
+  },
+  "mehrzahl": {
+    "ar": "صيغة الجمع",
+    "de": "die Pluralform eines Wortes",
+    "examplesAr": [
+      "«Katzen» هي صيغة جمع «Katze».",
+      "كوّن صيغة الجمع من «Buch»."
+    ],
+    "examplesDe": [
+      "„Katzen“ ist die Mehrzahl von „Katze“.",
+      "Bilde die Mehrzahl von „Buch“."
+    ]
+  },
+  "meine": {
+    "ar": "ضمير ملكية (لي)",
+    "de": "Possessivpronomen (mir gehörend)",
+    "examplesAr": [
+      "هذه حقيبتي.",
+      "مدرستي كبيرة."
+    ],
+    "examplesDe": [
+      "Das ist meine Tasche.",
+      "Meine Schule ist groß."
+    ]
+  },
+  "meist": {
+    "ar": "الأكثر / غالبًا",
+    "de": "am häufigsten",
+    "examplesAr": [
+      "هذه هي الإجابة الأكثر اختيارًا.",
+      "غالبًا ما تشرق الشمس هنا."
+    ],
+    "examplesDe": [
+      "Das ist die meist gewählte Antwort.",
+      "Meist scheint hier die Sonne."
+    ]
+  },
+  "meistens": {
+    "ar": "غالبًا / في معظم الأحيان",
+    "de": "in den meisten Fällen",
+    "examplesAr": [
+      "يأتي في الغالب في الموعد.",
+      "غالبًا ما تمطر في أبريل."
+    ],
+    "examplesDe": [
+      "Er kommt meistens pünktlich.",
+      "Meistens regnet es im April."
+    ]
+  },
+  "menge": {
+    "ar": "كمية",
+    "de": "wie viel von etwas da ist",
+    "examplesAr": [
+      "كمية التفاح كبيرة.",
+      "احسب الكمية."
+    ],
+    "examplesDe": [
+      "Die Menge an Äpfeln ist groß.",
+      "Rechne die Menge aus."
+    ]
+  },
+  "minute": {
+    "ar": "دقيقة",
+    "de": "eine Zeiteinheit (60 Sekunden)",
+    "examplesAr": [
+      "الدقيقة الواحدة تساوي 60 ثانية.",
+      "انتظر دقيقة واحدة."
+    ],
+    "examplesDe": [
+      "Eine Minute hat 60 Sekunden.",
+      "Warte eine Minute."
+    ]
+  },
+  "minuten": {
+    "ar": "دقائق (جمع Minute)",
+    "de": "Mehrzahl von Minute",
+    "examplesAr": [
+      "تُظهر الساعة بعد 20 دقيقة.",
+      "ننتظر خمس دقائق."
+    ],
+    "examplesDe": [
+      "Die Uhr zeigt 20 Minuten später.",
+      "Wir warten fünf Minuten."
+    ]
+  },
+  "missing": {
+    "ar": "مفقود / ناقص",
+    "de": "fehlend",
+    "examplesAr": [
+      "أي رقم ناقص في السلسلة؟",
+      "الحرف الناقص هو S."
+    ],
+    "examplesDe": [
+      "Welche Zahl fehlt in der Reihe?",
+      "Der fehlende Buchstabe ist ein S."
+    ]
+  },
+  "mitgelernt": {
+    "ar": "تم تعلمه أيضًا / حفظه",
+    "de": "gleichzeitig gelernt, auswendig gelernt",
+    "examplesAr": [
+      "غالبًا ما يجب حفظ صيغة الجمع أيضًا.",
+      "تعلّم القاعدة أيضًا."
+    ],
+    "examplesDe": [
+      "Die Mehrzahl muss oft mitgelernt werden.",
+      "Er hat die Regel mitgelernt."
+    ]
+  },
+  "morgen": {
+    "ar": "غدًا / الصباح",
+    "de": "der Tag nach heute / die frühe Tageszeit",
+    "examplesAr": [
+      "غدًا لا توجد مدرسة.",
+      "تشرق الشمس في الصباح."
+    ],
+    "examplesDe": [
+      "Morgen haben wir keine Schule.",
+      "Am Morgen scheint die Sonne."
+    ]
+  },
+  "multiplikation": {
+    "ar": "الضرب",
+    "de": "das Malnehmen von Zahlen",
+    "examplesAr": [
+      "الضرب هو عملية الحساب بالضرب.",
+      "تدرّب على الضرب في 3."
+    ],
+    "examplesDe": [
+      "Die Multiplikation ist das Malnehmen.",
+      "Übe die Multiplikation mit 3."
+    ]
+  },
+  "mutter": {
+    "ar": "أم",
+    "de": "die Frau, die ein Kind bekommen hat",
+    "examplesAr": [
+      "تطبخ الأم الطعام.",
+      "تعمل أمي في المدرسة."
+    ],
+    "examplesDe": [
+      "Die Mutter kocht das Essen.",
+      "Meine Mutter arbeitet in der Schule."
+    ]
+  },
+  "mädchen": {
+    "ar": "فتاة",
+    "de": "ein weibliches Kind",
+    "examplesAr": [
+      "تلعب الفتاة في الحديقة.",
+      "تقرأ فتاتان كتابًا."
+    ],
+    "examplesDe": [
+      "Das Mädchen spielt im Garten.",
+      "Zwei Mädchen lesen ein Buch."
+    ]
+  },
+  "nebensatz": {
+    "ar": "الجملة الثانوية",
+    "de": "ein Satzteil, der nicht allein stehen kann",
+    "examplesAr": [
+      "«لأن المطر ينهمر» جملة ثانوية.",
+      "تبدأ الجملة الثانوية بكلمة «لأن»."
+    ],
+    "examplesDe": [
+      "„Weil es regnet“ ist ein Nebensatz.",
+      "Der Nebensatz beginnt mit „weil“."
+    ]
+  },
+  "nebensätze": {
+    "ar": "جمل ثانوية (جمع Nebensatz)",
+    "de": "Mehrzahl von Nebensatz",
+    "examplesAr": [
+      "يحتوي النص على عدة جمل ثانوية.",
+      "غالبًا ما تبدأ الجمل الثانوية بكلمة «أن» أو «لأن»."
+    ],
+    "examplesDe": [
+      "Der Text enthält mehrere Nebensätze.",
+      "Nebensätze beginnen oft mit „dass“ oder „weil“."
+    ]
+  },
+  "nenner": {
+    "ar": "المقام (في الكسر)",
+    "de": "die untere Zahl eines Bruchs",
+    "examplesAr": [
+      "في 1/2، الرقم 2 هو المقام.",
+      "يُظهر المقام عدد الأجزاء."
+    ],
+    "examplesDe": [
+      "Bei 1/2 ist die 2 der Nenner.",
+      "Der Nenner zeigt, in wie viele Teile geteilt wird."
+    ]
+  },
+  "never": {
+    "ar": "أبدًا",
+    "de": "nie",
+    "examplesAr": [
+      "لا يتأخر أبدًا.",
+      "لا تأكل الحلوى أبدًا."
+    ],
+    "examplesDe": [
+      "Er kommt nie zu spät.",
+      "Sie isst nie Süßigkeiten."
+    ]
+  },
+  "nicht": {
+    "ar": "لا / ليس",
+    "de": "verneint einen Satz",
+    "examplesAr": [
+      "هذا غير صحيح.",
+      "لن يأتي اليوم."
+    ],
+    "examplesDe": [
+      "Das ist nicht richtig.",
+      "Er kommt heute nicht."
+    ]
+  },
+  "nomen": {
+    "ar": "الاسم (نوع من الكلمات)",
+    "de": "ein Namenwort (Person, Tier, Sache)",
+    "examplesAr": [
+      "«Haus» اسم.",
+      "تُكتب الأسماء بحرف كبير في الألمانية."
+    ],
+    "examplesDe": [
+      "„Haus“ ist ein Nomen.",
+      "Nomen schreibt man groß."
+    ]
+  },
+  "nouns": {
+    "ar": "أسماء",
+    "de": "Nomen (Namenwörter)",
+    "examplesAr": [
+      "الأسماء هي كلمات تسمي الأشياء.",
+      "«Katze» و«Schule» أسماء."
+    ],
+    "examplesDe": [
+      "Nomen sind Namenwörter.",
+      "„Katze“ und „Schule“ sind Nomen."
+    ]
+  },
+  "number": {
+    "ar": "رقم",
+    "de": "Zahl",
+    "examplesAr": [
+      "اختر الرقم الصحيح.",
+      "الرقم في المرتبة الأولى."
+    ],
+    "examplesDe": [
+      "Wähle die richtige Zahl.",
+      "Die Zahl steht an erster Stelle."
+    ]
+  },
+  "nächste": {
+    "ar": "التالي",
+    "de": "was danach kommt",
+    "examplesAr": [
+      "الرقم التالي في السلسلة هو 11.",
+      "من التالي في الدور؟"
+    ],
+    "examplesDe": [
+      "Die nächste Zahl in der Reihe ist 11.",
+      "Wer kommt als Nächstes dran?"
+    ]
+  },
+  "object": {
+    "ar": "المفعول به",
+    "de": "Objekt (Satzglied)",
+    "examplesAr": [
+      "يأتي المفعول به غالبًا بعد الفعل.",
+      "ابحث عن المفعول به في الجملة."
+    ],
+    "examplesDe": [
+      "Das Objekt steht meist nach dem Verb.",
+      "Finde das Objekt im Satz."
+    ]
+  },
+  "objects": {
+    "ar": "مفعولات / أشياء",
+    "de": "Objekte",
+    "examplesAr": [
+      "تحتوي الجملة على مفعولين.",
+      "عدّ الأشياء في الصورة."
+    ],
+    "examplesDe": [
+      "Der Satz hat zwei Objekte.",
+      "Zähle die Objekte im Bild."
+    ]
+  },
+  "obwohl": {
+    "ar": "رغم أنّ / مع أنّ",
+    "de": "zeigt einen Gegensatz",
+    "examplesAr": [
+      "رغم أنه متعب، فإنه يتعلم.",
+      "تضحك رغم أنها حزينة."
+    ],
+    "examplesDe": [
+      "Obwohl er müde ist, lernt er.",
+      "Sie lacht, obwohl sie traurig ist."
+    ]
+  },
+  "often": {
+    "ar": "غالبًا / كثيرًا",
+    "de": "oft",
+    "examplesAr": [
+      "يقرأ الكتب كثيرًا.",
+      "تلعب في الخارج غالبًا."
+    ],
+    "examplesDe": [
+      "Er liest oft Bücher.",
+      "Sie spielt oft draußen."
+    ]
+  },
+  "opened": {
+    "ar": "فتح",
+    "de": "öffnete",
+    "examplesAr": [
+      "فتح الباب.",
+      "فتحت الكتاب."
+    ],
+    "examplesDe": [
+      "Er öffnete die Tür.",
+      "Sie öffnete das Buch."
+    ]
+  },
+  "opens": {
+    "ar": "يفتح",
+    "de": "öffnet",
+    "examplesAr": [
+      "يفتح الباب.",
+      "تفتح النافذة."
+    ],
+    "examplesDe": [
+      "Er öffnet die Tür.",
+      "Sie öffnet das Fenster."
+    ]
+  },
+  "orange": {
+    "ar": "برتقالي / برتقالة",
+    "de": "eine Farbe zwischen Rot und Gelb / eine Frucht",
+    "examplesAr": [
+      "الشمس برتقالية اللون.",
+      "تأكل برتقالة."
+    ],
+    "examplesDe": [
+      "Die Sonne ist orange.",
+      "Sie isst eine Orange."
+    ]
+  },
+  "outside": {
+    "ar": "بالخارج",
+    "de": "draußen",
+    "examplesAr": [
+      "كلبنا ينام بالخارج.",
+      "يلعب الأطفال بالخارج في الحديقة."
+    ],
+    "examplesDe": [
+      "Unser Hund schläft draußen.",
+      "Die Kinder spielen draußen im Garten."
+    ]
+  },
+  "passen": {
+    "ar": "يتناسب / يناسب",
+    "de": "zueinander gehören, gut zusammenpassen",
+    "examplesAr": [
+      "تتناسب الألوان جيدًا معًا.",
+      "تناسب هذه الكلمات القاعدة."
+    ],
+    "examplesDe": [
+      "Die Farben passen gut zusammen.",
+      "Diese Wörter passen zur Regel."
+    ]
+  },
+  "passende": {
+    "ar": "المناسب",
+    "de": "das passende (dazugehörige)",
+    "examplesAr": [
+      "اختر الكلمة المناسبة.",
+      "ابحث عن الإجابة المناسبة."
+    ],
+    "examplesDe": [
+      "Wähle das passende Wort.",
+      "Suche die passende Antwort."
+    ]
+  },
+  "passiert": {
+    "ar": "يحدث",
+    "de": "geschieht, ist geschehen",
+    "examplesAr": [
+      "ماذا حدث أمس؟",
+      "يحدث هذا كثيرًا."
+    ],
+    "examplesDe": [
+      "Was ist gestern passiert?",
+      "So etwas passiert oft."
+    ]
+  },
+  "passt": {
+    "ar": "يناسب (الغائب المفرد من passen)",
+    "de": "3. Person Singular von „passen“",
+    "examplesAr": [
+      "تناسب الكلمة الجملة جيدًا.",
+      "هذه الإجابة لا تناسب."
+    ],
+    "examplesDe": [
+      "Das Wort passt gut in den Satz.",
+      "Diese Antwort passt nicht."
+    ]
+  },
+  "pencil": {
+    "ar": "قلم رصاص",
+    "de": "Bleistift",
+    "examplesAr": [
+      "تكتب بقلم رصاص.",
+      "قلم الرصاص مدبب."
+    ],
+    "examplesDe": [
+      "Sie schreibt mit einem Bleistift.",
+      "Der Bleistift ist spitz."
+    ]
+  },
+  "period": {
+    "ar": "النقطة (علامة ترقيم)",
+    "de": "der Punkt (Satzzeichen)",
+    "examplesAr": [
+      "توجد نقطة في نهاية الجملة.",
+      "ضع نقطة هنا."
+    ],
+    "examplesDe": [
+      "Am Ende des Satzes steht ein Punkt.",
+      "Setze hier einen Punkt."
+    ]
+  },
+  "picture": {
+    "ar": "صورة",
+    "de": "Bild",
+    "examplesAr": [
+      "ترسم صورة جميلة.",
+      "انظر إلى الصورة."
+    ],
+    "examplesDe": [
+      "Sie malt ein schönes Bild.",
+      "Schau dir das Bild an."
+    ]
+  },
+  "pizza": {
+    "ar": "بيتزا",
+    "de": "ein rundes, herzhaftes Gericht mit Belag",
+    "examplesAr": [
+      "نتقاسم بيتزا.",
+      "قُطعت البيتزا إلى ثماني قطع."
+    ],
+    "examplesDe": [
+      "Wir teilen eine Pizza.",
+      "Die Pizza ist in acht Stücke geschnitten."
+    ]
+  },
+  "place": {
+    "ar": "مكان / خانة",
+    "de": "Ort, Stelle",
+    "examplesAr": [
+      "الرقم في الخانة الثانية.",
+      "هذا مكان جميل."
+    ],
+    "examplesDe": [
+      "Die Ziffer steht an der zweiten Stelle.",
+      "Das ist ein schöner Ort."
+    ]
+  },
+  "played": {
+    "ar": "لعب",
+    "de": "spielte",
+    "examplesAr": [
+      "لعب في الحديقة.",
+      "لعبت مع قطتها."
+    ],
+    "examplesDe": [
+      "Er spielte im Garten.",
+      "Sie spielte mit ihrer Katze."
+    ]
+  },
+  "plays": {
+    "ar": "يلعب",
+    "de": "spielt",
+    "examplesAr": [
+      "يلعب كرة القدم.",
+      "تلعب في الخارج كل يوم."
+    ],
+    "examplesDe": [
+      "Er spielt Fußball.",
+      "Sie spielt jeden Tag draußen."
+    ]
+  },
+  "plural": {
+    "ar": "جمع",
+    "de": "Mehrzahl",
+    "examplesAr": [
+      "كلمة Häuser هي صيغة الجمع.",
+      "جمع كلمة Kind هو Kinder."
+    ],
+    "examplesDe": [
+      "„Häuser“ ist der Plural.",
+      "Der Plural von „Kind“ ist „Kinder“."
+    ]
+  },
+  "point": {
+    "ar": "نقطة",
+    "de": "Punkt",
+    "examplesAr": [
+      "تحدد النقطة الموضع.",
+      "ضع نقطة في النهاية."
+    ],
+    "examplesDe": [
+      "Der Punkt markiert die Stelle.",
+      "Setze einen Punkt am Ende."
+    ]
+  },
+  "predicate": {
+    "ar": "الخبر / الفعل في الجملة",
+    "de": "das Prädikat (der Satzteil mit dem Verb)",
+    "examplesAr": [
+      "الخبر غالبًا هو الفعل.",
+      "ابحث عن الخبر في الجملة."
+    ],
+    "examplesDe": [
+      "Das Prädikat ist meist das Verb.",
+      "Finde das Prädikat im Satz."
+    ]
+  },
+  "prepositions": {
+    "ar": "حروف الجر",
+    "de": "Wörter, die einen Ort oder eine Zeit angeben (z. B. „unter“, „vor“)",
+    "examplesAr": [
+      "«Unter» و«auf» حروف جر.",
+      "تأتي حروف الجر قبل الاسم."
+    ],
+    "examplesDe": [
+      "„Unter“ und „auf“ sind Präpositionen.",
+      "Präpositionen stehen vor einem Nomen."
+    ]
+  },
+  "present": {
+    "ar": "المضارع / هدية",
+    "de": "die Gegenwartsform / ein Geschenk",
+    "examplesAr": [
+      "يصف المضارع الزمن الحاضر.",
+      "تحصل على هدية."
+    ],
+    "examplesDe": [
+      "Das Präsens beschreibt die Gegenwart.",
+      "Sie bekommt ein Geschenk."
+    ]
+  },
+  "prädikat": {
+    "ar": "الفعل في الجملة",
+    "de": "Verbteil eines Satzes",
+    "examplesAr": [
+      "كلمة spielt هي الفعل.",
+      "من دون الفعل تكون الجملة غير مكتملة."
+    ],
+    "examplesDe": [
+      "„spielt“ ist das Prädikat.",
+      "Ohne Prädikat ist der Satz nicht vollständig."
+    ]
+  },
+  "präteritum": {
+    "ar": "صيغة الماضي البسيط",
+    "de": "die einfache Vergangenheitsform (z. B. „ging“)",
+    "examplesAr": [
+      "يصف الماضي البسيط ما حدث في الماضي.",
+      "«Ging» هي صيغة الماضي من «gehen»."
+    ],
+    "examplesDe": [
+      "Das Präteritum beschreibt Vergangenes.",
+      "„Ging“ ist das Präteritum von „gehen“."
+    ]
+  },
+  "punkt": {
+    "ar": "نقطة",
+    "de": "das Satzzeichen am Ende eines Satzes / ein Ort",
+    "examplesAr": [
+      "توجد نقطة في نهاية الجملة.",
+      "ضع النقطة هنا بالضبط."
+    ],
+    "examplesDe": [
+      "Am Satzende steht ein Punkt.",
+      "Setze den Punkt genau hier."
+    ]
+  },
+  "punkte": {
+    "ar": "نقاط (جمع Punkt)",
+    "de": "Mehrzahl von Punkt",
+    "examplesAr": [
+      "جمعت نقاطًا كثيرة.",
+      "توجد نقاط بين الجمل."
+    ],
+    "examplesDe": [
+      "Sie hat viele Punkte gesammelt.",
+      "Zwischen den Sätzen stehen Punkte."
+    ]
+  },
+  "punkten": {
+    "ar": "صيغة الجر لجمع Punkt",
+    "de": "Dativ Plural von Punkt",
+    "examplesAr": [
+      "يربط الأرقام بالنقاط.",
+      "يبدأ الخط عند النقاط."
+    ],
+    "examplesDe": [
+      "Er verbindet die Zahlen mit den Punkten.",
+      "Bei den Punkten beginnt die Linie."
+    ]
+  },
+  "question": {
+    "ar": "سؤال",
+    "de": "Frage",
+    "examplesAr": [
+      "أنا أجيب عن سؤال.",
+      "هذا سؤال صعب."
+    ],
+    "examplesDe": [
+      "Ich beantworte eine Frage.",
+      "Das ist eine schwere Frage."
+    ]
+  },
+  "quiet": {
+    "ar": "هادئ",
+    "de": "leise / ruhig",
+    "examplesAr": [
+      "كن هادئًا من فضلك.",
+      "المكتبة هادئة دائمًا."
+    ],
+    "examplesDe": [
+      "Sei bitte leise.",
+      "Die Bibliothek ist immer ruhig."
+    ]
+  },
+  "quieter": {
+    "ar": "أكثر هدوءًا (صيغة المقارنة)",
+    "de": "leiser (Vergleichsform)",
+    "examplesAr": [
+      "هذا الشارع أكثر هدوءًا من الآخر.",
+      "تحدث بهدوء أكثر من فضلك."
+    ],
+    "examplesDe": [
+      "Diese Straße ist leiser als die andere.",
+      "Sprich bitte leiser."
+    ]
+  },
+  "ready": {
+    "ar": "مستعد",
+    "de": "bereit",
+    "examplesAr": [
+      "أنا مستعد للمهمة.",
+      "هل أنت مستعد للانطلاق؟"
+    ],
+    "examplesDe": [
+      "Ich bin bereit für die Aufgabe.",
+      "Bist du bereit zum Start?"
+    ]
+  },
+  "rechne": {
+    "ar": "احسب (صيغة الأمر من rechnen)",
+    "de": "Imperativ von „rechnen“",
+    "examplesAr": [
+      "احسب التمرين بدقة.",
+      "احسب القوس أولًا."
+    ],
+    "examplesDe": [
+      "Rechne die Aufgabe genau aus.",
+      "Rechne zuerst die Klammer."
+    ]
+  },
+  "rechteck": {
+    "ar": "مستطيل",
+    "de": "eine viereckige Figur mit rechten Winkeln",
+    "examplesAr": [
+      "للمستطيل أربع زوايا قائمة.",
+      "قِس أضلاع المستطيل."
+    ],
+    "examplesDe": [
+      "Das Rechteck hat vier rechte Winkel.",
+      "Miss die Seiten des Rechtecks."
+    ]
+  },
+  "rectangle": {
+    "ar": "مستطيل",
+    "de": "Rechteck",
+    "examplesAr": [
+      "للمستطيل أربعة أضلاع.",
+      "المستطيل أعرض من ارتفاعه."
+    ],
+    "examplesDe": [
+      "Ein Rechteck hat vier Seiten.",
+      "Das Rechteck ist breiter als hoch."
+    ]
+  },
+  "regenschirm": {
+    "ar": "مظلة",
+    "de": "Schutz gegen Regen",
+    "examplesAr": [
+      "آخذ مظلتي معي.",
+      "المظلة مفيدة جدًا اليوم."
+    ],
+    "examplesDe": [
+      "Ich nehme meinen Regenschirm mit.",
+      "Der Regenschirm ist heute sehr nützlich."
+    ]
+  },
+  "regnet": {
+    "ar": "تمطر (يقال: es regnet)",
+    "de": "3. Person Singular von „regnen“",
+    "examplesAr": [
+      "أبقى في البيت لأن الجو ممطر.",
+      "إنها تمطر في الخارج منذ الصباح."
+    ],
+    "examplesDe": [
+      "Ich bleibe zu Hause, weil es regnet.",
+      "Draußen regnet es seit dem Morgen."
+    ]
+  },
+  "regular": {
+    "ar": "منتظم",
+    "de": "regelmäßig",
+    "examplesAr": [
+      "هذا فعل منتظم.",
+      "لديه روتين يومي منتظم."
+    ],
+    "examplesDe": [
+      "Das ist ein regelmäßiges Verb.",
+      "Er hat einen regelmäßigen Tagesablauf."
+    ]
+  },
+  "reihe": {
+    "ar": "سلسلة / صف",
+    "de": "mehrere Dinge oder Zahlen nacheinander",
+    "examplesAr": [
+      "أكمل سلسلة الأرقام.",
+      "يقف الأطفال في صف."
+    ],
+    "examplesDe": [
+      "Setze die Zahlenreihe fort.",
+      "Die Kinder stehen in einer Reihe."
+    ]
+  },
+  "remain": {
+    "ar": "يبقى",
+    "de": "bleiben, übrig bleiben",
+    "examplesAr": [
+      "تبقى تفاحتان.",
+      "تبقى هادئة."
+    ],
+    "examplesDe": [
+      "Zwei Äpfel bleiben übrig.",
+      "Sie bleibt ruhig."
+    ]
+  },
+  "removed": {
+    "ar": "أُزيل",
+    "de": "entfernt",
+    "examplesAr": [
+      "أزال الخطأ.",
+      "أُزيلت الكلمة."
+    ],
+    "examplesDe": [
+      "Er hat den Fehler entfernt.",
+      "Das Wort wurde entfernt."
+    ]
+  },
+  "richtig": {
+    "ar": "صحيح",
+    "de": "ohne Fehler, korrekt",
+    "examplesAr": [
+      "هذه هي الإجابة الصحيحة.",
+      "حسب بشكل صحيح."
+    ],
+    "examplesDe": [
+      "Das ist die richtige Antwort.",
+      "Er hat richtig gerechnet."
+    ]
+  },
+  "ruhig": {
+    "ar": "هادئ",
+    "de": "still, ohne Lärm",
+    "examplesAr": [
+      "الصف هادئ.",
+      "تتحدث بهدوء."
+    ],
+    "examplesDe": [
+      "Im Klassenzimmer ist es ruhig.",
+      "Sie spricht ruhig und leise."
+    ]
+  },
+  "rücke": {
+    "ar": "حرّك (صيغة الأمر من rücken)",
+    "de": "Imperativ von „rücken“ (bewegen)",
+    "examplesAr": [
+      "حرّك الساعة 20 دقيقة للأمام.",
+      "قرّب الكرسي أكثر."
+    ],
+    "examplesDe": [
+      "Rücke die Uhr um 20 Minuten vor.",
+      "Rücke den Stuhl näher."
+    ]
+  },
+  "rücken": {
+    "ar": "يحرّك / يزحزح",
+    "de": "etwas ein Stück bewegen",
+    "examplesAr": [
+      "نحرّك الطاولة إلى الجانب.",
+      "تتحرك عقارب الساعة للأمام."
+    ],
+    "examplesDe": [
+      "Wir rücken den Tisch zur Seite.",
+      "Die Zeiger rücken vor."
+    ]
+  },
+  "rückgängig": {
+    "ar": "التراجع عن شيء",
+    "de": "zurück in den vorherigen Zustand",
+    "examplesAr": [
+      "يتراجع عن الخطأ.",
+      "هل يمكنك التراجع عن هذا؟"
+    ],
+    "examplesDe": [
+      "Er macht den Fehler rückgängig.",
+      "Kannst du das rückgängig machen?"
+    ]
+  },
+  "sagen": {
+    "ar": "يقول",
+    "de": "etwas mit Worten ausdrücken",
+    "examplesAr": [
+      "ماذا تريد أن تقول؟",
+      "تقول الحقيقة دائمًا."
+    ],
+    "examplesDe": [
+      "Was möchtest du sagen?",
+      "Sie sagt immer die Wahrheit."
+    ]
+  },
+  "sagte": {
+    "ar": "صيغة الماضي من sagen (قال)",
+    "de": "Präteritum von „sagen“",
+    "examplesAr": [
+      "قال الحقيقة.",
+      "لم تقل شيئًا آخر."
+    ],
+    "examplesDe": [
+      "Er sagte die Wahrheit.",
+      "Sie sagte nichts mehr."
+    ]
+  },
+  "satzglied": {
+    "ar": "أحد أجزاء الجملة",
+    "de": "ein Teil eines Satzes (z. B. Subjekt, Prädikat, Objekt)",
+    "examplesAr": [
+      "الفاعل هو أحد أجزاء الجملة.",
+      "تتكون كل جملة من أجزاء."
+    ],
+    "examplesDe": [
+      "Das Subjekt ist ein Satzglied.",
+      "Jeder Satz besteht aus Satzgliedern."
+    ]
+  },
+  "satzzeichen": {
+    "ar": "علامة ترقيم",
+    "de": "Zeichen am Satzende",
+    "examplesAr": [
+      "النقطة علامة ترقيم.",
+      "علامة الاستفهام أيضًا علامة ترقيم."
+    ],
+    "examplesDe": [
+      "Ein Punkt ist ein Satzzeichen.",
+      "Das Fragezeichen ist auch ein Satzzeichen."
+    ]
+  },
+  "scheint": {
+    "ar": "تشرق / تلمع (الغائب المفرد من scheinen)",
+    "de": "3. Person Singular von „scheinen“",
+    "examplesAr": [
+      "عندما تشرق الشمس نخرج للخارج.",
+      "اليوم تشرق الشمس طوال النهار."
+    ],
+    "examplesDe": [
+      "Wenn die Sonne scheint, gehen wir hinaus.",
+      "Heute scheint die Sonne den ganzen Tag."
+    ]
+  },
+  "schickt": {
+    "ar": "يرسل (الغائب المفرد من schicken)",
+    "de": "3. Person Singular von „schicken“",
+    "examplesAr": [
+      "يرسل رسالة.",
+      "ترسل رسالة نصية."
+    ],
+    "examplesDe": [
+      "Er schickt einen Brief.",
+      "Sie schickt eine Nachricht."
+    ]
+  },
+  "schläft": {
+    "ar": "ينام (الغائب المفرد من schlafen)",
+    "de": "3. Person Singular von „schlafen“",
+    "examplesAr": [
+      "ينام الطفل بهدوء.",
+      "ينام منذ وقت طويل."
+    ],
+    "examplesDe": [
+      "Das Baby schläft ruhig.",
+      "Er schläft schon lange."
+    ]
+  },
+  "schmetterling": {
+    "ar": "فراشة",
+    "de": "buntes Insekt mit Flügeln",
+    "examplesAr": [
+      "الفراشة تجلس على الزهرة.",
+      "تطير فراشة ملونة من هنا."
+    ],
+    "examplesDe": [
+      "Der Schmetterling sitzt auf der Blume.",
+      "Ein bunter Schmetterling fliegt vorbei."
+    ]
+  },
+  "schneide": {
+    "ar": "قصّ (صيغة الأمر من schneiden)",
+    "de": "Imperativ von „schneiden“",
+    "examplesAr": [
+      "قصّ البيتزا إلى قطع.",
+      "قصّ الورقة بشكل مستقيم."
+    ],
+    "examplesDe": [
+      "Schneide die Pizza in Stücke.",
+      "Schneide das Papier gerade."
+    ]
+  },
+  "schnell": {
+    "ar": "سريع",
+    "de": "mit hoher Geschwindigkeit",
+    "examplesAr": [
+      "تسير السيارة بسرعة.",
+      "يجري بسرعة كبيرة."
+    ],
+    "examplesDe": [
+      "Das Auto fährt schnell.",
+      "Er läuft sehr schnell."
+    ]
+  },
+  "schneller": {
+    "ar": "أسرع (صيغة المقارنة من schnell)",
+    "de": "Komparativ von „schnell“",
+    "examplesAr": [
+      "هو أسرع من صديقه.",
+      "الدراجة أسرع من المشي."
+    ],
+    "examplesDe": [
+      "Er ist schneller als sein Freund.",
+      "Das Fahrrad ist schneller als das Laufen."
+    ]
+  },
+  "school": {
+    "ar": "مدرسة",
+    "de": "Schule",
+    "examplesAr": [
+      "تبدأ المدرسة في الصباح.",
+      "مدرستي كبيرة."
+    ],
+    "examplesDe": [
+      "Die Schule beginnt am Morgen.",
+      "Meine Schule ist groß."
+    ]
+  },
+  "schreibt": {
+    "ar": "يكتب (الغائب المفرد من schreiben)",
+    "de": "3. Person Singular von „schreiben“",
+    "examplesAr": [
+      "يكتب رسالة.",
+      "تكتب على السبورة."
+    ],
+    "examplesDe": [
+      "Er schreibt einen Brief.",
+      "Sie schreibt an die Tafel."
+    ]
+  },
+  "schreibweise": {
+    "ar": "طريقة الكتابة / الإملاء",
+    "de": "wie man ein Wort richtig schreibt",
+    "examplesAr": [
+      "أي طريقة كتابة صحيحة؟",
+      "انتبه لطريقة كتابة الكلمة."
+    ],
+    "examplesDe": [
+      "Welche Schreibweise ist richtig?",
+      "Achte auf die Schreibweise des Wortes."
+    ]
+  },
+  "schritte": {
+    "ar": "خطوات (جمع Schritt)",
+    "de": "Mehrzahl von Schritt",
+    "examplesAr": [
+      "تخطو ثلاث خطوات إلى الأمام.",
+      "عدّ الخطوات على الطريق."
+    ],
+    "examplesDe": [
+      "Sie macht drei Schritte nach vorne.",
+      "Zähle die Schritte auf dem Weg."
+    ]
+  },
+  "schule": {
+    "ar": "مدرسة",
+    "de": "Gebäude, in dem Kinder lernen",
+    "examplesAr": [
+      "تبدأ المدرسة في الصباح.",
+      "مدرستي كبيرة."
+    ],
+    "examplesDe": [
+      "Die Schule beginnt am Morgen.",
+      "Meine Schule ist groß."
+    ]
+  },
+  "schulen": {
+    "ar": "مدارس (جمع Schule)",
+    "de": "Mehrzahl von Schule",
+    "examplesAr": [
+      "توجد مدارس كثيرة في المدينة.",
+      "تبدأ المدارس في سبتمبر."
+    ],
+    "examplesDe": [
+      "In der Stadt gibt es viele Schulen.",
+      "Die Schulen beginnen im September."
+    ]
+  },
+  "schulweg": {
+    "ar": "طريق المدرسة",
+    "de": "Weg zur Schule",
+    "examplesAr": [
+      "طريق مدرستي يستغرق عشر دقائق.",
+      "ألتقي صديقتي في طريق المدرسة."
+    ],
+    "examplesDe": [
+      "Mein Schulweg dauert zehn Minuten.",
+      "Auf dem Schulweg treffe ich meine Freundin."
+    ]
+  },
+  "schwache": {
+    "ar": "ضعيف؛ وأيضًا الأفعال المنتظمة",
+    "de": "schwach (dekliniert); auch: regelmäßige Verben (schwache Verben)",
+    "examplesAr": [
+      "تكوّن الأفعال المنتظمة صيغة الماضي بإضافة te-.",
+      "صوته ضعيف."
+    ],
+    "examplesDe": [
+      "Schwache Verben bilden das Präteritum mit -te.",
+      "Er hat eine schwache Stimme."
+    ]
+  },
+  "schwester": {
+    "ar": "أخت",
+    "de": "ein weibliches Geschwisterteil",
+    "examplesAr": [
+      "أختي تعزف على البيانو.",
+      "أختها أصغر سنًا."
+    ],
+    "examplesDe": [
+      "Meine Schwester spielt Klavier.",
+      "Ihre Schwester ist jünger."
+    ]
+  },
+  "schüler": {
+    "ar": "تلميذ",
+    "de": "ein Kind, das in die Schule geht",
+    "examplesAr": [
+      "يتعلم التلاميذ بجد.",
+      "يجيب التلميذ عن السؤال."
+    ],
+    "examplesDe": [
+      "Die Schüler lernen fleißig.",
+      "Der Schüler beantwortet die Frage."
+    ]
+  },
+  "seiten": {
+    "ar": "صفحات / أضلاع (جمع Seite)",
+    "de": "Mehrzahl von Seite",
+    "examplesAr": [
+      "للمستطيل أربعة أضلاع.",
+      "يحتوي الكتاب على 100 صفحة."
+    ],
+    "examplesDe": [
+      "Das Rechteck hat vier Seiten.",
+      "Das Buch hat 100 Seiten."
+    ]
+  },
+  "sends": {
+    "ar": "يرسل",
+    "de": "schickt",
+    "examplesAr": [
+      "يرسل رسالة.",
+      "ترسل بريدًا إلكترونيًا."
+    ],
+    "examplesDe": [
+      "Er schickt einen Brief.",
+      "Sie schickt eine E-Mail."
+    ]
+  },
+  "sentence": {
+    "ar": "جملة",
+    "de": "Satz",
+    "examplesAr": [
+      "تبدأ الجملة بحرف كبير.",
+      "كوّن جملة كاملة."
+    ],
+    "examplesDe": [
+      "Der Satz beginnt mit einem großen Buchstaben.",
+      "Bilde einen vollständigen Satz."
+    ]
+  },
+  "setze": {
+    "ar": "ضع (صيغة الأمر من setzen)",
+    "de": "Imperativ von „setzen“",
+    "examplesAr": [
+      "أكمل السلسلة.",
+      "ضع فاصلة في هذا الموضع."
+    ],
+    "examplesDe": [
+      "Setze die Reihe fort.",
+      "Setze ein Komma an dieser Stelle."
+    ]
+  },
+  "share": {
+    "ar": "يشارك / يقسم",
+    "de": "teilen",
+    "examplesAr": [
+      "نتقاسم البيتزا.",
+      "تشارك ألعابها."
+    ],
+    "examplesDe": [
+      "Wir teilen die Pizza.",
+      "Sie teilt ihr Spielzeug."
+    ]
+  },
+  "sides": {
+    "ar": "أضلاع",
+    "de": "Seiten",
+    "examplesAr": [
+      "للمربع أربعة أضلاع متساوية.",
+      "عدّ أضلاع الشكل."
+    ],
+    "examplesDe": [
+      "Das Quadrat hat vier gleich lange Seiten.",
+      "Zähle die Seiten der Figur."
+    ]
+  },
+  "sieht": {
+    "ar": "يرى (الغائب المفرد من sehen)",
+    "de": "3. Person Singular von „sehen“",
+    "examplesAr": [
+      "يرى الطائر.",
+      "تبدو جميلة."
+    ],
+    "examplesDe": [
+      "Er sieht den Vogel.",
+      "Sie sieht gut aus."
+    ]
+  },
+  "simple": {
+    "ar": "بسيط",
+    "de": "einfach",
+    "examplesAr": [
+      "المضارع البسيط زمن سهل.",
+      "هذا تمرين بسيط."
+    ],
+    "examplesDe": [
+      "Das Präsens ist eine einfache Zeitform.",
+      "Das ist eine einfache Aufgabe."
+    ]
+  },
+  "sleeps": {
+    "ar": "ينام",
+    "de": "schläft",
+    "examplesAr": [
+      "ينام الطفل بهدوء.",
+      "تنام القطة طوال اليوم."
+    ],
+    "examplesDe": [
+      "Das Baby schläft ruhig.",
+      "Die Katze schläft den ganzen Tag."
+    ]
+  },
+  "slices": {
+    "ar": "شرائح / قطع",
+    "de": "Scheiben / Stücke",
+    "examplesAr": [
+      "تقطع البيتزا إلى شرائح.",
+      "يحتوي الخبز على شرائح كثيرة."
+    ],
+    "examplesDe": [
+      "Sie schneidet die Pizza in Scheiben.",
+      "Das Brot hat viele Scheiben."
+    ]
+  },
+  "small": {
+    "ar": "صغير",
+    "de": "klein",
+    "examplesAr": [
+      "السيارة صغيرة.",
+      "لديها حقيبة صغيرة."
+    ],
+    "examplesDe": [
+      "Das Auto ist klein.",
+      "Sie hat eine kleine Tasche."
+    ]
+  },
+  "smaller": {
+    "ar": "أصغر (صيغة المقارنة)",
+    "de": "kleiner (Vergleichsform)",
+    "examplesAr": [
+      "الكتاب أصغر من الطاولة.",
+      "هو أصغر من أخيه."
+    ],
+    "examplesDe": [
+      "Das Buch ist kleiner als der Tisch.",
+      "Er ist kleiner als sein Bruder."
+    ]
+  },
+  "someone": {
+    "ar": "شخص ما",
+    "de": "jemand",
+    "examplesAr": [
+      "يطرق شخص ما الباب.",
+      "هل يسأل عني أحد؟"
+    ],
+    "examplesDe": [
+      "Jemand klopft an die Tür.",
+      "Fragt jemand nach mir?"
+    ]
+  },
+  "something": {
+    "ar": "شيء ما",
+    "de": "etwas",
+    "examplesAr": [
+      "نسيت شيئًا ما.",
+      "أريد أن أخبرك بشيء ما."
+    ],
+    "examplesDe": [
+      "Sie hat etwas vergessen.",
+      "Ich möchte dir etwas sagen."
+    ]
+  },
+  "sonne": {
+    "ar": "شمس",
+    "de": "Stern, der uns Licht gibt",
+    "examplesAr": [
+      "عندما تشرق الشمس نخرج للخارج.",
+      "تدفئ الشمس الحديقة."
+    ],
+    "examplesDe": [
+      "Wenn die Sonne scheint, gehen wir hinaus.",
+      "Die Sonne wärmt den Garten."
+    ]
+  },
+  "sonnenblume": {
+    "ar": "زهرة عباد الشمس",
+    "de": "gelbe Blume, die sich zur Sonne dreht",
+    "examplesAr": [
+      "زهرة عباد الشمس طويلة مثلي.",
+      "تنمو زهرة عباد الشمس في الحديقة."
+    ],
+    "examplesDe": [
+      "Die Sonnenblume ist so groß wie ich.",
+      "Im Garten wächst eine Sonnenblume."
+    ]
+  },
+  "sound": {
+    "ar": "صوت",
+    "de": "Geräusch, Laut",
+    "examplesAr": [
+      "يصدر الكلب صوتًا عاليًا.",
+      "أي صوت يأتي أولًا؟"
+    ],
+    "examplesDe": [
+      "Der Hund macht ein lautes Geräusch.",
+      "Welcher Laut kommt zuerst?"
+    ]
+  },
+  "spannendes": {
+    "ar": "مثير (نعت)",
+    "de": "spannend (dekliniert), aufregend",
+    "examplesAr": [
+      "هذا كتاب مثير.",
+      "تعيش مغامرة مثيرة."
+    ],
+    "examplesDe": [
+      "Das ist ein spannendes Buch.",
+      "Sie erlebt ein spannendes Abenteuer."
+    ]
+  },
+  "spielen": {
+    "ar": "يلعب",
+    "de": "sich mit etwas beschäftigen, um Spaß zu haben",
+    "examplesAr": [
+      "يلعب الأطفال في الحديقة.",
+      "نلعب معًا بالكرة."
+    ],
+    "examplesDe": [
+      "Die Kinder spielen im Garten.",
+      "Wir spielen zusammen mit dem Ball."
+    ]
+  },
+  "spielt": {
+    "ar": "يلعب (الغائب المفرد من spielen)",
+    "de": "3. Person Singular von „spielen“",
+    "examplesAr": [
+      "يلعب كرة القدم.",
+      "تلعب مع القطة."
+    ],
+    "examplesDe": [
+      "Er spielt Fußball.",
+      "Sie spielt mit der Katze."
+    ]
+  },
+  "spielte": {
+    "ar": "صيغة الماضي من spielen (لعب)",
+    "de": "Präteritum von „spielen“",
+    "examplesAr": [
+      "لعب في الحديقة.",
+      "لعبت مع أصدقائها."
+    ],
+    "examplesDe": [
+      "Er spielte im Garten.",
+      "Sie spielte mit ihren Freunden."
+    ]
+  },
+  "sprich": {
+    "ar": "تحدث (صيغة الأمر من sprechen)",
+    "de": "Imperativ von „sprechen“",
+    "examplesAr": [
+      "انطق الكلمة بصوت عالٍ.",
+      "تحدث ببطء أكثر من فضلك."
+    ],
+    "examplesDe": [
+      "Sprich das Wort laut aus.",
+      "Sprich bitte langsamer."
+    ]
+  },
+  "springt": {
+    "ar": "يقفز (الغائب المفرد من springen)",
+    "de": "3. Person Singular von „springen“",
+    "examplesAr": [
+      "يقفز الضفدع في الماء.",
+      "يقفز الرقم 3 خطوات للأمام."
+    ],
+    "examplesDe": [
+      "Der Frosch springt ins Wasser.",
+      "Die Zahl springt um 3 weiter."
+    ]
+  },
+  "später": {
+    "ar": "لاحقًا",
+    "de": "zu einem Zeitpunkt danach",
+    "examplesAr": [
+      "كم الساعة بعد 20 دقيقة؟",
+      "نلتقي لاحقًا."
+    ],
+    "examplesDe": [
+      "Wie spät ist es 20 Minuten später?",
+      "Wir sehen uns später."
+    ]
+  },
+  "stark": {
+    "ar": "قوي",
+    "de": "kräftig, mit viel Kraft",
+    "examplesAr": [
+      "هو قوي جدًا.",
+      "الرياح قوية اليوم."
+    ],
+    "examplesDe": [
+      "Er ist sehr stark.",
+      "Der Wind ist stark heute."
+    ]
+  },
+  "stars": {
+    "ar": "نجوم",
+    "de": "Sterne",
+    "examplesAr": [
+      "تلمع نجوم كثيرة في السماء.",
+      "تظهر النجوم ليلاً."
+    ],
+    "examplesDe": [
+      "Am Himmel leuchten viele Sterne.",
+      "Die Sterne sind nachts sichtbar."
+    ]
+  },
+  "start": {
+    "ar": "بداية",
+    "de": "Anfang, Beginn",
+    "examplesAr": [
+      "تبدأ الجملة ببداية بحرف كبير.",
+      "كان للسباق بداية جيدة."
+    ],
+    "examplesDe": [
+      "Der Satz beginnt am Anfang mit einem großen Buchstaben.",
+      "Das Rennen hat einen guten Start."
+    ]
+  },
+  "starts": {
+    "ar": "يبدأ",
+    "de": "beginnt",
+    "examplesAr": [
+      "يبدأ الفيلم الساعة الثامنة.",
+      "تبدأ المدرسة في الصباح."
+    ],
+    "examplesDe": [
+      "Der Film beginnt um acht Uhr.",
+      "Die Schule beginnt am Morgen."
+    ]
+  },
+  "states": {
+    "ar": "حالات / ينص على",
+    "de": "Zustände / gibt an",
+    "examplesAr": [
+      "تحدد القاعدة الترتيب.",
+      "تنص الجملة على حقيقة."
+    ],
+    "examplesDe": [
+      "Die Regel gibt die Reihenfolge an.",
+      "Der Satz gibt eine Tatsache an."
+    ]
+  },
+  "steht": {
+    "ar": "يقف / يوجد (فعل stehen)",
+    "de": "3. Person Singular von „stehen“",
+    "examplesAr": [
+      "يوجد الرقم في المرتبة الأولى.",
+      "يقف أمام الباب."
+    ],
+    "examplesDe": [
+      "Die Zahl steht an erster Stelle.",
+      "Er steht vor der Tür."
+    ]
+  },
+  "steigerungsform": {
+    "ar": "صيغة المقارنة أو التفضيل",
+    "de": "die Vergleichsform eines Adjektivs (Komparativ/Superlativ)",
+    "examplesAr": [
+      "«Schneller» صيغة مقارنة.",
+      "كوّن صيغة المقارنة من «klein»."
+    ],
+    "examplesDe": [
+      "„Schneller“ ist eine Steigerungsform.",
+      "Bilde die Steigerungsform von „klein“."
+    ]
+  },
+  "stell": {
+    "ar": "ضع / تخيل (صيغة الأمر من stellen)",
+    "de": "Imperativ von „stellen“ (z. B. „stell dir vor“)",
+    "examplesAr": [
+      "تخيل كيف يعمل هذا.",
+      "ضع الكوب على الطاولة."
+    ],
+    "examplesDe": [
+      "Stell dir vor, wie es funktioniert.",
+      "Stell das Glas auf den Tisch."
+    ]
+  },
+  "stelle": {
+    "ar": "الخانة / الموضع",
+    "de": "die Position einer Ziffer in einer Zahl",
+    "examplesAr": [
+      "توضع الفاصلة العليا في موضع الحروف الناقصة.",
+      "يوجد الرقم في الخانة الثانية."
+    ],
+    "examplesDe": [
+      "An der Stelle, wo Buchstaben fehlen, steht ein Apostroph.",
+      "Die Ziffer steht an der zweiten Stelle."
+    ]
+  },
+  "stellenweise": {
+    "ar": "في بعض الأماكن",
+    "de": "an manchen Stellen",
+    "examplesAr": [
+      "تمطر بغزارة في بعض الأماكن.",
+      "الطريق غير مستوٍ في بعض الأجزاء."
+    ],
+    "examplesDe": [
+      "Stellenweise regnet es stark.",
+      "Der Weg ist stellenweise uneben."
+    ]
+  },
+  "stellenwert": {
+    "ar": "القيمة المكانية للرقم",
+    "de": "wie viel eine Ziffer an ihrer Stelle wert ist",
+    "examplesAr": [
+      "تُظهر القيمة المكانية إن كان الرقم آحادًا أو عشرات.",
+      "لكل خانة قيمتها المكانية الخاصة."
+    ],
+    "examplesDe": [
+      "Der Stellenwert zeigt, ob eine Ziffer Einer oder Zehner ist.",
+      "Jede Stelle hat einen eigenen Stellenwert."
+    ]
+  },
+  "stellenwerttafel": {
+    "ar": "جدول القيم المكانية",
+    "de": "eine Tabelle mit Spalten für Einer, Zehner, Hunderter usw.",
+    "examplesAr": [
+      "أدخل الرقم في جدول القيم المكانية.",
+      "يُظهر جدول القيم المكانية الآحاد والعشرات والمئات."
+    ],
+    "examplesDe": [
+      "Trage die Zahl in die Stellenwerttafel ein.",
+      "Die Stellenwerttafel zeigt Einer, Zehner und Hunderter."
+    ]
+  },
+  "steps": {
+    "ar": "خطوات",
+    "de": "Schritte",
+    "examplesAr": [
+      "تخطو ثلاث خطوات.",
+      "عدّ الخطوات على الطريق."
+    ],
+    "examplesDe": [
+      "Sie macht drei Schritte.",
+      "Zähle die Schritte auf dem Weg."
+    ]
+  },
+  "sterne": {
+    "ar": "نجوم (جمع Stern)",
+    "de": "Mehrzahl von Stern",
+    "examplesAr": [
+      "تلمع نجوم كثيرة في السماء.",
+      "تتلألأ النجوم في الليل."
+    ],
+    "examplesDe": [
+      "Am Himmel leuchten viele Sterne.",
+      "Die Sterne funkeln in der Nacht."
+    ]
+  },
+  "stoppschild": {
+    "ar": "إشارة قف (لافتة مرورية)",
+    "de": "ein rotes Verkehrsschild, das zum Anhalten auffordert",
+    "examplesAr": [
+      "يجب التوقف عند إشارة قف.",
+      "إشارة قف حمراء مع كتابة بيضاء."
+    ],
+    "examplesDe": [
+      "Am Stoppschild muss man anhalten.",
+      "Das Stoppschild ist rot mit weißer Schrift."
+    ]
+  },
+  "strecke": {
+    "ar": "مسافة / خط",
+    "de": "der Weg oder die Länge zwischen zwei Punkten",
+    "examplesAr": [
+      "المحيط هو المسافة حول الشكل.",
+      "المسافة بين المدينتين طويلة."
+    ],
+    "examplesDe": [
+      "Der Umfang ist die Strecke rund um eine Figur.",
+      "Die Strecke zwischen den Städten ist lang."
+    ]
+  },
+  "strong": {
+    "ar": "قوي",
+    "de": "stark",
+    "examplesAr": [
+      "هو قوي جدًا.",
+      "الرياح القوية تحرك الأشجار."
+    ],
+    "examplesDe": [
+      "Er ist sehr stark.",
+      "Der starke Wind bewegt die Bäume."
+    ]
+  },
+  "stronger": {
+    "ar": "أقوى (صيغة المقارنة)",
+    "de": "stärker (Vergleichsform)",
+    "examplesAr": [
+      "هو أقوى من صديقه.",
+      "تصبح العاصفة أقوى."
+    ],
+    "examplesDe": [
+      "Er ist stärker als sein Freund.",
+      "Der Sturm wird stärker."
+    ]
+  },
+  "stunde": {
+    "ar": "ساعة (وحدة زمن)",
+    "de": "eine Zeiteinheit (60 Minuten)",
+    "examplesAr": [
+      "الساعة الواحدة تساوي 60 دقيقة.",
+      "ننتظر ساعة واحدة."
+    ],
+    "examplesDe": [
+      "Eine Stunde hat 60 Minuten.",
+      "Wir warten eine Stunde."
+    ]
+  },
+  "stärker": {
+    "ar": "أقوى (صيغة المقارنة من stark)",
+    "de": "Komparativ von „stark“",
+    "examplesAr": [
+      "هو أقوى من صديقه.",
+      "تصبح العاصفة أقوى."
+    ],
+    "examplesDe": [
+      "Er ist stärker als sein Freund.",
+      "Der Sturm wird stärker."
+    ]
+  },
+  "stücke": {
+    "ar": "قطع (جمع Stück)",
+    "de": "Mehrzahl von Stück",
+    "examplesAr": [
+      "تُقطع البيتزا إلى قطع.",
+      "تأكل قطعتين من الكعك."
+    ],
+    "examplesDe": [
+      "Die Pizza wird in Stücke geschnitten.",
+      "Sie isst zwei Stücke Kuchen."
+    ]
+  },
+  "subject": {
+    "ar": "الفاعل",
+    "de": "Subjekt (das handelnde Satzglied)",
+    "examplesAr": [
+      "يأتي الفاعل غالبًا في بداية الجملة.",
+      "ابحث عن الفاعل في الجملة."
+    ],
+    "examplesDe": [
+      "Das Subjekt steht meist am Satzanfang.",
+      "Finde das Subjekt im Satz."
+    ]
+  },
+  "subjekt": {
+    "ar": "الفاعل",
+    "de": "Wer oder was etwas tut",
+    "examplesAr": [
+      "ميا هي الفاعل.",
+      "كل جملة تحتاج إلى فاعل."
+    ],
+    "examplesDe": [
+      "Mia ist das Subjekt.",
+      "Jeder Satz braucht ein Subjekt."
+    ]
+  },
+  "subordinate": {
+    "ar": "تابع / ثانوي",
+    "de": "untergeordnet (Nebensatz)",
+    "examplesAr": [
+      "الجملة الثانوية جملة تابعة.",
+      "تعتمد الجملة الثانوية على الجملة الرئيسية."
+    ],
+    "examplesDe": [
+      "Ein Nebensatz ist ein untergeordneter Satz.",
+      "Der Nebensatz hängt vom Hauptsatz ab."
+    ]
+  },
+  "subtraktion": {
+    "ar": "الطرح",
+    "de": "das Abziehen von Zahlen",
+    "examplesAr": [
+      "الطرح هو عملية الحساب بالطرح.",
+      "تدرّب على الطرح بأرقام صغيرة."
+    ],
+    "examplesDe": [
+      "Die Subtraktion ist das Abziehen.",
+      "Übe die Subtraktion mit kleinen Zahlen."
+    ]
+  },
+  "suche": {
+    "ar": "ابحث (صيغة الأمر من suchen)",
+    "de": "Imperativ von „suchen“",
+    "examplesAr": [
+      "ابحث عن الإجابة المناسبة.",
+      "ابحث عن الخطأ في الجملة."
+    ],
+    "examplesDe": [
+      "Suche die passende Antwort.",
+      "Suche den Fehler im Satz."
+    ]
+  },
+  "suchen": {
+    "ar": "يبحث",
+    "de": "nach etwas Ausschau halten",
+    "examplesAr": [
+      "نبحث عن الحل الصحيح.",
+      "تبحث عن كتابها."
+    ],
+    "examplesDe": [
+      "Wir suchen die richtige Lösung.",
+      "Sie sucht ihr Buch."
+    ]
+  },
+  "suchte": {
+    "ar": "صيغة الماضي من suchen (بحث)",
+    "de": "Präteritum von „suchen“",
+    "examplesAr": [
+      "بحث عن كتابه.",
+      "بحثت عن الإجابة."
+    ],
+    "examplesDe": [
+      "Er suchte sein Buch.",
+      "Sie suchte die Antwort."
+    ]
+  },
+  "taller": {
+    "ar": "أطول (صيغة المقارنة)",
+    "de": "größer (Vergleichsform, von groß/hoch)",
+    "examplesAr": [
+      "هو أطول من أخيه.",
+      "البرج أطول من المنزل."
+    ],
+    "examplesDe": [
+      "Er ist größer als sein Bruder.",
+      "Der Turm ist größer als das Haus."
+    ]
+  },
+  "tausender": {
+    "ar": "خانة الآلاف",
+    "de": "der Stellenwert für Tausende einer Zahl",
+    "examplesAr": [
+      "الرقم 2 في 2040 في خانة الآلاف.",
+      "تُظهر خانة الآلاف عدد الآلاف."
+    ],
+    "examplesDe": [
+      "Die 2 in 2040 steht an der Tausenderstelle.",
+      "Der Tausender zeigt, wie viele Tausende es gibt."
+    ]
+  },
+  "teacher": {
+    "ar": "معلم",
+    "de": "Lehrer / Lehrerin",
+    "examplesAr": [
+      "يشرح المعلم التمرين.",
+      "معلمتنا صبورة."
+    ],
+    "examplesDe": [
+      "Der Lehrer erklärt die Aufgabe.",
+      "Unsere Lehrerin ist geduldig."
+    ]
+  },
+  "teams": {
+    "ar": "فرق",
+    "de": "Mannschaften, Gruppen",
+    "examplesAr": [
+      "يشكّل الصف فريقين.",
+      "يلعب كلا الفريقين بروح رياضية."
+    ],
+    "examplesDe": [
+      "Die Klasse bildet zwei Teams.",
+      "Beide Teams spielen fair."
+    ]
+  },
+  "teile": {
+    "ar": "قسّم (صيغة الأمر من teilen)",
+    "de": "Imperativ von „teilen“",
+    "examplesAr": [
+      "قسّم البيتزا إلى ثماني قطع.",
+      "اقسم 12 على 3."
+    ],
+    "examplesDe": [
+      "Teile die Pizza in acht Stücke.",
+      "Teile 12 durch 3."
+    ]
+  },
+  "teilen": {
+    "ar": "يقسم",
+    "de": "in gleiche Stücke aufteilen (dividieren)",
+    "examplesAr": [
+      "نقسم الكعكة إلى أربعة أجزاء.",
+      "يتقاسمان اللعبة."
+    ],
+    "examplesDe": [
+      "Wir teilen den Kuchen in vier Teile.",
+      "Sie teilen sich das Spielzeug."
+    ]
+  },
+  "teilt": {
+    "ar": "يقسم (الغائب المفرد من teilen)",
+    "de": "3. Person Singular von „teilen“",
+    "examplesAr": [
+      "يقسم البيتزا بعدل.",
+      "تشارك أخاها لعبتها."
+    ],
+    "examplesDe": [
+      "Er teilt die Pizza gerecht.",
+      "Sie teilt ihr Spielzeug mit dem Bruder."
+    ]
+  },
+  "tells": {
+    "ar": "يخبر / يقول",
+    "de": "erzählt / sagt",
+    "examplesAr": [
+      "يروي قصة.",
+      "تقول الحقيقة."
+    ],
+    "examplesDe": [
+      "Er erzählt eine Geschichte.",
+      "Sie sagt die Wahrheit."
+    ]
+  },
+  "there": {
+    "ar": "هناك",
+    "de": "dort",
+    "examplesAr": [
+      "الكتاب موجود هناك.",
+      "تسكن هناك."
+    ],
+    "examplesDe": [
+      "Das Buch liegt dort.",
+      "Sie wohnt dort drüben."
+    ]
+  },
+  "things": {
+    "ar": "أشياء",
+    "de": "Dinge",
+    "examplesAr": [
+      "تحزم أغراضها.",
+      "توجد أشياء كثيرة على الطاولة."
+    ],
+    "examplesDe": [
+      "Sie packt ihre Dinge ein.",
+      "Viele Dinge liegen auf dem Tisch."
+    ]
+  },
+  "three": {
+    "ar": "ثلاثة",
+    "de": "drei",
+    "examplesAr": [
+      "لديها ثلاث تفاحات.",
+      "يعد حتى ثلاثة."
+    ],
+    "examplesDe": [
+      "Sie hat drei Äpfel.",
+      "Er zählt bis drei."
+    ]
+  },
+  "tisch": {
+    "ar": "طاولة",
+    "de": "Möbelstück zum Sitzen davor",
+    "examplesAr": [
+      "أنجز واجبي المنزلي على الطاولة.",
+      "الكتاب موضوع على الطاولة."
+    ],
+    "examplesDe": [
+      "Ich mache meine Hausaufgabe am Tisch.",
+      "Das Buch liegt auf dem Tisch."
+    ]
+  },
+  "together": {
+    "ar": "معًا",
+    "de": "zusammen",
+    "examplesAr": [
+      "نلعب معًا.",
+      "يتعلمان معًا للاختبار."
+    ],
+    "examplesDe": [
+      "Wir spielen zusammen.",
+      "Sie lernen zusammen für die Prüfung."
+    ]
+  },
+  "travels": {
+    "ar": "يسافر",
+    "de": "reist",
+    "examplesAr": [
+      "يحب السفر.",
+      "تسافر كل عام إلى البحر."
+    ],
+    "examplesDe": [
+      "Er reist gern.",
+      "Sie reist jedes Jahr ans Meer."
+    ]
+  },
+  "trägt": {
+    "ar": "يحمل / يرتدي (فعل tragen)",
+    "de": "3. Person Singular von „tragen“",
+    "examplesAr": [
+      "يحمل الحقيبة إلى المدرسة.",
+      "ترتدي فستانًا أحمر."
+    ],
+    "examplesDe": [
+      "Er trägt den Rucksack zur Schule.",
+      "Sie trägt ein rotes Kleid."
+    ]
+  },
+  "umbrella": {
+    "ar": "مظلة",
+    "de": "Regenschirm",
+    "examplesAr": [
+      "تأخذ المظلة معها عند المطر.",
+      "المظلة حمراء اللون."
+    ],
+    "examplesDe": [
+      "Bei Regen nimmt sie den Regenschirm mit.",
+      "Der Regenschirm ist rot."
+    ]
+  },
+  "umfang": {
+    "ar": "المحيط (في الهندسة)",
+    "de": "die Strecke rund um eine Figur",
+    "examplesAr": [
+      "المحيط هو المسافة حول الشكل.",
+      "احسب محيط المستطيل."
+    ],
+    "examplesDe": [
+      "Der Umfang ist die Strecke rund um eine Figur.",
+      "Berechne den Umfang des Rechtecks."
+    ]
+  },
+  "under": {
+    "ar": "تحت",
+    "de": "unter",
+    "examplesAr": [
+      "تنام القطة تحت الطاولة.",
+      "تتدحرج الكرة تحت السرير."
+    ],
+    "examplesDe": [
+      "Die Katze liegt unter dem Tisch.",
+      "Der Ball rollt unter das Bett."
+    ]
+  },
+  "unser": {
+    "ar": "ضمير ملكية (لنا)",
+    "de": "Possessivpronomen (uns gehörend)",
+    "examplesAr": [
+      "هذا منزلنا.",
+      "معلمنا لطيف."
+    ],
+    "examplesDe": [
+      "Das ist unser Haus.",
+      "Unser Lehrer ist nett."
+    ]
+  },
+  "unter": {
+    "ar": "تحت",
+    "de": "an einer tieferen Stelle als etwas anderes",
+    "examplesAr": [
+      "تنام القطة تحت الطاولة.",
+      "تتدحرج الكرة تحت السرير."
+    ],
+    "examplesDe": [
+      "Die Katze liegt unter dem Tisch.",
+      "Der Ball rollt unter das Bett."
+    ]
+  },
+  "unterschiedlich": {
+    "ar": "مختلف",
+    "de": "nicht gleich, verschieden",
+    "examplesAr": [
+      "تُكوَّن صيغة الجمع بطرق مختلفة.",
+      "الإجابات مختلفة."
+    ],
+    "examplesDe": [
+      "Die Mehrzahl wird unterschiedlich gebildet.",
+      "Die Antworten sind unterschiedlich."
+    ]
+  },
+  "value": {
+    "ar": "قيمة",
+    "de": "Wert",
+    "examplesAr": [
+      "ما قيمة هذا الرقم؟",
+      "تُظهر القيمة المكانية قيمة الرقم."
+    ],
+    "examplesDe": [
+      "Welchen Wert hat die Ziffer?",
+      "Der Stellenwert zeigt den Wert einer Ziffer."
+    ]
+  },
+  "verben": {
+    "ar": "أفعال (جمع Verb)",
+    "de": "Mehrzahl von Verb (Tätigkeitswörter)",
+    "examplesAr": [
+      "تصف الأفعال التصرفات.",
+      "«Laufen» و«spielen» أفعال."
+    ],
+    "examplesDe": [
+      "Verben beschreiben Tätigkeiten.",
+      "„Laufen“ und „spielen“ sind Verben."
+    ]
+  },
+  "verbform": {
+    "ar": "صيغة الفعل",
+    "de": "die Form eines Verbs (z. B. Zeitform)",
+    "examplesAr": [
+      "«Kaufte» صيغة من فعل «kaufen».",
+      "أي صيغة فعل تناسب هنا؟"
+    ],
+    "examplesDe": [
+      "„Kaufte“ ist eine Verbform von „kaufen“.",
+      "Welche Verbform passt hier?"
+    ]
+  },
+  "verbs": {
+    "ar": "أفعال",
+    "de": "Verben (Tätigkeitswörter)",
+    "examplesAr": [
+      "تصف الأفعال التصرفات.",
+      "«Play» و«run» أفعال."
+    ],
+    "examplesDe": [
+      "Verben beschreiben Tätigkeiten.",
+      "„Play“ und „run“ sind Verben."
+    ]
+  },
+  "vergangenes": {
+    "ar": "شيء حدث في الماضي",
+    "de": "etwas, das in der Vergangenheit passiert ist",
+    "examplesAr": [
+      "يصف الماضي البسيط ما حدث في الماضي.",
+      "تحكي عن أحداث ماضية."
+    ],
+    "examplesDe": [
+      "Das Präteritum beschreibt Vergangenes.",
+      "Sie erzählt von Vergangenem."
+    ]
+  },
+  "vergangenheit": {
+    "ar": "الماضي",
+    "de": "die Zeit, die schon vorbei ist",
+    "examplesAr": [
+      "يصف الماضي البسيط زمن الماضي.",
+      "كان كل شيء مختلفًا في الماضي."
+    ],
+    "examplesDe": [
+      "Das Präteritum beschreibt die Vergangenheit.",
+      "Früher, in der Vergangenheit, war alles anders."
+    ]
+  },
+  "vergleiche": {
+    "ar": "قارن (صيغة الأمر من vergleichen)",
+    "de": "Imperativ von „vergleichen“",
+    "examplesAr": [
+      "قارن بين الرقمين.",
+      "قارن «schnell» بـ «schneller»."
+    ],
+    "examplesDe": [
+      "Vergleiche die beiden Zahlen.",
+      "Vergleiche „schnell“ mit „schneller“."
+    ]
+  },
+  "vergleicht": {
+    "ar": "يقارن (الغائب المفرد من vergleichen)",
+    "de": "3. Person Singular von „vergleichen“",
+    "examplesAr": [
+      "تقارن صيغة المقارنة بين شيئين.",
+      "تقارن النتائج."
+    ],
+    "examplesDe": [
+      "Der Komparativ vergleicht zwei Dinge.",
+      "Sie vergleicht die Ergebnisse."
+    ]
+  },
+  "verglichen": {
+    "ar": "تمت مقارنته",
+    "de": "Partizip von „vergleichen“ (verglichen)",
+    "examplesAr": [
+      "تتم مقارنة شيئين.",
+      "تمت مقارنة الأرقام."
+    ],
+    "examplesDe": [
+      "Zwei Dinge werden verglichen.",
+      "Die Zahlen wurden verglichen."
+    ]
+  },
+  "verlangt": {
+    "ar": "يتطلب / يطلب (فعل verlangen)",
+    "de": "3. Person Singular von „verlangen“ (erfordern)",
+    "examplesAr": [
+      "يتطلب التمرين تركيزًا كبيرًا.",
+      "تتطلب أدوات الاستفهام معلومات مختلفة."
+    ],
+    "examplesDe": [
+      "Die Aufgabe verlangt viel Konzentration.",
+      "Fragewörter verlangen unterschiedliche Informationen."
+    ]
+  },
+  "verteile": {
+    "ar": "وزّع (صيغة الأمر من verteilen)",
+    "de": "Imperativ von „verteilen“",
+    "examplesAr": [
+      "وزّع التفاح بالتساوي.",
+      "وزّع البطاقات على جميع الأطفال."
+    ],
+    "examplesDe": [
+      "Verteile die Äpfel gleichmäßig.",
+      "Verteile die Karten an alle Kinder."
+    ]
+  },
+  "visit": {
+    "ar": "يزور",
+    "de": "besuchen",
+    "examplesAr": [
+      "تزور جدتها كل يوم.",
+      "سنزور أصدقاءنا غدًا."
+    ],
+    "examplesDe": [
+      "Sie besucht jeden Tag ihre Oma.",
+      "Wir besuchen morgen unsere Freunde."
+    ]
+  },
+  "visited": {
+    "ar": "زار",
+    "de": "besuchte",
+    "examplesAr": [
+      "زار جديه.",
+      "زارت المتحف."
+    ],
+    "examplesDe": [
+      "Er besuchte seine Großeltern.",
+      "Sie besuchte das Museum."
+    ]
+  },
+  "visits": {
+    "ar": "يزور",
+    "de": "besucht",
+    "examplesAr": [
+      "يزور جديه.",
+      "تزور المتحف."
+    ],
+    "examplesDe": [
+      "Er besucht seine Großeltern.",
+      "Sie besucht das Museum."
+    ]
+  },
+  "vogel": {
+    "ar": "طائر",
+    "de": "ein Tier, das fliegen kann und Federn hat",
+    "examplesAr": [
+      "يغرد الطائر على الشجرة.",
+      "يطير طائر ملون."
+    ],
+    "examplesDe": [
+      "Der Vogel singt im Baum.",
+      "Ein bunter Vogel fliegt vorbei."
+    ]
+  },
+  "vowel": {
+    "ar": "حرف علة",
+    "de": "Selbstlaut (a, e, i, o, u)",
+    "examplesAr": [
+      "«A» حرف علة.",
+      "تحتوي الكلمات على حروف علة وحروف صحيحة."
+    ],
+    "examplesDe": [
+      "„A“ ist ein Vokal.",
+      "Wörter haben Vokale und Konsonanten."
+    ]
+  },
+  "walked": {
+    "ar": "مشى",
+    "de": "ging (zu Fuß)",
+    "examplesAr": [
+      "مشى إلى المدرسة.",
+      "مشت ببطء إلى المنزل."
+    ],
+    "examplesDe": [
+      "Er ging zur Schule.",
+      "Sie ging langsam nach Hause."
+    ]
+  },
+  "walks": {
+    "ar": "يمشي",
+    "de": "geht (zu Fuß)",
+    "examplesAr": [
+      "يمشي إلى المدرسة.",
+      "تتمشى كل يوم."
+    ],
+    "examplesDe": [
+      "Er geht zur Schule.",
+      "Sie geht jeden Tag spazieren."
+    ]
+  },
+  "wandle": {
+    "ar": "حوّل (صيغة الأمر من wandeln)",
+    "de": "Imperativ von „wandeln“ (umwandeln)",
+    "examplesAr": [
+      "حوّل 60 دقيقة إلى ساعة واحدة.",
+      "حوّل الرقم إلى كسر."
+    ],
+    "examplesDe": [
+      "Wandle 60 Minuten in eine Stunde um.",
+      "Wandle die Zahl in einen Bruch um."
+    ]
+  },
+  "washed": {
+    "ar": "غسل",
+    "de": "wusch",
+    "examplesAr": [
+      "غسل السيارة.",
+      "غسلت يديها."
+    ],
+    "examplesDe": [
+      "Er wusch das Auto.",
+      "Sie wusch ihre Hände."
+    ]
+  },
+  "washes": {
+    "ar": "يغسل",
+    "de": "wäscht",
+    "examplesAr": [
+      "يغسل السيارة.",
+      "تغسل يديها."
+    ],
+    "examplesDe": [
+      "Er wäscht das Auto.",
+      "Sie wäscht ihre Hände."
+    ]
+  },
+  "watch": {
+    "ar": "يشاهد",
+    "de": "beobachten",
+    "examplesAr": [
+      "تحب مشاهدة الطيور.",
+      "نشاهد فيلمًا في المساء."
+    ],
+    "examplesDe": [
+      "Sie beobachtet gern die Vögel.",
+      "Wir schauen einen Film am Abend."
+    ]
+  },
+  "watched": {
+    "ar": "شاهد",
+    "de": "schaute, beobachtete",
+    "examplesAr": [
+      "شاهد فيلمًا.",
+      "راقبت الطيور."
+    ],
+    "examplesDe": [
+      "Er schaute einen Film.",
+      "Sie beobachtete die Vögel."
+    ]
+  },
+  "watches": {
+    "ar": "يشاهد",
+    "de": "schaut, beobachtet",
+    "examplesAr": [
+      "يشاهد فيلمًا.",
+      "تراقب الطيور."
+    ],
+    "examplesDe": [
+      "Er schaut einen Film.",
+      "Sie beobachtet die Vögel."
+    ]
+  },
+  "wears": {
+    "ar": "يرتدي",
+    "de": "trägt (Kleidung)",
+    "examplesAr": [
+      "يرتدي قميصًا أحمر.",
+      "ترتدي سترة."
+    ],
+    "examplesDe": [
+      "Er trägt ein rotes Hemd.",
+      "Sie trägt eine Jacke."
+    ]
+  },
+  "weiter": {
+    "ar": "أبعد / يكمل",
+    "de": "noch mehr, in dieselbe Richtung fortsetzen",
+    "examplesAr": [
+      "يقفز الرقم 3 خطوات إضافية.",
+      "يواصل السير مستقيمًا."
+    ],
+    "examplesDe": [
+      "Die Zahl springt um 3 weiter.",
+      "Er läuft weiter geradeaus."
+    ]
+  },
+  "welche": {
+    "ar": "أي (للمؤنث/الجمع)",
+    "de": "Fragewort für eine Auswahl (weiblich/Plural)",
+    "examplesAr": [
+      "أي إجابة صحيحة؟",
+      "أي لون تفضل؟"
+    ],
+    "examplesDe": [
+      "Welche Antwort ist richtig?",
+      "Welche Farbe magst du?"
+    ]
+  },
+  "welchen": {
+    "ar": "أي (حالة النصب، للمذكر)",
+    "de": "Fragewort für eine Auswahl (Akkusativ, männlich)",
+    "examplesAr": [
+      "أي قلم تريد؟",
+      "أي طريق تسلك؟"
+    ],
+    "examplesDe": [
+      "Welchen Stift möchtest du?",
+      "Welchen Weg nimmst du?"
+    ]
+  },
+  "welcher": {
+    "ar": "أيّ",
+    "de": "Fragewort für eine Auswahl",
+    "examplesAr": [
+      "أي أداة تعريف تناسب؟",
+      "أي يوم هو اليوم؟"
+    ],
+    "examplesDe": [
+      "Welcher Artikel passt?",
+      "Welcher Tag ist heute?"
+    ]
+  },
+  "welches": {
+    "ar": "أي (للمحايد)",
+    "de": "Fragewort für eine Auswahl (sächlich)",
+    "examplesAr": [
+      "أي كتاب تقرأ؟",
+      "أي كلمة تناسب هنا؟"
+    ],
+    "examplesDe": [
+      "Welches Buch liest du?",
+      "Welches Wort passt hier?"
+    ]
+  },
+  "werden": {
+    "ar": "يصبح / فعل مساعد للمستقبل",
+    "de": "zu etwas anderem werden, Hilfsverb für die Zukunft",
+    "examplesAr": [
+      "تصبح gehen هي ging.",
+      "ستصل قريبًا."
+    ],
+    "examplesDe": [
+      "Aus „gehen“ wird „ging“.",
+      "Sie wird bald ankommen."
+    ]
+  },
+  "where": {
+    "ar": "أين",
+    "de": "wo",
+    "examplesAr": [
+      "أين تسكن؟",
+      "أين الكتاب؟"
+    ],
+    "examplesDe": [
+      "Wo wohnst du?",
+      "Wo ist das Buch?"
+    ]
+  },
+  "which": {
+    "ar": "أيّ (أداة استفهام)",
+    "de": "welche(r/s) (Fragewort)",
+    "examplesAr": [
+      "أي كتاب تريد أن تقرأ؟",
+      "أي لون تحب؟"
+    ],
+    "examplesDe": [
+      "Welches Buch möchtest du lesen?",
+      "Welche Farbe magst du?"
+    ]
+  },
+  "wiederholte": {
+    "ar": "صيغة الماضي من wiederholen (كرر)",
+    "de": "Präteritum von „wiederholen“",
+    "examplesAr": [
+      "كرر القاعدة.",
+      "كررت الجملة."
+    ],
+    "examplesDe": [
+      "Er wiederholte die Regel.",
+      "Sie wiederholte den Satz."
+    ]
+  },
+  "wohnen": {
+    "ar": "يسكن",
+    "de": "an einem Ort leben",
+    "examplesAr": [
+      "نسكن في منزل.",
+      "يسكنون في المدينة."
+    ],
+    "examplesDe": [
+      "Wir wohnen in einem Haus.",
+      "Sie wohnen in der Stadt."
+    ]
+  },
+  "wohnt": {
+    "ar": "يسكن (الغائب المفرد من wohnen)",
+    "de": "3. Person Singular von „wohnen“",
+    "examplesAr": [
+      "يسكن في منزل.",
+      "تسكن في المدينة."
+    ],
+    "examplesDe": [
+      "Er wohnt in einem Haus.",
+      "Sie wohnt in der Stadt."
+    ]
+  },
+  "wohnte": {
+    "ar": "صيغة الماضي من wohnen (سكن)",
+    "de": "Präteritum von „wohnen“",
+    "examplesAr": [
+      "سكن سابقًا في برلين.",
+      "سكنت عند جدتها."
+    ],
+    "examplesDe": [
+      "Er wohnte früher in Berlin.",
+      "Sie wohnte bei ihrer Oma."
+    ]
+  },
+  "words": {
+    "ar": "كلمات",
+    "de": "Wörter",
+    "examplesAr": [
+      "الكلمة تتكون من خمسة أحرف.",
+      "تتعلم كلمات جديدة."
+    ],
+    "examplesDe": [
+      "Das Wort hat fünf Buchstaben.",
+      "Sie lernt neue Wörter."
+    ]
+  },
+  "worth": {
+    "ar": "يستحق / قيمته",
+    "de": "wert",
+    "examplesAr": [
+      "قيمة الرقم عشرة.",
+      "يستحق الكتاب ثمنه."
+    ],
+    "examplesDe": [
+      "Die Ziffer ist zehn wert.",
+      "Das Buch ist sein Geld wert."
+    ]
+  },
+  "wählst": {
+    "ar": "تختار (المخاطب المفرد من wählen)",
+    "de": "2. Person Singular von „wählen“",
+    "examplesAr": [
+      "تختار الإجابة الصحيحة.",
+      "أي لون تختار؟"
+    ],
+    "examplesDe": [
+      "Du wählst die richtige Antwort.",
+      "Welche Farbe wählst du?"
+    ]
+  },
+  "wärmer": {
+    "ar": "أدفأ (صيغة المقارنة من warm)",
+    "de": "Komparativ von „warm“",
+    "examplesAr": [
+      "اليوم أدفأ من أمس.",
+      "الجو أدفأ في الجنوب."
+    ],
+    "examplesDe": [
+      "Heute ist es wärmer als gestern.",
+      "Im Süden ist es wärmer."
+    ]
+  },
+  "yesterday": {
+    "ar": "أمس",
+    "de": "gestern",
+    "examplesAr": [
+      "كان أمس يوم الاثنين.",
+      "لعبت كرة القدم أمس."
+    ],
+    "examplesDe": [
+      "Gestern war Montag.",
+      "Gestern habe ich Fußball gespielt."
+    ]
+  },
+  "young": {
+    "ar": "صغير في السن / يافع",
+    "de": "jung",
+    "examplesAr": [
+      "الكلب لا يزال صغيرًا.",
+      "أختي أصغر مني."
+    ],
+    "examplesDe": [
+      "Der Hund ist noch jung.",
+      "Meine Schwester ist jünger als ich."
+    ]
+  },
+  "younger": {
+    "ar": "أصغر سنًا (صيغة المقارنة)",
+    "de": "jünger (Vergleichsform)",
+    "examplesAr": [
+      "أخي أصغر مني سنًا.",
+      "تبدو أصغر سنًا."
+    ],
+    "examplesDe": [
+      "Mein Bruder ist jünger als ich.",
+      "Sie sieht jünger aus."
+    ]
+  },
+  "zahlen": {
+    "ar": "أرقام (جمع Zahl)",
+    "de": "Mehrzahl von Zahl",
+    "examplesAr": [
+      "قارن بين الرقمين.",
+      "اكتب الأرقام بالترتيب."
+    ],
+    "examplesDe": [
+      "Vergleiche die beiden Zahlen.",
+      "Schreibe die Zahlen der Reihe nach."
+    ]
+  },
+  "zehner": {
+    "ar": "خانة العشرات",
+    "de": "der Stellenwert für Zehner einer Zahl",
+    "examplesAr": [
+      "الرقم 4 في 42 في خانة العشرات.",
+      "تُظهر خانة العشرات عدد العشرات."
+    ],
+    "examplesDe": [
+      "Die 4 in 42 steht an der Zehnerstelle.",
+      "Der Zehner zeigt, wie viele Zehner es gibt."
+    ]
+  },
+  "zeigt": {
+    "ar": "يُظهر (الغائب المفرد من zeigen)",
+    "de": "3. Person Singular von „zeigen“",
+    "examplesAr": [
+      "تُظهر القيمة المكانية قيمة الرقم.",
+      "تشير إلى الصورة."
+    ],
+    "examplesDe": [
+      "Der Stellenwert zeigt den Wert einer Ziffer.",
+      "Sie zeigt auf das Bild."
+    ]
+  },
+  "ziffer": {
+    "ar": "رقم (خانة واحدة)",
+    "de": "ein einzelnes Zahlzeichen (0–9)",
+    "examplesAr": [
+      "الرقم 4 موجود في خانة العشرات.",
+      "يتكون العدد من عدة أرقام."
+    ],
+    "examplesDe": [
+      "Die Ziffer 4 steht an der Zehnerstelle.",
+      "Eine Zahl besteht aus mehreren Ziffern."
+    ]
+  },
+  "ziffern": {
+    "ar": "أرقام (جمع Ziffer)",
+    "de": "Mehrzahl von Ziffer",
+    "examplesAr": [
+      "يتكون الرقم 240 من ثلاث خانات.",
+      "عدّ خانات الرقم."
+    ],
+    "examplesDe": [
+      "Die Zahl 240 hat drei Ziffern.",
+      "Zähle die Ziffern der Zahl."
+    ]
+  },
+  "zuerst": {
+    "ar": "أولًا",
+    "de": "als Erstes, am Anfang",
+    "examplesAr": [
+      "احسب القوس أولًا.",
+      "المدرسة أولًا، ثم اللعب."
+    ],
+    "examplesDe": [
+      "Rechne zuerst die Klammer.",
+      "Zuerst kommt die Schule, dann das Spielen."
+    ]
+  },
+  "zusammen": {
+    "ar": "معًا",
+    "de": "gemeinsam, mit anderen",
+    "examplesAr": [
+      "نلعب معًا.",
+      "معًا هم أقوياء."
+    ],
+    "examplesDe": [
+      "Wir spielen zusammen.",
+      "Zusammen sind sie stark."
+    ]
+  },
+  "zusammengesetzte": {
+    "ar": "مركب (من عدة أجزاء)",
+    "de": "aus mehreren Teilen gebildet (z. B. zusammengesetzte Nomen)",
+    "examplesAr": [
+      "«Fahrrad» اسم مركب.",
+      "تتكون الكلمات المركبة من جزأين."
+    ],
+    "examplesDe": [
+      "„Fahrrad“ ist ein zusammengesetztes Nomen.",
+      "Zusammengesetzte Wörter bestehen aus zwei Teilen."
+    ]
+  },
+  "zwischen": {
+    "ar": "بين",
+    "de": "in der Mitte von zwei Dingen",
+    "examplesAr": [
+      "ابحث عن الفرق بين الرقمين.",
+      "تجلس القطة بين الكرسيين."
+    ],
+    "examplesDe": [
+      "Suche die Differenz zwischen den Zahlen.",
+      "Die Katze sitzt zwischen den Stühlen."
+    ]
+  },
+  "zähler": {
+    "ar": "البسط (في الكسر)",
+    "de": "die obere Zahl eines Bruchs",
+    "examplesAr": [
+      "في 1/2، الرقم 1 هو البسط.",
+      "يُظهر البسط عدد الأجزاء المقصودة."
+    ],
+    "examplesDe": [
+      "Bei 1/2 ist die 1 der Zähler.",
+      "Der Zähler zeigt, wie viele Teile gemeint sind."
+    ]
+  },
+  "zählt": {
+    "ar": "يعد (الغائب المفرد من zählen)",
+    "de": "3. Person Singular von „zählen“",
+    "examplesAr": [
+      "يعد التفاح.",
+      "تعد حتى عشرة."
+    ],
+    "examplesDe": [
+      "Er zählt die Äpfel.",
+      "Sie zählt bis zehn."
+    ]
+  },
+  "übrig": {
+    "ar": "متبقٍ / باقٍ",
+    "de": "was noch da ist, nicht gebraucht",
+    "examplesAr": [
+      "تبقى تفاحتان.",
+      "يُقسم ما يتبقى."
+    ],
+    "examplesDe": [
+      "Zwei Äpfel bleiben übrig.",
+      "Was übrig bleibt, wird aufgeteilt."
+    ]
+  }
+}
