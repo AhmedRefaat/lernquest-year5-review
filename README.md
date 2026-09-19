@@ -29,7 +29,7 @@ GitHub Pages is static. Browser code cannot safely write progress directly back 
 - Stored as schema v2 (`learners`, `attempts`, `rounds`, `vocab`, `settings`) under the `lernquest-v1` localStorage key. An older v1 shape is migrated automatically on load.
 - A learner is identified by a normalized name; the display name keeps the exact spelling/casing first typed for that learner.
 - Round composition takes unsolved questions first, then tops up from solved ones, applying a topic cap and a hard-difficulty cap with a documented, logged relaxation ladder if the subject bank is thin.
-- Answering correctly adds the remaining question time to a game-time budget; answering wrong or timing out subtracts the elapsed time (never below zero). The budget can be spent on a short mini-game between questions.
+- Answering correctly adds the remaining question time to a game-time budget; answering wrong or timing out subtracts the elapsed time (never below zero). Before a round starts, the child can pick one of five bundled games (or skip); after the round, if any budget was earned, that game can be played until the budget runs out. Exiting early keeps the leftover seconds (floored, never rounded up) for next time, and each game's own progress is saved per learner and resumes where it left off.
 - The vocabulary test quizzes German↔Arabic in both directions (10 correct answers masters a word) from words looked up while reading.
 - JSON and CSV exports both include attempts, rounds, vocabulary mastery, and game-time budgets. CSV cells are escaped against spreadsheet formula injection.
 - UI text is available in English and German via an in-app language switcher.

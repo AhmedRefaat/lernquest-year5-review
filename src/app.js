@@ -13,9 +13,56 @@ const SUBJECT_NAMES = {
 };
 // Bank is currently all difficulty 1; kept forward-compatible for future harder items.
 const HARD_DIFFICULTY = 3;
-const MINI_GAME_CAP_SEC = 15;
 const VOCAB_MASTERY_TARGET = 10;
 const VOCAB_TEST_LENGTH = 10;
+
+// End-of-round mini-games under src/games/<id>/. Folder name doubles as the persistence/log id.
+const GAMES = [
+  { id: 'game_balloon_pop', icon: '🎈' },
+  { id: 'game_build_world', icon: '🏝️' },
+  { id: 'game_falling_stars', icon: '🌟' },
+  { id: 'game_happy_pet', icon: '🐉' },
+  { id: 'game_treasure_chest', icon: '🏴‍☠️' }
+];
+
+function gameName(id) {
+  return t(`gameName_${id}`);
+}
+
+// Common in-game chrome shared by every game's BudgetGame base class.
+const GAME_COMMON_LABELS = {
+  en: { play: 'Play / Resume', playing: 'Playing…', pause: 'Pause', timeUp: 'Time finished' },
+  de: { play: 'Spielen / Weiter', playing: 'Spielt…', pause: 'Pause', timeUp: 'Zeit vorbei' }
+};
+
+// Per-game in-game labels, merged over GAME_COMMON_LABELS and passed to createGame() as `labels`.
+// Each game falls back to its own English default if a key is missing here.
+const GAME_LABELS = {
+  game_balloon_pop: {
+    en: { title: '🎈 Balloon Pop Challenge', score: 'Score', bestCombo: 'Best combo', status: 'Pop balloons. Rainbow balloons are worth 5!' },
+    de: { title: '🎈 Luftballons zerplatzen', score: 'Punkte', bestCombo: 'Beste Serie', status: 'Zerplatze Luftballons. Regenbogen-Ballons zählen 5 Punkte!' }
+  },
+  game_build_world: {
+    en: { title: '🏝️ Build Your Own World', built: 'Built', status: 'Choose an item, then choose a tile.', chooseTile: 'Now choose a place for {item}', needCoins: 'Earn more coins to build this item.', coinsTooltip: '{n} coins' },
+    de: { title: '🏝️ Baue deine eigene Welt', built: 'Gebaut', status: 'Wähle einen Gegenstand, dann ein Feld.', chooseTile: 'Wähle jetzt einen Platz für {item}', needCoins: 'Sammle mehr Münzen, um das zu bauen.', coinsTooltip: '{n} Münzen' }
+  },
+  game_falling_stars: {
+    en: { title: '🌟 Catch the Falling Stars', score: 'Score', caught: 'Caught' },
+    de: { title: '🌟 Fange die fallenden Sterne', score: 'Punkte', caught: 'Gefangen' }
+  },
+  game_happy_pet: {
+    en: { title: '🐉 Feed & Grow', level: 'Level', xp: 'XP', fullness: 'Fullness', status: 'Choose healthy or funny food!', levelUp: 'Level up! New accessory {item}', yummy: 'Yummy {food}! +{xp} XP' },
+    de: { title: '🐉 Füttern & Wachsen', level: 'Level', xp: 'EP', fullness: 'Sättigung', status: 'Wähle gesundes oder lustiges Futter!', levelUp: 'Level-up! Neues Accessoire {item}', yummy: 'Lecker {food}! +{xp} EP' }
+  },
+  game_treasure_chest: {
+    en: { title: '🏴‍☠️ Treasure Chest Adventure', status: 'Choose a chest while the timer is running.', timeUpMsg: 'Time finished. Your treasure is safe!', pausedMsg: 'Paused. Come back when you earn more play time.', openChest: 'Open chest {n}' },
+    de: { title: '🏴‍☠️ Schatztruhen-Abenteuer', status: 'Wähle eine Truhe, solange die Zeit läuft.', timeUpMsg: 'Zeit vorbei. Dein Schatz ist sicher!', pausedMsg: 'Pausiert. Komm zurück, wenn du mehr Spielzeit gesammelt hast.', openChest: 'Truhe {n} öffnen' }
+  }
+};
+
+function gameLabels(gameId) {
+  return { ...GAME_COMMON_LABELS[state.lang], ...GAME_LABELS[gameId]?.[state.lang] };
+}
 
 const state = {
   bank: [],
@@ -24,8 +71,11 @@ const state = {
   learnerKey: null,
   displayName: null,
   session: null,
-  miniGameTimer: null,
-  miniGameTimeout: null,
+  pendingCount: 10,
+  activeGame: null,
+  gameReturnTimer: null,
+  gameBudgetSyncTimer: null,
+  gamePageHideHandler: null,
   settings: { miniGames: true }
 };
 
@@ -42,7 +92,7 @@ const I18N = {
     tagline: 'Train. Discover. Grow.',
     subtitle: 'Year 5 review for German, English and Math',
     namePlaceholder: 'Your name',
-    miniGamesLabel: 'mini-games',
+    miniGamesLabel: 'play a game at the end',
     languageLabel: 'Language',
     chooseSubject: 'Choose a subject',
     questionsCount: '{n} questions',
@@ -72,10 +122,18 @@ const I18N = {
     gainedTime: '+{s}s gained 😄',
     lostTime: '{s}s lost 😔',
     nextBtn: 'Next',
-    miniGameTitle: '⚡ Energy game',
-    miniGameInstructions: 'Tap the star as often as possible!',
-    miniGameSkip: 'Not enough saved game time yet — answer correctly to earn some!',
     continueBtn: 'Continue',
+    gamePickerHeading: '🎮 Choose your end-of-round game',
+    gamePickerHint: 'Answer well to collect game time — you can play this at the end, or skip it.',
+    skipGameBtn: 'No game this round',
+    gameName_game_balloon_pop: 'Balloon Pop',
+    gameName_game_build_world: 'Build Your World',
+    gameName_game_falling_stars: 'Falling Stars',
+    gameName_game_happy_pet: 'Happy Pet',
+    gameName_game_treasure_chest: 'Treasure Chest',
+    playGamePrompt: 'You collected {s}s of game time! Ready to play {game}?',
+    playGameBtn: '🎮 Play now',
+    backToAppBtn: '⬅ Back to LernQuest',
     scoreTitle: '{name}, your score is {pct}%',
     correctOf: '{ok} / {total} correct',
     colTopic: 'Topic',
@@ -119,7 +177,7 @@ const I18N = {
     tagline: 'Üben. Entdecken. Wachsen.',
     subtitle: 'Wiederholung der 5. Klasse in Deutsch, Englisch und Mathe',
     namePlaceholder: 'Dein Name',
-    miniGamesLabel: 'Minispiele',
+    miniGamesLabel: 'Spiel am Ende spielen',
     languageLabel: 'Sprache',
     chooseSubject: 'Wähle ein Fach',
     questionsCount: '{n} Fragen',
@@ -149,10 +207,18 @@ const I18N = {
     gainedTime: '+{s}s gewonnen 😄',
     lostTime: '{s}s verloren 😔',
     nextBtn: 'Weiter',
-    miniGameTitle: '⚡ Energiespiel',
-    miniGameInstructions: 'Tippe so oft wie möglich auf den Stern!',
-    miniGameSkip: 'Noch nicht genug gesammelte Spielzeit — antworte richtig, um welche zu verdienen!',
     continueBtn: 'Weiter',
+    gamePickerHeading: '🎮 Wähle dein Spiel für das Rundenende',
+    gamePickerHint: 'Antworte gut, um Spielzeit zu sammeln — du kannst am Ende spielen oder überspringen.',
+    skipGameBtn: 'Diesmal kein Spiel',
+    gameName_game_balloon_pop: 'Luftballons zerplatzen',
+    gameName_game_build_world: 'Baue deine Welt',
+    gameName_game_falling_stars: 'Fallende Sterne',
+    gameName_game_happy_pet: 'Glückliches Haustier',
+    gameName_game_treasure_chest: 'Schatztruhe',
+    playGamePrompt: 'Du hast {s}s Spielzeit gesammelt! Bereit, {game} zu spielen?',
+    playGameBtn: '🎮 Jetzt spielen',
+    backToAppBtn: '⬅ Zurück zu LernQuest',
     scoreTitle: '{name}, dein Ergebnis ist {pct}%',
     correctOf: '{ok} / {total} richtig',
     colTopic: 'Thema',
@@ -253,6 +319,11 @@ function normalizeBudget(v) {
   return Math.round(safeNum(v, 0, 0));
 }
 
+// Never rounds up: a game exiting with fractional seconds left must not refund play time.
+function floorGameBudget(v) {
+  return Math.max(0, Math.floor(safeNum(v, 0, 0)));
+}
+
 // v1 stored a flat {profiles,attempts:[{name,...}],vocab:[{name,word,...}]} shape.
 function migrateIfNeeded(raw) {
   if (raw.schemaVersion === 2) {
@@ -261,7 +332,11 @@ function migrateIfNeeded(raw) {
     raw.rounds ??= [];
     raw.vocab ??= {};
     raw.settings ??= { lang: 'de', miniGames: true };
-    for (const l of Object.values(raw.learners)) l.gameTimeBudget = normalizeBudget(l.gameTimeBudget);
+    for (const l of Object.values(raw.learners)) {
+      l.gameTimeBudget = normalizeBudget(l.gameTimeBudget);
+      l.games ??= {};
+      l.lastGameId ??= null;
+    }
     return raw;
   }
   const db = emptyDb();
@@ -273,21 +348,21 @@ function migrateIfNeeded(raw) {
     for (const p of oldProfiles) {
       if (!p || !p.name) continue;
       const key = normalizeKey(p.name);
-      db.learners[key] ??= { key, displayName: displayNameFrom(p.name), gameTimeBudget: 0, createdAt: p.at || new Date().toISOString() };
+      db.learners[key] ??= { key, displayName: displayNameFrom(p.name), gameTimeBudget: 0, games: {}, lastGameId: null, createdAt: p.at || new Date().toISOString() };
       if (p.gameTimeBudget !== undefined) db.learners[key].gameTimeBudget = normalizeBudget(p.gameTimeBudget);
     }
     const oldAttempts = Array.isArray(raw.attempts) ? raw.attempts : [];
     for (const a of oldAttempts) {
       if (!a || !a.name) continue;
       const key = normalizeKey(a.name);
-      db.learners[key] ??= { key, displayName: displayNameFrom(a.name), gameTimeBudget: 0, createdAt: a.at || new Date().toISOString() };
+      db.learners[key] ??= { key, displayName: displayNameFrom(a.name), gameTimeBudget: 0, games: {}, lastGameId: null, createdAt: a.at || new Date().toISOString() };
       db.attempts.push({ learnerKey: key, displayName: db.learners[key].displayName, questionId: a.questionId, subject: a.subject, topic: a.topic, answer: a.answer, correct: a.correct, durationMs: a.durationMs, at: a.at });
     }
     const oldVocab = Array.isArray(raw.vocab) ? raw.vocab : [];
     for (const v of oldVocab) {
       if (!v || !v.name || !v.word) continue;
       const key = normalizeKey(v.name);
-      db.learners[key] ??= { key, displayName: displayNameFrom(v.name), gameTimeBudget: 0, createdAt: v.at || new Date().toISOString() };
+      db.learners[key] ??= { key, displayName: displayNameFrom(v.name), gameTimeBudget: 0, games: {}, lastGameId: null, createdAt: v.at || new Date().toISOString() };
       const bucket = db.vocab[key] ??= {};
       bucket[v.word] ??= { correctCount: 0, lookups: 0, mastered: false, lastAt: v.at || null };
       bucket[v.word].lookups++;
@@ -327,7 +402,7 @@ function saveDb(db) {
 // Creates the learner record on first sight only, so a normalized key's ORIGINAL
 // spelling/casing sticks even if the same person types it differently later.
 function ensureLearner(db, key, typedName) {
-  return db.learners[key] ??= { key, displayName: displayNameFrom(typedName), gameTimeBudget: 0, createdAt: new Date().toISOString() };
+  return db.learners[key] ??= { key, displayName: displayNameFrom(typedName), gameTimeBudget: 0, games: {}, lastGameId: null, createdAt: new Date().toISOString() };
 }
 
 /* ---------- utils ---------- */
@@ -613,12 +688,20 @@ function vocabList() {
 /* ---------- session flow ---------- */
 
 // Clears any running countdowns before switching screens so a leftover interval never
-// fires submit()/showQuestion() against a session/screen that's no longer active.
+// fires submit()/showQuestion() against a session/screen that's no longer active. Also tears
+// down any mounted mini-game (saving its state via game:paused) and its scoped stylesheet.
 function clearTimers() {
   if (state.session?.timer) clearInterval(state.session.timer);
   if (state.session) state.session.timer = null;
-  if (state.miniGameTimer) { clearInterval(state.miniGameTimer); state.miniGameTimer = null; }
-  if (state.miniGameTimeout) { clearTimeout(state.miniGameTimeout); state.miniGameTimeout = null; }
+  if (state.gameReturnTimer) { clearTimeout(state.gameReturnTimer); state.gameReturnTimer = null; }
+  if (state.gameBudgetSyncTimer) { clearInterval(state.gameBudgetSyncTimer); state.gameBudgetSyncTimer = null; }
+  if (state.gamePageHideHandler) { window.removeEventListener('pagehide', state.gamePageHideHandler); state.gamePageHideHandler = null; }
+  if (state.activeGame) {
+    state.activeGame.pause('host_navigation');
+    state.activeGame.destroy();
+    state.activeGame = null;
+  }
+  document.getElementById('game-style')?.remove();
 }
 
 function home() {
@@ -664,7 +747,7 @@ function home() {
     ${dashboard}
   </section></main>`;
 
-  document.querySelectorAll('.subject').forEach(x => x.onclick = () => start(x.dataset.subject));
+  document.querySelectorAll('.subject').forEach(x => x.onclick = () => chooseSubject(x.dataset.subject));
   $('#vocabBtn').onclick = startVocabTest;
   $('#vocabListBtn').onclick = () => {
     const val = $('#name').value.trim();
@@ -691,19 +774,48 @@ function home() {
   };
 }
 
-function start(subject) {
-  clearTimers();
+// Resolves the learner and round settings from the home form, then either shows the
+// end-of-round game picker (kid chooses up front) or starts the round directly.
+function chooseSubject(subject) {
   const nameInput = $('#name').value;
   if (!nameInput.trim()) { alert(t('needNameAlert')); return; }
   state.learnerKey = normalizeKey(nameInput);
   state.settings.miniGames = $('#games').checked;
-  const count = +$('#count').value;
+  state.pendingCount = +$('#count').value;
 
   const db = loadDb();
   const learner = ensureLearner(db, state.learnerKey, nameInput);
   state.displayName = learner.displayName;
+  db.settings.miniGames = state.settings.miniGames;
   saveDb(db);
 
+  if (state.settings.miniGames) gamePicker(subject);
+  else start(subject, null);
+}
+
+// Lets the kid pick which game to play at the end of THIS round (or skip). The choice rides
+// along on the session and is only acted on later, in finish(), once budget has been earned.
+function gamePicker(subject) {
+  clearTimers();
+  const db = loadDb();
+  const lastGameId = db.learners[state.learnerKey]?.lastGameId || null;
+
+  app.innerHTML = `<main class="shell"><section class="card">
+    <h1>${t('gamePickerHeading')}</h1>
+    <p>${esc(t('gamePickerHint'))}</p>
+    <div class="grid">${GAMES.map(g => `<div class="card subject${g.id === lastGameId ? ' selected' : ''}" data-game="${g.id}"><h2>${g.icon} ${esc(gameName(g.id))}</h2></div>`).join('')}</div>
+    <p><button id="skipGame" class="secondary">${t('skipGameBtn')}</button></p>
+  </section></main>`;
+
+  document.querySelectorAll('[data-game]').forEach(x => x.onclick = () => start(subject, x.dataset.game));
+  $('#skipGame').onclick = () => start(subject, null);
+}
+
+function start(subject, chosenGameId) {
+  clearTimers();
+  const count = state.pendingCount;
+
+  const db = loadDb();
   const solvedIds = new Set(db.attempts.filter(a => a.learnerKey === state.learnerKey && a.subject === subject && a.correct).map(a => a.questionId));
   const subjectPool = state.bank.filter(q => q.subject === subject);
   const questions = selectQuestions(subjectPool, count, solvedIds);
@@ -714,8 +826,8 @@ function start(subject) {
     return;
   }
 
-  state.session = { mode: 'subject', subject, questions, index: 0, answers: [], startedAt: Date.now(), questionStartedAt: 0, timer: null };
-  Log.info('session.start', { learnerKey: state.learnerKey, subject, count: questions.length });
+  state.session = { mode: 'subject', subject, questions, index: 0, answers: [], startedAt: Date.now(), questionStartedAt: 0, timer: null, chosenGameId };
+  Log.info('session.start', { learnerKey: state.learnerKey, subject, count: questions.length, chosenGameId });
   showQuestion();
 }
 
@@ -847,39 +959,8 @@ function feedback(q, a) {
     const s = state.session;
     s.index++;
     if (s.index >= s.questions.length) return finish();
-    if (s.mode === 'subject' && state.settings.miniGames && s.index % 2 === 0) return miniGame();
     showQuestion();
   };
-}
-
-function miniGame() {
-  clearTimers();
-  const db = loadDb();
-  const learner = db.learners[state.learnerKey];
-  const budget = safeNum(learner?.gameTimeBudget, 0, 0);
-  const duration = Math.min(budget, MINI_GAME_CAP_SEC);
-
-  if (duration < 1) {
-    app.innerHTML = `<main class="shell"><section class="card mini"><h1>${t('miniGameTitle')}</h1><p>${esc(t('miniGameSkip'))}</p><button id="cont">${t('continueBtn')}</button></section></main>`;
-    $('#cont').onclick = showQuestion;
-    return;
-  }
-
-  learner.gameTimeBudget -= duration;
-  saveDb(db);
-
-  let taps = 0, time = duration;
-  app.innerHTML = `<main class="shell"><section class="card mini"><h1>${t('miniGameTitle')}</h1><p>${esc(t('miniGameInstructions'))} <span id="mt">${time}</span>${t('unitSeconds')}</p><button id="star" style="font-size:60px">⭐</button><h2 id="taps">0</h2></section></main>`;
-  $('#star').onclick = () => { $('#taps').textContent = ++taps; };
-  state.miniGameTimer = setInterval(() => {
-    time--;
-    $('#mt').textContent = time;
-    if (time <= 0) {
-      clearInterval(state.miniGameTimer);
-      state.miniGameTimer = null;
-      state.miniGameTimeout = setTimeout(() => { state.miniGameTimeout = null; showQuestion(); }, 600);
-    }
-  }, 1000);
 }
 
 function finish() {
@@ -889,8 +970,8 @@ function finish() {
   const total = s.answers.length;
   const pct = total ? Math.round((ok / total) * 100) : 0;
 
+  const db = loadDb();
   if (s.mode === 'subject') {
-    const db = loadDb();
     db.rounds.push({
       id: `${state.learnerKey}-${Date.now()}`,
       learnerKey: state.learnerKey,
@@ -909,6 +990,14 @@ function finish() {
     saveDb(db);
   }
 
+  // The game chosen up front (gamePicker) is only offered now, once the round's budget is in,
+  // and only if the kid actually picked one — declining stays available either way.
+  const budget = normalizeBudget(db.learners[state.learnerKey]?.gameTimeBudget);
+  const offerGame = s.chosenGameId && budget > 0;
+  const gameOfferHtml = offerGame ? `
+    <p class="game-offer">${t('playGamePrompt', { s: budget, game: esc(gameName(s.chosenGameId)) })}</p>
+    <p><button id="playGame">${t('playGameBtn')}</button></p>` : '';
+
   app.innerHTML = `<main class="shell"><section class="hero">
     <div class="logo">🏆</div>
     <h1>${t('scoreTitle', { name: esc(state.displayName), pct })}</h1>
@@ -916,11 +1005,95 @@ function finish() {
     <table><tr><th>${t('colTopic')}</th><th>${t('colResult')}</th><th>${t('colTime')}</th></tr>
       ${s.answers.map(a => `<tr><td>${esc(topicLabel(a.topic))}</td><td>${a.correct ? '✅' : '❌'}</td><td>${(a.durationMs / 1000).toFixed(1)}${t('unitSeconds')}</td></tr>`).join('')}
     </table>
+    ${gameOfferHtml}
     <p><button id="again">${t('againBtn')}</button> <button id="rep" class="secondary">${t('progressBtn')}</button></p>
   </section></main>`;
   $('#again').onclick = home;
   $('#rep').onclick = report;
-  Log.info('session.finish', { learnerKey: state.learnerKey, mode: s.mode, score: pct });
+  if (offerGame) $('#playGame').onclick = () => playGame(s.chosenGameId);
+  Log.info('session.finish', { learnerKey: state.learnerKey, mode: s.mode, score: pct, budget });
+}
+
+/* ---------- end-of-round mini-games ---------- */
+
+// Adapts a game's storage.load/save calls onto this learner's slot in the main DB, so durable
+// per-game progress (score, level, etc.) lives inside the existing lernquest-v1 store instead
+// of the game's own default localStorage key.
+function gameStorageAdapter(learnerKey, gameId) {
+  return {
+    load: () => loadDb().learners[learnerKey]?.games?.[gameId] || null,
+    save: (_key, value) => {
+      const db = loadDb();
+      const learner = ensureLearner(db, learnerKey, state.displayName);
+      learner.games ??= {};
+      learner.games[gameId] = value;
+      saveDb(db);
+    }
+  };
+}
+
+// Mounts the chosen game module into the screen and wires its events back into LernQuest:
+// budget syncs on every pause, and a budget-exhausted pause returns home after a short beat.
+function playGame(gameId) {
+  clearTimers();
+  const db = loadDb();
+  const learner = ensureLearner(db, state.learnerKey, state.displayName);
+  const budget = normalizeBudget(learner.gameTimeBudget);
+  if (budget <= 0) return home();
+  learner.lastGameId = gameId;
+  saveDb(db);
+
+  const link = document.createElement('link');
+  link.id = 'game-style';
+  link.rel = 'stylesheet';
+  link.href = `src/games/${gameId}/styles.css`;
+  document.head.appendChild(link);
+
+  app.innerHTML = `<main class="shell"><section class="card">
+    <div class="row" style="justify-content:space-between">
+      <b>${esc(state.displayName)} · ${esc(gameName(gameId))}</b>
+      <button id="backToApp" class="secondary">${t('backToAppBtn')}</button>
+    </div>
+    <div id="game-mount"></div>
+  </section></main>`;
+  $('#backToApp').onclick = home;
+
+  import(`./games/${gameId}/game.js`).then(({ createGame }) => {
+    const game = createGame($('#game-mount'), {
+      playerId: state.learnerKey,
+      sessionId: crypto.randomUUID?.() || String(Date.now()),
+      timeBudgetSec: budget,
+      storage: gameStorageAdapter(state.learnerKey, gameId),
+      logger: (event, data = {}) => Log.info(`game.${event}`, { gameId, learnerKey: state.learnerKey, ...data }),
+      labels: gameLabels(gameId),
+      onEvent(name, detail) {
+        if (name !== 'game:paused') return;
+        syncGameBudget(detail.remainingSec);
+        if (detail.reason === 'budget_exhausted') {
+          state.gameReturnTimer = setTimeout(() => { state.gameReturnTimer = null; home(); }, 1500);
+        }
+      }
+    });
+    state.activeGame = game;
+    game.start();
+    // Ticks the stored budget down live so a mid-game reload can't refund elapsed time.
+    state.gameBudgetSyncTimer = setInterval(() => {
+      if (state.activeGame) syncGameBudget(state.activeGame.remaining);
+    }, 1000);
+    state.gamePageHideHandler = () => { if (state.activeGame) syncGameBudget(state.activeGame.remaining); };
+    window.addEventListener('pagehide', state.gamePageHideHandler);
+  }).catch(e => {
+    Log.error('game.load', e);
+    home();
+  });
+}
+
+// Keeps the stored budget matching the game's own live remaining time as it plays.
+function syncGameBudget(remainingSec) {
+  const db = loadDb();
+  const learner = ensureLearner(db, state.learnerKey, state.displayName);
+  learner.gameTimeBudget = floorGameBudget(remainingSec);
+  saveDb(db);
 }
 
 function report() {

@@ -59,10 +59,13 @@ Every learner's `gameTimeBudget` is normalized (`normalizeBudget`: coerced to a 
 
 The feedback screen's displayed gain/loss (`timeGain`/`timeLoss`) is computed directly from `remainingSec`/`elapsedSec`, independent of the clamped stored balance. This matters once the stored budget is already 0: the clamped delta would be 0 (nothing left to subtract), but the learner still lost the full elapsed time, and the message must say so.
 
-The mini-game spends up to `MINI_GAME_CAP_SEC` of budget per play.
+At round start (if enabled in settings), the learner picks one of the five games under `src/games/<id>/` to play at the end, or skips it (`gamePicker()`); the choice rides on the session and is only offered once the round's budget lands, in `finish()`. While a game plays, its own live countdown is synced back to the learner's stored budget on every pause (`syncGameBudget`), using a floor (never round) so exiting with fractional seconds left cannot refund play time.
+
+## 4d. End-of-round games
+Each bundled game lives at `src/games/<id>/game.js` and exports `createGame(container, options)`, returning an object with `start()`/`pause()`/`destroy()` and emitting a `game:paused` DOM event with the remaining seconds on every pause. `playGame()` mounts the chosen game's module and scoped stylesheet, adapts its `storage.load/save` calls onto that learner's `games[gameId]` slot in the main record (`gameStorageAdapter`), and passes a localized `labels` map (`gameLabels()` in `src/app.js`) so in-game text follows the current language; each game falls back to its own English defaults if a label is missing. `learners[key].lastGameId` remembers the last game played and is highlighted first in the next picker. Because a game's saved state lives in the same `lernquest-v1` record as everything else, progress resumes automatically next time that game is opened, even across reloads.
 
 ## 5. Persistence and privacy
-All attempts and vocabulary clicks are stored under `lernquest-v1` in browser localStorage, as schema v2: `{ schemaVersion, learners, attempts, rounds, vocab, settings }`. No child data leaves the device automatically. Structured logs go only to the browser console and never contain secrets. Names and answers do appear in local progress because they are essential learning records.
+All attempts and vocabulary clicks are stored under `lernquest-v1` in browser localStorage, as schema v2: `{ schemaVersion, learners, attempts, rounds, vocab, settings }`. Each learner record also carries `gameTimeBudget` (see 4c), `games` (per-game-id saved state written by that game's own storage adapter), and `lastGameId` (the most recently played game) — all persisted like everything else in this store. No child data leaves the device automatically. Structured logs go only to the browser console and never contain secrets. Names and answers do appear in local progress because they are essential learning records.
 
 A legacy v1 shape (`{profiles, attempts:[{name,...}], vocab:[{name,word,...}]}`) is migrated on load: `profiles` entries import each learner's original name and game-time budget, `attempts` import per-question history, and `vocab` entries import lookup counts. Migration only ever creates a learner record with `??=`, so an existing (already-imported) display name is never overwritten. Legacy attempts have no round boundaries, so per-round history starts fresh after migration.
 
@@ -94,8 +97,8 @@ The home page's "Vocabulary list" view (`vocabList()`) is parent-facing. For the
 All rendered UI labels and units (including the seconds unit) live in the `I18N` table (`en`/`de`) in `src/app.js` and are looked up through `t(key, vars)`. The one deliberate exception is the language switcher itself, which shows "Deutsch"/"English" as native names rather than translated labels.
 
 ## 7. Session state machine
-`home → question → feedback → optional mini-game every two answers → question → final report`.
-Each question records elapsed milliseconds, correctness, topic, timestamp, and selected answer. `clearTimers()` runs at the start of every screen transition (home, start, showQuestion, miniGame, finish, report) so no stale question countdown or mini-game interval/timeout can fire against an inactive screen.
+`home → (optional gamePicker) → question ⇄ feedback → finish → (optional playGame) → home`.
+The game picker, if enabled, runs once before the first question: the learner chooses which bundled game to play at the end of the round, or skips it; the round itself always runs question→feedback until every question is answered. `finish()` only offers the chosen game if the round's earned budget is above 0. Each question records elapsed milliseconds, correctness, topic, timestamp, and selected answer. `clearTimers()` runs at the start of every screen transition (home, gamePicker, start, showQuestion, playGame, finish, report) so no stale question countdown or running game timer can fire against an inactive screen — it also tears down any mounted game (saving its state via `game:paused`) and its scoped stylesheet.
 
 ## 8. Extension points
 - Add renderer functions keyed by `type`.

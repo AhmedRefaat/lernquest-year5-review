@@ -5,5 +5,5 @@ Thumbs.db
 # Local working output, never published
 logs/
 
-# Mini-game packages are not wired into the app yet
+# Vendor game package archives, redundant with the flattened src/games/<id>/ folders
 src/games/*.zip
