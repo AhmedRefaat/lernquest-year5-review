@@ -1595,6 +1595,18 @@
       "تبدأ القصة في لندن."
     ]
   },
+  "being": {
+    "de": "die Form being von be; sie beschreibt, dass jemand oder etwas gerade auf eine bestimmte Weise ist",
+    "ar": "صيغة من الفعل يكون، وتدل على حالة أو تصرف مؤقت",
+    "examplesDe": [
+      "In „You are being kind“ zeigt being ein freundliches Verhalten.",
+      "Das Wort being beschreibt hier einen vorübergehenden Zustand."
+    ],
+    "examplesAr": [
+      "في جملة «You are being kind» تدل being على تصرف لطيف.",
+      "تصف كلمة being هنا حالة مؤقتة."
+    ]
+  },
   "bekommt": {
     "ar": "يحصل على",
     "de": "erhält (er/sie/es)",
@@ -1605,6 +1617,42 @@
     "examplesDe": [
       "Er bekommt ein Geschenk.",
       "Sie bekommt gute Noten."
+    ]
+  },
+  "belong": {
+    "de": "jemandem gehören oder an den richtigen Platz beziehungsweise zu einer Gruppe passen",
+    "ar": "ينتمي إلى أو يكون ملكاً لشخص",
+    "examplesDe": [
+      "Die Bücher belong in dieses Regal, also gehören sie dorthin.",
+      "Im Satz „These shoes belong to Mia“ bedeutet belong, dass die Schuhe Mia gehören."
+    ],
+    "examplesAr": [
+      "تنتمي الكتب إلى هذا الرف، ولذلك مكانها هناك.",
+      "في جملة «These shoes belong to Mia» تعني belong أن الأحذية ملك لميا."
+    ]
+  },
+  "belongs": {
+    "de": "3. Person Singular von belong: etwas gehört jemandem oder passt an einen bestimmten Ort",
+    "ar": "صيغة المفرد الغائب من ينتمي أو يخص",
+    "examplesDe": [
+      "The bicycle belongs to Ben bedeutet, dass das Fahrrad Ben gehört.",
+      "Der rote Ordner belongs on the top shelf und gehört ins obere Regal."
+    ],
+    "examplesAr": [
+      "تعني جملة «The bicycle belongs to Ben» أن الدراجة تخص بن.",
+      "ينتمي الملف الأحمر إلى الرف العلوي ومكانه هناك."
+    ]
+  },
+  "below": {
+    "de": "unter etwas oder an einer tieferen Stelle",
+    "ar": "أسفل أو تحت",
+    "examplesDe": [
+      "Die Lösung steht below, also unter der Aufgabe.",
+      "Auf der Karte liegt der See below the mountain, also unterhalb des Berges."
+    ],
+    "examplesAr": [
+      "توجد الإجابة below، أي أسفل المسألة.",
+      "تقع البحيرة below the mountain، أي أسفل الجبل على الخريطة."
     ]
   },
   "benachbarten": {
@@ -1691,6 +1739,18 @@
       "Räum dein Zimmer auf, bevor du rausgehst."
     ]
   },
+  "bicycle": {
+    "de": "ein Fahrzeug mit zwei Rädern, das man mit Pedalen bewegt",
+    "ar": "دراجة هوائية",
+    "examplesDe": [
+      "Das englische Wort bicycle bedeutet Fahrrad.",
+      "Mia fährt mit ihrem bicycle jeden Morgen zur Schule."
+    ],
+    "examplesAr": [
+      "تعني الكلمة الإنجليزية bicycle دراجة هوائية.",
+      "تذهب ميا إلى المدرسة كل صباح بدراجتها bicycle."
+    ]
+  },
   "bilden": {
     "ar": "يشكّل / يكوّن",
     "de": "formen, herstellen",
@@ -1701,6 +1761,30 @@
     "examplesDe": [
       "Bilde einen Satz mit diesem Wort.",
       "Wir bilden Gruppen zu zweit."
+    ]
+  },
+  "birthday": {
+    "de": "der Jahrestag des Tages, an dem eine Person geboren wurde",
+    "ar": "عيد الميلاد",
+    "examplesDe": [
+      "Das englische Wort birthday bedeutet Geburtstag.",
+      "Ben lädt seine Freunde zu seiner birthday party ein."
+    ],
+    "examplesAr": [
+      "تعني الكلمة الإنجليزية birthday عيد الميلاد.",
+      "يدعو بن أصدقاءه إلى حفلة عيد ميلاده."
+    ]
+  },
+  "biscuits": {
+    "de": "Mehrzahl von biscuit: kleine, meist süße und knusprige Backwaren",
+    "ar": "بسكويت؛ جمع قطعة بسكويت",
+    "examplesDe": [
+      "The biscuits are on the plate bedeutet, dass die Kekse auf dem Teller liegen.",
+      "Wir teilen fünf biscuits gerecht unter den Kindern auf."
+    ],
+    "examplesAr": [
+      "تعني جملة «The biscuits are on the plate» أن البسكويت على الطبق.",
+      "نقسّم خمس قطع من البسكويت بالتساوي بين الأطفال."
     ]
   },
   "bleibe": {
@@ -1775,6 +1859,42 @@
       "Wir packen Bücher in Boxen."
     ]
   },
+  "bread": {
+    "de": "ein gebackenes Grundnahrungsmittel aus Mehl, Wasser und weiteren Zutaten",
+    "ar": "خبز",
+    "examplesDe": [
+      "Das englische Wort bread bedeutet Brot.",
+      "Zum Frühstück isst Ella bread mit Käse."
+    ],
+    "examplesAr": [
+      "تعني الكلمة الإنجليزية bread خبزاً.",
+      "تأكل إيلا خبزاً مع الجبن في الإفطار."
+    ]
+  },
+  "break": {
+    "de": "eine Pause; als Verb kann break auch bedeuten, etwas kaputtzumachen",
+    "ar": "استراحة؛ أو يكسر حسب السياق",
+    "examplesDe": [
+      "We have a break at ten bedeutet, dass wir um zehn Pause haben.",
+      "Be careful not to break the glass heißt, dass das Glas nicht kaputtgehen soll."
+    ],
+    "examplesAr": [
+      "تعني جملة «We have a break at ten» أن لدينا استراحة الساعة العاشرة.",
+      "تعني جملة «Be careful not to break the glass» أن علينا ألا نكسر الزجاج."
+    ]
+  },
+  "breakfast": {
+    "de": "die erste Mahlzeit am Morgen",
+    "ar": "وجبة الإفطار",
+    "examplesDe": [
+      "Das englische Wort breakfast bedeutet Frühstück.",
+      "Our breakfast starts at seven heißt, dass wir um sieben frühstücken."
+    ],
+    "examplesAr": [
+      "تعني الكلمة الإنجليزية breakfast وجبة الإفطار.",
+      "تعني جملة «Our breakfast starts at seven» أننا نتناول الإفطار الساعة السابعة."
+    ]
+  },
   "breit": {
     "ar": "عريض",
     "de": "mit großer Breite, nicht schmal",
@@ -1847,6 +1967,30 @@
       "Der Tag wird heller."
     ]
   },
+  "bring": {
+    "de": "etwas oder jemanden zu einem Ort mitnehmen",
+    "ar": "يحضر أو يجلب",
+    "examplesDe": [
+      "Please bring your book bedeutet, dass du dein Buch mitbringen sollst.",
+      "Wir verwenden bring, wenn etwas zum Sprecher gebracht wird."
+    ],
+    "examplesAr": [
+      "تعني جملة «Please bring your book» أن عليك إحضار كتابك.",
+      "نستخدم bring عندما يُجلب شيء إلى المتحدث."
+    ]
+  },
+  "broke": {
+    "de": "Vergangenheitsform von break: jemand machte etwas kaputt oder etwas ging kaputt",
+    "ar": "كسر؛ صيغة الماضي من break",
+    "examplesDe": [
+      "Ben broke the cup bedeutet, dass Ben die Tasse zerbrach.",
+      "In „The window broke yesterday“ ist broke die Vergangenheitsform."
+    ],
+    "examplesAr": [
+      "تعني جملة «Ben broke the cup» أن بن كسر الكوب.",
+      "كلمة broke في جملة «The window broke yesterday» هي صيغة الماضي."
+    ]
+  },
   "brother": {
     "ar": "أخ",
     "de": "Bruder",
@@ -1857,6 +2001,30 @@
     "examplesDe": [
       "Mein Bruder spielt Fußball.",
       "Ihr Bruder ist älter."
+    ]
+  },
+  "brothers": {
+    "de": "Mehrzahl von brother: männliche Geschwister",
+    "ar": "إخوة",
+    "examplesDe": [
+      "Ella has two brothers bedeutet, dass Ella zwei Brüder hat.",
+      "Ihre brothers gehen gemeinsam zur Schule."
+    ],
+    "examplesAr": [
+      "تعني جملة «Ella has two brothers» أن لإيلا أخوين.",
+      "يذهب إخوتها إلى المدرسة معاً."
+    ]
+  },
+  "brought": {
+    "de": "Vergangenheitsform von bring: jemand nahm etwas mit und brachte es an einen Ort",
+    "ar": "أحضر؛ صيغة الماضي من bring",
+    "examplesDe": [
+      "Tom brought his sports clothes bedeutet, dass Tom seine Sportsachen mitbrachte.",
+      "Das Verb brought beschreibt hier eine abgeschlossene Handlung."
+    ],
+    "examplesAr": [
+      "تعني جملة «Tom brought his sports clothes» أن توم أحضر ملابسه الرياضية.",
+      "يصف الفعل brought هنا حدثاً منتهياً."
     ]
   },
   "bruch": {
@@ -1895,6 +2063,30 @@
       "Nomen tragen eine große Buchstaben-Krone."
     ]
   },
+  "built": {
+    "de": "Vergangenheitsform und Partizip von build: etwas wurde zusammengesetzt oder errichtet",
+    "ar": "بنى أو تم بناؤه",
+    "examplesDe": [
+      "We built a model bedeutet, dass wir ein Modell gebaut haben.",
+      "The bridge was built in 2010 heißt, dass die Brücke 2010 gebaut wurde."
+    ],
+    "examplesAr": [
+      "تعني جملة «We built a model» أننا بنينا نموذجاً.",
+      "تعني جملة «The bridge was built in 2010» أن الجسر بُني عام 2010."
+    ]
+  },
+  "buying": {
+    "de": "Verlaufsform von buy: gerade etwas gegen Geld erwerben",
+    "ar": "شراء؛ يقوم بالشراء",
+    "examplesDe": [
+      "Mia is buying a notebook bedeutet, dass sie gerade ein Heft kauft.",
+      "Das Wort buying beschreibt einen Kauf, der im Moment stattfindet."
+    ],
+    "examplesAr": [
+      "تعني جملة «Mia is buying a notebook» أن ميا تشتري دفتراً الآن.",
+      "تصف كلمة buying عملية شراء تحدث في هذه اللحظة."
+    ]
+  },
   "bücher": {
     "ar": "كتب",
     "de": "Mehrzahl von Buch",
@@ -1931,6 +2123,30 @@
       "Ich berechne den Umfang."
     ]
   },
+  "calculating": {
+    "de": "das Ausführen einer Rechnung, um ein Ergebnis zu finden",
+    "ar": "إجراء عملية حسابية",
+    "examplesDe": [
+      "Calculating 6 × 8 gives 48 bedeutet, dass die Rechnung 48 ergibt.",
+      "Beim calculating musst du auf die Reihenfolge der Rechenzeichen achten."
+    ],
+    "examplesAr": [
+      "تعني جملة «Calculating 6 × 8 gives 48» أن ناتج العملية هو 48.",
+      "عند calculating يجب الانتباه إلى ترتيب العمليات الحسابية."
+    ]
+  },
+  "calculation": {
+    "de": "eine Rechnung mit Zahlen und Rechenzeichen",
+    "ar": "عملية حسابية",
+    "examplesDe": [
+      "The calculation 24 ÷ 6 gives 4 bedeutet, dass die Rechnung 4 ergibt.",
+      "Überprüfe jede calculation mit der Umkehraufgabe."
+    ],
+    "examplesAr": [
+      "تعني جملة «The calculation 24 ÷ 6 gives 4» أن ناتج العملية هو 4.",
+      "تحقق من كل calculation باستخدام العملية العكسية."
+    ]
+  },
   "called": {
     "ar": "نادى / سُمّي",
     "de": "genannt, gerufen",
@@ -1941,6 +2157,18 @@
     "examplesDe": [
       "Er rief seinen Freund.",
       "Sie wurde zur Tafel gerufen."
+    ]
+  },
+  "calls": {
+    "de": "3. Person Singular von call: jemand ruft an, ruft jemanden oder nennt etwas",
+    "ar": "يتصل أو ينادي أو يسمّي",
+    "examplesDe": [
+      "Ben calls his grandmother bedeutet, dass Ben seine Großmutter anruft.",
+      "The teacher calls this shape a prism heißt, dass die Lehrkraft die Form Prisma nennt."
+    ],
+    "examplesAr": [
+      "تعني جملة «Ben calls his grandmother» أن بن يتصل بجدته.",
+      "تعني الجملة أن المعلمة تسمّي هذا الشكل منشوراً."
     ]
   },
   "calmly": {
@@ -1955,6 +2183,42 @@
       "Er bleibt ruhig bei der Prüfung."
     ]
   },
+  "cancel": {
+    "de": "einen geplanten Termin oder eine Veranstaltung absagen",
+    "ar": "يلغي",
+    "examplesDe": [
+      "They may cancel the match bedeutet, dass sie das Spiel vielleicht absagen.",
+      "Wir verwenden cancel, wenn etwas Geplantes nicht stattfinden soll."
+    ],
+    "examplesAr": [
+      "تعني جملة «They may cancel the match» أنهم قد يلغون المباراة.",
+      "نستخدم cancel عندما لا يُراد لشيء مخطط أن يحدث."
+    ]
+  },
+  "cancelled": {
+    "de": "Vergangenheitsform oder Partizip von cancel: etwas Geplantes wurde abgesagt",
+    "ar": "أُلغي أو قام بالإلغاء",
+    "examplesDe": [
+      "The match was cancelled bedeutet, dass das Spiel abgesagt wurde.",
+      "They cancelled the trip because of the storm heißt, dass sie die Reise absagten."
+    ],
+    "examplesAr": [
+      "تعني جملة «The match was cancelled» أن المباراة أُلغيت.",
+      "تعني الجملة أنهم ألغوا الرحلة بسبب العاصفة."
+    ]
+  },
+  "cannot": {
+    "de": "kann nicht; drückt fehlende Fähigkeit oder fehlende Erlaubnis aus",
+    "ar": "لا يستطيع أو لا يُسمح له",
+    "examplesDe": [
+      "You cannot enter without a ticket bedeutet, dass der Eintritt nicht erlaubt ist.",
+      "I cannot swim heißt, dass ich nicht schwimmen kann."
+    ],
+    "examplesAr": [
+      "تعني جملة «You cannot enter without a ticket» أن الدخول غير مسموح من دون تذكرة.",
+      "تعني جملة «I cannot swim» أنني لا أستطيع السباحة."
+    ]
+  },
   "capital": {
     "ar": "حرف كبير",
     "de": "Großbuchstabe",
@@ -1965,6 +2229,90 @@
     "examplesDe": [
       "Nomen beginnen mit einem Großbuchstaben.",
       "Der Satz beginnt mit einem Großbuchstaben."
+    ]
+  },
+  "capitalized": {
+    "de": "mit einem Großbuchstaben am Anfang geschrieben",
+    "ar": "مكتوب بحرف كبير في البداية",
+    "examplesDe": [
+      "German nouns are capitalized bedeutet, dass deutsche Nomen großgeschrieben werden.",
+      "The name Mia is capitalized, weil Namen mit einem Großbuchstaben beginnen."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الأسماء في اللغة الألمانية تبدأ بحرف كبير.",
+      "تبدأ كلمة Mia بحرف كبير لأنها اسم شخص."
+    ]
+  },
+  "careful": {
+    "de": "vorsichtig und aufmerksam, damit kein Fehler oder Schaden entsteht",
+    "ar": "حذر أو منتبه",
+    "examplesDe": [
+      "Be careful near the road bedeutet, dass du dort vorsichtig sein sollst.",
+      "A careful pupil checks every answer heißt, dass ein vorsichtiger Schüler alles prüft."
+    ],
+    "examplesAr": [
+      "تعني جملة «Be careful near the road» أن عليك أن تكون حذراً قرب الطريق.",
+      "تعني الجملة أن التلميذ الحذر يراجع كل إجابة."
+    ]
+  },
+  "carefully": {
+    "de": "auf vorsichtige und aufmerksame Weise",
+    "ar": "بحذر أو بعناية",
+    "examplesDe": [
+      "Walk carefully on the ice bedeutet, dass du vorsichtig gehen sollst.",
+      "Read the rule carefully heißt, dass du die Regel aufmerksam lesen sollst."
+    ],
+    "examplesAr": [
+      "تعني جملة «Walk carefully on the ice» أن عليك المشي بحذر على الجليد.",
+      "تعني جملة «Read the rule carefully» أن عليك قراءة القاعدة بعناية."
+    ]
+  },
+  "carried": {
+    "de": "Vergangenheitsform von carry: jemand trug oder transportierte etwas",
+    "ar": "حمل؛ صيغة الماضي من carry",
+    "examplesDe": [
+      "Mia carried the box upstairs bedeutet, dass sie die Kiste nach oben trug.",
+      "The bus carried forty pupils heißt, dass der Bus vierzig Schüler beförderte."
+    ],
+    "examplesAr": [
+      "تعني جملة «Mia carried the box upstairs» أن ميا حملت الصندوق إلى الأعلى.",
+      "تعني الجملة أن الحافلة نقلت أربعين تلميذاً."
+    ]
+  },
+  "carries": {
+    "de": "3. Person Singular von carry: jemand trägt oder transportiert etwas",
+    "ar": "يحمل أو ينقل",
+    "examplesDe": [
+      "Ben carries his books in a bag bedeutet, dass er seine Bücher trägt.",
+      "The truck carries heavy boxes heißt, dass der Lastwagen Kisten transportiert."
+    ],
+    "examplesAr": [
+      "تعني جملة «Ben carries his books in a bag» أن بن يحمل كتبه في حقيبة.",
+      "تعني الجملة أن الشاحنة تنقل صناديق ثقيلة."
+    ]
+  },
+  "carrots": {
+    "de": "Mehrzahl von carrot: orangefarbenes Gemüse, das unter der Erde wächst",
+    "ar": "جزر",
+    "examplesDe": [
+      "The rabbits eat carrots bedeutet, dass die Kaninchen Möhren fressen.",
+      "We need three carrots for the soup heißt, dass wir drei Möhren brauchen."
+    ],
+    "examplesAr": [
+      "تعني جملة «The rabbits eat carrots» أن الأرانب تأكل الجزر.",
+      "تعني الجملة أننا نحتاج إلى ثلاث جزرات للحساء."
+    ]
+  },
+  "caused": {
+    "de": "Vergangenheitsform von cause: etwas führte zu einem Ergebnis oder Problem",
+    "ar": "سبّب",
+    "examplesDe": [
+      "The storm caused a delay bedeutet, dass der Sturm eine Verspätung verursachte.",
+      "A loose cable caused the problem heißt, dass das Kabel die Ursache war."
+    ],
+    "examplesAr": [
+      "تعني جملة «The storm caused a delay» أن العاصفة سببت تأخيراً.",
+      "تعني الجملة أن السلك غير المثبت كان سبب المشكلة."
     ]
   },
   "chair": {
@@ -1979,6 +2327,42 @@
       "Sie sitzt auf dem Stuhl."
     ]
   },
+  "change": {
+    "de": "eine Veränderung; als Verb bedeutet es, etwas anders zu machen",
+    "ar": "تغيير؛ يغيّر",
+    "examplesDe": [
+      "The timetable may change bedeutet, dass der Stundenplan anders werden kann.",
+      "A change in temperature heißt, dass sich die Temperatur verändert."
+    ],
+    "examplesAr": [
+      "تعني جملة «The timetable may change» أن الجدول قد يتغير.",
+      "تعني عبارة «A change in temperature» حدوث تغير في درجة الحرارة."
+    ]
+  },
+  "changes": {
+    "de": "3. Person Singular oder Mehrzahl von change: etwas verändert sich oder wird verändert",
+    "ar": "يتغير أو تغييرات",
+    "examplesDe": [
+      "The verb changes after he bedeutet, dass sich die Verbform verändert.",
+      "These changes make the plan clearer heißt, dass die Veränderungen den Plan verständlicher machen."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن صيغة الفعل تتغير بعد he.",
+      "تعني الجملة أن هذه التغييرات تجعل الخطة أوضح."
+    ]
+  },
+  "changing": {
+    "de": "Verlaufsform von change: etwas wird gerade verändert oder anders",
+    "ar": "يغيّر أو يتغير الآن",
+    "examplesDe": [
+      "The weather is changing bedeutet, dass das Wetter gerade anders wird.",
+      "Changing the order can alter the result heißt, dass eine neue Reihenfolge das Ergebnis verändern kann."
+    ],
+    "examplesAr": [
+      "تعني جملة «The weather is changing» أن الطقس يتغير الآن.",
+      "تعني الجملة أن تغيير الترتيب قد يغيّر النتيجة."
+    ]
+  },
   "characters": {
     "ar": "شخصيات / رموز",
     "de": "Figuren / Zeichen",
@@ -1989,6 +2373,18 @@
     "examplesDe": [
       "Die Geschichte hat viele Figuren.",
       "Das Wort besteht aus fünf Zeichen."
+    ]
+  },
+  "checking": {
+    "de": "das Prüfen, ob etwas richtig, vollständig oder sicher ist",
+    "ar": "فحص أو مراجعة",
+    "examplesDe": [
+      "Checking the answer takes one minute bedeutet, dass die Kontrolle eine Minute dauert.",
+      "She is checking every calculation heißt, dass sie jede Rechnung überprüft."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن مراجعة الإجابة تستغرق دقيقة واحدة.",
+      "تعني الجملة أنها تراجع كل عملية حسابية."
     ]
   },
   "chess": {
@@ -2003,6 +2399,18 @@
       "Ich lerne gerade Schach spielen."
     ]
   },
+  "child": {
+    "de": "ein junger Mensch; die Mehrzahl lautet children",
+    "ar": "طفل",
+    "examplesDe": [
+      "The child is eleven years old bedeutet, dass das Kind elf Jahre alt ist.",
+      "Every child needs a ticket heißt, dass jedes Kind eine Eintrittskarte braucht."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن عمر الطفل إحدى عشرة سنة.",
+      "تعني الجملة أن كل طفل يحتاج إلى تذكرة."
+    ]
+  },
   "children": {
     "ar": "أطفال",
     "de": "Kinder",
@@ -2013,6 +2421,18 @@
     "examplesDe": [
       "Die Kinder spielen im Garten.",
       "Viele Kinder gehen zur Schule."
+    ]
+  },
+  "choice": {
+    "de": "eine Möglichkeit, die man aus mehreren Angeboten auswählt",
+    "ar": "اختيار أو خيار",
+    "examplesDe": [
+      "This option is the correct choice bedeutet, dass diese Antwort richtig ist.",
+      "You have a choice between two routes heißt, dass du zwischen zwei Wegen wählen kannst."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن هذا الخيار هو الإجابة الصحيحة.",
+      "تعني الجملة أن لديك اختياراً بين طريقين."
     ]
   },
   "choose": {
@@ -2027,6 +2447,42 @@
       "Wir wählen ein Spiel."
     ]
   },
+  "circumstance": {
+    "de": "eine Bedingung oder Situation, die ein Ereignis beeinflusst",
+    "ar": "ظرف أو حالة مؤثرة",
+    "examplesDe": [
+      "Under this circumstance, the trip is cancelled bedeutet, dass die Reise in dieser Situation ausfällt.",
+      "Mit circumstance ist eine Bedingung gemeint, die beeinflusst, was in einer Situation geschieht."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الرحلة تُلغى في هذا الظرف.",
+      "تعني circumstance ظرفاً أو شرطاً يؤثر في ما يحدث في موقف معين."
+    ]
+  },
+  "class": {
+    "de": "eine Schulklasse oder eine Unterrichtsstunde; die genaue Bedeutung ergibt sich aus dem Zusammenhang",
+    "ar": "صف دراسي أو حصة",
+    "examplesDe": [
+      "Our class has twenty pupils bedeutet, dass unsere Schulklasse zwanzig Schüler hat.",
+      "English class starts at nine heißt, dass der Englischunterricht um neun beginnt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن صفنا يضم عشرين تلميذاً.",
+      "تعني الجملة أن حصة اللغة الإنجليزية تبدأ الساعة التاسعة."
+    ]
+  },
+  "classroom": {
+    "de": "ein Raum in der Schule, in dem Unterricht stattfindet",
+    "ar": "فصل دراسي",
+    "examplesDe": [
+      "The classroom has three windows bedeutet, dass der Klassenraum drei Fenster hat.",
+      "Please keep the classroom tidy heißt, dass der Unterrichtsraum ordentlich bleiben soll."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الفصل الدراسي يحتوي على ثلاث نوافذ.",
+      "تعني الجملة أنه يجب إبقاء الفصل الدراسي مرتباً."
+    ]
+  },
   "clause": {
     "ar": "جملة / جزء جملة (جملة رئيسية أو جملة فرعية)",
     "de": "Satz / Teilsatz (Haupt- oder Nebensatz)",
@@ -2037,6 +2493,18 @@
     "examplesDe": [
       "Ein Nebensatz ist eine Art von Teilsatz.",
       "Der Hauptsatz ist ein anderer Teilsatz."
+    ]
+  },
+  "clauses": {
+    "de": "Mehrzahl von clause: Satzteile mit einem eigenen Subjekt und meist einem Verb",
+    "ar": "جمل فرعية أو أجزاء جمل",
+    "examplesDe": [
+      "The two clauses are joined by because bedeutet, dass because die beiden Satzteile verbindet.",
+      "In „If it rains, we will stay inside“ bilden die clauses den Bedingungsteil und den Folgeteil."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن because تربط بين جزأي الجملة.",
+      "في جملة «If it rains, we will stay inside» تكوّن clauses جزء الشرط وجزء النتيجة."
     ]
   },
   "clean": {
@@ -2075,6 +2543,42 @@
       "Sie reinigt die Tafel."
     ]
   },
+  "clear": {
+    "de": "leicht zu verstehen, deutlich oder nicht verdeckt",
+    "ar": "واضح",
+    "examplesDe": [
+      "The instruction is clear bedeutet, dass die Anweisung leicht verständlich ist.",
+      "A clear sky heißt, dass kaum Wolken am Himmel sind."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن التعليمات واضحة وسهلة الفهم.",
+      "تعني عبارة «A clear sky» أن السماء شبه خالية من السحب."
+    ]
+  },
+  "clearly": {
+    "de": "auf eine deutliche und leicht verständliche Weise",
+    "ar": "بوضوح",
+    "examplesDe": [
+      "Ella spoke clearly bedeutet, dass alle sie gut verstanden.",
+      "Write clearly so the teacher can read it heißt, dass du deutlich schreiben sollst."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن إيلا تحدثت بوضوح ففهمها الجميع.",
+      "تعني الجملة أن عليك الكتابة بوضوح لكي يستطيع المعلم قراءتها."
+    ]
+  },
+  "climbed": {
+    "de": "Vergangenheitsform von climb: jemand stieg nach oben",
+    "ar": "تسلّق أو صعد",
+    "examplesDe": [
+      "Ella climbed the hill bedeutet, dass sie den Hügel hinaufstieg.",
+      "The cat climbed onto the wall heißt, dass die Katze auf die Mauer kletterte."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن إيلا صعدت التل.",
+      "تعني الجملة أن القطة تسلقت الجدار."
+    ]
+  },
   "clock": {
     "ar": "ساعة",
     "de": "Uhr",
@@ -2085,6 +2589,102 @@
     "examplesDe": [
       "Die Uhr hängt an der Wand.",
       "Schau auf die Uhr."
+    ]
+  },
+  "close": {
+    "de": "schließen; als Adjektiv kann close auch nah bedeuten",
+    "ar": "يغلق؛ أو قريب حسب السياق",
+    "examplesDe": [
+      "Please close the door bedeutet, dass du die Tür schließen sollst.",
+      "The school is close to the station heißt, dass die Schule nahe am Bahnhof liegt."
+    ],
+    "examplesAr": [
+      "تعني جملة «Please close the door» أن عليك إغلاق الباب.",
+      "تعني الجملة أن المدرسة قريبة من المحطة."
+    ]
+  },
+  "closed": {
+    "de": "geschlossen oder Vergangenheitsform von close",
+    "ar": "مغلق أو أَغلق",
+    "examplesDe": [
+      "The shop is closed bedeutet, dass das Geschäft nicht geöffnet ist.",
+      "Mia closed the window heißt, dass sie das Fenster zugemacht hat."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن المتجر مغلق.",
+      "تعني الجملة أن ميا أغلقت النافذة."
+    ]
+  },
+  "closing": {
+    "de": "das Schließen oder der letzte Teil von etwas",
+    "ar": "إغلاق أو ختام",
+    "examplesDe": [
+      "The museum is closing at five bedeutet, dass es um fünf schließt.",
+      "Kind regards is a polite closing in an email heißt, dass es eine höfliche Schlussformel ist."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن المتحف يغلق الساعة الخامسة.",
+      "تعني الجملة أن «Kind regards» خاتمة مهذبة في البريد الإلكتروني."
+    ]
+  },
+  "clothes": {
+    "de": "Dinge, die Menschen am Körper tragen, zum Beispiel Hose, Hemd oder Jacke",
+    "ar": "ملابس",
+    "examplesDe": [
+      "Tom packed his sports clothes bedeutet, dass er seine Sportkleidung einpackte.",
+      "Wet clothes need time to dry heißt, dass nasse Kleidung trocknen muss."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن توم وضع ملابسه الرياضية في الحقيبة.",
+      "تعني الجملة أن الملابس المبللة تحتاج إلى وقت لتجف."
+    ]
+  },
+  "clothing": {
+    "de": "Kleidung als allgemeiner Begriff für Dinge, die man am Körper trägt",
+    "ar": "الملابس بصورة عامة",
+    "examplesDe": [
+      "Warm clothing is needed in winter bedeutet, dass man im Winter warme Kleidung braucht.",
+      "The shop sells outdoor clothing heißt, dass das Geschäft Kleidung für draußen verkauft."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الملابس الدافئة ضرورية في الشتاء.",
+      "تعني الجملة أن المتجر يبيع ملابس للأنشطة الخارجية."
+    ]
+  },
+  "clouds": {
+    "de": "Mehrzahl von cloud: sichtbare Ansammlungen kleiner Wassertröpfchen am Himmel",
+    "ar": "غيوم أو سحب",
+    "examplesDe": [
+      "Dark clouds can signal rain bedeutet, dass dunkle Wolken Regen ankündigen können.",
+      "The clouds moved across the sky heißt, dass die Wolken über den Himmel zogen."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن السحب الداكنة قد تشير إلى المطر.",
+      "تعني الجملة أن الغيوم تحركت عبر السماء."
+    ]
+  },
+  "clues": {
+    "de": "Mehrzahl von clue: Hinweise, die beim Finden einer Antwort helfen",
+    "ar": "دلائل أو إشارات",
+    "examplesDe": [
+      "The text gives two clues bedeutet, dass der Text zwei Hinweise enthält.",
+      "Use context clues to understand the word heißt, dass du Hinweise aus dem Zusammenhang nutzen sollst."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن النص يقدم دليلين.",
+      "تعني الجملة أن عليك استخدام دلائل السياق لفهم الكلمة."
+    ]
+  },
+  "coach": {
+    "de": "eine Person, die eine Sportgruppe trainiert und anleitet",
+    "ar": "مدرب",
+    "examplesDe": [
+      "The coach explains the exercise bedeutet, dass der Trainer die Übung erklärt.",
+      "Our coach plans the next match heißt, dass unser Trainer das nächste Spiel plant."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن المدرب يشرح التمرين.",
+      "تعني الجملة أن مدربنا يخطط للمباراة القادمة."
     ]
   },
   "colder": {
@@ -2099,6 +2699,18 @@
       "Der Norden ist kälter als der Süden."
     ]
   },
+  "collect": {
+    "de": "Dinge zusammentragen oder an einem Ort sammeln",
+    "ar": "يجمع",
+    "examplesDe": [
+      "We collect rubbish in the park bedeutet, dass wir Müll im Park sammeln.",
+      "The teacher will collect the worksheets heißt, dass die Lehrkraft die Arbeitsblätter einsammelt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أننا نجمع القمامة في الحديقة.",
+      "تعني الجملة أن المعلمة ستجمع أوراق العمل."
+    ]
+  },
   "color": {
     "ar": "لون",
     "de": "Farbe",
@@ -2111,6 +2723,42 @@
       "Welche Farbe hat der Apfel?"
     ]
   },
+  "column": {
+    "de": "eine senkrechte Reihe in einer Tabelle oder Rechnung",
+    "ar": "عمود",
+    "examplesDe": [
+      "Write the numbers in one column bedeutet, dass die Zahlen untereinander stehen sollen.",
+      "Im Satz „The final column shows the total“ bedeutet column die letzte Spalte der Tabelle."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الأعداد يجب أن تُكتب في عمود واحد.",
+      "في جملة «The final column shows the total» تعني column العمود الأخير في الجدول."
+    ]
+  },
+  "comes": {
+    "de": "3. Person Singular von come: jemand oder etwas bewegt sich zum Sprecher oder zu einem Ort",
+    "ar": "يأتي",
+    "examplesDe": [
+      "The bus comes at eight bedeutet, dass der Bus um acht ankommt.",
+      "Mia comes into the room heißt, dass Mia den Raum betritt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الحافلة تأتي الساعة الثامنة.",
+      "تعني الجملة أن ميا تدخل الغرفة."
+    ]
+  },
+  "comfortable": {
+    "de": "angenehm, bequem oder entspannt",
+    "ar": "مريح",
+    "examplesDe": [
+      "This chair is comfortable bedeutet, dass man bequem darauf sitzt.",
+      "The joke made everyone feel comfortable heißt, dass sich alle danach entspannter fühlten."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن هذا الكرسي مريح للجلوس.",
+      "تعني الجملة أن المزحة جعلت الجميع يشعرون براحة أكبر."
+    ]
+  },
   "comma": {
     "ar": "فاصلة",
     "de": "Komma",
@@ -2121,6 +2769,42 @@
     "examplesDe": [
       "Vor „aber“ steht oft ein Komma.",
       "Setze das Komma richtig."
+    ]
+  },
+  "command": {
+    "de": "eine klare Anweisung oder ein Befehl, etwas zu tun",
+    "ar": "أمر أو تعليمة",
+    "examplesDe": [
+      "“Close the door” is a command bedeutet, dass der Satz eine Anweisung gibt.",
+      "The computer follows each command heißt, dass der Computer jeden Befehl ausführt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن «Close the door» أمر بإغلاق الباب.",
+      "تعني الجملة أن الحاسوب ينفذ كل أمر."
+    ]
+  },
+  "commas": {
+    "de": "Mehrzahl von comma: Satzzeichen, die Satzteile oder Teile einer Aufzählung trennen",
+    "ar": "فواصل",
+    "examplesDe": [
+      "Use commas in the list bedeutet, dass die Teile der Aufzählung getrennt werden.",
+      "The two commas mark an inserted clause heißt, dass sie einen Einschub abgrenzen."
+    ],
+    "examplesAr": [
+      "تعني الجملة استخدام الفواصل للفصل بين عناصر القائمة.",
+      "تعني الجملة أن الفاصلتين تحددان جملة اعتراضية."
+    ]
+  },
+  "company": {
+    "de": "ein Unternehmen; company kann auch Gesellschaft oder Begleitung bedeuten",
+    "ar": "شركة؛ أو رفقة حسب السياق",
+    "examplesDe": [
+      "The company makes bicycles bedeutet, dass das Unternehmen Fahrräder herstellt.",
+      "I enjoyed your company heißt, dass mir deine Gesellschaft gefallen hat."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الشركة تصنع الدراجات.",
+      "تعني الجملة أنني استمتعت برفقتك."
     ]
   },
   "comparative": {
@@ -2159,6 +2843,18 @@
       "Er hat die Längen verglichen."
     ]
   },
+  "compares": {
+    "de": "3. Person Singular von compare: jemand untersucht Gemeinsamkeiten und Unterschiede",
+    "ar": "يقارن",
+    "examplesDe": [
+      "The question compares two routes bedeutet, dass zwei Wege gegenübergestellt werden.",
+      "Mia compares the prices heißt, dass sie die Preise miteinander vergleicht."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن السؤال يقارن بين طريقين.",
+      "تعني الجملة أن ميا تقارن الأسعار."
+    ]
+  },
   "complete": {
     "ar": "أكمل / كامل",
     "de": "vervollständigen / vollständig",
@@ -2169,6 +2865,162 @@
     "examplesDe": [
       "Vervollständige den Satz.",
       "Der Satz ist vollständig."
+    ]
+  },
+  "completes": {
+    "de": "3. Person Singular von complete: jemand beendet oder vervollständigt etwas",
+    "ar": "يكمل أو يُنهي",
+    "examplesDe": [
+      "The answer completes the sentence bedeutet, dass die Antwort den Satz vollständig macht.",
+      "Im Satz „Ben completes his homework before dinner“ bedeutet completes, dass Ben seine Hausaufgaben beendet."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الإجابة تكمل الجملة.",
+      "في جملة «Ben completes his homework before dinner» تعني completes أن بن يُنهي واجبه قبل العشاء."
+    ]
+  },
+  "compound": {
+    "de": "aus mehreren Teilen zusammengesetzt; in der Grammatik kann es ein zusammengesetztes Wort sein",
+    "ar": "مركب من عدة أجزاء",
+    "examplesDe": [
+      "“Football” is a compound word bedeutet, dass es aus zwei Wortteilen besteht.",
+      "A compound shape contains several simple shapes heißt, dass die Figur aus mehreren Formen besteht."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن «football» كلمة مركبة من جزأين.",
+      "تعني الجملة أن الشكل المركب يتكون من عدة أشكال بسيطة."
+    ]
+  },
+  "compulsory": {
+    "de": "verpflichtend; etwas muss getan werden",
+    "ar": "إلزامي",
+    "examplesDe": [
+      "Wearing a helmet is compulsory bedeutet, dass ein Helm getragen werden muss.",
+      "The school says attendance is compulsory heißt, dass die Teilnahme verpflichtend ist."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن ارتداء الخوذة إلزامي.",
+      "تعني الجملة أن المدرسة تفرض الحضور."
+    ]
+  },
+  "concert": {
+    "de": "eine Veranstaltung, bei der Musik vor Publikum gespielt oder gesungen wird",
+    "ar": "حفل موسيقي",
+    "examplesDe": [
+      "The school concert starts at six bedeutet, dass das Schulkonzert um sechs beginnt.",
+      "Mia plays the piano at the concert heißt, dass sie dort Klavier spielt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الحفل الموسيقي المدرسي يبدأ الساعة السادسة.",
+      "تعني الجملة أن ميا تعزف البيانو في الحفل."
+    ]
+  },
+  "condition": {
+    "de": "eine Voraussetzung, die erfüllt sein muss; condition kann auch Zustand bedeuten",
+    "ar": "شرط؛ أو حالة حسب السياق",
+    "examplesDe": [
+      "The first clause states a condition bedeutet, dass sie eine Voraussetzung nennt.",
+      "The bicycle is in good condition heißt, dass das Fahrrad in einem guten Zustand ist."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الجزء الأول يذكر شرطاً.",
+      "تعني الجملة أن الدراجة في حالة جيدة."
+    ]
+  },
+  "conditional": {
+    "de": "eine grammatische Form oder ein Satz, der eine Bedingung und ihre Folge ausdrückt",
+    "ar": "شرطي؛ جملة أو صيغة تعبّر عن شرط",
+    "examplesDe": [
+      "Im Satz „If it rains, we will stay inside“ verbindet conditional eine Bedingung mit ihrer möglichen Folge.",
+      "Bei „If Ben finishes early, he will help“ zeigt conditional, was unter einer bestimmten Bedingung geschieht."
+    ],
+    "examplesAr": [
+      "في جملة «If it rains, we will stay inside» تربط conditional بين شرط ونتيجته المحتملة.",
+      "في جملة «If Ben finishes early, he will help» توضح conditional ما يحدث عند تحقق شرط معين."
+    ]
+  },
+  "confused": {
+    "de": "unsicher, weil etwas nicht verstanden oder verwechselt wurde",
+    "ar": "مرتبك أو مشوش",
+    "examplesDe": [
+      "Ben felt confused by the two similar rules bedeutet, dass er unsicher war.",
+      "The pupil looks confused heißt, dass der Schüler etwas nicht versteht."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن بن شعر بالارتباك بسبب القاعدتين المتشابهتين.",
+      "تعني الجملة أن التلميذ يبدو مرتبكاً لأنه لا يفهم شيئاً."
+    ]
+  },
+  "conjugated": {
+    "de": "an Person, Zahl oder Zeit angepasst; dies beschreibt eine veränderte Verbform",
+    "ar": "مُصرّف حسب الشخص أو العدد أو الزمن",
+    "examplesDe": [
+      "The verb is conjugated for “she” bedeutet, dass seine Form zu she passt.",
+      "In „he goes“ ist goes conjugated, weil die Verbform an die 3. Person Singular angepasst ist."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الفعل مُصرّف ليتناسب مع الضمير she.",
+      "في عبارة «he goes» تكون goes بصيغة conjugated لأنها متكيفة مع المفرد الغائب."
+    ]
+  },
+  "conjunction": {
+    "de": "ein Bindewort, das Wörter, Satzteile oder Sätze miteinander verbindet",
+    "ar": "أداة ربط",
+    "examplesDe": [
+      "Im Satz „We stayed inside because it rained“ verbindet conjunction den Grund mit der Folge.",
+      "Bei „Mia and Ben“ verbindet conjunction die beiden Namen zu einer gemeinsamen Wortgruppe."
+    ],
+    "examplesAr": [
+      "في جملة «We stayed inside because it rained» تربط conjunction السبب بالنتيجة.",
+      "في عبارة «Mia and Ben» تربط conjunction الاسمين في مجموعة واحدة."
+    ]
+  },
+  "conjunctions": {
+    "de": "Mehrzahl von conjunction: Bindewörter, die Wörter oder Sätze verbinden",
+    "ar": "أدوات ربط",
+    "examplesDe": [
+      "Die conjunctions „and“, „but“ und „because“ verbinden Wörter oder Satzteile auf unterschiedliche Weise.",
+      "In „I was tired, but I finished“ zeigt eine der conjunctions einen Gegensatz."
+    ],
+    "examplesAr": [
+      "تربط conjunctions مثل «and» و«but» و«because» الكلمات أو أجزاء الجمل بطرق مختلفة.",
+      "في جملة «I was tired, but I finished» تدل إحدى conjunctions على التضاد."
+    ]
+  },
+  "connecting": {
+    "de": "das Verbinden von zwei oder mehr Teilen",
+    "ar": "ربط أو وصل",
+    "examplesDe": [
+      "Beim connecting mit „because“ wird aus zwei Aussagen ein Satz mit einem Grund.",
+      "Das connecting der beiden Ufer durch eine Brücke bedeutet, dass man den Fluss dort überqueren kann."
+    ],
+    "examplesAr": [
+      "عند connecting باستخدام «because» تتحول عبارتان إلى جملة توضح سبباً.",
+      "يعني connecting ضفتي النهر بجسر أنه يمكن عبور النهر من هناك."
+    ]
+  },
+  "connector": {
+    "de": "ein Wort oder Ausdruck, der Gedanken oder Satzteile logisch verbindet",
+    "ar": "أداة ربط بين الأفكار أو الجمل",
+    "examplesDe": [
+      "Im Satz „Although it rained, we walked“ zeigt connector einen Gegensatz zwischen Regen und Spaziergang.",
+      "Für eine Folge passt „so“ als connector, weil es Ursache und Ergebnis miteinander verbindet."
+    ],
+    "examplesAr": [
+      "في جملة «Although it rained, we walked» تدل connector على تضاد بين المطر والمشي.",
+      "للتعبير عن نتيجة تصلح «so» بوصفها connector لأنها تربط السبب بالنتيجة."
+    ]
+  },
+  "consequence": {
+    "de": "eine Folge oder ein Ergebnis, das durch etwas anderes entsteht",
+    "ar": "نتيجة أو عاقبة",
+    "examplesDe": [
+      "In „The bus was late, so we missed the start“ ist das Verpassen die consequence der Verspätung.",
+      "Wenn Eis erwärmt wird, ist das Schmelzen eine consequence der Wärme."
+    ],
+    "examplesAr": [
+      "في جملة «The bus was late, so we missed the start» يكون فوات البداية هو consequence للتأخير.",
+      "عند تسخين الجليد يكون الذوبان consequence للحرارة."
     ]
   },
   "consonant": {
@@ -2183,6 +3035,54 @@
       "Konsonanten stehen neben Vokalen."
     ]
   },
+  "content": {
+    "de": "der Inhalt eines Textes, Gesprächs oder Behälters",
+    "ar": "محتوى",
+    "examplesDe": [
+      "Der content einer E-Mail umfasst die Informationen, die in der Nachricht stehen.",
+      "Bevor du antwortest, lies den content des Textes und achte auf wichtige Einzelheiten."
+    ],
+    "examplesAr": [
+      "يشمل content البريد الإلكتروني المعلومات المكتوبة في الرسالة.",
+      "قبل أن تجيب، اقرأ content النص وانتبه إلى التفاصيل المهمة."
+    ]
+  },
+  "context": {
+    "de": "der sprachliche oder sachliche Zusammenhang, der eine Bedeutung verständlich macht",
+    "ar": "السياق",
+    "examplesDe": [
+      "Im context eines Geldautomaten bedeutet „bank“ eine Bank und nicht das Ufer eines Flusses.",
+      "Der Zeitangabe „yesterday“ im context entnimmt man, dass der Satz in der Vergangenheit stehen muss."
+    ],
+    "examplesAr": [
+      "في context جهاز الصراف تعني «bank» مصرفاً وليس ضفة نهر.",
+      "نفهم من كلمة «yesterday» في context أن الجملة يجب أن تكون في زمن الماضي."
+    ]
+  },
+  "continued": {
+    "de": "Vergangenheitsform von continue: etwas wurde ohne Unterbrechung weitergeführt",
+    "ar": "استمر؛ صيغة الماضي من continue",
+    "examplesDe": [
+      "In „Although it rained, we continued the walk“ bedeutet continued, dass wir den Spaziergang nicht abbrachen.",
+      "Nach der Pause continued der Unterricht, also wurde er weitergeführt."
+    ],
+    "examplesAr": [
+      "في جملة «Although it rained, we continued the walk» تعني continued أننا لم نوقف النزهة.",
+      "بعد الاستراحة continued الدرس، أي إنه استمر."
+    ]
+  },
+  "continuous": {
+    "de": "andauernd; in der Grammatik eine Zeitform für Handlungen, die gerade im Verlauf sind",
+    "ar": "مستمر؛ وفي القواعد زمن يدل على فعل جارٍ",
+    "examplesDe": [
+      "In „They are singing“ zeigt continuous, dass das Singen gerade im Verlauf ist.",
+      "Bei „Ben was cooking when I arrived“ beschreibt continuous eine laufende Handlung in der Vergangenheit."
+    ],
+    "examplesAr": [
+      "في جملة «They are singing» تدل continuous على أن الغناء يحدث الآن.",
+      "في جملة «Ben was cooking when I arrived» تصف continuous فعلاً كان مستمراً في الماضي."
+    ]
+  },
   "contraction": {
     "ar": "صيغة مختصرة",
     "de": "Kurzform mit Apostroph",
@@ -2193,6 +3093,66 @@
     "examplesDe": [
       "„Don’t“ ist eine Kurzform von „do not“.",
       "Kurzformen haben oft einen Apostroph."
+    ]
+  },
+  "contrast": {
+    "de": "ein deutlicher Unterschied zwischen zwei Dingen oder Aussagen",
+    "ar": "تضاد أو اختلاف واضح",
+    "examplesDe": [
+      "In „Although it was cold, we went out“ liegt der contrast zwischen Kälte und Hinausgehen.",
+      "Schwarz neben Weiß erzeugt einen starken contrast, weil die Farben sehr verschieden sind."
+    ],
+    "examplesAr": [
+      "في جملة «Although it was cold, we went out» يظهر contrast بين البرد والخروج.",
+      "يُحدث الأسود بجانب الأبيض contrast قوياً لأن اللونين مختلفان جداً."
+    ]
+  },
+  "contrasting": {
+    "de": "Unterschiede oder Gegensätze zeigend",
+    "ar": "يُظهر تضاداً أو اختلافاً",
+    "examplesDe": [
+      "Die contrasting Farben Schwarz und Gelb unterscheiden sich deutlich voneinander.",
+      "In „She was tired, but she continued“ verbindet „but“ zwei contrasting Aussagen."
+    ],
+    "examplesAr": [
+      "اللونان contrasting الأسود والأصفر مختلفان بوضوح.",
+      "في جملة «She was tired, but she continued» تربط «but» عبارتين contrasting."
+    ]
+  },
+  "conventional": {
+    "de": "allgemein üblich und von vielen Menschen in dieser Form verwendet",
+    "ar": "متعارف عليه أو تقليدي",
+    "examplesDe": [
+      "Die Antwort „You’re welcome“ ist conventional, weil sie nach einem Dank allgemein üblich ist.",
+      "„Dear Sir or Madam“ ist eine conventional Anrede, wenn der Name des Empfängers unbekannt ist."
+    ],
+    "examplesAr": [
+      "الرد «You’re welcome» هو conventional لأنه متعارف عليه بعد الشكر.",
+      "عبارة «Dear Sir or Madam» هي تحية conventional عندما يكون اسم المستلم غير معروف."
+    ]
+  },
+  "conversion": {
+    "de": "das Umwandeln einer Einheit, Form oder Größe in eine andere",
+    "ar": "تحويل من وحدة أو صيغة إلى أخرى",
+    "examplesDe": [
+      "Bei der conversion von 3 Metern in Zentimeter rechnet man 3 × 100 = 300.",
+      "Vor der conversion von Litern in Milliliter prüft man zuerst den Umrechnungsfaktor 1000."
+    ],
+    "examplesAr": [
+      "عند conversion ثلاثة أمتار إلى سنتيمترات نحسب 3 × 100 = 300.",
+      "قبل conversion اللترات إلى مليلترات نتحقق أولاً من عامل التحويل 1000."
+    ]
+  },
+  "cooking": {
+    "de": "das Zubereiten von Essen; Verlaufsform von cook",
+    "ar": "الطبخ أو يقوم بالطهي",
+    "examplesDe": [
+      "Dad is cooking dinner bedeutet, dass er gerade das Abendessen zubereitet.",
+      "In „Dad is cooking dinner“ zeigt cooking, dass das Abendessen gerade zubereitet wird."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن الأب يطهو العشاء الآن.",
+      "في جملة «Dad is cooking dinner» تدل cooking على أن العشاء يُحضّر الآن."
     ]
   },
   "correct": {
@@ -2207,6 +3167,174 @@
       "Zwei richtige Antworten reichen."
     ]
   },
+  "correction": {
+    "de": "eine Verbesserung, durch die ein Fehler richtiggestellt wird",
+    "ar": "تصحيح",
+    "examplesDe": [
+      "Die correction von „did saw“ lautet „did see“, weil nach „did“ die Grundform steht.",
+      "Neben dem falschen Ergebnis 42 steht als correction die richtig berechnete Zahl 4."
+    ],
+    "examplesAr": [
+      "تكون correction لعبارة «did saw» هي «did see» لأن الفعل بعد «did» يأتي في المصدر.",
+      "بجانب الناتج الخاطئ 42 تظهر correction وهي العدد الصحيح المحسوب 4."
+    ]
+  },
+  "correctly": {
+    "de": "auf richtige Weise und ohne Fehler",
+    "ar": "بشكل صحيح",
+    "examplesDe": [
+      "Mia answered correctly bedeutet, dass ihre Antwort keinen Fehler enthält.",
+      "Wer 3/4 als 0,75 schreibt, hat den Bruch correctly in eine Dezimalzahl umgewandelt."
+    ],
+    "examplesAr": [
+      "تعني جملة «Mia answered correctly» أن إجابتها لا تحتوي على خطأ.",
+      "من يكتب 3/4 على صورة 0.75 يكون قد حوّل الكسر correctly إلى عدد عشري."
+    ]
+  },
+  "could": {
+    "de": "konnte oder könnte; eine Form von can für Vergangenheit, Möglichkeit oder höfliche Bitten",
+    "ar": "كان يستطيع أو يمكن أن أو صيغة مهذبة للطلب",
+    "examplesDe": [
+      "In „When Ben was five, he could swim“ zeigt could eine Fähigkeit in der Vergangenheit.",
+      "Mit „Could you help me?“ macht could die Bitte höflicher als einen direkten Befehl."
+    ],
+    "examplesAr": [
+      "في جملة «When Ben was five, he could swim» تدل could على قدرة في الماضي.",
+      "في سؤال «Could you help me?» تجعل could الطلب أكثر أدباً من الأمر المباشر."
+    ]
+  },
+  "countable": {
+    "de": "zählbar; ein Nomen, von dem man einzelne Stücke mit Zahlen angeben kann",
+    "ar": "قابل للعد",
+    "examplesDe": [
+      "Das Wort „apple“ ist countable, weil man one apple, two apples und three apples sagen kann.",
+      "Vor einem countable Nomen im Plural kann „many“ stehen, zum Beispiel „many books“."
+    ],
+    "examplesAr": [
+      "كلمة «apple» هي countable لأننا نستطيع قول تفاحة واحدة وتفاحتين وثلاث تفاحات.",
+      "يمكن أن تأتي «many» قبل اسم countable في الجمع، مثل «many books»."
+    ]
+  },
+  "cousin": {
+    "de": "ein Sohn eines Onkels oder einer Tante; auf Englisch kann cousin männlich oder weiblich sein",
+    "ar": "ابن أو ابنة العم أو العمة أو الخال أو الخالة",
+    "examplesDe": [
+      "My cousin lives in London bedeutet, dass ein Kind aus meiner Verwandtschaft dort lebt.",
+      "Das Wort cousin kann im Englischen sowohl einen männlichen als auch einen weiblichen Verwandten bezeichnen."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن أحد أبناء الأقارب يعيش في لندن.",
+      "يمكن أن تشير كلمة cousin في الإنجليزية إلى قريب ذكر أو قريبة أنثى."
+    ]
+  },
+  "cross": {
+    "de": "eine Straße, Brücke oder Grenze von einer Seite zur anderen überqueren",
+    "ar": "يعبر",
+    "examplesDe": [
+      "In „Do not cross the road“ bedeutet cross, von einer Straßenseite zur anderen zu gehen.",
+      "Wir cross die Brücke, wenn wir sie vollständig bis zum anderen Ufer überqueren."
+    ],
+    "examplesAr": [
+      "في جملة «Do not cross the road» تعني cross الانتقال من جانب الطريق إلى الجانب الآخر.",
+      "نقوم بـ cross الجسر عندما نعبره كاملاً إلى الضفة الأخرى."
+    ]
+  },
+  "crowded": {
+    "de": "voll mit vielen Menschen oder Dingen, sodass wenig Platz bleibt",
+    "ar": "مزدحم",
+    "examplesDe": [
+      "The museum was crowded bedeutet, dass dort sehr viele Menschen waren.",
+      "Ein Bus ist crowded, wenn so viele Menschen darin sind, dass nur wenig Platz bleibt."
+    ],
+    "examplesAr": [
+      "تعني الجملة أن المتحف كان مزدحماً بالناس.",
+      "تكون الحافلة crowded عندما يكون فيها أشخاص كثيرون ولا يبقى إلا مكان قليل."
+    ]
+  },
+  "current": {
+    "de": "gegenwärtig oder jetzt gültig; current kann auch eine Strömung bedeuten",
+    "ar": "حالي؛ أو تيار حسب السياق",
+    "examplesDe": [
+      "In „the current lesson“ bedeutet current die Unterrichtsstunde, die gerade stattfindet.",
+      "Bei „a strong river current“ bezeichnet current die Strömung des Wassers."
+    ],
+    "examplesAr": [
+      "في عبارة «the current lesson» تعني current الحصة التي تجري الآن.",
+      "في عبارة «a strong river current» تشير current إلى تيار الماء."
+    ]
+  },
+  "cycles": {
+    "de": "3. Person Singular von cycle: jemand fährt mit dem Fahrrad; als Nomen kann cycles Kreisläufe bedeuten",
+    "ar": "يركب الدراجة؛ أو دورات",
+    "examplesDe": [
+      "In „Maya cycles to school“ bedeutet cycles, dass Maya mit dem Fahrrad fährt.",
+      "Bei zwei wiederkehrenden Licht-cycles sucht man den Zeitpunkt, an dem beide erneut zusammen blinken."
+    ],
+    "examplesAr": [
+      "في جملة «Maya cycles to school» تعني cycles أن مايا تذهب بالدراجة.",
+      "عند وجود light-cycles متكررتين نبحث عن الوقت الذي يومض فيه الضوءان معاً من جديد."
+    ]
+  },
+  "cycling": {
+    "de": "Fahrradfahren oder die Verlaufsform von cycle",
+    "ar": "ركوب الدراجة",
+    "examplesDe": [
+      "Cycling to school bedeutet, den Schulweg mit dem Fahrrad zurückzulegen.",
+      "In „Ben is cycling through the park“ zeigt cycling, dass Ben gerade Fahrrad fährt."
+    ],
+    "examplesAr": [
+      "تعني cycling إلى المدرسة قطع الطريق إلى المدرسة بالدراجة.",
+      "في جملة «Ben is cycling through the park» تدل cycling على أن بن يركب الدراجة الآن."
+    ]
+  },
+  "cyclists": {
+    "de": "Mehrzahl von cyclist: Menschen, die Fahrrad fahren",
+    "ar": "راكبو الدراجات",
+    "examplesDe": [
+      "Cyclists sind Menschen, die auf einem Fahrrad fahren und die Verkehrsregeln beachten müssen.",
+      "An einer roten Ampel müssen cyclists anhalten, genau wie andere Verkehrsteilnehmer."
+    ],
+    "examplesAr": [
+      "تعني cyclists أشخاصاً يركبون الدراجات ويجب عليهم مراعاة قواعد المرور.",
+      "عند الإشارة الحمراء يجب على cyclists التوقف مثل بقية مستخدمي الطريق."
+    ]
+  },
+  "danced": {
+    "de": "Vergangenheitsform von dance: jemand bewegte sich passend zur Musik",
+    "ar": "رقص",
+    "examplesDe": [
+      "In „We danced at the party“ ist danced die Vergangenheitsform und bedeutet, dass wir uns zur Musik bewegten.",
+      "Ella danced while the band played bedeutet, dass sie während der Musik tanzte."
+    ],
+    "examplesAr": [
+      "في جملة «We danced at the party» تكون danced صيغة الماضي وتعني أننا تحركنا مع الموسيقى.",
+      "تعني جملة «Ella danced while the band played» أن إيلا رقصت أثناء عزف الفرقة."
+    ]
+  },
+  "danger": {
+    "de": "eine Situation, in der jemand verletzt werden oder etwas beschädigt werden könnte",
+    "ar": "خطر",
+    "examplesDe": [
+      "Das Schild „Danger“ warnt vor einer Situation, in der jemand verletzt werden könnte.",
+      "Wer dünnes Eis betritt, bringt sich in danger, weil das Eis brechen kann."
+    ],
+    "examplesAr": [
+      "تحذر علامة «Danger» من موقف قد يتعرض فيه شخص للأذى.",
+      "من يمشي على جليد رقيق يعرّض نفسه لـ danger لأن الجليد قد ينكسر."
+    ]
+  },
+  "dangerous": {
+    "de": "so, dass eine Verletzung oder ein Schaden entstehen kann",
+    "ar": "خطير",
+    "examplesDe": [
+      "Ein Weg ist dangerous, wenn dort die Gefahr besteht, auszurutschen oder sich zu verletzen.",
+      "In „It is dangerous to cross without looking“ warnt dangerous vor einem möglichen Unfall."
+    ],
+    "examplesAr": [
+      "يكون الطريق dangerous إذا وُجد خطر الانزلاق أو الإصابة.",
+      "في جملة «It is dangerous to cross without looking» تحذر dangerous من حادث محتمل."
+    ]
+  },
   "darum": {
     "ar": "لهذا السبب",
     "de": "deshalb, aus diesem Grund",
@@ -2217,6 +3345,18 @@
     "examplesDe": [
       "Sie war krank, darum blieb sie zu Hause.",
       "Darum ist die Antwort richtig."
+    ]
+  },
+  "dative": {
+    "de": "der Dativ: ein grammatischer Fall, der oft die Person oder Sache bezeichnet, der etwas gegeben wird",
+    "ar": "حالة المجرور أو المفعول غير المباشر في القواعد الألمانية",
+    "examplesDe": [
+      "Im Satz „I give him the book“ hat „him“ eine dative Funktion, weil es den Empfänger bezeichnet.",
+      "Im Deutschen beantwortet der dative die Frage „wem?“, zum Beispiel „dem Kind“."
+    ],
+    "examplesAr": [
+      "في جملة «I give him the book» تؤدي «him» وظيفة dative لأنها تحدد متلقي الكتاب.",
+      "في الألمانية يجيب dative عن سؤال «لمن؟»، مثل «dem Kind»."
     ]
   },
   "davon": {
@@ -2231,6 +3371,42 @@
       "Ich habe nichts davon gewusst."
     ]
   },
+  "declarative": {
+    "de": "eine grammatische Satzart, die eine Aussage oder Information mitteilt",
+    "ar": "خبري؛ يصف جملة تقدم معلومة",
+    "examplesDe": [
+      "„The bus is late“ ist declarative, weil der Satz eine Information mitteilt.",
+      "Ein declarative Satz endet gewöhnlich mit einem Punkt und stellt keine Frage."
+    ],
+    "examplesAr": [
+      "جملة «The bus is late» هي declarative لأنها تقدم معلومة.",
+      "تنتهي جملة declarative عادة بنقطة ولا تطرح سؤالاً."
+    ]
+  },
+  "departure": {
+    "de": "der Zeitpunkt oder Vorgang des Abfahrens beziehungsweise Weggehens",
+    "ar": "مغادرة أو موعد الانطلاق",
+    "examplesDe": [
+      "Auf dem Fahrplan bezeichnet departure die Uhrzeit, zu der der Zug abfährt.",
+      "Wer zehn Minuten vor departure am Bahnsteig ist, kommt vor der Abfahrt an."
+    ],
+    "examplesAr": [
+      "في جدول المواعيد تشير departure إلى الوقت الذي يغادر فيه القطار.",
+      "من يصل إلى الرصيف قبل departure بعشر دقائق يصل قبل موعد المغادرة."
+    ]
+  },
+  "depend": {
+    "de": "von einer Bedingung oder einer anderen Sache bestimmt werden",
+    "ar": "يعتمد على",
+    "examplesDe": [
+      "In „The picnic will depend on the weather“ bedeutet depend, dass das Wetter über die Durchführung entscheidet.",
+      "Die richtige Zeitform kann vom context depend, weil Zeitangaben die Bedeutung verändern."
+    ],
+    "examplesAr": [
+      "في جملة «The picnic will depend on the weather» تعني depend أن الطقس يحدد إقامة النزهة.",
+      "قد depend صيغة الزمن الصحيحة على context لأن كلمات الزمن تغيّر المعنى."
+    ]
+  },
   "describe": {
     "ar": "يصف",
     "de": "beschreiben",
@@ -2241,6 +3417,30 @@
     "examplesDe": [
       "Beschreibe das Bild genau.",
       "Adjektive beschreiben Nomen."
+    ]
+  },
+  "described": {
+    "de": "Vergangenheitsform oder Partizip von describe: jemand erklärte, wie etwas aussieht oder ist",
+    "ar": "وصف",
+    "examplesDe": [
+      "In „Mia described the route“ bedeutet described, dass Mia den Weg mit Worten erklärte.",
+      "Ein Tier, das als friendly described wird, wird im Text als freundlich dargestellt."
+    ],
+    "examplesAr": [
+      "في جملة «Mia described the route» تعني described أن ميا شرحت الطريق بالكلمات.",
+      "الحيوان الذي يُوصف بأنه friendly باستخدام described يقدمه النص على أنه ودود."
+    ]
+  },
+  "describes": {
+    "de": "3. Person Singular von describe: jemand oder etwas erklärt Merkmale, Eigenschaften oder einen Vorgang",
+    "ar": "يصف",
+    "examplesDe": [
+      "Im Satz „The map describes the route“ erklärt describes, was auf dem Weg zu sehen ist.",
+      "Bei „This rule describes the past tense“ zeigt describes, dass die Regel eine Zeitform erklärt."
+    ],
+    "examplesAr": [
+      "في جملة «The map describes the route» تعني describes أن الخريطة تشرح الطريق وما يظهر فيه.",
+      "في عبارة «This rule describes the past tense» تدل describes على أن القاعدة تشرح زمن الماضي."
     ]
   },
   "deshalb": {
