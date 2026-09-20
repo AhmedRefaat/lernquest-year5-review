@@ -5,5 +5,8 @@ Thumbs.db
 # Local working output, never published
 logs/
 
+# Staging area for externally generated content, merged by hand then removed
+data/gen/
+
 # Vendor game package archives, redundant with the flattened src/games/<id>/ folders
 src/games/*.zip

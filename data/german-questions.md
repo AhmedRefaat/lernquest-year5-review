@@ -10,20 +10,22 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Artikel",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Hund“?",
+  "prompt": "Welcher Artikel gehört zu „Tisch“?",
   "options": [
     "der",
     "die",
-    "das"
+    "das",
+    "dem",
+    "den"
   ],
   "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Hund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Hund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Ein Tisch ist maskulin: „der Tisch“. Lerne Nomen und Artikel immer zusammen.",
+    "en": "A table is masculine: “der Tisch”. Always learn a noun together with its article.",
+    "ar": "كلمة Tisch (طاولة) مذكرة: der Tisch. تعلَّم الاسم مع أداته دائمًا."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -31,28 +33,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-002 · Plural
+## DE-002 · Artikel
 
 ```json
 {
   "id": "DE-002",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Artikel",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Hund“?",
+  "prompt": "Welcher Artikel gehört zu „Lampe“?",
   "options": [
-    "Hunde",
-    "Hunds",
-    "Hunden"
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
   ],
-  "answer": "Hunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "die",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
   "explanation": {
-    "de": "Ein Hund kommt nicht allein: Mehrere heißen „Hunde“.",
-    "en": "A “Hund” is never alone: more than one is called “Hunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Eine Lampe ist feminin: „die Lampe“.",
+    "en": "A lamp is feminine: “die Lampe”.",
+    "ar": "كلمة Lampe (مصباح) مؤنثة: die Lampe."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -60,28 +64,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-003 · Präteritum
+## DE-003 · Artikel
 
 ```json
 {
   "id": "DE-003",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Artikel",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „spielen“?",
+  "prompt": "Welcher Artikel gehört zu „Fenster“?",
   "options": [
-    "spielte",
-    "gespielt",
-    "spielente"
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
   ],
-  "answer": "spielte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "das",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
   "explanation": {
-    "de": "Gestern passiert: Aus „spielen“ wird „spielte“.",
-    "en": "It happened yesterday: “spielen” becomes “spielte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Ein Fenster ist neutral: „das Fenster“.",
+    "en": "A window is neuter: “das Fenster”.",
+    "ar": "كلمة Fenster (نافذة) محايدة الجنس: das Fenster."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -89,504 +95,11 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-004 · Satzzeichen
+## DE-004 · Artikel
 
 ```json
 {
   "id": "DE-004",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Hund sieht die Aufgabe“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-005 · Subjekt
-
-```json
-{
-  "id": "DE-005",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Hund läuft heute schnell.“?",
-  "options": [
-    "Der Hund",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Hund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Hund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Hund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-006 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-006",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Ball“ in „Mia sieht den Ball.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? den Ball. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Ball. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-007 · Adjektive
-
-```json
-{
-  "id": "DE-007",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „schnell“?",
-  "options": [
-    "schneller",
-    "schnellsten",
-    "schneller"
-  ],
-  "answer": "schneller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist schnell, die andere ist schneller.",
-    "en": "Two things are compared, so “schnell” becomes “schneller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-008 · Rechtschreibung
-
-```json
-{
-  "id": "DE-008",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Fahrrad",
-    "fahrrad",
-    "Fahrrad-"
-  ],
-  "answer": "Fahrrad",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Fahrrad“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fahrrad” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-009 · Kommasetzung
-
-```json
-{
-  "id": "DE-009",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
-  "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
-  ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-010 · Prädikat
-
-```json
-{
-  "id": "DE-010",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
-  "options": [
-    "liest",
-    "Heute",
-    "Buch"
-  ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-011 · Artikel
-
-```json
-{
-  "id": "DE-011",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Katze“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Katze“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Katze” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-012 · Plural
-
-```json
-{
-  "id": "DE-012",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Katze“?",
-  "options": [
-    "Katzen",
-    "Katzes",
-    "Katzeen"
-  ],
-  "answer": "Katzen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Katze kommt nicht allein: Mehrere heißen „Katzen“.",
-    "en": "A “Katze” is never alone: more than one is called “Katzen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-013 · Präteritum
-
-```json
-{
-  "id": "DE-013",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lernen“?",
-  "options": [
-    "lernte",
-    "gelernt",
-    "lernente"
-  ],
-  "answer": "lernte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „lernen“ wird „lernte“.",
-    "en": "It happened yesterday: “lernen” becomes “lernte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-014 · Satzzeichen
-
-```json
-{
-  "id": "DE-014",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Schwester sieht das Fenster“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-015 · Subjekt
-
-```json
-{
-  "id": "DE-015",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Schwester läuft heute schnell.“?",
-  "options": [
-    "Meine Schwester",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Meine Schwester",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Schwester. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Schwester. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-016 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-016",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „ein Buch“ in „Mia sieht ein Buch.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? ein Buch. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? ein Buch. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-017 · Adjektive
-
-```json
-{
-  "id": "DE-017",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klein“?",
-  "options": [
-    "kleiner",
-    "kleinsten",
-    "kleiner"
-  ],
-  "answer": "kleiner",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klein, die andere ist kleiner.",
-    "en": "Two things are compared, so “klein” becomes “kleiner”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-018 · Rechtschreibung
-
-```json
-{
-  "id": "DE-018",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Schmetterling",
-    "schmetterling",
-    "Schmetterling-"
-  ],
-  "answer": "Schmetterling",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Schmetterling“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schmetterling” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-019 · Kommasetzung
-
-```json
-{
-  "id": "DE-019",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
-  "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
-  ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-020 · Prädikat
-
-```json
-{
-  "id": "DE-020",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
-  "options": [
-    "fährt",
-    "Am",
-    "Bus"
-  ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-021 · Artikel
-
-```json
-{
-  "id": "DE-021",
   "subject": "German",
   "topic": "Artikel",
   "type": "multiple-choice",
@@ -594,16 +107,545 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "options": [
     "der",
     "die",
-    "das"
+    "das",
+    "dem",
+    "den"
   ],
   "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Buch“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Buch” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Ein Buch ist neutral: „das Buch“.",
+    "en": "A book is neuter: “das Buch”.",
+    "ar": "كلمة Buch (كتاب) محايدة الجنس: das Buch."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 1
+}
+```
+
+## DE-005 · Artikel
+
+```json
+{
+  "id": "DE-005",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Vogel“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "der",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "Ein Vogel ist maskulin: „der Vogel“.",
+    "en": "A bird is masculine: “der Vogel”.",
+    "ar": "كلمة Vogel (طائر) مذكرة: der Vogel."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-006 · Artikel
+
+```json
+{
+  "id": "DE-006",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Uhr“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "die",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "Eine Uhr ist feminin: „die Uhr“.",
+    "en": "A clock is feminine: “die Uhr”.",
+    "ar": "كلمة Uhr (ساعة) مؤنثة: die Uhr."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-007 · Artikel
+
+```json
+{
+  "id": "DE-007",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Auto“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "das",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "Ein Auto ist neutral: „das Auto“.",
+    "en": "A car is neuter: “das Auto”.",
+    "ar": "كلمة Auto (سيارة) محايدة الجنس: das Auto."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-008 · Artikel
+
+```json
+{
+  "id": "DE-008",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Schule“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "die",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "Eine Schule ist feminin: „die Schule“.",
+    "en": "A school is feminine: “die Schule”.",
+    "ar": "كلمة Schule (مدرسة) مؤنثة: die Schule."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-009 · Artikel
+
+```json
+{
+  "id": "DE-009",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Mädchen“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "das",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "Obwohl „Mädchen“ ein weibliches Wesen bezeichnet, ist das Wort neutral, weil die Endung „-chen“ Nomen immer neutral macht.",
+    "en": "Although “Mädchen” refers to a girl, the word is neuter because the ending “-chen” always makes a noun neuter.",
+    "ar": "رغم أنّ Mädchen تعني فتاة، فالكلمة محايدة الجنس لأنّ اللاحقة -chen تجعل أيّ اسم محايدًا: das Mädchen."
+  },
+  "timeLimitSec": 45,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 3
+}
+```
+
+## DE-010 · Artikel
+
+```json
+{
+  "id": "DE-010",
+  "subject": "German",
+  "topic": "Artikel",
+  "type": "multiple-choice",
+  "prompt": "Welcher Artikel gehört zu „Käse“?",
+  "options": [
+    "der",
+    "die",
+    "das",
+    "dem",
+    "den"
+  ],
+  "answer": "der",
+  "rule": "Jedes deutsche Nomen hat ein festes grammatisches Geschlecht (der/die/das), das man am besten zusammen mit dem Nomen lernt.",
+  "explanation": {
+    "de": "„Käse“ ist maskulin, auch wenn das nicht offensichtlich ist: „der Käse“. Solche Ausnahmen lernt man am besten auswendig.",
+    "en": "“Käse” is masculine, even though that is not obvious: “der Käse”. Exceptions like this are best memorized.",
+    "ar": "كلمة Käse (جبن) مذكرة رغم أنّ ذلك غير واضح دائمًا: der Käse. يُفضَّل حفظ هذه الاستثناءات."
+  },
+  "timeLimitSec": 45,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 3
+}
+```
+
+## DE-011 · Pronomen
+
+```json
+{
+  "id": "DE-011",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Ich sehe ___. (er)",
+  "options": [
+    "ihn",
+    "ihm",
+    "ihr",
+    "sie",
+    "es"
+  ],
+  "answer": "ihn",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„sehen“ verlangt den Akkusativ. Aus „er“ wird im Akkusativ „ihn“.",
+    "en": "“sehen” takes the accusative. “er” becomes “ihn” in the accusative.",
+    "ar": "الفعل sehen يتطلب حالة النصب (Akkusativ). er تصبح ihn في حالة النصب."
+  },
+  "timeLimitSec": 20,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 1
+}
+```
+
+## DE-012 · Pronomen
+
+```json
+{
+  "id": "DE-012",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Ich sehe ___. (du)",
+  "options": [
+    "dich",
+    "dir",
+    "mich",
+    "mir",
+    "ihn"
+  ],
+  "answer": "dich",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„sehen“ verlangt den Akkusativ. Aus „du“ wird „dich“.",
+    "en": "“sehen” takes the accusative. “du” becomes “dich”.",
+    "ar": "الفعل sehen يتطلب حالة النصب. du تصبح dich."
+  },
+  "timeLimitSec": 20,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 1
+}
+```
+
+## DE-013 · Pronomen
+
+```json
+{
+  "id": "DE-013",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Ich sehe ___. (wir)",
+  "options": [
+    "uns",
+    "euch",
+    "ihnen",
+    "ihm",
+    "ihr"
+  ],
+  "answer": "uns",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„sehen“ verlangt den Akkusativ. Aus „wir“ wird „uns“.",
+    "en": "“sehen” takes the accusative. “wir” becomes “uns”.",
+    "ar": "الفعل sehen يتطلب حالة النصب. wir تصبح uns."
+  },
+  "timeLimitSec": 20,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 1
+}
+```
+
+## DE-014 · Pronomen
+
+```json
+{
+  "id": "DE-014",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (ich)",
+  "options": [
+    "mir",
+    "mich",
+    "dir",
+    "dich",
+    "ihm"
+  ],
+  "answer": "mir",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Aus „ich“ wird „mir“.",
+    "en": "“helfen” takes the dative. “ich” becomes “mir”.",
+    "ar": "الفعل helfen يتطلب حالة الجر (Dativ). ich تصبح mir."
+  },
+  "timeLimitSec": 20,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 1
+}
+```
+
+## DE-015 · Pronomen
+
+```json
+{
+  "id": "DE-015",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (du)",
+  "options": [
+    "dir",
+    "dich",
+    "mir",
+    "mich",
+    "euch"
+  ],
+  "answer": "dir",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Aus „du“ wird „dir“.",
+    "en": "“helfen” takes the dative. “du” becomes “dir”.",
+    "ar": "الفعل helfen يتطلب حالة الجر. du تصبح dir."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-016 · Pronomen
+
+```json
+{
+  "id": "DE-016",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (er)",
+  "options": [
+    "ihm",
+    "ihn",
+    "ihr",
+    "sie",
+    "ihnen"
+  ],
+  "answer": "ihm",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Aus „er“ wird „ihm“.",
+    "en": "“helfen” takes the dative. “er” becomes “ihm”.",
+    "ar": "الفعل helfen يتطلب حالة الجر. er تصبح ihm."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-017 · Pronomen
+
+```json
+{
+  "id": "DE-017",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (sie, die Lehrerin)",
+  "options": [
+    "ihr",
+    "ihm",
+    "ihn",
+    "sie",
+    "ihnen"
+  ],
+  "answer": "ihr",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Für eine weibliche Person („sie“) wird daraus „ihr“.",
+    "en": "“helfen” takes the dative. For a female person (“sie”) this becomes “ihr”.",
+    "ar": "الفعل helfen يتطلب حالة الجر. sie (للمؤنث) تصبح ihr."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-018 · Pronomen
+
+```json
+{
+  "id": "DE-018",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (sie, die Kinder)",
+  "options": [
+    "ihnen",
+    "ihm",
+    "ihr",
+    "ihn",
+    "uns"
+  ],
+  "answer": "ihnen",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Für die Mehrzahl („sie“, Plural) wird daraus „ihnen“.",
+    "en": "“helfen” takes the dative. For plural “sie” this becomes “ihnen”.",
+    "ar": "الفعل helfen يتطلب حالة الجر. sie (جمع) تصبح ihnen."
+  },
+  "timeLimitSec": 30,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 2
+}
+```
+
+## DE-019 · Pronomen
+
+```json
+{
+  "id": "DE-019",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Er hilft ___. (wir)",
+  "options": [
+    "uns",
+    "euch",
+    "ihnen",
+    "mir",
+    "dir"
+  ],
+  "answer": "uns",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„helfen“ verlangt den Dativ. Aus „wir“ wird „uns“ (gleich wie im Akkusativ).",
+    "en": "“helfen” takes the dative. “wir” becomes “uns” (same form as the accusative).",
+    "ar": "الفعل helfen يتطلب حالة الجر. wir تصبح uns (نفس صيغة حالة النصب)."
+  },
+  "timeLimitSec": 45,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 3
+}
+```
+
+## DE-020 · Pronomen
+
+```json
+{
+  "id": "DE-020",
+  "subject": "German",
+  "topic": "Pronomen",
+  "type": "multiple-choice",
+  "prompt": "Ich sehe ___. (ihr)",
+  "options": [
+    "euch",
+    "uns",
+    "euer",
+    "ihnen",
+    "ihr"
+  ],
+  "answer": "euch",
+  "rule": "Personalpronomen ändern ihre Form je nach Fall (Kasus). Verben wie „sehen“ verlangen den Akkusativ, Verben wie „helfen“ den Dativ.",
+  "explanation": {
+    "de": "„sehen“ verlangt den Akkusativ. Aus „ihr“ (Mehrzahl „du“) wird „euch“.",
+    "en": "“sehen” takes the accusative. “ihr” (plural “you”) becomes “euch”.",
+    "ar": "الفعل sehen يتطلب حالة النصب. ihr (أنتم) تصبح euch."
+  },
+  "timeLimitSec": 45,
+  "tags": [
+    "year5-review"
+  ],
+  "difficulty": 3
+}
+```
+
+## DE-021 · Plural
+
+```json
+{
+  "id": "DE-021",
+  "subject": "German",
+  "topic": "Plural",
+  "type": "multiple-choice",
+  "prompt": "Wie lautet der Plural von „Hund“?",
+  "options": [
+    "Hunde",
+    "Hunds",
+    "Hunden",
+    "Hund",
+    "Hünder"
+  ],
+  "answer": "Hunde",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
+  "explanation": {
+    "de": "Ein Hund kommt nicht allein: Mehrere heißen „Hunde“.",
+    "en": "A “Hund” is never alone: more than one is called “Hunde”.",
+    "ar": "كلمة Hund (كلب) جمعها Hunde."
+  },
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -619,20 +661,22 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Buch“?",
+  "prompt": "Wie lautet der Plural von „Kind“?",
   "options": [
-    "Bücher",
-    "Buchs",
-    "Buchen"
+    "Kinder",
+    "Kinds",
+    "Kinden",
+    "Kind",
+    "Kindes"
   ],
-  "answer": "Bücher",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Kinder",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Ein Buch kommt nicht allein: Mehrere heißen „Bücher“.",
-    "en": "A “Buch” is never alone: more than one is called “Bücher”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Der Plural von „Kind“ endet auf -er: „Kinder“.",
+    "en": "The plural of “Kind” ends in -er: “Kinder”.",
+    "ar": "جمع كلمة Kind (طفل) هو Kinder، بلاحقة -er."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -640,28 +684,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-023 · Präteritum
+## DE-023 · Plural
 
 ```json
 {
   "id": "DE-023",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „fragen“?",
+  "prompt": "Wie lautet der Plural von „Katze“?",
   "options": [
-    "fragte",
-    "gefragt",
-    "fragente"
+    "Katzen",
+    "Katzes",
+    "Katze",
+    "Katzer",
+    "Katzin"
   ],
-  "answer": "fragte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Katzen",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Gestern passiert: Aus „fragen“ wird „fragte“.",
-    "en": "It happened yesterday: “fragen” becomes “fragte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Der Plural von „Katze“ endet auf -n: „Katzen“.",
+    "en": "The plural of “Katze” ends in -n: “Katzen”.",
+    "ar": "جمع كلمة Katze (قطة) هو Katzen، بلاحقة -n."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -669,28 +715,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-024 · Satzzeichen
+## DE-024 · Plural
 
 ```json
 {
   "id": "DE-024",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Kind sieht einen Apfel“?",
+  "prompt": "Wie lautet der Plural von „Auto“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Autos",
+    "Auten",
+    "Autoe",
+    "Auto",
+    "Autonen"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Autos",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Fremdwörter wie „Auto“ bilden den Plural oft mit -s: „Autos“.",
+    "en": "Loanwords like “Auto” often form the plural with -s: “Autos”.",
+    "ar": "كلمات مستعارة مثل Auto (سيارة) يكون جمعها غالبًا بإضافة -s: Autos."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -698,202 +746,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-025 · Subjekt
+## DE-025 · Plural
 
 ```json
 {
   "id": "DE-025",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Kind läuft heute schnell.“?",
+  "prompt": "Wie lautet der Plural von „Baum“?",
   "options": [
-    "Das Kind",
-    "heute",
-    "schnell"
+    "Bäume",
+    "Baume",
+    "Bäumer",
+    "Baum",
+    "Bäumen"
   ],
-  "answer": "Das Kind",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "Bäume",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Kind. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Kind. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Der Plural von „Baum“ bekommt einen Umlaut plus -e: „Bäume“.",
+    "en": "The plural of “Baum” takes an umlaut plus -e: “Bäume”.",
+    "ar": "جمع كلمة Baum (شجرة) هو Bäume، بإضافة تغيير الصوت (Umlaut) و -e."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-026 · Akkusativobjekt
+## DE-026 · Plural
 
 ```json
 {
   "id": "DE-026",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Aufgabe“ in „Mia sieht die Aufgabe.“?",
+  "prompt": "Wie lautet der Plural von „Buch“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "Bücher",
+    "Buche",
+    "Büche",
+    "Buch",
+    "Büchern"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "Bücher",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Mia sieht wen oder was? die Aufgabe. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Aufgabe. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Der Plural von „Buch“ bekommt einen Umlaut plus -er: „Bücher“.",
+    "en": "The plural of “Buch” takes an umlaut plus -er: “Bücher”.",
+    "ar": "جمع كلمة Buch (كتاب) هو Bücher، بتغيير الصوت وإضافة -er."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-027 · Adjektive
+## DE-027 · Plural
 
 ```json
 {
   "id": "DE-027",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „laut“?",
+  "prompt": "Wie lautet der Plural von „Frau“?",
   "options": [
-    "lauter",
-    "lautsten",
-    "lauter"
+    "Frauen",
+    "Fraue",
+    "Frauer",
+    "Frau",
+    "Fraun"
   ],
-  "answer": "lauter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "Frauen",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist laut, die andere ist lauter.",
-    "en": "Two things are compared, so “laut” becomes “lauter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Der Plural von „Frau“ endet auf -en: „Frauen“.",
+    "en": "The plural of “Frau” ends in -en: “Frauen”.",
+    "ar": "جمع كلمة Frau (امرأة) هو Frauen، بلاحقة -en."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-028 · Rechtschreibung
+## DE-028 · Plural
 
 ```json
 {
   "id": "DE-028",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Wie lautet der Plural von „Vater“?",
   "options": [
-    "Hausaufgabe",
-    "hausaufgabe",
-    "Hausaufgabe-"
+    "Väter",
+    "Vatere",
+    "Vaters",
+    "Vater",
+    "Väterin"
   ],
-  "answer": "Hausaufgabe",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "Väter",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "„Hausaufgabe“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Hausaufgabe” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Der Plural von „Vater“ bekommt nur einen Umlaut, keine Endung: „Väter“.",
+    "en": "The plural of “Vater” only takes an umlaut, no ending: “Väter”.",
+    "ar": "جمع كلمة Vater (أب) هو Väter، بتغيير الصوت فقط دون لاحقة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-029 · Kommasetzung
+## DE-029 · Plural
 
 ```json
 {
   "id": "DE-029",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
+  "prompt": "Wie lautet der Plural von „Museum“?",
   "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
+    "Museen",
+    "Museume",
+    "Museums",
+    "Museum",
+    "Museumen"
   ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "Museen",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Griechisch-lateinische Fremdwörter wie „Museum“ bilden den Plural oft auf -en: „Museen“.",
+    "en": "Greek/Latin loanwords like “Museum” often form the plural with -en: “Museen”.",
+    "ar": "كلمات ذات أصل يوناني-لاتيني مثل Museum (متحف) يكون جمعها غالبًا Museen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-030 · Prädikat
+## DE-030 · Plural
 
 ```json
 {
   "id": "DE-030",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Plural",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
+  "prompt": "Wie lautet der Plural von „Thema“?",
   "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
+    "Themen",
+    "Themas",
+    "Theme",
+    "Thema",
+    "Themens"
   ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "Themen",
+  "rule": "Die Mehrzahl (Plural) deutscher Nomen wird unterschiedlich gebildet (z. B. -e, -er, -n, -s oder Umlaut) und muss oft mitgelernt werden.",
   "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Griechisch-lateinische Fremdwörter wie „Thema“ bilden den Plural oft auf -en: „Themen“.",
+    "en": "Greek/Latin loanwords like “Thema” often form the plural with -en: “Themen”.",
+    "ar": "كلمات ذات أصل يوناني-لاتيني مثل Thema (موضوع) يكون جمعها غالبًا Themen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-031 · Artikel
+## DE-031 · Wortarten
 
 ```json
 {
   "id": "DE-031",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Schule“?",
+  "prompt": "Welche Wortart hat das Wort „läuft“ im Satz „Der Hund läuft schnell.“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "Verb",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Schule“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Schule” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "„läuft“ ist die gebeugte Form von „laufen“ und damit ein Verb.",
+    "en": "“läuft” is the conjugated form of “laufen”, so it is a verb.",
+    "ar": "كلمة läuft هي تصريف للفعل laufen، لذلك هي فعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -901,28 +963,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-032 · Plural
+## DE-032 · Wortarten
 
 ```json
 {
   "id": "DE-032",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Schule“?",
+  "prompt": "Welche Wortart hat das Wort „schnell“ im Satz „Der Hund läuft schnell.“?",
   "options": [
-    "Schulen",
-    "Schules",
-    "Schuleen"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "Schulen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Adjektiv",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Ein Schule kommt nicht allein: Mehrere heißen „Schulen“.",
-    "en": "A “Schule” is never alone: more than one is called “Schulen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "„schnell“ beschreibt, wie der Hund läuft, und ist ein Adjektiv.",
+    "en": "“schnell” describes how the dog runs, so it is an adjective.",
+    "ar": "كلمة schnell تصف كيف يجري الكلب، لذلك هي صفة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -930,28 +994,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-033 · Präteritum
+## DE-033 · Wortarten
 
 ```json
 {
   "id": "DE-033",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „machen“?",
+  "prompt": "Welche Wortart hat das Wort „Hund“ im Satz „Der Hund läuft schnell.“?",
   "options": [
-    "machte",
-    "gemacht",
-    "machente"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "machte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Nomen",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Gestern passiert: Aus „machen“ wird „machte“.",
-    "en": "It happened yesterday: “machen” becomes “machte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "„Hund“ benennt ein Lebewesen und ist ein Nomen (großgeschrieben).",
+    "en": "“Hund” names a living being, so it is a noun (capitalized).",
+    "ar": "كلمة Hund تسمّي كائنًا حيًّا، لذلك هي اسم (وتُكتب بحرف كبير)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -959,28 +1025,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-034 · Satzzeichen
+## DE-034 · Wortarten
 
 ```json
 {
   "id": "DE-034",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Unser Lehrer sieht die Geschichte“?",
+  "prompt": "Welche Wortart hat das Wort „er“ im Satz „Er spielt Fußball.“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Pronomen",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "„er“ ersetzt einen Namen und ist ein Pronomen.",
+    "en": "“er” stands in for a name, so it is a pronoun.",
+    "ar": "كلمة er تحل محل اسم، لذلك هي ضمير."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -988,202 +1056,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-035 · Subjekt
+## DE-035 · Wortarten
 
 ```json
 {
   "id": "DE-035",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Unser Lehrer läuft heute schnell.“?",
+  "prompt": "Welche Wortart hat das Wort „auf“ im Satz „Die Katze sitzt auf dem Tisch.“?",
   "options": [
-    "Unser Lehrer",
-    "heute",
-    "schnell"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "Unser Lehrer",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "Präposition",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Unser Lehrer. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Unser Lehrer. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„auf“ verbindet das Verb mit einem Ort und ist eine Präposition.",
+    "en": "“auf” links the verb to a place, so it is a preposition.",
+    "ar": "كلمة auf تربط الفعل بمكان، لذلك هي حرف جر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-036 · Akkusativobjekt
+## DE-036 · Wortarten
 
 ```json
 {
   "id": "DE-036",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fenster“ in „Mia sieht das Fenster.“?",
+  "prompt": "Welche Wortart hat das Wort „Garten“ im Satz „Die Blume blüht im Garten.“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "Nomen",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Mia sieht wen oder was? das Fenster. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fenster. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "„Garten“ benennt einen Ort und ist ein Nomen.",
+    "en": "“Garten” names a place, so it is a noun.",
+    "ar": "كلمة Garten تسمّي مكانًا، لذلك هي اسم."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-037 · Adjektive
+## DE-037 · Wortarten
 
 ```json
 {
   "id": "DE-037",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klug“?",
+  "prompt": "Welche Wortart hat das Wort „spielt“ im Satz „Das Kind spielt im Park.“?",
   "options": [
-    "klüger",
-    "klugsten",
-    "kluger"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "klüger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "Verb",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klug, die andere ist klüger.",
-    "en": "Two things are compared, so “klug” becomes “klüger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "„spielt“ ist die gebeugte Form von „spielen“ und damit ein Verb.",
+    "en": "“spielt” is the conjugated form of “spielen”, so it is a verb.",
+    "ar": "كلمة spielt هي تصريف للفعل spielen، لذلك هي فعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-038 · Rechtschreibung
+## DE-038 · Wortarten
 
 ```json
 {
   "id": "DE-038",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welche Wortart hat das Wort „sie“ im Satz „Sie liest ein Buch.“?",
   "options": [
-    "Fußballplatz",
-    "fußballplatz",
-    "Fußballplatz-"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "Fußballplatz",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "Pronomen",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "„Fußballplatz“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fußballplatz” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "„sie“ ersetzt einen Namen und ist ein Pronomen.",
+    "en": "“sie” stands in for a name, so it is a pronoun.",
+    "ar": "كلمة sie تحل محل اسم، لذلك هي ضمير."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-039 · Kommasetzung
+## DE-039 · Wortarten
 
 ```json
 {
   "id": "DE-039",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
+  "prompt": "Welche Wortart hat das Wort „unter“ im Satz „Der Ball liegt unter dem Stuhl.“?",
   "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "Präposition",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„unter“ verbindet das Verb mit einem Ort und ist eine Präposition.",
+    "en": "“unter” links the verb to a place, so it is a preposition.",
+    "ar": "كلمة unter تربط الفعل بمكان، لذلك هي حرف جر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-040 · Prädikat
+## DE-040 · Wortarten
 
 ```json
 {
   "id": "DE-040",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Wortarten",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
+  "prompt": "Welche Wortart hat das Wort „wunderschön“ im Satz „Die Blumen sind wunderschön.“?",
   "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
+    "Nomen",
+    "Verb",
+    "Adjektiv",
+    "Pronomen",
+    "Präposition"
   ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "Adjektiv",
+  "rule": "Wortarten wie Nomen, Verb, Adjektiv, Pronomen und Präposition erkennt man an ihrer Funktion im Satz.",
   "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„wunderschön“ beschreibt die Blumen und ist ein Adjektiv.",
+    "en": "“wunderschön” describes the flowers, so it is an adjective.",
+    "ar": "كلمة wunderschön تصف الزهور، لذلك هي صفة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-041 · Artikel
+## DE-041 · Präteritum
 
 ```json
 {
   "id": "DE-041",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Garten“?",
+  "prompt": "Welche Form ist das Präteritum von „spielen“ (ich-Form)?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "spielte",
+    "gespielt",
+    "spielen",
+    "spielete",
+    "spielst"
   ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "spielte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Garten“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Garten” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Schwaches Verb: Aus „spielen“ wird mit -te „spielte“.",
+    "en": "Weak verb: “spielen” becomes “spielte” with -te.",
+    "ar": "فعل ضعيف: spielen تصبح spielte بإضافة -te."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1191,28 +1273,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-042 · Plural
+## DE-042 · Präteritum
 
 ```json
 {
   "id": "DE-042",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Garten“?",
+  "prompt": "Welche Form ist das Präteritum von „machen“ (ich-Form)?",
   "options": [
-    "Gärten",
-    "Gartens",
-    "Gartenen"
+    "machte",
+    "gemacht",
+    "machen",
+    "machete",
+    "machst"
   ],
-  "answer": "Gärten",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "machte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Ein Garten kommt nicht allein: Mehrere heißen „Gärten“.",
-    "en": "A “Garten” is never alone: more than one is called “Gärten”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Schwaches Verb: Aus „machen“ wird mit -te „machte“.",
+    "en": "Weak verb: “machen” becomes “machte” with -te.",
+    "ar": "فعل ضعيف: machen تصبح machte بإضافة -te."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1228,20 +1312,22 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „suchen“?",
+  "prompt": "Welche Form ist das Präteritum von „lernen“ (ich-Form)?",
   "options": [
-    "suchte",
-    "gesucht",
-    "suchente"
+    "lernte",
+    "gelernt",
+    "lernen",
+    "lernete",
+    "lernst"
   ],
-  "answer": "suchte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "lernte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Gestern passiert: Aus „suchen“ wird „suchte“.",
-    "en": "It happened yesterday: “suchen” becomes “suchte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Schwaches Verb: Aus „lernen“ wird mit -te „lernte“.",
+    "en": "Weak verb: “lernen” becomes “lernte” with -te.",
+    "ar": "فعل ضعيف: lernen تصبح lernte بإضافة -te."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1249,28 +1335,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-044 · Satzzeichen
+## DE-044 · Präteritum
 
 ```json
 {
   "id": "DE-044",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Die Katze sieht den Brief“?",
+  "prompt": "Welche Form ist das Präteritum von „sagen“ (ich-Form)?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "sagte",
+    "gesagt",
+    "sagen",
+    "sagete",
+    "sagst"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "sagte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Schwaches Verb: Aus „sagen“ wird mit -te „sagte“.",
+    "en": "Weak verb: “sagen” becomes “sagte” with -te.",
+    "ar": "فعل ضعيف: sagen تصبح sagte بإضافة -te."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1278,202 +1366,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-045 · Subjekt
+## DE-045 · Präteritum
 
 ```json
 {
   "id": "DE-045",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Die Katze läuft heute schnell.“?",
+  "prompt": "Welche Form ist das Präteritum von „gehen“ (ich-Form)?",
   "options": [
-    "Die Katze",
-    "heute",
-    "schnell"
+    "ging",
+    "gehte",
+    "gegangen",
+    "geht",
+    "gehen"
   ],
-  "answer": "Die Katze",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "ging",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Die Katze. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Die Katze. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Starkes Verb: „gehen“ ändert den Stammvokal zu „ging“.",
+    "en": "Strong verb: “gehen” changes its stem vowel to “ging”.",
+    "ar": "فعل قوي: gehen يغيّر حرف العلة إلى ging."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-046 · Akkusativobjekt
+## DE-046 · Präteritum
 
 ```json
 {
   "id": "DE-046",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „einen Apfel“ in „Mia sieht einen Apfel.“?",
+  "prompt": "Welche Form ist das Präteritum von „essen“ (ich-Form)?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "aß",
+    "esste",
+    "gegessen",
+    "isst",
+    "essen"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "aß",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Mia sieht wen oder was? einen Apfel. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? einen Apfel. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Starkes Verb: „essen“ ändert den Stammvokal zu „aß“.",
+    "en": "Strong verb: “essen” changes its stem vowel to “aß”.",
+    "ar": "فعل قوي: essen يغيّر حرف العلة إلى aß."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-047 · Adjektive
+## DE-047 · Präteritum
 
 ```json
 {
   "id": "DE-047",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „jung“?",
+  "prompt": "Welche Form ist das Präteritum von „sehen“ (ich-Form)?",
   "options": [
-    "jünger",
-    "jungsten",
-    "junger"
+    "sah",
+    "sehte",
+    "gesehen",
+    "sieht",
+    "sehen"
   ],
-  "answer": "jünger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "sah",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist jung, die andere ist jünger.",
-    "en": "Two things are compared, so “jung” becomes “jünger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Starkes Verb: „sehen“ ändert den Stammvokal zu „sah“.",
+    "en": "Strong verb: “sehen” changes its stem vowel to “sah”.",
+    "ar": "فعل قوي: sehen يغيّر حرف العلة إلى sah."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-048 · Rechtschreibung
+## DE-048 · Präteritum
 
 ```json
 {
   "id": "DE-048",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welche Form ist das Präteritum von „kommen“ (ich-Form)?",
   "options": [
-    "Sonnenblume",
-    "sonnenblume",
-    "Sonnenblume-"
+    "kam",
+    "kommte",
+    "gekommen",
+    "kommt",
+    "kommen"
   ],
-  "answer": "Sonnenblume",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "kam",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "„Sonnenblume“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Sonnenblume” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Starkes Verb: „kommen“ ändert den Stammvokal zu „kam“.",
+    "en": "Strong verb: “kommen” changes its stem vowel to “kam”.",
+    "ar": "فعل قوي: kommen يغيّر حرف العلة إلى kam."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-049 · Kommasetzung
+## DE-049 · Präteritum
 
 ```json
 {
   "id": "DE-049",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
+  "prompt": "Welche Form ist das Präteritum von „bringen“ (ich-Form)?",
   "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
+    "brachte",
+    "bringte",
+    "gebracht",
+    "bringt",
+    "bringen"
   ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "brachte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Gemischtes Verb: „bringen“ ändert den Stamm und bekommt trotzdem -te: „brachte“.",
+    "en": "Mixed verb: “bringen” changes its stem but still takes -te: “brachte”.",
+    "ar": "فعل مختلط: bringen يغيّر جذعه لكن يأخذ -te أيضًا: brachte."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-050 · Prädikat
+## DE-050 · Präteritum
 
 ```json
 {
   "id": "DE-050",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Präteritum",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
+  "prompt": "Welche Form ist das Präteritum von „denken“ (ich-Form)?",
   "options": [
-    "schläft",
-    "Der",
-    "Tisch"
+    "dachte",
+    "denkte",
+    "gedacht",
+    "denkt",
+    "denken"
   ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "dachte",
+  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te, starke Verben ändern oft den Stammvokal.",
   "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Gemischtes Verb: „denken“ ändert den Stamm und bekommt trotzdem -te: „dachte“.",
+    "en": "Mixed verb: “denken” changes its stem but still takes -te: “dachte”.",
+    "ar": "فعل مختلط: denken يغيّر جذعه لكن يأخذ -te أيضًا: dachte."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-051 · Artikel
+## DE-051 · Perfekt
 
 ```json
 {
   "id": "DE-051",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Kind“?",
+  "prompt": "Wie lautet das Perfekt von „spielen“ (er/sie/es-Form)?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "hat gespielt",
+    "ist gespielt",
+    "hat spielen",
+    "ist gegespielt",
+    "hat spielt"
   ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "hat gespielt",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Kind“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Kind” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "„spielen“ bildet das Perfekt mit „haben“: „hat gespielt“.",
+    "en": "“spielen” forms the perfect with “haben”: “hat gespielt”.",
+    "ar": "الفعل spielen يكوّن صيغة الماضي التام بـ haben: hat gespielt."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1481,28 +1583,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-052 · Plural
+## DE-052 · Perfekt
 
 ```json
 {
   "id": "DE-052",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Kind“?",
+  "prompt": "Wie lautet das Perfekt von „machen“ (er/sie/es-Form)?",
   "options": [
-    "Kinder",
-    "Kinds",
-    "Kinden"
+    "hat gemacht",
+    "ist gemacht",
+    "hat machen",
+    "ist gemachen",
+    "hat gemachtet"
   ],
-  "answer": "Kinder",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "hat gemacht",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Ein Kind kommt nicht allein: Mehrere heißen „Kinder“.",
-    "en": "A “Kind” is never alone: more than one is called “Kinder”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "„machen“ bildet das Perfekt mit „haben“: „hat gemacht“.",
+    "en": "“machen” forms the perfect with “haben”: “hat gemacht”.",
+    "ar": "الفعل machen يكوّن صيغة الماضي التام بـ haben: hat gemacht."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1510,28 +1614,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-053 · Präteritum
+## DE-053 · Perfekt
 
 ```json
 {
   "id": "DE-053",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lachen“?",
+  "prompt": "Wie lautet das Perfekt von „gehen“ (er/sie/es-Form)?",
   "options": [
-    "lachte",
-    "gelacht",
-    "lachente"
+    "ist gegangen",
+    "hat gegangen",
+    "ist geht",
+    "hat geht",
+    "ist gehte"
   ],
-  "answer": "lachte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "ist gegangen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Gestern passiert: Aus „lachen“ wird „lachte“.",
-    "en": "It happened yesterday: “lachen” becomes “lachte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "„gehen“ beschreibt eine Bewegung und bildet das Perfekt mit „sein“: „ist gegangen“.",
+    "en": "“gehen” describes motion, so it forms the perfect with “sein”: “ist gegangen”.",
+    "ar": "الفعل gehen يصف حركة، لذلك يكوّن صيغة الماضي التام بـ sein: ist gegangen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1539,28 +1645,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-054 · Satzzeichen
+## DE-054 · Perfekt
 
 ```json
 {
   "id": "DE-054",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Mein Freund sieht das Fahrrad“?",
+  "prompt": "Wie lautet das Perfekt von „kommen“ (er/sie/es-Form)?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "ist gekommen",
+    "hat gekommen",
+    "ist kommt",
+    "hat kommt",
+    "ist gekommt"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "ist gekommen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "„kommen“ beschreibt eine Bewegung und bildet das Perfekt mit „sein“: „ist gekommen“.",
+    "en": "“kommen” describes motion, so it forms the perfect with “sein”: “ist gekommen”.",
+    "ar": "الفعل kommen يصف حركة، لذلك يكوّن صيغة الماضي التام بـ sein: ist gekommen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1568,202 +1676,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-055 · Subjekt
+## DE-055 · Perfekt
 
 ```json
 {
   "id": "DE-055",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Mein Freund läuft heute schnell.“?",
+  "prompt": "Wie lautet das Perfekt von „sehen“ (er/sie/es-Form)?",
   "options": [
-    "Mein Freund",
-    "heute",
-    "schnell"
+    "hat gesehen",
+    "ist gesehen",
+    "hat gesieht",
+    "ist gesieht",
+    "hat sehen"
   ],
-  "answer": "Mein Freund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "hat gesehen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Mein Freund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Mein Freund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„sehen“ bildet das Perfekt mit „haben“: „hat gesehen“.",
+    "en": "“sehen” forms the perfect with “haben”: “hat gesehen”.",
+    "ar": "الفعل sehen يكوّن صيغة الماضي التام بـ haben: hat gesehen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-056 · Akkusativobjekt
+## DE-056 · Perfekt
 
 ```json
 {
   "id": "DE-056",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Geschichte“ in „Mia sieht die Geschichte.“?",
+  "prompt": "Wie lautet das Perfekt von „essen“ (er/sie/es-Form)?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "hat gegessen",
+    "ist gegessen",
+    "hat gesessen",
+    "hat isst",
+    "ist isst"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "hat gegessen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Mia sieht wen oder was? die Geschichte. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Geschichte. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "„essen“ bildet das Perfekt mit „haben“: „hat gegessen“ (nicht zu verwechseln mit „gesessen“ von „sitzen“).",
+    "en": "“essen” forms the perfect with “haben”: “hat gegessen” (not to be confused with “gesessen” from “sitzen”).",
+    "ar": "الفعل essen يكوّن صيغة الماضي التام بـ haben: hat gegessen (لا يُخلط مع gesessen من sitzen)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-057 · Adjektive
+## DE-057 · Perfekt
 
 ```json
 {
   "id": "DE-057",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „warm“?",
+  "prompt": "Wie lautet das Perfekt von „fahren“ (er/sie/es-Form) in: „Er ___ mit dem Zug nach Berlin.“?",
   "options": [
-    "wärmer",
-    "warmsten",
-    "warmer"
+    "ist gefahren",
+    "hat gefahren",
+    "ist fährt",
+    "hat fährt",
+    "ist gefahrt"
   ],
-  "answer": "wärmer",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "ist gefahren",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist warm, die andere ist wärmer.",
-    "en": "Two things are compared, so “warm” becomes “wärmer”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Hier beschreibt „fahren“ eine Bewegung von A nach B ohne Akkusativobjekt und bildet das Perfekt mit „sein“: „ist gefahren“. Nur wer ein Fahrzeug lenkt (z. B. „Er hat das Auto gefahren“), nutzt „haben“.",
+    "en": "Here “fahren” describes travelling from A to B with no direct object, so it forms the perfect with “sein”: “ist gefahren”. “haben” is only used for steering a vehicle (e.g. “Er hat das Auto gefahren”).",
+    "ar": "هنا يصف fahren حركة من مكان إلى آخر بلا مفعول به، لذلك يكوّن صيغة الماضي التام بـ sein: ist gefahren. تُستخدم haben فقط عند قيادة مركبة، مثل: Er hat das Auto gefahren."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-058 · Rechtschreibung
+## DE-058 · Perfekt
 
 ```json
 {
   "id": "DE-058",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Wie lautet das Perfekt von „bleiben“ (er/sie/es-Form)?",
   "options": [
-    "Kinderzimmer",
-    "kinderzimmer",
-    "Kinderzimmer-"
+    "ist geblieben",
+    "hat geblieben",
+    "ist bleibt",
+    "hat bleibt",
+    "ist blieb"
   ],
-  "answer": "Kinderzimmer",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "ist geblieben",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "„Kinderzimmer“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Kinderzimmer” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "„bleiben“ beschreibt einen Zustand ohne Bewegung, bildet das Perfekt aber trotzdem mit „sein“: „ist geblieben“.",
+    "en": "“bleiben” describes a state without motion, but still forms the perfect with “sein”: “ist geblieben”.",
+    "ar": "الفعل bleiben يصف حالة دون حركة، لكنه يكوّن صيغة الماضي التام بـ sein أيضًا: ist geblieben."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-059 · Kommasetzung
+## DE-059 · Perfekt
 
 ```json
 {
   "id": "DE-059",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
+  "prompt": "Wie lautet das Perfekt von „lesen“ (er/sie/es-Form)?",
   "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
+    "hat gelesen",
+    "ist gelesen",
+    "hat liest",
+    "ist liest",
+    "hat gelest"
   ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "hat gelesen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„lesen“ bildet das Perfekt mit „haben“: „hat gelesen“.",
+    "en": "“lesen” forms the perfect with “haben”: “hat gelesen”.",
+    "ar": "الفعل lesen يكوّن صيغة الماضي التام بـ haben: hat gelesen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-060 · Prädikat
+## DE-060 · Perfekt
 
 ```json
 {
   "id": "DE-060",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Perfekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
+  "prompt": "Wie lautet das Perfekt von „schlafen“ (er/sie/es-Form)?",
   "options": [
-    "liest",
-    "Heute",
-    "Buch"
+    "hat geschlafen",
+    "ist geschlafen",
+    "hat schläft",
+    "ist schläft",
+    "hat geschlaft"
   ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "hat geschlafen",
+  "rule": "Das Perfekt bildet man mit „haben“ oder „sein“ + Partizip II. Bewegungs- und Zustandswechsel-Verben nutzen meist „sein“.",
   "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„schlafen“ klingt nach einem Zustand, bildet das Perfekt aber mit „haben“: „hat geschlafen“.",
+    "en": "“schlafen” sounds like a state, but it forms the perfect with “haben”: “hat geschlafen”.",
+    "ar": "الفعل schlafen يبدو حالة، لكنه يكوّن صيغة الماضي التام بـ haben: hat geschlafen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-061 · Artikel
+## DE-061 · Satzzeichen
 
 ```json
 {
   "id": "DE-061",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Freund“?",
+  "prompt": "Welches Satzzeichen beendet den ruhig erzählten Satz: „Der Hund bellt laut“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": ".",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Freund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Freund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Ruhig erzählt stellt der Satz nur etwas fest, also endet er mit einem Punkt.",
+    "en": "Told calmly, the sentence just states a fact, so it ends with a period.",
+    "ar": "عند سردها بهدوء، تُخبر الجملة عن حقيقة فقط، لذلك تنتهي بنقطة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1771,28 +1893,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-062 · Plural
+## DE-062 · Satzzeichen
 
 ```json
 {
   "id": "DE-062",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Freund“?",
+  "prompt": "Welches Satzzeichen beendet den Satz: „Kommst du heute mit“?",
   "options": [
-    "Freunde",
-    "Freunds",
-    "Freunden"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "Freunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "?",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Ein Freund kommt nicht allein: Mehrere heißen „Freunde“.",
-    "en": "A “Freund” is never alone: more than one is called “Freunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Der Satz fragt etwas, also endet er mit einem Fragezeichen.",
+    "en": "The sentence asks something, so it ends with a question mark.",
+    "ar": "الجملة سؤال، لذلك تنتهي بعلامة استفهام."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1800,28 +1924,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-063 · Präteritum
+## DE-063 · Satzzeichen
 
 ```json
 {
   "id": "DE-063",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „hören“?",
+  "prompt": "Welches Satzzeichen beendet den laut gerufenen Satz: „Pass auf“?",
   "options": [
-    "hörte",
-    "gehört",
-    "hörente"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "hörte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "!",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Gestern passiert: Aus „hören“ wird „hörte“.",
-    "en": "It happened yesterday: “hören” becomes “hörte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Laut gerufen ist der Satz eine dringende Warnung, also endet er mit einem Ausrufezeichen.",
+    "en": "Shouted loudly, the sentence is an urgent warning, so it ends with an exclamation mark.",
+    "ar": "عند صراخها بصوت عالٍ، تكون الجملة تحذيرًا عاجلًا، لذلك تنتهي بعلامة تعجب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1837,20 +1963,22 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Vogel sieht die Tür“?",
+  "prompt": "Welches Satzzeichen beendet den ruhig erzählten Satz: „Die Sonne scheint“?",
   "options": [
     ".",
     "?",
-    "!"
+    "!",
+    ",",
+    ":"
   ],
   "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Ruhig erzählt stellt der Satz nur etwas fest, also endet er mit einem Punkt.",
+    "en": "Told calmly, the sentence just states a fact, so it ends with a period.",
+    "ar": "عند سردها بهدوء، تُخبر الجملة عن حقيقة فقط، لذلك تنتهي بنقطة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -1858,202 +1986,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-065 · Subjekt
+## DE-065 · Satzzeichen
 
 ```json
 {
   "id": "DE-065",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Vogel läuft heute schnell.“?",
+  "prompt": "Welches Satzzeichen beendet den Satz: „Wie spät ist es“?",
   "options": [
-    "Der Vogel",
-    "heute",
-    "schnell"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "Der Vogel",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "?",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Vogel. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Vogel. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Der Satz fragt etwas, also endet er mit einem Fragezeichen.",
+    "en": "The sentence asks something, so it ends with a question mark.",
+    "ar": "الجملة سؤال، لذلك تنتهي بعلامة استفهام."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-066 · Akkusativobjekt
+## DE-066 · Satzzeichen
 
 ```json
 {
   "id": "DE-066",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Brief“ in „Mia sieht den Brief.“?",
+  "prompt": "Welches Satzzeichen beendet den laut gerufenen Satz: „Lauf schnell“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "!",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Mia sieht wen oder was? den Brief. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Brief. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Laut gerufen ist der Satz eine dringende Aufforderung, also endet er mit einem Ausrufezeichen.",
+    "en": "Shouted loudly, the sentence is an urgent command, so it ends with an exclamation mark.",
+    "ar": "عند صراخها بصوت عالٍ، تكون الجملة أمرًا عاجلًا، لذلك تنتهي بعلامة تعجب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-067 · Adjektive
+## DE-067 · Satzzeichen
 
 ```json
 {
   "id": "DE-067",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „kalt“?",
+  "prompt": "Welches Satzzeichen beendet den ruhig erzählten Satz: „Wir gehen morgen ins Kino“?",
   "options": [
-    "kälter",
-    "kaltsten",
-    "kalter"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "kälter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": ".",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist kalt, die andere ist kälter.",
-    "en": "Two things are compared, so “kalt” becomes “kälter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Ruhig erzählt stellt der Satz nur etwas fest, also endet er mit einem Punkt.",
+    "en": "Told calmly, the sentence just states a fact, so it ends with a period.",
+    "ar": "عند سردها بهدوء، تُخبر الجملة عن حقيقة فقط، لذلك تنتهي بنقطة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-068 · Rechtschreibung
+## DE-068 · Satzzeichen
 
 ```json
 {
   "id": "DE-068",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welches Satzzeichen beendet den Satz: „Hast du das gesehen“?",
   "options": [
-    "Regenschirm",
-    "regenschirm",
-    "Regenschirm-"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "Regenschirm",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "?",
+  "rule": "Aussagesätze enden mit einem Punkt, Fragesätze mit einem Fragezeichen und Aufforderungs-/Ausrufesätze mit einem Ausrufezeichen.",
   "explanation": {
-    "de": "„Regenschirm“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Regenschirm” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Der Satz fragt etwas, also endet er mit einem Fragezeichen.",
+    "en": "The sentence asks something, so it ends with a question mark.",
+    "ar": "الجملة سؤال، لذلك تنتهي بعلامة استفهام."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-069 · Kommasetzung
+## DE-069 · Satzzeichen
 
 ```json
 {
   "id": "DE-069",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
+  "prompt": "Welches Satzzeichen beendet den Satz: „Er fragt, ob du morgen kommst“?",
   "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": ".",
+  "rule": "Eine indirekte Frage (eingeleitet z. B. durch „ob“, „wann“, „warum“) steckt in einem Nebensatz und endet mit einem Punkt – nur eine direkte Frage bekommt ein Fragezeichen.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„ob du morgen kommst“ ist eine indirekte Frage im Nebensatz. Der ganze Satz ist ein Aussagesatz und endet mit einem Punkt, obwohl es inhaltlich um eine Frage geht.",
+    "en": "“ob du morgen kommst” is an indirect question inside a subordinate clause. The whole sentence is a statement, so it ends with a period even though its content is a question.",
+    "ar": "عبارة ob du morgen kommst سؤال غير مباشر داخل جملة فرعية. الجملة كاملة جملة خبرية وتنتهي بنقطة رغم أن مضمونها سؤال."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-070 · Prädikat
+## DE-070 · Satzzeichen
 
 ```json
 {
   "id": "DE-070",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Satzzeichen",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
+  "prompt": "Welches Satzzeichen beendet den Satz: „Ich weiß nicht, wann der Film beginnt“?",
   "options": [
-    "fährt",
-    "Am",
-    "Bus"
+    ".",
+    "?",
+    "!",
+    ",",
+    ":"
   ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": ".",
+  "rule": "Eine indirekte Frage (eingeleitet z. B. durch „ob“, „wann“, „warum“) steckt in einem Nebensatz und endet mit einem Punkt – nur eine direkte Frage bekommt ein Fragezeichen.",
   "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„wann der Film beginnt“ ist eine indirekte Frage im Nebensatz. Der ganze Satz ist ein Aussagesatz und endet mit einem Punkt, obwohl „wann“ wie ein Fragewort aussieht.",
+    "en": "“wann der Film beginnt” is an indirect question inside a subordinate clause. The whole sentence is a statement, so it ends with a period even though “wann” looks like a question word.",
+    "ar": "عبارة wann der Film beginnt سؤال غير مباشر داخل جملة فرعية. الجملة كاملة خبرية وتنتهي بنقطة رغم أن wann تبدو أداة سؤال."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-071 · Artikel
+## DE-071 · Kommasetzung
 
 ```json
 {
   "id": "DE-071",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Blume“?",
+  "prompt": "Wähle den Satz mit korrektem Komma bei einer Aufzählung von Obst:",
   "options": [
-    "der",
-    "die",
-    "das"
+    "Ich kaufe Äpfel, Birnen und Bananen.",
+    "Ich kaufe Äpfel Birnen, und Bananen.",
+    "Ich kaufe, Äpfel Birnen und Bananen.",
+    "Ich kaufe Äpfel Birnen und, Bananen.",
+    "Ich kaufe Äpfel, Birnen, und, Bananen."
   ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "Ich kaufe Äpfel, Birnen und Bananen.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Blume“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Blume” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Bei einer Aufzählung stehen Kommas zwischen den einzelnen Teilen, aber nicht vor dem letzten „und“.",
+    "en": "In a list, commas go between the items, but not before the final “and”.",
+    "ar": "في التعداد توضع الفواصل بين العناصر، لكن ليس قبل «und» الأخيرة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2061,28 +2203,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-072 · Plural
+## DE-072 · Kommasetzung
 
 ```json
 {
   "id": "DE-072",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Blume“?",
+  "prompt": "Wähle den Satz mit korrektem Komma vor „dass“:",
   "options": [
-    "Blumen",
-    "Blumes",
-    "Blumeen"
+    "Ich weiß, dass du kommst.",
+    "Ich weiß dass, du kommst.",
+    "Ich, weiß dass du kommst.",
+    "Ich weiß dass du, kommst.",
+    "Ich weiß dass du kommst."
   ],
-  "answer": "Blumen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Ich weiß, dass du kommst.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Ein Blume kommt nicht allein: Mehrere heißen „Blumen“.",
-    "en": "A “Blume” is never alone: more than one is called “Blumen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Vor der Konjunktion „dass“ steht immer ein Komma, weil ein Nebensatz beginnt.",
+    "en": "A comma always goes before the conjunction “dass”, because a subordinate clause begins.",
+    "ar": "توضع فاصلة دائمًا قبل أداة الربط dass لأنّ جملة فرعية تبدأ بعدها."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2090,28 +2234,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-073 · Präteritum
+## DE-073 · Kommasetzung
 
 ```json
 {
   "id": "DE-073",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „kaufen“?",
+  "prompt": "Wähle den Satz mit korrektem Komma vor „weil“:",
   "options": [
-    "kaufte",
-    "gekauft",
-    "kaufente"
+    "Er bleibt zu Hause, weil er krank ist.",
+    "Er bleibt, zu Hause weil er krank ist.",
+    "Er bleibt zu Hause weil, er krank ist.",
+    "Er bleibt zu Hause weil er, krank ist.",
+    "Er bleibt zu Hause weil er krank ist."
   ],
-  "answer": "kaufte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Er bleibt zu Hause, weil er krank ist.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Gestern passiert: Aus „kaufen“ wird „kaufte“.",
-    "en": "It happened yesterday: “kaufen” becomes “kaufte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Vor der Konjunktion „weil“ steht ein Komma, weil ein Nebensatz beginnt.",
+    "en": "A comma goes before the conjunction “weil”, because a subordinate clause begins.",
+    "ar": "توضع فاصلة قبل أداة الربط weil لأنّ جملة فرعية تبدأ بعدها."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2119,28 +2265,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-074 · Satzzeichen
+## DE-074 · Kommasetzung
 
 ```json
 {
   "id": "DE-074",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Mutter sieht das Bild“?",
+  "prompt": "Wähle den Satz mit korrektem Komma zwischen zwei Adjektiven:",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Das ist ein kleiner, freundlicher Hund.",
+    "Das ist ein kleiner freundlicher, Hund.",
+    "Das ist, ein kleiner freundlicher Hund.",
+    "Das ist ein, kleiner freundlicher Hund.",
+    "Das ist ein kleiner freundlicher Hund."
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Das ist ein kleiner, freundlicher Hund.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Gleichrangige Adjektive vor einem Nomen werden durch ein Komma getrennt.",
+    "en": "Adjectives of equal rank before a noun are separated by a comma.",
+    "ar": "الصفات المتساوية الرتبة قبل الاسم تُفصل بفاصلة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2148,119 +2296,127 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-075 · Subjekt
+## DE-075 · Kommasetzung
 
 ```json
 {
   "id": "DE-075",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Mutter läuft heute schnell.“?",
+  "prompt": "Wähle den Satz mit korrektem Komma nach einem wenn-Satz:",
   "options": [
-    "Meine Mutter",
-    "heute",
-    "schnell"
+    "Wenn es regnet, bleiben wir zu Hause.",
+    "Wenn es regnet bleiben, wir zu Hause.",
+    "Wenn, es regnet bleiben wir zu Hause.",
+    "Wenn es, regnet bleiben wir zu Hause.",
+    "Wenn es regnet bleiben wir zu Hause."
   ],
-  "answer": "Meine Mutter",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "Wenn es regnet, bleiben wir zu Hause.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Mutter. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Mutter. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Steht der Nebensatz mit „wenn“ zuerst, folgt ein Komma vor dem Hauptsatz.",
+    "en": "When the “wenn” clause comes first, a comma follows before the main clause.",
+    "ar": "إذا جاءت جملة wenn الفرعية أولًا، توضع فاصلة قبل الجملة الرئيسية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-076 · Akkusativobjekt
+## DE-076 · Kommasetzung
 
 ```json
 {
   "id": "DE-076",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fahrrad“ in „Mia sieht das Fahrrad.“?",
+  "prompt": "Wähle den Satz mit korrektem Komma vor „ob“:",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "Ich frage mich, ob er kommt.",
+    "Ich frage mich ob, er kommt.",
+    "Ich, frage mich ob er kommt.",
+    "Ich frage mich ob er, kommt.",
+    "Ich frage mich ob er kommt."
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "Ich frage mich, ob er kommt.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Mia sieht wen oder was? das Fahrrad. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fahrrad. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Vor der Konjunktion „ob“ steht ein Komma, weil ein Nebensatz beginnt.",
+    "en": "A comma goes before the conjunction “ob”, because a subordinate clause begins.",
+    "ar": "توضع فاصلة قبل أداة الربط ob لأنّ جملة فرعية تبدأ بعدها."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-077 · Adjektive
+## DE-077 · Kommasetzung
 
 ```json
 {
   "id": "DE-077",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „lang“?",
+  "prompt": "Wähle den Satz mit korrektem Komma bei einem Einschub:",
   "options": [
-    "länger",
-    "langsten",
-    "langer"
+    "Mein Bruder, der elf Jahre alt ist, spielt Fußball.",
+    "Mein Bruder der elf Jahre alt ist spielt, Fußball.",
+    "Mein Bruder, der elf Jahre alt, ist spielt Fußball.",
+    "Mein Bruder der, elf Jahre alt ist, spielt Fußball.",
+    "Mein Bruder der elf Jahre alt ist spielt Fußball."
   ],
-  "answer": "länger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "Mein Bruder, der elf Jahre alt ist, spielt Fußball.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist lang, die andere ist länger.",
-    "en": "Two things are compared, so “lang” becomes “länger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Ein eingeschobener Nebensatz wird vorn und hinten mit Komma abgetrennt.",
+    "en": "An inserted subordinate clause is set off with a comma on both sides.",
+    "ar": "الجملة الفرعية المُدرجة داخل الجملة تُحاط بفاصلتين من الجانبين."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-078 · Rechtschreibung
+## DE-078 · Kommasetzung
 
 ```json
 {
   "id": "DE-078",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Wähle den Satz mit korrektem Komma bei einer direkten Anrede:",
   "options": [
-    "Schulweg",
-    "schulweg",
-    "Schulweg-"
+    "Anna, kannst du mir helfen?",
+    "Anna kannst, du mir helfen?",
+    "Anna kannst du mir, helfen?",
+    "Anna kannst du, mir helfen?",
+    "Anna kannst du mir helfen?"
   ],
-  "answer": "Schulweg",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "Anna, kannst du mir helfen?",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "„Schulweg“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schulweg” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Eine direkte Anrede am Satzanfang wird mit Komma vom restlichen Satz getrennt.",
+    "en": "Direct address at the start of a sentence is set off with a comma.",
+    "ar": "النداء المباشر في بداية الجملة يُفصل بفاصلة عن باقي الجملة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
@@ -2272,78 +2428,84 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
+  "prompt": "Wähle den Satz mit korrektem Komma vor „aber“:",
   "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
+    "Ich wollte kommen, aber ich hatte keine Zeit.",
+    "Ich wollte kommen aber, ich hatte keine Zeit.",
+    "Ich wollte, kommen aber ich hatte keine Zeit.",
+    "Ich wollte kommen aber ich, hatte keine Zeit.",
+    "Ich wollte kommen aber ich hatte keine Zeit."
   ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "Ich wollte kommen, aber ich hatte keine Zeit.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Vor entgegensetzenden Konjunktionen wie „aber“ steht immer ein Komma.",
+    "en": "A comma always goes before contrasting conjunctions like “aber”.",
+    "ar": "توضع فاصلة دائمًا قبل أدوات العطف المُضادة مثل aber."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-080 · Prädikat
+## DE-080 · Kommasetzung
 
 ```json
 {
   "id": "DE-080",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Kommasetzung",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
+  "prompt": "Wähle den Satz mit korrektem Komma vor einer zu-Infinitivgruppe:",
   "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
+    "Er hat vor, ins Kino zu gehen.",
+    "Er hat vor ins Kino, zu gehen.",
+    "Er, hat vor ins Kino zu gehen.",
+    "Er hat vor ins, Kino zu gehen.",
+    "Er hat vor ins Kino zu gehen."
   ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "Er hat vor, ins Kino zu gehen.",
+  "rule": "Kommas trennen Aufzählungen, Haupt- und Nebensätze sowie Einschübe voneinander.",
   "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Eine erweiterte Infinitivgruppe mit „zu“ wird meist durch ein Komma abgetrennt.",
+    "en": "An extended infinitive clause with “zu” is usually set off with a comma.",
+    "ar": "مجموعة المصدر الموسّعة مع zu تُفصل غالبًا بفاصلة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-081 · Artikel
+## DE-081 · Subjekt
 
 ```json
 {
   "id": "DE-081",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Haus“?",
+  "prompt": "Was ist das Subjekt im Satz: „Der Hund frisst den Knochen.“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "Der Hund",
+    "den Knochen",
+    "frisst",
+    "der Knochen",
+    "dem Hund"
   ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "Der Hund",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Haus“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Haus” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Frage: Wer frisst? — „Der Hund“ ist das Subjekt.",
+    "en": "Ask: who is eating? — “Der Hund” is the subject.",
+    "ar": "اسأل: من يأكل؟ — Der Hund هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2351,28 +2513,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-082 · Plural
+## DE-082 · Subjekt
 
 ```json
 {
   "id": "DE-082",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Haus“?",
+  "prompt": "Was ist das Subjekt im Satz: „Die Kinder spielen im Garten.“?",
   "options": [
-    "Häuser",
-    "Hauss",
-    "Hausen"
+    "Die Kinder",
+    "im Garten",
+    "spielen",
+    "der Garten",
+    "den Kindern"
   ],
-  "answer": "Häuser",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Die Kinder",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Ein Haus kommt nicht allein: Mehrere heißen „Häuser“.",
-    "en": "A “Haus” is never alone: more than one is called “Häuser”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Frage: Wer spielt? — „Die Kinder“ ist das Subjekt.",
+    "en": "Ask: who is playing? — “Die Kinder” is the subject.",
+    "ar": "اسأل: من يلعب؟ — Die Kinder هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2380,28 +2544,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-083 · Präteritum
+## DE-083 · Subjekt
 
 ```json
 {
   "id": "DE-083",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „wohnen“?",
+  "prompt": "Was ist das Subjekt im Satz: „Meine Schwester liest ein Buch.“?",
   "options": [
-    "wohnte",
-    "gewohnt",
-    "wohnente"
+    "Meine Schwester",
+    "ein Buch",
+    "liest",
+    "meiner Schwester",
+    "das Buch"
   ],
-  "answer": "wohnte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Meine Schwester",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Gestern passiert: Aus „wohnen“ wird „wohnte“.",
-    "en": "It happened yesterday: “wohnen” becomes “wohnte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Frage: Wer liest? — „Meine Schwester“ ist das Subjekt.",
+    "en": "Ask: who is reading? — “Meine Schwester” is the subject.",
+    "ar": "اسأل: من يقرأ؟ — Meine Schwester هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2409,28 +2575,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-084 · Satzzeichen
+## DE-084 · Subjekt
 
 ```json
 {
   "id": "DE-084",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Mädchen sieht den Ball“?",
+  "prompt": "Was ist das Subjekt im Satz: „Der Lehrer erklärt die Aufgabe.“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Der Lehrer",
+    "die Aufgabe",
+    "erklärt",
+    "dem Lehrer",
+    "der Aufgabe"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Der Lehrer",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Frage: Wer erklärt? — „Der Lehrer“ ist das Subjekt.",
+    "en": "Ask: who is explaining? — “Der Lehrer” is the subject.",
+    "ar": "اسأل: من يشرح؟ — Der Lehrer هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2446,194 +2614,208 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Mädchen läuft heute schnell.“?",
+  "prompt": "Was ist das Subjekt im Satz: „Am Wochenende besuchen wir unsere Oma.“?",
   "options": [
-    "Das Mädchen",
-    "heute",
-    "schnell"
+    "wir",
+    "unsere Oma",
+    "besuchen",
+    "am Wochenende",
+    "unserer Oma"
   ],
-  "answer": "Das Mädchen",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "wir",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Mädchen. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Mädchen. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Auch wenn „am Wochenende“ vorne steht, bleibt „wir“ das Subjekt: Wer besucht? Wir.",
+    "en": "Even though “am Wochenende” comes first, “wir” is still the subject: who visits? We do.",
+    "ar": "حتى لو جاءت am Wochenende أولًا، يبقى wir هو الفاعل: من يزور؟ نحن."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-086 · Akkusativobjekt
+## DE-086 · Subjekt
 
 ```json
 {
   "id": "DE-086",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Tür“ in „Mia sieht die Tür.“?",
+  "prompt": "Was ist das Subjekt im Satz: „Nach der Schule treffen sich die Freunde.“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "die Freunde",
+    "nach der Schule",
+    "treffen sich",
+    "den Freunden",
+    "der Schule"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "die Freunde",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Mia sieht wen oder was? die Tür. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Tür. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Frage: Wer trifft sich? — „die Freunde“ ist das Subjekt, auch wenn es nicht am Satzanfang steht.",
+    "en": "Ask: who is meeting? — “die Freunde” is the subject, even though it is not at the start.",
+    "ar": "اسأل: من يلتقي؟ — die Freunde هو الفاعل رغم أنّه ليس في بداية الجملة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-087 · Adjektive
+## DE-087 · Subjekt
 
 ```json
 {
   "id": "DE-087",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „stark“?",
+  "prompt": "Was ist das Subjekt im Satz: „Im Sommer fahren viele Familien ans Meer.“?",
   "options": [
-    "stärker",
-    "starksten",
-    "starker"
+    "viele Familien",
+    "ans Meer",
+    "im Sommer",
+    "fahren",
+    "vielen Familien"
   ],
-  "answer": "stärker",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "viele Familien",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist stark, die andere ist stärker.",
-    "en": "Two things are compared, so “stark” becomes “stärker”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Frage: Wer fährt? — „viele Familien“ ist das Subjekt.",
+    "en": "Ask: who is travelling? — “viele Familien” is the subject.",
+    "ar": "اسأل: من يسافر؟ — viele Familien هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-088 · Rechtschreibung
+## DE-088 · Subjekt
 
 ```json
 {
   "id": "DE-088",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Was ist das Subjekt im Satz: „Plötzlich klingelte das Telefon.“?",
   "options": [
-    "Gartenzaun",
-    "gartenzaun",
-    "Gartenzaun-"
+    "das Telefon",
+    "plötzlich",
+    "klingelte",
+    "dem Telefon",
+    "des Telefons"
   ],
-  "answer": "Gartenzaun",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "das Telefon",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "„Gartenzaun“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Gartenzaun” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Frage: Was klingelte? — „das Telefon“ ist das Subjekt.",
+    "en": "Ask: what rang? — “das Telefon” is the subject.",
+    "ar": "اسأل: ماذا رنّ؟ — das Telefon هو الفاعل."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-089 · Kommasetzung
+## DE-089 · Subjekt
 
 ```json
 {
   "id": "DE-089",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
+  "prompt": "Was ist das Subjekt im Satz: „Wegen des Regens fiel das Spiel aus.“?",
   "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
+    "das Spiel",
+    "wegen des Regens",
+    "fiel aus",
+    "dem Spiel",
+    "des Spiels"
   ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "das Spiel",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Frage: Was fiel aus? — „das Spiel“ ist das Subjekt, „wegen des Regens“ ist nur der Grund.",
+    "en": "Ask: what was cancelled? — “das Spiel” is the subject; “wegen des Regens” only gives the reason.",
+    "ar": "اسأل: ماذا أُلغي؟ — das Spiel هو الفاعل، وwegen des Regens مجرد سبب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-090 · Prädikat
+## DE-090 · Subjekt
 
 ```json
 {
   "id": "DE-090",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Subjekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
+  "prompt": "Was ist das Subjekt im Satz: „Trotz der Kälte spielten die Kinder draußen.“?",
   "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
+    "die Kinder",
+    "trotz der Kälte",
+    "draußen",
+    "spielten",
+    "den Kindern"
   ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "die Kinder",
+  "rule": "Das Subjekt eines Satzes beantwortet die Frage „Wer oder was?“ und bestimmt die Form des Verbs.",
   "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Frage: Wer spielte? — „die Kinder“ ist das Subjekt, „trotz der Kälte“ ist nur ein Umstand.",
+    "en": "Ask: who was playing? — “die Kinder” is the subject; “trotz der Kälte” is just a circumstance.",
+    "ar": "اسأل: من كان يلعب؟ — die Kinder هو الفاعل، وtrotz der Kälte مجرد ظرف."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-091 · Artikel
+## DE-091 · Prädikat
 
 ```json
 {
   "id": "DE-091",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Lehrerin“?",
+  "prompt": "Was ist das Prädikat im Satz: „Der Hund frisst den Knochen.“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "frisst",
+    "der Hund",
+    "den Knochen",
+    "gefressen",
+    "isst"
   ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "frisst",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Lehrerin“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Lehrerin” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "„frisst“ ist die gebeugte Verbform und damit das Prädikat.",
+    "en": "“frisst” is the conjugated verb form, so it is the predicate.",
+    "ar": "كلمة frisst هي صيغة الفعل المصرّفة، لذلك هي المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2641,28 +2823,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-092 · Plural
+## DE-092 · Prädikat
 
 ```json
 {
   "id": "DE-092",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Lehrerin“?",
+  "prompt": "Was ist das Prädikat im Satz: „Die Kinder haben gespielt.“?",
   "options": [
-    "Lehrerinnen",
-    "Lehrerins",
-    "Lehrerinen"
+    "haben gespielt",
+    "die Kinder",
+    "gespielt",
+    "spielen",
+    "hat gespielt"
   ],
-  "answer": "Lehrerinnen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "haben gespielt",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Eine Lehrerin kommt nicht allein: Mehrere heißen „Lehrerinnen“.",
-    "en": "A “Lehrerin” is never alone: more than one is called “Lehrerinnen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Das Perfekt „haben gespielt“ besteht aus zwei Teilen und bildet zusammen das Prädikat.",
+    "en": "The perfect “haben gespielt” has two parts that together form the predicate.",
+    "ar": "صيغة الماضي التام haben gespielt تتكوّن من جزأين يشكّلان معًا المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2670,28 +2854,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-093 · Präteritum
+## DE-093 · Prädikat
 
 ```json
 {
   "id": "DE-093",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „sagen“?",
+  "prompt": "Was ist das Prädikat im Satz: „Sie wird morgen kommen.“?",
   "options": [
-    "sagte",
-    "gesagt",
-    "sagente"
+    "wird kommen",
+    "morgen",
+    "sie",
+    "kommt",
+    "kam"
   ],
-  "answer": "sagte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "wird kommen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Gestern passiert: Aus „sagen“ wird „sagte“.",
-    "en": "It happened yesterday: “sagen” becomes “sagte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Das Futur „wird kommen“ besteht aus zwei Teilen und bildet zusammen das Prädikat.",
+    "en": "The future tense “wird kommen” has two parts that together form the predicate.",
+    "ar": "صيغة المستقبل wird kommen تتكوّن من جزأين يشكّلان معًا المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2699,28 +2885,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-094 · Satzzeichen
+## DE-094 · Prädikat
 
 ```json
 {
   "id": "DE-094",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Schüler sieht ein Buch“?",
+  "prompt": "Was ist das Prädikat im Satz: „Er ist schnell gelaufen.“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "ist gelaufen",
+    "schnell",
+    "er",
+    "läuft",
+    "hat gelaufen"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "ist gelaufen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Das Perfekt von „laufen“ wird mit „sein“ gebildet: „ist gelaufen“.",
+    "en": "The perfect of “laufen” is formed with “sein”: “ist gelaufen”.",
+    "ar": "صيغة الماضي التام للفعل laufen تُبنى بـ sein: ist gelaufen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2728,148 +2916,158 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-095 · Subjekt
+## DE-095 · Prädikat
 
 ```json
 {
   "id": "DE-095",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Schüler läuft heute schnell.“?",
+  "prompt": "Was ist das Prädikat im Satz: „Die Blumen blühen im Frühling.“?",
   "options": [
-    "Der Schüler",
-    "heute",
-    "schnell"
+    "blühen",
+    "im Frühling",
+    "die Blumen",
+    "geblüht",
+    "blüht"
   ],
-  "answer": "Der Schüler",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "blühen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Schüler. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Schüler. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„blühen“ ist die gebeugte Verbform (3. Person Plural) und damit das Prädikat.",
+    "en": "“blühen” is the conjugated verb form (3rd person plural), so it is the predicate.",
+    "ar": "كلمة blühen هي صيغة الفعل المصرّفة (جمع الغائب)، لذلك هي المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-096 · Akkusativobjekt
+## DE-096 · Prädikat
 
 ```json
 {
   "id": "DE-096",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Bild“ in „Mia sieht das Bild.“?",
+  "prompt": "Was ist das Prädikat im Satz: „Wir haben das Fenster geöffnet.“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "haben geöffnet",
+    "das Fenster",
+    "wir",
+    "öffnen",
+    "hat geöffnet"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "haben geöffnet",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Mia sieht wen oder was? das Bild. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Bild. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Das Perfekt „haben geöffnet“ bildet zusammen das Prädikat.",
+    "en": "The perfect “haben geöffnet” together forms the predicate.",
+    "ar": "صيغة haben geöffnet تشكّل معًا المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-097 · Adjektive
+## DE-097 · Prädikat
 
 ```json
 {
   "id": "DE-097",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „hell“?",
+  "prompt": "Was ist das Prädikat im Satz: „Ihr müsst die Hausaufgaben machen.“?",
   "options": [
-    "heller",
-    "hellsten",
-    "heller"
+    "müsst machen",
+    "die Hausaufgaben",
+    "ihr",
+    "macht",
+    "musste machen"
   ],
-  "answer": "heller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "müsst machen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist hell, die andere ist heller.",
-    "en": "Two things are compared, so “hell” becomes “heller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Modalverb + Infinitiv „müsst machen“ bildet zusammen das Prädikat.",
+    "en": "Modal verb + infinitive “müsst machen” together forms the predicate.",
+    "ar": "الفعل الوصفي مع المصدر müsst machen يشكّلان معًا المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-098 · Rechtschreibung
+## DE-098 · Prädikat
 
 ```json
 {
   "id": "DE-098",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Was ist das Prädikat im Satz: „Das Auto wurde repariert.“?",
   "options": [
-    "Bücherregal",
-    "bücherregal",
-    "Bücherregal-"
+    "wurde repariert",
+    "das Auto",
+    "repariert",
+    "wird repariert",
+    "hat repariert"
   ],
-  "answer": "Bücherregal",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "wurde repariert",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "„Bücherregal“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Bücherregal” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Das Passiv „wurde repariert“ bildet zusammen das Prädikat.",
+    "en": "The passive “wurde repariert” together forms the predicate.",
+    "ar": "صيغة المبني للمجهول wurde repariert تشكّل معًا المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-099 · Kommasetzung
+## DE-099 · Prädikat
 
 ```json
 {
   "id": "DE-099",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
+  "prompt": "Was ist das Prädikat im Satz: „Die Gäste sind pünktlich angekommen.“?",
   "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
+    "sind angekommen",
+    "pünktlich",
+    "die Gäste",
+    "kommen an",
+    "haben angekommen"
   ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "sind angekommen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Das Perfekt von „ankommen“ wird mit „sein“ gebildet: „sind angekommen“.",
+    "en": "The perfect of “ankommen” is formed with “sein”: “sind angekommen”.",
+    "ar": "صيغة الماضي التام للفعل ankommen تُبنى بـ sein: sind angekommen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
@@ -2881,49 +3079,53 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Prädikat",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
+  "prompt": "Was ist das Prädikat im Satz: „Der Brief hätte früher geschrieben werden müssen.“?",
   "options": [
-    "schläft",
-    "Der",
-    "Tisch"
+    "hätte geschrieben werden müssen",
+    "der Brief",
+    "früher",
+    "wird geschrieben",
+    "ist geschrieben worden"
   ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "hätte geschrieben werden müssen",
+  "rule": "Das Prädikat ist die Verbform des Satzes. Es kann aus einem Wort oder mehreren zusammengehörigen Verbteilen bestehen.",
   "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Mehrteilige Verbformen wie hier gehören alle zum Prädikat.",
+    "en": "Multi-part verb forms like this all belong to the predicate.",
+    "ar": "صيغ الفعل متعدّدة الأجزاء كهذه تنتمي كلّها إلى المسند."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-101 · Artikel
+## DE-101 · Objekt
 
 ```json
 {
   "id": "DE-101",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Hund“?",
+  "prompt": "Was ist das Akkusativobjekt im Satz: „Der Junge liest ein Buch.“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "ein Buch",
+    "der Junge",
+    "liest",
+    "einem Buch",
+    "des Buches"
   ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "ein Buch",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Hund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Hund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Frage: Wen oder was liest er? — „ein Buch“ ist das Akkusativobjekt.",
+    "en": "Ask: whom or what is he reading? — “ein Buch” is the accusative object.",
+    "ar": "اسأل: ماذا يقرأ؟ — ein Buch هو المفعول به في حالة النصب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2931,28 +3133,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-102 · Plural
+## DE-102 · Objekt
 
 ```json
 {
   "id": "DE-102",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Hund“?",
+  "prompt": "Was ist das Akkusativobjekt im Satz: „Die Mutter kauft einen Kuchen.“?",
   "options": [
-    "Hunde",
-    "Hunds",
-    "Hunden"
+    "einen Kuchen",
+    "die Mutter",
+    "kauft",
+    "einem Kuchen",
+    "der Kuchen"
   ],
-  "answer": "Hunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "einen Kuchen",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Ein Hund kommt nicht allein: Mehrere heißen „Hunde“.",
-    "en": "A “Hund” is never alone: more than one is called “Hunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Frage: Wen oder was kauft sie? — „einen Kuchen“ ist das Akkusativobjekt.",
+    "en": "Ask: whom or what is she buying? — “einen Kuchen” is the accusative object.",
+    "ar": "اسأل: ماذا تشتري؟ — einen Kuchen هو المفعول به في حالة النصب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2960,28 +3164,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-103 · Präteritum
+## DE-103 · Objekt
 
 ```json
 {
   "id": "DE-103",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „spielen“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Ich schreibe der Oma einen Brief.“?",
   "options": [
-    "spielte",
-    "gespielt",
-    "spielente"
+    "der Oma",
+    "einen Brief",
+    "schreibe",
+    "die Oma",
+    "dem Brief"
   ],
-  "answer": "spielte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "der Oma",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Gestern passiert: Aus „spielen“ wird „spielte“.",
-    "en": "It happened yesterday: “spielen” becomes “spielte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Frage: Wem schreibe ich? — „der Oma“ ist das Dativobjekt.",
+    "en": "Ask: to whom am I writing? — “der Oma” is the dative object.",
+    "ar": "اسأل: لمن أكتب؟ — der Oma هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -2989,28 +3195,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-104 · Satzzeichen
+## DE-104 · Objekt
 
 ```json
 {
   "id": "DE-104",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Hund sieht die Aufgabe“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Er schenkt seinem Freund ein Spiel.“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "seinem Freund",
+    "ein Spiel",
+    "schenkt",
+    "seinen Freund",
+    "seines Freundes"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "seinem Freund",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Frage: Wem schenkt er? — „seinem Freund“ ist das Dativobjekt.",
+    "en": "Ask: to whom does he give a gift? — “seinem Freund” is the dative object.",
+    "ar": "اسأل: لمن يهدي؟ — seinem Freund هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3018,202 +3226,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-105 · Subjekt
+## DE-105 · Objekt
 
 ```json
 {
   "id": "DE-105",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Hund läuft heute schnell.“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Die Lehrerin erklärt den Schülern die Regel.“?",
   "options": [
-    "Der Hund",
-    "heute",
-    "schnell"
+    "den Schülern",
+    "die Regel",
+    "erklärt",
+    "der Schüler",
+    "die Schüler"
   ],
-  "answer": "Der Hund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "den Schülern",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Hund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Hund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Frage: Wem erklärt sie die Regel? — „den Schülern“ ist das Dativobjekt.",
+    "en": "Ask: to whom does she explain the rule? — “den Schülern” is the dative object.",
+    "ar": "اسأل: لمن تشرح القاعدة؟ — den Schülern هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-106 · Akkusativobjekt
+## DE-106 · Objekt
 
 ```json
 {
   "id": "DE-106",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Ball“ in „Mia sieht den Ball.“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Wir bringen dem Nachbarn die Post.“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "dem Nachbarn",
+    "die Post",
+    "bringen",
+    "den Nachbarn",
+    "der Nachbar"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "dem Nachbarn",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Mia sieht wen oder was? den Ball. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Ball. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Frage: Wem bringen wir die Post? — „dem Nachbarn“ ist das Dativobjekt.",
+    "en": "Ask: to whom do we bring the mail? — “dem Nachbarn” is the dative object.",
+    "ar": "اسأل: لمن نُحضر البريد؟ — dem Nachbarn هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-107 · Adjektive
+## DE-107 · Objekt
 
 ```json
 {
   "id": "DE-107",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „schnell“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Sie hilft ihrer Freundin bei den Hausaufgaben.“?",
   "options": [
-    "schneller",
-    "schnellsten",
-    "schneller"
+    "ihrer Freundin",
+    "den Hausaufgaben",
+    "hilft",
+    "ihre Freundin",
+    "der Freundin"
   ],
-  "answer": "schneller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "ihrer Freundin",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist schnell, die andere ist schneller.",
-    "en": "Two things are compared, so “schnell” becomes “schneller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "„helfen“ verlangt den Dativ: „ihrer Freundin“ ist das Dativobjekt.",
+    "en": "“helfen” takes the dative: “ihrer Freundin” is the dative object.",
+    "ar": "الفعل helfen يتطلب حالة الجر: ihrer Freundin هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-108 · Rechtschreibung
+## DE-108 · Objekt
 
 ```json
 {
   "id": "DE-108",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Was ist das Akkusativobjekt im Satz: „Der Vater fährt seinen Sohn zur Schule.“?",
   "options": [
-    "Fahrrad",
-    "fahrrad",
-    "Fahrrad-"
+    "seinen Sohn",
+    "zur Schule",
+    "fährt",
+    "seinem Sohn",
+    "sein Sohn"
   ],
-  "answer": "Fahrrad",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "seinen Sohn",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "„Fahrrad“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fahrrad” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Frage: Wen oder was fährt er? — „seinen Sohn“ ist das Akkusativobjekt.",
+    "en": "Ask: whom or what does he drive? — “seinen Sohn” is the accusative object.",
+    "ar": "اسأل: من يوصل؟ — seinen Sohn هو المفعول به في حالة النصب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-109 · Kommasetzung
+## DE-109 · Objekt
 
 ```json
 {
   "id": "DE-109",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
+  "prompt": "Was ist das Akkusativobjekt im Satz: „Die Firma zahlt den Angestellten das Gehalt.“?",
   "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
+    "das Gehalt",
+    "den Angestellten",
+    "zahlt",
+    "dem Gehalt",
+    "die Angestellten"
   ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "das Gehalt",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Frage: Wen oder was zahlt die Firma? — „das Gehalt“ ist das Akkusativobjekt, „den Angestellten“ das Dativobjekt.",
+    "en": "Ask: whom or what does the company pay? — “das Gehalt” is the accusative object; “den Angestellten” is the dative object.",
+    "ar": "اسأل: ماذا تدفع الشركة؟ — das Gehalt هو المفعول به في حالة النصب، وden Angestellten هو المفعول في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-110 · Prädikat
+## DE-110 · Objekt
 
 ```json
 {
   "id": "DE-110",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Objekt",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
+  "prompt": "Was ist das Dativobjekt im Satz: „Der Kellner reicht dem Gast die Speisekarte.“?",
   "options": [
-    "liest",
-    "Heute",
-    "Buch"
+    "dem Gast",
+    "die Speisekarte",
+    "reicht",
+    "den Gast",
+    "der Gast"
   ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "dem Gast",
+  "rule": "Das Akkusativobjekt beantwortet die Frage „Wen oder was?“, das Dativobjekt die Frage „Wem?“.",
   "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Frage: Wem reicht er die Speisekarte? — „dem Gast“ ist das Dativobjekt.",
+    "en": "Ask: to whom does he hand the menu? — “dem Gast” is the dative object.",
+    "ar": "اسأل: لمن يقدّم قائمة الطعام؟ — dem Gast هو المفعول به في حالة الجر."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-111 · Artikel
+## DE-111 · Adjektive
 
 ```json
 {
   "id": "DE-111",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Katze“?",
+  "prompt": "Wie lautet der Komparativ von „schnell“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "schneller",
+    "schnellsten",
+    "schnellste",
+    "schnell",
+    "am schnellsten"
   ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "schneller",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Katze“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Katze” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Der Komparativ wird meist mit -er gebildet: „schneller“.",
+    "en": "The comparative is usually formed with -er: “schneller”.",
+    "ar": "صيغة المقارنة تُبنى غالبًا بإضافة -er: schneller."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3221,28 +3443,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-112 · Plural
+## DE-112 · Adjektive
 
 ```json
 {
   "id": "DE-112",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Katze“?",
+  "prompt": "Wie lautet der Komparativ von „klein“?",
   "options": [
-    "Katzen",
-    "Katzes",
-    "Katzeen"
+    "kleiner",
+    "kleinsten",
+    "kleinste",
+    "klein",
+    "am kleinsten"
   ],
-  "answer": "Katzen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "kleiner",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Ein Katze kommt nicht allein: Mehrere heißen „Katzen“.",
-    "en": "A “Katze” is never alone: more than one is called “Katzen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Der Komparativ wird meist mit -er gebildet: „kleiner“.",
+    "en": "The comparative is usually formed with -er: “kleiner”.",
+    "ar": "صيغة المقارنة تُبنى غالبًا بإضافة -er: kleiner."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3250,28 +3474,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-113 · Präteritum
+## DE-113 · Adjektive
 
 ```json
 {
   "id": "DE-113",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lernen“?",
+  "prompt": "Wie lautet der Komparativ von „groß“?",
   "options": [
-    "lernte",
-    "gelernt",
-    "lernente"
+    "größer",
+    "größten",
+    "größte",
+    "groß",
+    "am größten"
   ],
-  "answer": "lernte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "größer",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Gestern passiert: Aus „lernen“ wird „lernte“.",
-    "en": "It happened yesterday: “lernen” becomes “lernte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Der Komparativ bekommt hier zusätzlich einen Umlaut: „größer“.",
+    "en": "The comparative here also takes an umlaut: “größer”.",
+    "ar": "صيغة المقارنة هنا تأخذ أيضًا تغيير الصوت: größer."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3279,28 +3505,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-114 · Satzzeichen
+## DE-114 · Adjektive
 
 ```json
 {
   "id": "DE-114",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Schwester sieht das Fenster“?",
+  "prompt": "Wie lautet der Komparativ von „laut“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "lauter",
+    "lautesten",
+    "lauteste",
+    "laut",
+    "am lautesten"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "lauter",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Der Komparativ wird meist mit -er gebildet: „lauter“.",
+    "en": "The comparative is usually formed with -er: “lauter”.",
+    "ar": "صيغة المقارنة تُبنى غالبًا بإضافة -er: lauter."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3308,61 +3536,65 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-115 · Subjekt
+## DE-115 · Adjektive
 
 ```json
 {
   "id": "DE-115",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Schwester läuft heute schnell.“?",
+  "prompt": "Wie lautet der Komparativ von „gut“?",
   "options": [
-    "Meine Schwester",
-    "heute",
-    "schnell"
+    "besser",
+    "guter",
+    "gutesten",
+    "gut",
+    "am besten"
   ],
-  "answer": "Meine Schwester",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "besser",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Schwester. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Schwester. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„gut“ ist unregelmäßig: der Komparativ heißt „besser“.",
+    "en": "“gut” is irregular: its comparative is “besser”.",
+    "ar": "كلمة gut شاذة: صيغة المقارنة هي besser."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-116 · Akkusativobjekt
+## DE-116 · Adjektive
 
 ```json
 {
   "id": "DE-116",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „ein Buch“ in „Mia sieht ein Buch.“?",
+  "prompt": "Wie lautet der Komparativ von „viel“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "mehr",
+    "violer",
+    "vieler",
+    "viel",
+    "am meisten"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "mehr",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Mia sieht wen oder was? ein Buch. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? ein Buch. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "„viel“ ist unregelmäßig: der Komparativ heißt „mehr“.",
+    "en": "“viel” is irregular: its comparative is “mehr”.",
+    "ar": "كلمة viel شاذة: صيغة المقارنة هي mehr."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
@@ -3374,136 +3606,146 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klein“?",
+  "prompt": "Wie lautet der Komparativ von „gern“?",
   "options": [
-    "kleiner",
-    "kleinsten",
-    "kleiner"
+    "lieber",
+    "gerner",
+    "gernsten",
+    "gern",
+    "am liebsten"
   ],
-  "answer": "kleiner",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "lieber",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klein, die andere ist kleiner.",
-    "en": "Two things are compared, so “klein” becomes “kleiner”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "„gern“ ist unregelmäßig: der Komparativ heißt „lieber“.",
+    "en": "“gern” is irregular: its comparative is “lieber”.",
+    "ar": "كلمة gern شاذة: صيغة المقارنة هي lieber."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-118 · Rechtschreibung
+## DE-118 · Adjektive
 
 ```json
 {
   "id": "DE-118",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Wie lautet der Komparativ von „hoch“?",
   "options": [
-    "Schmetterling",
-    "schmetterling",
-    "Schmetterling-"
+    "höher",
+    "hocher",
+    "höchsten",
+    "hoch",
+    "am höchsten"
   ],
-  "answer": "Schmetterling",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "höher",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "„Schmetterling“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schmetterling” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "„hoch“ verliert im Komparativ das „c“: „höher“.",
+    "en": "“hoch” drops the “c” in the comparative: “höher”.",
+    "ar": "كلمة hoch تفقد حرف c في صيغة المقارنة: höher."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-119 · Kommasetzung
+## DE-119 · Adjektive
 
 ```json
 {
   "id": "DE-119",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
+  "prompt": "Wie lautet der Komparativ von „dunkel“?",
   "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
+    "dunkler",
+    "dunkeler",
+    "dunkelster",
+    "dunkel",
+    "am dunkelsten"
   ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "dunkler",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„dunkel“ verliert im Komparativ das „e“ vor dem „l“: „dunkler“.",
+    "en": "“dunkel” drops the “e” before “l” in the comparative: “dunkler”.",
+    "ar": "كلمة dunkel تفقد حرف e قبل l في صيغة المقارنة: dunkler."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-120 · Prädikat
+## DE-120 · Adjektive
 
 ```json
 {
   "id": "DE-120",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Adjektive",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
+  "prompt": "Wie lautet der Komparativ von „teuer“?",
   "options": [
-    "fährt",
-    "Am",
-    "Bus"
+    "teurer",
+    "teuerer",
+    "teuersten",
+    "teuer",
+    "am teuersten"
   ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "teurer",
+  "rule": "Adjektive werden gesteigert: Positiv – Komparativ (-er) – Superlativ (am -sten). Manche Formen sind unregelmäßig.",
   "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„teuer“ verliert im Komparativ das „e“ vor dem „r“: „teurer“.",
+    "en": "“teuer” drops the “e” before “r” in the comparative: “teurer”.",
+    "ar": "كلمة teuer تفقد حرف e قبل r في صيغة المقارنة: teurer."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-121 · Artikel
+## DE-121 · Rechtschreibung
 
 ```json
 {
   "id": "DE-121",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Buch“?",
+  "prompt": "Welcher Satz schreibt das Nomen „Hund“ richtig groß?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "Ich habe einen Hund.",
+    "Ich habe einen hund.",
+    "ich habe einen Hund.",
+    "Ich habe Einen Hund.",
+    "Ich Habe einen Hund."
   ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "Ich habe einen Hund.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Buch“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Buch” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Nomen werden im Deutschen immer großgeschrieben: „Hund“.",
+    "en": "Nouns are always capitalized in German: “Hund”.",
+    "ar": "الأسماء في الألمانية تُكتب دائمًا بحرف كبير: Hund."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3511,28 +3753,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-122 · Plural
+## DE-122 · Rechtschreibung
 
 ```json
 {
   "id": "DE-122",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Buch“?",
+  "prompt": "Welcher Satz verwendet „dass“ (Nebensatz) richtig?",
   "options": [
-    "Bücher",
-    "Buchs",
-    "Buchen"
+    "Ich glaube, dass es regnet.",
+    "Ich glaube, das es regnet.",
+    "Ich glaube das es regnet.",
+    "Ich glaube, dass es Regnet.",
+    "ich glaube, dass es regnet."
   ],
-  "answer": "Bücher",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Ich glaube, dass es regnet.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Ein Buch kommt nicht allein: Mehrere heißen „Bücher“.",
-    "en": "A “Buch” is never alone: more than one is called “Bücher”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "„dass“ leitet hier einen Nebensatz ein und wird mit doppeltem s geschrieben.",
+    "en": "“dass” introduces a subordinate clause here and is spelled with a double s.",
+    "ar": "كلمة dass تبدأ هنا جملة فرعية وتُكتب بحرفي s."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3540,28 +3784,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-123 · Präteritum
+## DE-123 · Rechtschreibung
 
 ```json
 {
   "id": "DE-123",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „fragen“?",
+  "prompt": "Welcher Satz schreibt „Fuß“ richtig mit „ß“?",
   "options": [
-    "fragte",
-    "gefragt",
-    "fragente"
+    "Der Fuß tut weh.",
+    "Der Fuss tut weh.",
+    "Der Fuß tut Weh.",
+    "der Fuß tut weh.",
+    "Der Füß tut weh."
   ],
-  "answer": "fragte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Der Fuß tut weh.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Gestern passiert: Aus „fragen“ wird „fragte“.",
-    "en": "It happened yesterday: “fragen” becomes “fragte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Nach einem langen Vokal steht „ß“, nicht „ss“: „Fuß“.",
+    "en": "After a long vowel, German uses “ß”, not “ss”: “Fuß”.",
+    "ar": "بعد حرف علة طويل تُكتب ß وليس ss: Fuß."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3569,28 +3815,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-124 · Satzzeichen
+## DE-124 · Rechtschreibung
 
 ```json
 {
   "id": "DE-124",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Kind sieht einen Apfel“?",
+  "prompt": "Welcher Satz schreibt das substantivierte Adjektiv „das Gute“ richtig?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Das Gute daran ist die Ruhe.",
+    "Das gute daran ist die Ruhe.",
+    "das Gute daran ist die Ruhe.",
+    "Das Gute Daran ist die Ruhe.",
+    "Das Gute daran ist die ruhe."
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Das Gute daran ist die Ruhe.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Ein substantiviertes Adjektiv wie „das Gute“ wird großgeschrieben.",
+    "en": "A nominalized adjective like “das Gute” is capitalized.",
+    "ar": "الصفة المُحوّلة إلى اسم مثل das Gute تُكتب بحرف كبير."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3598,90 +3846,96 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-125 · Subjekt
+## DE-125 · Rechtschreibung
 
 ```json
 {
   "id": "DE-125",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Kind läuft heute schnell.“?",
+  "prompt": "Welcher Satz setzt das Komma vor „dass“ richtig?",
   "options": [
-    "Das Kind",
-    "heute",
-    "schnell"
+    "Er hofft, dass alles gut wird.",
+    "Er hofft, das alles gut wird.",
+    "Er hofft das alles gut wird.",
+    "er hofft, dass alles gut wird.",
+    "Er hofft, dass Alles gut wird."
   ],
-  "answer": "Das Kind",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "Er hofft, dass alles gut wird.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Kind. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Kind. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„dass“ leitet den Nebensatz ein, und vor ihm steht ein Komma.",
+    "en": "“dass” introduces the subordinate clause, preceded by a comma.",
+    "ar": "كلمة dass تبدأ الجملة الفرعية وتسبقها فاصلة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-126 · Akkusativobjekt
+## DE-126 · Rechtschreibung
 
 ```json
 {
   "id": "DE-126",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Aufgabe“ in „Mia sieht die Aufgabe.“?",
+  "prompt": "Welcher Satz schreibt „müssen“ und „essen“ richtig mit „ss“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "Wir müssen noch essen.",
+    "Wir müßen noch essen.",
+    "Wir müssen noch eßen.",
+    "wir müssen noch essen.",
+    "Wir Müssen noch essen."
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "Wir müssen noch essen.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Mia sieht wen oder was? die Aufgabe. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Aufgabe. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Nach einem kurzen Vokal steht „ss“, nicht „ß“: „müssen“, „essen“.",
+    "en": "After a short vowel, German uses “ss”, not “ß”: “müssen”, “essen”.",
+    "ar": "بعد حرف علة قصير تُكتب ss وليس ß: müssen، essen."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-127 · Adjektive
+## DE-127 · Rechtschreibung
 
 ```json
 {
   "id": "DE-127",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „laut“?",
+  "prompt": "Welcher Satz schreibt die höfliche Anrede „Sie“ richtig groß?",
   "options": [
-    "lauter",
-    "lautsten",
-    "lauter"
+    "Können Sie mir bitte helfen?",
+    "Können sie mir bitte helfen?",
+    "Können Sie mir bitte Helfen?",
+    "können Sie mir bitte helfen?",
+    "Können Sie Mir bitte helfen?"
   ],
-  "answer": "lauter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "Können Sie mir bitte helfen?",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist laut, die andere ist lauter.",
-    "en": "Two things are compared, so “laut” becomes “lauter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Die formelle Anrede „Sie“ wird immer großgeschrieben.",
+    "en": "The formal address “Sie” is always capitalized.",
+    "ar": "صيغة المخاطبة الرسمية Sie تُكتب دائمًا بحرف كبير."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
@@ -3693,107 +3947,115 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
   "subject": "German",
   "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welcher Satz schreibt das zusammengesetzte Nomen „Schulranzen“ richtig?",
   "options": [
-    "Hausaufgabe",
-    "hausaufgabe",
-    "Hausaufgabe-"
+    "Der Schulranzen ist schwer.",
+    "Der schulranzen ist schwer.",
+    "Der Schul Ranzen ist schwer.",
+    "der Schulranzen ist schwer.",
+    "Der Schulranzen ist Schwer."
   ],
-  "answer": "Hausaufgabe",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "Der Schulranzen ist schwer.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "„Hausaufgabe“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Hausaufgabe” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Zusammengesetzte Nomen wie „Schulranzen“ werden als ein Wort und großgeschrieben.",
+    "en": "Compound nouns like “Schulranzen” are written as one capitalized word.",
+    "ar": "الأسماء المركّبة مثل Schulranzen تُكتب كلمة واحدة بحرف كبير."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-129 · Kommasetzung
+## DE-129 · Rechtschreibung
 
 ```json
 {
   "id": "DE-129",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
+  "prompt": "Welcher Satz unterscheidet „seid“ und „seit“ richtig?",
   "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
+    "Ihr seid schon lange hier.",
+    "Ihr seit schon lange hier.",
+    "ihr seid schon lange hier.",
+    "Ihr seid schon Lange hier.",
+    "Ihr seid Schon lange hier."
   ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "Ihr seid schon lange hier.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„seid“ (von „sein“) und „seit“ (Zeitangabe) klingen gleich, werden aber unterschiedlich geschrieben.",
+    "en": "“seid” (from “sein”) and “seit” (a time expression) sound alike but are spelled differently.",
+    "ar": "كلمتا seid (من sein) وseit (تعبير زمني) تُلفظان متشابهتين لكن تُكتبان بشكل مختلف."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-130 · Prädikat
+## DE-130 · Rechtschreibung
 
 ```json
 {
   "id": "DE-130",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Rechtschreibung",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
+  "prompt": "Welcher Satz unterscheidet „wieder“ und „wider“ richtig?",
   "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
+    "Er kommt morgen wieder.",
+    "Er kommt morgen wider.",
+    "er kommt morgen wieder.",
+    "Er kommt Morgen wieder.",
+    "Er Kommt morgen wieder."
   ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "Er kommt morgen wieder.",
+  "rule": "Rechtschreibregeln wie Groß-/Kleinschreibung von Nomen, „dass“ vs. „das“, „ss“/„ß“ und ähnliche Klangpaare muss man gezielt lernen.",
   "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„wieder“ (erneut) und „wider“ (gegen) klingen ähnlich, werden aber unterschiedlich geschrieben.",
+    "en": "“wieder” (again) and “wider” (against) sound similar but are spelled differently.",
+    "ar": "كلمتا wieder (مجددًا) وwider (ضد) متشابهتان لفظًا لكن تُكتبان بشكل مختلف."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-131 · Artikel
+## DE-131 · Wortfelder
 
 ```json
 {
   "id": "DE-131",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Schule“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „schön“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "hübsch",
+    "hässlich",
+    "traurig",
+    "schnell",
+    "laut"
   ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "hübsch",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Schule“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Schule” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "„hübsch“ bedeutet dasselbe wie „schön“.",
+    "en": "“hübsch” means the same as “schön”.",
+    "ar": "كلمة hübsch تعني نفس معنى schön (جميل)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3801,28 +4063,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-132 · Plural
+## DE-132 · Wortfelder
 
 ```json
 {
   "id": "DE-132",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Schule“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „groß“?",
   "options": [
-    "Schulen",
-    "Schules",
-    "Schuleen"
+    "riesig",
+    "winzig",
+    "klein",
+    "leise",
+    "kalt"
   ],
-  "answer": "Schulen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "riesig",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Ein Schule kommt nicht allein: Mehrere heißen „Schulen“.",
-    "en": "A “Schule” is never alone: more than one is called “Schulen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "„riesig“ bedeutet dasselbe wie „groß“ (nur stärker).",
+    "en": "“riesig” means the same as “groß” (only stronger).",
+    "ar": "كلمة riesig تعني نفس معنى groß (كبير) لكن بشكل أقوى."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3830,28 +4094,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-133 · Präteritum
+## DE-133 · Wortfelder
 
 ```json
 {
   "id": "DE-133",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „machen“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „schnell“?",
   "options": [
-    "machte",
-    "gemacht",
-    "machente"
+    "rasch",
+    "langsam",
+    "müde",
+    "leicht",
+    "schwer"
   ],
-  "answer": "machte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "rasch",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Gestern passiert: Aus „machen“ wird „machte“.",
-    "en": "It happened yesterday: “machen” becomes “machte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "„rasch“ bedeutet dasselbe wie „schnell“.",
+    "en": "“rasch” means the same as “schnell”.",
+    "ar": "كلمة rasch تعني نفس معنى schnell (سريع)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3859,28 +4125,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-134 · Satzzeichen
+## DE-134 · Wortfelder
 
 ```json
 {
   "id": "DE-134",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Unser Lehrer sieht die Geschichte“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „froh“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "glücklich",
+    "traurig",
+    "wütend",
+    "müde",
+    "krank"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "glücklich",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "„glücklich“ bedeutet dasselbe wie „froh“.",
+    "en": "“glücklich” means the same as “froh”.",
+    "ar": "كلمة glücklich تعني نفس معنى froh (سعيد)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -3888,202 +4156,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-135 · Subjekt
+## DE-135 · Wortfelder
 
 ```json
 {
   "id": "DE-135",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Unser Lehrer läuft heute schnell.“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „beginnen“?",
   "options": [
-    "Unser Lehrer",
-    "heute",
-    "schnell"
+    "starten",
+    "beenden",
+    "warten",
+    "stoppen",
+    "ruhen"
   ],
-  "answer": "Unser Lehrer",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "starten",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Unser Lehrer. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Unser Lehrer. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "„starten“ bedeutet dasselbe wie „beginnen“.",
+    "en": "“starten” means the same as “beginnen”.",
+    "ar": "كلمة starten تعني نفس معنى beginnen (يبدأ)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-136 · Akkusativobjekt
+## DE-136 · Wortfelder
 
 ```json
 {
   "id": "DE-136",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fenster“ in „Mia sieht das Fenster.“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „sprechen“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "reden",
+    "schweigen",
+    "schreiben",
+    "hören",
+    "lesen"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "reden",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Mia sieht wen oder was? das Fenster. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fenster. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "„reden“ bedeutet dasselbe wie „sprechen“.",
+    "en": "“reden” means the same as “sprechen”.",
+    "ar": "كلمة reden تعني نفس معنى sprechen (يتحدث)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-137 · Adjektive
+## DE-137 · Wortfelder
 
 ```json
 {
   "id": "DE-137",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klug“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „betrachten“?",
   "options": [
-    "klüger",
-    "klugsten",
-    "kluger"
+    "ansehen",
+    "ignorieren",
+    "verstecken",
+    "werfen",
+    "suchen"
   ],
-  "answer": "klüger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "ansehen",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klug, die andere ist klüger.",
-    "en": "Two things are compared, so “klug” becomes “klüger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "„ansehen“ bedeutet dasselbe wie „betrachten“.",
+    "en": "“ansehen” means the same as “betrachten”.",
+    "ar": "كلمة ansehen تعني نفس معنى betrachten (يتأمل)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-138 · Rechtschreibung
+## DE-138 · Wortfelder
 
 ```json
 {
   "id": "DE-138",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „tapfer“?",
   "options": [
-    "Fußballplatz",
-    "fußballplatz",
-    "Fußballplatz-"
+    "mutig",
+    "ängstlich",
+    "schüchtern",
+    "faul",
+    "müde"
   ],
-  "answer": "Fußballplatz",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "mutig",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "„Fußballplatz“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fußballplatz” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "„mutig“ bedeutet dasselbe wie „tapfer“.",
+    "en": "“mutig” means the same as “tapfer”.",
+    "ar": "كلمة mutig تعني نفس معنى tapfer (شجاع)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-139 · Kommasetzung
+## DE-139 · Wortfelder
 
 ```json
 {
   "id": "DE-139",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
+  "prompt": "Welches Wort bedeutet dasselbe wie „gewaltig“?",
   "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
+    "enorm",
+    "winzig",
+    "gering",
+    "mäßig",
+    "knapp"
   ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "enorm",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "„enorm“ bedeutet dasselbe wie „gewaltig“.",
+    "en": "“enorm” means the same as “gewaltig”.",
+    "ar": "كلمة enorm تعني نفس معنى gewaltig (هائل)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-140 · Prädikat
+## DE-140 · Wortfelder
 
 ```json
 {
   "id": "DE-140",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Wortfelder",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
+  "prompt": "Welches Wort bedeutet dasselbe wie „vermeiden“?",
   "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
+    "umgehen",
+    "suchen",
+    "fördern",
+    "erlauben",
+    "wiederholen"
   ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "umgehen",
+  "rule": "Synonyme sind Wörter mit ähnlicher Bedeutung. Ein größerer Wortschatz macht Texte abwechslungsreicher.",
   "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "„umgehen“ bedeutet hier dasselbe wie „vermeiden“.",
+    "en": "“umgehen” here means the same as “vermeiden”.",
+    "ar": "كلمة umgehen تعني هنا نفس معنى vermeiden (يتجنّب)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-141 · Artikel
+## DE-141 · Satzarten
 
 ```json
 {
   "id": "DE-141",
   "subject": "German",
-  "topic": "Artikel",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Garten“?",
+  "prompt": "Welche Satzart ist: „Die Sonne scheint.“?",
   "options": [
-    "der",
-    "die",
-    "das"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
+  "answer": "Aussagesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Garten“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Garten” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
+    "de": "Der Satz stellt ruhig eine Tatsache fest: ein Aussagesatz.",
+    "en": "The sentence calmly states a fact: a declarative sentence.",
+    "ar": "الجملة تُخبر عن حقيقة بهدوء: جملة خبرية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -4091,28 +4373,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-142 · Plural
+## DE-142 · Satzarten
 
 ```json
 {
   "id": "DE-142",
   "subject": "German",
-  "topic": "Plural",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Garten“?",
+  "prompt": "Welche Satzart ist: „Kommst du mit?“?",
   "options": [
-    "Gärten",
-    "Gartens",
-    "Gartenen"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "Gärten",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
+  "answer": "Fragesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Ein Garten kommt nicht allein: Mehrere heißen „Gärten“.",
-    "en": "A “Garten” is never alone: more than one is called “Gärten”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
+    "de": "Der Satz fragt etwas und endet mit einem Fragezeichen: ein Fragesatz.",
+    "en": "The sentence asks something and ends with a question mark: an interrogative sentence.",
+    "ar": "الجملة سؤال وتنتهي بعلامة استفهام: جملة استفهامية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -4120,28 +4404,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-143 · Präteritum
+## DE-143 · Satzarten
 
 ```json
 {
   "id": "DE-143",
   "subject": "German",
-  "topic": "Präteritum",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „suchen“?",
+  "prompt": "Welche Satzart ist: „Mach die Tür zu!“?",
   "options": [
-    "suchte",
-    "gesucht",
-    "suchente"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "suchte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
+  "answer": "Aufforderungssatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Gestern passiert: Aus „suchen“ wird „suchte“.",
-    "en": "It happened yesterday: “suchen” becomes “suchte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
+    "de": "Der Satz fordert zu einer Handlung auf: ein Aufforderungssatz.",
+    "en": "The sentence calls for an action: an imperative sentence.",
+    "ar": "الجملة تطلب فعل شيء: جملة أمرية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -4149,28 +4435,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-144 · Satzzeichen
+## DE-144 · Satzarten
 
 ```json
 {
   "id": "DE-144",
   "subject": "German",
-  "topic": "Satzzeichen",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Die Katze sieht den Brief“?",
+  "prompt": "Welche Satzart ist: „Wie schön das ist!“?",
   "options": [
-    ".",
-    "?",
-    "!"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
+  "answer": "Ausrufesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
+    "de": "Der Satz drückt starkes Gefühl mit Ausrufezeichen aus: ein Ausrufesatz.",
+    "en": "The sentence expresses strong feeling with an exclamation mark: an exclamatory sentence.",
+    "ar": "الجملة تعبّر عن شعور قوي بعلامة تعجب: جملة تعجبية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 20,
   "tags": [
     "year5-review"
   ],
@@ -4178,4527 +4466,188 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## DE-145 · Subjekt
+## DE-145 · Satzarten
 
 ```json
 {
   "id": "DE-145",
   "subject": "German",
-  "topic": "Subjekt",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Die Katze läuft heute schnell.“?",
+  "prompt": "Welche Satzart ist: „Ich wünschte, ich könnte fliegen!“?",
   "options": [
-    "Die Katze",
-    "heute",
-    "schnell"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "Die Katze",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
+  "answer": "Wunschsatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Die Katze. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Die Katze. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
+    "de": "Der Satz drückt einen (unerfüllbaren) Wunsch aus: ein Wunschsatz.",
+    "en": "The sentence expresses an (unfulfillable) wish: an optative sentence.",
+    "ar": "الجملة تعبّر عن أمنية (يصعب تحقيقها): جملة تمنٍّ."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-146 · Akkusativobjekt
+## DE-146 · Satzarten
 
 ```json
 {
   "id": "DE-146",
   "subject": "German",
-  "topic": "Akkusativobjekt",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „einen Apfel“ in „Mia sieht einen Apfel.“?",
+  "prompt": "Welche Satzart ist: „Wann beginnt der Unterricht?“?",
   "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
+  "answer": "Fragesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Mia sieht wen oder was? einen Apfel. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? einen Apfel. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
+    "de": "Der Satz fragt nach einer Information: ein Fragesatz.",
+    "en": "The sentence asks for information: an interrogative sentence.",
+    "ar": "الجملة تسأل عن معلومة: جملة استفهامية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-147 · Adjektive
+## DE-147 · Satzarten
 
 ```json
 {
   "id": "DE-147",
   "subject": "German",
-  "topic": "Adjektive",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „jung“?",
+  "prompt": "Welche Satzart ist: „Räum bitte dein Zimmer auf!“?",
   "options": [
-    "jünger",
-    "jungsten",
-    "junger"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "jünger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
+  "answer": "Aufforderungssatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist jung, die andere ist jünger.",
-    "en": "Two things are compared, so “jung” becomes “jünger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
+    "de": "Der Satz fordert höflich zu einer Handlung auf: ein Aufforderungssatz.",
+    "en": "The sentence politely calls for an action: an imperative sentence.",
+    "ar": "الجملة تطلب بأدب فعل شيء: جملة أمرية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-148 · Rechtschreibung
+## DE-148 · Satzarten
 
 ```json
 {
   "id": "DE-148",
   "subject": "German",
-  "topic": "Rechtschreibung",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
+  "prompt": "Welche Satzart ist: „Der Zug fährt um acht Uhr ab.“?",
   "options": [
-    "Sonnenblume",
-    "sonnenblume",
-    "Sonnenblume-"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "Sonnenblume",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
+  "answer": "Aussagesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "„Sonnenblume“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Sonnenblume” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
+    "de": "Der Satz stellt ruhig eine Tatsache fest: ein Aussagesatz.",
+    "en": "The sentence calmly states a fact: a declarative sentence.",
+    "ar": "الجملة تُخبر عن حقيقة بهدوء: جملة خبرية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## DE-149 · Kommasetzung
+## DE-149 · Satzarten
 
 ```json
 {
   "id": "DE-149",
   "subject": "German",
-  "topic": "Kommasetzung",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
+  "prompt": "Welche Satzart ist: „Wenn ich doch nur mehr Zeit hätte!“?",
   "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
+  "answer": "Wunschsatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
+    "de": "Der Satz drückt einen (unerfüllbaren) Wunsch aus: ein Wunschsatz.",
+    "en": "The sentence expresses an (unfulfillable) wish: an optative sentence.",
+    "ar": "الجملة تعبّر عن أمنية (يصعب تحقيقها): جملة تمنٍّ."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## DE-150 · Prädikat
+## DE-150 · Satzarten
 
 ```json
 {
   "id": "DE-150",
   "subject": "German",
-  "topic": "Prädikat",
+  "topic": "Satzarten",
   "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
+  "prompt": "Welche Satzart ist: „Was für ein tolles Fest das war!“?",
   "options": [
-    "schläft",
-    "Der",
-    "Tisch"
+    "Aussagesatz",
+    "Fragesatz",
+    "Aufforderungssatz",
+    "Ausrufesatz",
+    "Wunschsatz"
   ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
+  "answer": "Ausrufesatz",
+  "rule": "Satzarten wie Aussage-, Frage-, Aufforderungs-, Ausrufe- und Wunschsatz erkennt man an Wortstellung, Satzzeichen und Tonfall.",
   "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
+    "de": "Der Satz drückt starkes Gefühl mit Ausrufezeichen aus: ein Ausrufesatz.",
+    "en": "The sentence expresses strong feeling with an exclamation mark: an exclamatory sentence.",
+    "ar": "الجملة تعبّر عن شعور قوي بعلامة تعجب: جملة تعجبية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
-
-## DE-151 · Artikel
-
-```json
-{
-  "id": "DE-151",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Kind“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Kind“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Kind” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-152 · Plural
-
-```json
-{
-  "id": "DE-152",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Kind“?",
-  "options": [
-    "Kinder",
-    "Kinds",
-    "Kinden"
-  ],
-  "answer": "Kinder",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Kind kommt nicht allein: Mehrere heißen „Kinder“.",
-    "en": "A “Kind” is never alone: more than one is called “Kinder”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-153 · Präteritum
-
-```json
-{
-  "id": "DE-153",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lachen“?",
-  "options": [
-    "lachte",
-    "gelacht",
-    "lachente"
-  ],
-  "answer": "lachte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „lachen“ wird „lachte“.",
-    "en": "It happened yesterday: “lachen” becomes “lachte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-154 · Satzzeichen
-
-```json
-{
-  "id": "DE-154",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Mein Freund sieht das Fahrrad“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-155 · Subjekt
-
-```json
-{
-  "id": "DE-155",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Mein Freund läuft heute schnell.“?",
-  "options": [
-    "Mein Freund",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Mein Freund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Mein Freund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Mein Freund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-156 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-156",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Geschichte“ in „Mia sieht die Geschichte.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? die Geschichte. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Geschichte. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-157 · Adjektive
-
-```json
-{
-  "id": "DE-157",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „warm“?",
-  "options": [
-    "wärmer",
-    "warmsten",
-    "warmer"
-  ],
-  "answer": "wärmer",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist warm, die andere ist wärmer.",
-    "en": "Two things are compared, so “warm” becomes “wärmer”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-158 · Rechtschreibung
-
-```json
-{
-  "id": "DE-158",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Kinderzimmer",
-    "kinderzimmer",
-    "Kinderzimmer-"
-  ],
-  "answer": "Kinderzimmer",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Kinderzimmer“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Kinderzimmer” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-159 · Kommasetzung
-
-```json
-{
-  "id": "DE-159",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
-  "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
-  ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-160 · Prädikat
-
-```json
-{
-  "id": "DE-160",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
-  "options": [
-    "liest",
-    "Heute",
-    "Buch"
-  ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-161 · Artikel
-
-```json
-{
-  "id": "DE-161",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Freund“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Freund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Freund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-162 · Plural
-
-```json
-{
-  "id": "DE-162",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Freund“?",
-  "options": [
-    "Freunde",
-    "Freunds",
-    "Freunden"
-  ],
-  "answer": "Freunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Freund kommt nicht allein: Mehrere heißen „Freunde“.",
-    "en": "A “Freund” is never alone: more than one is called “Freunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-163 · Präteritum
-
-```json
-{
-  "id": "DE-163",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „hören“?",
-  "options": [
-    "hörte",
-    "gehört",
-    "hörente"
-  ],
-  "answer": "hörte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „hören“ wird „hörte“.",
-    "en": "It happened yesterday: “hören” becomes “hörte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-164 · Satzzeichen
-
-```json
-{
-  "id": "DE-164",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Vogel sieht die Tür“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-165 · Subjekt
-
-```json
-{
-  "id": "DE-165",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Vogel läuft heute schnell.“?",
-  "options": [
-    "Der Vogel",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Vogel",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Vogel. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Vogel. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-166 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-166",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Brief“ in „Mia sieht den Brief.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? den Brief. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Brief. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-167 · Adjektive
-
-```json
-{
-  "id": "DE-167",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „kalt“?",
-  "options": [
-    "kälter",
-    "kaltsten",
-    "kalter"
-  ],
-  "answer": "kälter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist kalt, die andere ist kälter.",
-    "en": "Two things are compared, so “kalt” becomes “kälter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-168 · Rechtschreibung
-
-```json
-{
-  "id": "DE-168",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Regenschirm",
-    "regenschirm",
-    "Regenschirm-"
-  ],
-  "answer": "Regenschirm",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Regenschirm“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Regenschirm” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-169 · Kommasetzung
-
-```json
-{
-  "id": "DE-169",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
-  "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
-  ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-170 · Prädikat
-
-```json
-{
-  "id": "DE-170",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
-  "options": [
-    "fährt",
-    "Am",
-    "Bus"
-  ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-171 · Artikel
-
-```json
-{
-  "id": "DE-171",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Blume“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Blume“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Blume” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-172 · Plural
-
-```json
-{
-  "id": "DE-172",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Blume“?",
-  "options": [
-    "Blumen",
-    "Blumes",
-    "Blumeen"
-  ],
-  "answer": "Blumen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Blume kommt nicht allein: Mehrere heißen „Blumen“.",
-    "en": "A “Blume” is never alone: more than one is called “Blumen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-173 · Präteritum
-
-```json
-{
-  "id": "DE-173",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „kaufen“?",
-  "options": [
-    "kaufte",
-    "gekauft",
-    "kaufente"
-  ],
-  "answer": "kaufte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „kaufen“ wird „kaufte“.",
-    "en": "It happened yesterday: “kaufen” becomes “kaufte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-174 · Satzzeichen
-
-```json
-{
-  "id": "DE-174",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Mutter sieht das Bild“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-175 · Subjekt
-
-```json
-{
-  "id": "DE-175",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Mutter läuft heute schnell.“?",
-  "options": [
-    "Meine Mutter",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Meine Mutter",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Mutter. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Mutter. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-176 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-176",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fahrrad“ in „Mia sieht das Fahrrad.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? das Fahrrad. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fahrrad. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-177 · Adjektive
-
-```json
-{
-  "id": "DE-177",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „lang“?",
-  "options": [
-    "länger",
-    "langsten",
-    "langer"
-  ],
-  "answer": "länger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist lang, die andere ist länger.",
-    "en": "Two things are compared, so “lang” becomes “länger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-178 · Rechtschreibung
-
-```json
-{
-  "id": "DE-178",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Schulweg",
-    "schulweg",
-    "Schulweg-"
-  ],
-  "answer": "Schulweg",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Schulweg“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schulweg” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-179 · Kommasetzung
-
-```json
-{
-  "id": "DE-179",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
-  "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
-  ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-180 · Prädikat
-
-```json
-{
-  "id": "DE-180",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
-  "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
-  ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-181 · Artikel
-
-```json
-{
-  "id": "DE-181",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Haus“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Haus“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Haus” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-182 · Plural
-
-```json
-{
-  "id": "DE-182",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Haus“?",
-  "options": [
-    "Häuser",
-    "Hauss",
-    "Hausen"
-  ],
-  "answer": "Häuser",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Haus kommt nicht allein: Mehrere heißen „Häuser“.",
-    "en": "A “Haus” is never alone: more than one is called “Häuser”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-183 · Präteritum
-
-```json
-{
-  "id": "DE-183",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „wohnen“?",
-  "options": [
-    "wohnte",
-    "gewohnt",
-    "wohnente"
-  ],
-  "answer": "wohnte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „wohnen“ wird „wohnte“.",
-    "en": "It happened yesterday: “wohnen” becomes “wohnte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-184 · Satzzeichen
-
-```json
-{
-  "id": "DE-184",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Mädchen sieht den Ball“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-185 · Subjekt
-
-```json
-{
-  "id": "DE-185",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Mädchen läuft heute schnell.“?",
-  "options": [
-    "Das Mädchen",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Das Mädchen",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Mädchen. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Mädchen. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-186 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-186",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Tür“ in „Mia sieht die Tür.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? die Tür. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Tür. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-187 · Adjektive
-
-```json
-{
-  "id": "DE-187",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „stark“?",
-  "options": [
-    "stärker",
-    "starksten",
-    "starker"
-  ],
-  "answer": "stärker",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist stark, die andere ist stärker.",
-    "en": "Two things are compared, so “stark” becomes “stärker”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-188 · Rechtschreibung
-
-```json
-{
-  "id": "DE-188",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Gartenzaun",
-    "gartenzaun",
-    "Gartenzaun-"
-  ],
-  "answer": "Gartenzaun",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Gartenzaun“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Gartenzaun” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-189 · Kommasetzung
-
-```json
-{
-  "id": "DE-189",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
-  "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
-  ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-190 · Prädikat
-
-```json
-{
-  "id": "DE-190",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
-  "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
-  ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-191 · Artikel
-
-```json
-{
-  "id": "DE-191",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Lehrerin“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Lehrerin“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Lehrerin” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-192 · Plural
-
-```json
-{
-  "id": "DE-192",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Lehrerin“?",
-  "options": [
-    "Lehrerinnen",
-    "Lehrerins",
-    "Lehrerinen"
-  ],
-  "answer": "Lehrerinnen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Eine Lehrerin kommt nicht allein: Mehrere heißen „Lehrerinnen“.",
-    "en": "A “Lehrerin” is never alone: more than one is called “Lehrerinnen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-193 · Präteritum
-
-```json
-{
-  "id": "DE-193",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „sagen“?",
-  "options": [
-    "sagte",
-    "gesagt",
-    "sagente"
-  ],
-  "answer": "sagte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „sagen“ wird „sagte“.",
-    "en": "It happened yesterday: “sagen” becomes “sagte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-194 · Satzzeichen
-
-```json
-{
-  "id": "DE-194",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Schüler sieht ein Buch“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-195 · Subjekt
-
-```json
-{
-  "id": "DE-195",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Schüler läuft heute schnell.“?",
-  "options": [
-    "Der Schüler",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Schüler",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Schüler. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Schüler. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-196 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-196",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Bild“ in „Mia sieht das Bild.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? das Bild. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Bild. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-197 · Adjektive
-
-```json
-{
-  "id": "DE-197",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „hell“?",
-  "options": [
-    "heller",
-    "hellsten",
-    "heller"
-  ],
-  "answer": "heller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist hell, die andere ist heller.",
-    "en": "Two things are compared, so “hell” becomes “heller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-198 · Rechtschreibung
-
-```json
-{
-  "id": "DE-198",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Bücherregal",
-    "bücherregal",
-    "Bücherregal-"
-  ],
-  "answer": "Bücherregal",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Bücherregal“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Bücherregal” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-199 · Kommasetzung
-
-```json
-{
-  "id": "DE-199",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
-  "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
-  ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-200 · Prädikat
-
-```json
-{
-  "id": "DE-200",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
-  "options": [
-    "schläft",
-    "Der",
-    "Tisch"
-  ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-201 · Artikel
-
-```json
-{
-  "id": "DE-201",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Hund“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Hund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Hund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-202 · Plural
-
-```json
-{
-  "id": "DE-202",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Hund“?",
-  "options": [
-    "Hunde",
-    "Hunds",
-    "Hunden"
-  ],
-  "answer": "Hunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Hund kommt nicht allein: Mehrere heißen „Hunde“.",
-    "en": "A “Hund” is never alone: more than one is called “Hunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-203 · Präteritum
-
-```json
-{
-  "id": "DE-203",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „spielen“?",
-  "options": [
-    "spielte",
-    "gespielt",
-    "spielente"
-  ],
-  "answer": "spielte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „spielen“ wird „spielte“.",
-    "en": "It happened yesterday: “spielen” becomes “spielte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-204 · Satzzeichen
-
-```json
-{
-  "id": "DE-204",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Hund sieht die Aufgabe“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-205 · Subjekt
-
-```json
-{
-  "id": "DE-205",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Hund läuft heute schnell.“?",
-  "options": [
-    "Der Hund",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Hund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Hund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Hund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-206 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-206",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Ball“ in „Mia sieht den Ball.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? den Ball. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Ball. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-207 · Adjektive
-
-```json
-{
-  "id": "DE-207",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „schnell“?",
-  "options": [
-    "schneller",
-    "schnellsten",
-    "schneller"
-  ],
-  "answer": "schneller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist schnell, die andere ist schneller.",
-    "en": "Two things are compared, so “schnell” becomes “schneller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-208 · Rechtschreibung
-
-```json
-{
-  "id": "DE-208",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Fahrrad",
-    "fahrrad",
-    "Fahrrad-"
-  ],
-  "answer": "Fahrrad",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Fahrrad“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fahrrad” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-209 · Kommasetzung
-
-```json
-{
-  "id": "DE-209",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
-  "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
-  ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-210 · Prädikat
-
-```json
-{
-  "id": "DE-210",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
-  "options": [
-    "liest",
-    "Heute",
-    "Buch"
-  ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-211 · Artikel
-
-```json
-{
-  "id": "DE-211",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Katze“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Katze“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Katze” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-212 · Plural
-
-```json
-{
-  "id": "DE-212",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Katze“?",
-  "options": [
-    "Katzen",
-    "Katzes",
-    "Katzeen"
-  ],
-  "answer": "Katzen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Katze kommt nicht allein: Mehrere heißen „Katzen“.",
-    "en": "A “Katze” is never alone: more than one is called “Katzen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-213 · Präteritum
-
-```json
-{
-  "id": "DE-213",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lernen“?",
-  "options": [
-    "lernte",
-    "gelernt",
-    "lernente"
-  ],
-  "answer": "lernte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „lernen“ wird „lernte“.",
-    "en": "It happened yesterday: “lernen” becomes “lernte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-214 · Satzzeichen
-
-```json
-{
-  "id": "DE-214",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Schwester sieht das Fenster“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-215 · Subjekt
-
-```json
-{
-  "id": "DE-215",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Schwester läuft heute schnell.“?",
-  "options": [
-    "Meine Schwester",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Meine Schwester",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Schwester. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Schwester. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-216 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-216",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „ein Buch“ in „Mia sieht ein Buch.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? ein Buch. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? ein Buch. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-217 · Adjektive
-
-```json
-{
-  "id": "DE-217",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klein“?",
-  "options": [
-    "kleiner",
-    "kleinsten",
-    "kleiner"
-  ],
-  "answer": "kleiner",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klein, die andere ist kleiner.",
-    "en": "Two things are compared, so “klein” becomes “kleiner”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-218 · Rechtschreibung
-
-```json
-{
-  "id": "DE-218",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Schmetterling",
-    "schmetterling",
-    "Schmetterling-"
-  ],
-  "answer": "Schmetterling",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Schmetterling“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schmetterling” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-219 · Kommasetzung
-
-```json
-{
-  "id": "DE-219",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
-  "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
-  ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-220 · Prädikat
-
-```json
-{
-  "id": "DE-220",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
-  "options": [
-    "fährt",
-    "Am",
-    "Bus"
-  ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-221 · Artikel
-
-```json
-{
-  "id": "DE-221",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Buch“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Buch“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Buch” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-222 · Plural
-
-```json
-{
-  "id": "DE-222",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Buch“?",
-  "options": [
-    "Bücher",
-    "Buchs",
-    "Buchen"
-  ],
-  "answer": "Bücher",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Buch kommt nicht allein: Mehrere heißen „Bücher“.",
-    "en": "A “Buch” is never alone: more than one is called “Bücher”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-223 · Präteritum
-
-```json
-{
-  "id": "DE-223",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „fragen“?",
-  "options": [
-    "fragte",
-    "gefragt",
-    "fragente"
-  ],
-  "answer": "fragte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „fragen“ wird „fragte“.",
-    "en": "It happened yesterday: “fragen” becomes “fragte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-224 · Satzzeichen
-
-```json
-{
-  "id": "DE-224",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Kind sieht einen Apfel“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-225 · Subjekt
-
-```json
-{
-  "id": "DE-225",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Kind läuft heute schnell.“?",
-  "options": [
-    "Das Kind",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Das Kind",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Kind. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Kind. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-226 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-226",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Aufgabe“ in „Mia sieht die Aufgabe.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? die Aufgabe. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Aufgabe. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-227 · Adjektive
-
-```json
-{
-  "id": "DE-227",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „laut“?",
-  "options": [
-    "lauter",
-    "lautsten",
-    "lauter"
-  ],
-  "answer": "lauter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist laut, die andere ist lauter.",
-    "en": "Two things are compared, so “laut” becomes “lauter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-228 · Rechtschreibung
-
-```json
-{
-  "id": "DE-228",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Hausaufgabe",
-    "hausaufgabe",
-    "Hausaufgabe-"
-  ],
-  "answer": "Hausaufgabe",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Hausaufgabe“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Hausaufgabe” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-229 · Kommasetzung
-
-```json
-{
-  "id": "DE-229",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
-  "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
-  ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-230 · Prädikat
-
-```json
-{
-  "id": "DE-230",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
-  "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
-  ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-231 · Artikel
-
-```json
-{
-  "id": "DE-231",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Schule“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Schule“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Schule” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-232 · Plural
-
-```json
-{
-  "id": "DE-232",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Schule“?",
-  "options": [
-    "Schulen",
-    "Schules",
-    "Schuleen"
-  ],
-  "answer": "Schulen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Schule kommt nicht allein: Mehrere heißen „Schulen“.",
-    "en": "A “Schule” is never alone: more than one is called “Schulen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-233 · Präteritum
-
-```json
-{
-  "id": "DE-233",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „machen“?",
-  "options": [
-    "machte",
-    "gemacht",
-    "machente"
-  ],
-  "answer": "machte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „machen“ wird „machte“.",
-    "en": "It happened yesterday: “machen” becomes “machte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-234 · Satzzeichen
-
-```json
-{
-  "id": "DE-234",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Unser Lehrer sieht die Geschichte“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-235 · Subjekt
-
-```json
-{
-  "id": "DE-235",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Unser Lehrer läuft heute schnell.“?",
-  "options": [
-    "Unser Lehrer",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Unser Lehrer",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Unser Lehrer. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Unser Lehrer. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-236 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-236",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fenster“ in „Mia sieht das Fenster.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? das Fenster. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fenster. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-237 · Adjektive
-
-```json
-{
-  "id": "DE-237",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „klug“?",
-  "options": [
-    "klüger",
-    "klugsten",
-    "kluger"
-  ],
-  "answer": "klüger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist klug, die andere ist klüger.",
-    "en": "Two things are compared, so “klug” becomes “klüger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-238 · Rechtschreibung
-
-```json
-{
-  "id": "DE-238",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Fußballplatz",
-    "fußballplatz",
-    "Fußballplatz-"
-  ],
-  "answer": "Fußballplatz",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Fußballplatz“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Fußballplatz” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-239 · Kommasetzung
-
-```json
-{
-  "id": "DE-239",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
-  "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
-  ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-240 · Prädikat
-
-```json
-{
-  "id": "DE-240",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
-  "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
-  ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-241 · Artikel
-
-```json
-{
-  "id": "DE-241",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Garten“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Garten“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Garten” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-242 · Plural
-
-```json
-{
-  "id": "DE-242",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Garten“?",
-  "options": [
-    "Gärten",
-    "Gartens",
-    "Gartenen"
-  ],
-  "answer": "Gärten",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Garten kommt nicht allein: Mehrere heißen „Gärten“.",
-    "en": "A “Garten” is never alone: more than one is called “Gärten”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-243 · Präteritum
-
-```json
-{
-  "id": "DE-243",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „suchen“?",
-  "options": [
-    "suchte",
-    "gesucht",
-    "suchente"
-  ],
-  "answer": "suchte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „suchen“ wird „suchte“.",
-    "en": "It happened yesterday: “suchen” becomes “suchte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-244 · Satzzeichen
-
-```json
-{
-  "id": "DE-244",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Die Katze sieht den Brief“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-245 · Subjekt
-
-```json
-{
-  "id": "DE-245",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Die Katze läuft heute schnell.“?",
-  "options": [
-    "Die Katze",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Die Katze",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Die Katze. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Die Katze. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-246 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-246",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „einen Apfel“ in „Mia sieht einen Apfel.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? einen Apfel. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? einen Apfel. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-247 · Adjektive
-
-```json
-{
-  "id": "DE-247",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „jung“?",
-  "options": [
-    "jünger",
-    "jungsten",
-    "junger"
-  ],
-  "answer": "jünger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist jung, die andere ist jünger.",
-    "en": "Two things are compared, so “jung” becomes “jünger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-248 · Rechtschreibung
-
-```json
-{
-  "id": "DE-248",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Sonnenblume",
-    "sonnenblume",
-    "Sonnenblume-"
-  ],
-  "answer": "Sonnenblume",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Sonnenblume“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Sonnenblume” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-249 · Kommasetzung
-
-```json
-{
-  "id": "DE-249",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
-  "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
-  ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-250 · Prädikat
-
-```json
-{
-  "id": "DE-250",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
-  "options": [
-    "schläft",
-    "Der",
-    "Tisch"
-  ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-251 · Artikel
-
-```json
-{
-  "id": "DE-251",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Kind“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Kind“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Kind” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-252 · Plural
-
-```json
-{
-  "id": "DE-252",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Kind“?",
-  "options": [
-    "Kinder",
-    "Kinds",
-    "Kinden"
-  ],
-  "answer": "Kinder",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Kind kommt nicht allein: Mehrere heißen „Kinder“.",
-    "en": "A “Kind” is never alone: more than one is called “Kinder”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-253 · Präteritum
-
-```json
-{
-  "id": "DE-253",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „lachen“?",
-  "options": [
-    "lachte",
-    "gelacht",
-    "lachente"
-  ],
-  "answer": "lachte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „lachen“ wird „lachte“.",
-    "en": "It happened yesterday: “lachen” becomes “lachte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-254 · Satzzeichen
-
-```json
-{
-  "id": "DE-254",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Mein Freund sieht das Fahrrad“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-255 · Subjekt
-
-```json
-{
-  "id": "DE-255",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Mein Freund läuft heute schnell.“?",
-  "options": [
-    "Mein Freund",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Mein Freund",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Mein Freund. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Mein Freund. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-256 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-256",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Geschichte“ in „Mia sieht die Geschichte.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? die Geschichte. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Geschichte. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-257 · Adjektive
-
-```json
-{
-  "id": "DE-257",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „warm“?",
-  "options": [
-    "wärmer",
-    "warmsten",
-    "warmer"
-  ],
-  "answer": "wärmer",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist warm, die andere ist wärmer.",
-    "en": "Two things are compared, so “warm” becomes “wärmer”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-258 · Rechtschreibung
-
-```json
-{
-  "id": "DE-258",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Kinderzimmer",
-    "kinderzimmer",
-    "Kinderzimmer-"
-  ],
-  "answer": "Kinderzimmer",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Kinderzimmer“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Kinderzimmer” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-259 · Kommasetzung
-
-```json
-{
-  "id": "DE-259",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Ich bleibe zu Hause weil es regnet.“",
-  "options": [
-    "Ich bleibe zu Hause, weil es regnet.",
-    "Ich bleibe zu Hause weil es regnet.",
-    "Ich bleibe zu Hause,, weil es regnet."
-  ],
-  "answer": "Ich bleibe zu Hause, weil es regnet.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-260 · Prädikat
-
-```json
-{
-  "id": "DE-260",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Heute liest Mia ein spannendes Buch.“?",
-  "options": [
-    "liest",
-    "Heute",
-    "Buch"
-  ],
-  "answer": "liest",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „liest“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “liest”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-261 · Artikel
-
-```json
-{
-  "id": "DE-261",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Freund“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "der",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Freund“ wohnt im Haus „der“.",
-    "en": "Picture three houses: der, die, and das. “Freund” lives in the “der” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-262 · Plural
-
-```json
-{
-  "id": "DE-262",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Freund“?",
-  "options": [
-    "Freunde",
-    "Freunds",
-    "Freunden"
-  ],
-  "answer": "Freunde",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Freund kommt nicht allein: Mehrere heißen „Freunde“.",
-    "en": "A “Freund” is never alone: more than one is called “Freunde”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-263 · Präteritum
-
-```json
-{
-  "id": "DE-263",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „hören“?",
-  "options": [
-    "hörte",
-    "gehört",
-    "hörente"
-  ],
-  "answer": "hörte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „hören“ wird „hörte“.",
-    "en": "It happened yesterday: “hören” becomes “hörte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-264 · Satzzeichen
-
-```json
-{
-  "id": "DE-264",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Vogel sieht die Tür“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-265 · Subjekt
-
-```json
-{
-  "id": "DE-265",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Vogel läuft heute schnell.“?",
-  "options": [
-    "Der Vogel",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Vogel",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Vogel. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Vogel. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-266 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-266",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „den Brief“ in „Mia sieht den Brief.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? den Brief. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? den Brief. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-267 · Adjektive
-
-```json
-{
-  "id": "DE-267",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „kalt“?",
-  "options": [
-    "kälter",
-    "kaltsten",
-    "kalter"
-  ],
-  "answer": "kälter",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist kalt, die andere ist kälter.",
-    "en": "Two things are compared, so “kalt” becomes “kälter”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-268 · Rechtschreibung
-
-```json
-{
-  "id": "DE-268",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Regenschirm",
-    "regenschirm",
-    "Regenschirm-"
-  ],
-  "answer": "Regenschirm",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Regenschirm“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Regenschirm” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-269 · Kommasetzung
-
-```json
-{
-  "id": "DE-269",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wenn die Sonne scheint gehen wir hinaus.“",
-  "options": [
-    "Wenn die Sonne scheint, gehen wir hinaus.",
-    "Wenn die Sonne scheint gehen wir hinaus.",
-    "Wenn die Sonne scheint,, gehen wir hinaus."
-  ],
-  "answer": "Wenn die Sonne scheint, gehen wir hinaus.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-270 · Prädikat
-
-```json
-{
-  "id": "DE-270",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Am Morgen fährt Ben mit dem Bus.“?",
-  "options": [
-    "fährt",
-    "Am",
-    "Bus"
-  ],
-  "answer": "fährt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „fährt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “fährt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-271 · Artikel
-
-```json
-{
-  "id": "DE-271",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Blume“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Blume“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Blume” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-272 · Plural
-
-```json
-{
-  "id": "DE-272",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Blume“?",
-  "options": [
-    "Blumen",
-    "Blumes",
-    "Blumeen"
-  ],
-  "answer": "Blumen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Blume kommt nicht allein: Mehrere heißen „Blumen“.",
-    "en": "A “Blume” is never alone: more than one is called “Blumen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-273 · Präteritum
-
-```json
-{
-  "id": "DE-273",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „kaufen“?",
-  "options": [
-    "kaufte",
-    "gekauft",
-    "kaufente"
-  ],
-  "answer": "kaufte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „kaufen“ wird „kaufte“.",
-    "en": "It happened yesterday: “kaufen” becomes “kaufte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-274 · Satzzeichen
-
-```json
-{
-  "id": "DE-274",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Meine Mutter sieht das Bild“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-275 · Subjekt
-
-```json
-{
-  "id": "DE-275",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Meine Mutter läuft heute schnell.“?",
-  "options": [
-    "Meine Mutter",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Meine Mutter",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Meine Mutter. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Meine Mutter. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-276 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-276",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Fahrrad“ in „Mia sieht das Fahrrad.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? das Fahrrad. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Fahrrad. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-277 · Adjektive
-
-```json
-{
-  "id": "DE-277",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „lang“?",
-  "options": [
-    "länger",
-    "langsten",
-    "langer"
-  ],
-  "answer": "länger",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist lang, die andere ist länger.",
-    "en": "Two things are compared, so “lang” becomes “länger”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-278 · Rechtschreibung
-
-```json
-{
-  "id": "DE-278",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Schulweg",
-    "schulweg",
-    "Schulweg-"
-  ],
-  "answer": "Schulweg",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Schulweg“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Schulweg” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-279 · Kommasetzung
-
-```json
-{
-  "id": "DE-279",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Mia sagt dass sie kommt.“",
-  "options": [
-    "Mia sagt, dass sie kommt.",
-    "Mia sagt dass sie kommt.",
-    "Mia sagt,, dass sie kommt."
-  ],
-  "answer": "Mia sagt, dass sie kommt.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-280 · Prädikat
-
-```json
-{
-  "id": "DE-280",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Im Garten spielt das Kind fröhlich.“?",
-  "options": [
-    "spielt",
-    "Im",
-    "fröhlich"
-  ],
-  "answer": "spielt",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „spielt“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “spielt”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-281 · Artikel
-
-```json
-{
-  "id": "DE-281",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Haus“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "das",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Haus“ wohnt im Haus „das“.",
-    "en": "Picture three houses: der, die, and das. “Haus” lives in the “das” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-282 · Plural
-
-```json
-{
-  "id": "DE-282",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Haus“?",
-  "options": [
-    "Häuser",
-    "Hauss",
-    "Hausen"
-  ],
-  "answer": "Häuser",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Ein Haus kommt nicht allein: Mehrere heißen „Häuser“.",
-    "en": "A “Haus” is never alone: more than one is called “Häuser”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-283 · Präteritum
-
-```json
-{
-  "id": "DE-283",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „wohnen“?",
-  "options": [
-    "wohnte",
-    "gewohnt",
-    "wohnente"
-  ],
-  "answer": "wohnte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „wohnen“ wird „wohnte“.",
-    "en": "It happened yesterday: “wohnen” becomes “wohnte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-284 · Satzzeichen
-
-```json
-{
-  "id": "DE-284",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Das Mädchen sieht den Ball“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-285 · Subjekt
-
-```json
-{
-  "id": "DE-285",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Das Mädchen läuft heute schnell.“?",
-  "options": [
-    "Das Mädchen",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Das Mädchen",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Das Mädchen. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Das Mädchen. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-286 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-286",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „die Tür“ in „Mia sieht die Tür.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? die Tür. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? die Tür. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-287 · Adjektive
-
-```json
-{
-  "id": "DE-287",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „stark“?",
-  "options": [
-    "stärker",
-    "starksten",
-    "starker"
-  ],
-  "answer": "stärker",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist stark, die andere ist stärker.",
-    "en": "Two things are compared, so “stark” becomes “stärker”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-288 · Rechtschreibung
-
-```json
-{
-  "id": "DE-288",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Gartenzaun",
-    "gartenzaun",
-    "Gartenzaun-"
-  ],
-  "answer": "Gartenzaun",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Gartenzaun“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Gartenzaun” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-289 · Kommasetzung
-
-```json
-{
-  "id": "DE-289",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Obwohl er müde ist lernt er.“",
-  "options": [
-    "Obwohl er müde ist, lernt er.",
-    "Obwohl er müde ist lernt er.",
-    "Obwohl er müde ist,, lernt er."
-  ],
-  "answer": "Obwohl er müde ist, lernt er.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-290 · Prädikat
-
-```json
-{
-  "id": "DE-290",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Nach der Schule besucht Lina ihre Freundin.“?",
-  "options": [
-    "besucht",
-    "Nach",
-    "Freundin"
-  ],
-  "answer": "besucht",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „besucht“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “besucht”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-291 · Artikel
-
-```json
-{
-  "id": "DE-291",
-  "subject": "German",
-  "topic": "Artikel",
-  "type": "multiple-choice",
-  "prompt": "Welcher Artikel gehört zu „Lehrerin“?",
-  "options": [
-    "der",
-    "die",
-    "das"
-  ],
-  "answer": "die",
-  "rule": "Nomen haben ein grammatisches Geschlecht. Lerne den bestimmten Artikel zusammen mit dem Nomen.",
-  "explanation": {
-    "de": "Stell dir drei Häuser vor: der, die und das. „Lehrerin“ wohnt im Haus „die“.",
-    "en": "Picture three houses: der, die, and das. “Lehrerin” lives in the “die” house.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الاسم الألماني يأتي معه أداة تعريف."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-292 · Plural
-
-```json
-{
-  "id": "DE-292",
-  "subject": "German",
-  "topic": "Plural",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet der Plural von „Lehrerin“?",
-  "options": [
-    "Lehrerinnen",
-    "Lehrerins",
-    "Lehrerinen"
-  ],
-  "answer": "Lehrerinnen",
-  "rule": "Die Mehrzahl deutscher Nomen wird unterschiedlich gebildet und muss oft mitgelernt werden.",
-  "explanation": {
-    "de": "Eine Lehrerin kommt nicht allein: Mehrere heißen „Lehrerinnen“.",
-    "en": "A “Lehrerin” is never alone: more than one is called “Lehrerinnen”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة الجمع قد تتغير ويجب تعلمها مع الكلمة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-293 · Präteritum
-
-```json
-{
-  "id": "DE-293",
-  "subject": "German",
-  "topic": "Präteritum",
-  "type": "multiple-choice",
-  "prompt": "Welche Form ist das Präteritum von „sagen“?",
-  "options": [
-    "sagte",
-    "gesagt",
-    "sagente"
-  ],
-  "answer": "sagte",
-  "rule": "Das Präteritum beschreibt Vergangenes. Schwache Verben bilden es meist mit -te.",
-  "explanation": {
-    "de": "Gestern passiert: Aus „sagen“ wird „sagte“.",
-    "en": "It happened yesterday: “sagen” becomes “sagte”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. هذا زمن للماضي."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-294 · Satzzeichen
-
-```json
-{
-  "id": "DE-294",
-  "subject": "German",
-  "topic": "Satzzeichen",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzzeichen beendet den Aussagesatz: „Der Schüler sieht ein Buch“?",
-  "options": [
-    ".",
-    "?",
-    "!"
-  ],
-  "answer": ".",
-  "rule": "Ein Aussagesatz endet mit einem Punkt.",
-  "explanation": {
-    "de": "Der Satz erzählt ruhig etwas. Darum bekommt er am Ende einen Punkt.",
-    "en": "The sentence calmly states something. That’s why it ends with a period.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الجملة الخبرية تنتهي بنقطة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-295 · Subjekt
-
-```json
-{
-  "id": "DE-295",
-  "subject": "German",
-  "topic": "Subjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Subjekt im Satz: „Der Schüler läuft heute schnell.“?",
-  "options": [
-    "Der Schüler",
-    "heute",
-    "schnell"
-  ],
-  "answer": "Der Schüler",
-  "rule": "Das Subjekt antwortet auf die Frage „Wer oder was tut etwas?“",
-  "explanation": {
-    "de": "Frage: Wer läuft? Antwort: Der Schüler. Das ist das Subjekt.",
-    "en": "Question: Who is doing it? Answer: Der Schüler. That is the subject.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفاعل يجيب عن سؤال: من الذي قام بالفعل؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-296 · Akkusativobjekt
-
-```json
-{
-  "id": "DE-296",
-  "subject": "German",
-  "topic": "Akkusativobjekt",
-  "type": "multiple-choice",
-  "prompt": "Welches Satzglied ist „das Bild“ in „Mia sieht das Bild.“?",
-  "options": [
-    "Akkusativobjekt",
-    "Subjekt",
-    "Prädikat"
-  ],
-  "answer": "Akkusativobjekt",
-  "rule": "Das Akkusativobjekt findet man mit „Wen oder was?“",
-  "explanation": {
-    "de": "Mia sieht wen oder was? das Bild. Deshalb ist es das Akkusativobjekt.",
-    "en": "Mia sees whom or what? das Bild. That’s why it is the accusative object.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. المفعول به يجيب عن سؤال: مَن أو ماذا؟"
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-297 · Adjektive
-
-```json
-{
-  "id": "DE-297",
-  "subject": "German",
-  "topic": "Adjektive",
-  "type": "multiple-choice",
-  "prompt": "Wie lautet die Steigerungsform (Komparativ) von „hell“?",
-  "options": [
-    "heller",
-    "hellsten",
-    "heller"
-  ],
-  "answer": "heller",
-  "rule": "Der Komparativ vergleicht zwei Dinge und endet meistens auf -er.",
-  "explanation": {
-    "de": "Zwei Figuren laufen: Eine ist hell, die andere ist heller.",
-    "en": "Two things are compared, so “hell” becomes “heller”.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. صيغة المقارنة غالباً تنتهي بـ er."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-298 · Rechtschreibung
-
-```json
-{
-  "id": "DE-298",
-  "subject": "German",
-  "topic": "Rechtschreibung",
-  "type": "multiple-choice",
-  "prompt": "Welche Schreibweise ist richtig?",
-  "options": [
-    "Bücherregal",
-    "bücherregal",
-    "Bücherregal-"
-  ],
-  "answer": "Bücherregal",
-  "rule": "Nomen und zusammengesetzte Nomen schreibt man groß.",
-  "explanation": {
-    "de": "„Bücherregal“ ist ein Nomen. Es trägt am Anfang eine große Buchstaben-Krone.",
-    "en": "“Bücherregal” is a noun. It wears a big capital letter at the start.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الأسماء تبدأ بحرف كبير."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-299 · Kommasetzung
-
-```json
-{
-  "id": "DE-299",
-  "subject": "German",
-  "topic": "Kommasetzung",
-  "type": "multiple-choice",
-  "prompt": "Wo steht das Komma richtig? „Wir essen bevor wir spielen.“",
-  "options": [
-    "Wir essen, bevor wir spielen.",
-    "Wir essen bevor wir spielen.",
-    "Wir essen,, bevor wir spielen."
-  ],
-  "answer": "Wir essen, bevor wir spielen.",
-  "rule": "Nebensätze werden mit einem Komma vom Hauptsatz getrennt.",
-  "explanation": {
-    "de": "Das Komma ist wie ein kleines Stoppschild zwischen Hauptsatz und Nebensatz.",
-    "en": "The comma is like a small stop sign between the main clause and the subordinate clause.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. نفصل الجملة الفرعية بفاصلة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## DE-300 · Prädikat
-
-```json
-{
-  "id": "DE-300",
-  "subject": "German",
-  "topic": "Prädikat",
-  "type": "multiple-choice",
-  "prompt": "Welches Wort ist das Prädikat im Satz: „Der kleine Hund schläft unter dem Tisch.“?",
-  "options": [
-    "schläft",
-    "Der",
-    "Tisch"
-  ],
-  "answer": "schläft",
-  "rule": "Das Prädikat sagt, was geschieht oder getan wird. Es ist die gebeugte Verbform.",
-  "explanation": {
-    "de": "Was passiert? Jemand „schläft“. Das Verb ist das Prädikat.",
-    "en": "What’s happening? Someone “schläft”. That is the predicate.",
-    "ar": "تخيّل القاعدة كإشارة تساعدك للوصول إلى الإجابة الصحيحة. الفعل يخبرنا بما يحدث."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-

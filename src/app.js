@@ -4,6 +4,17 @@
 const $ = (s) => document.querySelector(s);
 const app = $('#app');
 const KEY = 'lernquest-v1';
+// Read from this script's own ?v= query param, so index.html stays the single place the version is bumped.
+function readAssetVersion() {
+  try {
+    const src = document.currentScript && document.currentScript.src;
+    return (src && new URL(src).searchParams.get('v')) || '';
+  } catch {
+    return '';
+  }
+}
+const ASSET_VERSION = readAssetVersion();
+const VERSION_QUERY = ASSET_VERSION ? `?v=${ASSET_VERSION}` : '';
 const SUBJECTS = ['German', 'English', 'Math'];
 const SUBJECT_FLAGS = { German: '🇩🇪', English: '🇬🇧', Math: '🧮' };
 const SUBJECT_NAMES = {
@@ -11,10 +22,26 @@ const SUBJECT_NAMES = {
   English: { en: 'English', de: 'Englisch' },
   Math: { en: 'Math', de: 'Mathe' }
 };
-// Bank is currently all difficulty 1; kept forward-compatible for future harder items.
+// English/Math are still all difficulty 1; German now has a mixed 1/2/3 spread.
 const HARD_DIFFICULTY = 3;
 const VOCAB_MASTERY_TARGET = 10;
 const VOCAB_TEST_LENGTH = 10;
+// Max game-time a learner can bank at once (20 min), so a long correct streak can't snowball forever.
+const MAX_GAME_BUDGET_SEC = 1200;
+
+// Per-difficulty base seconds, scaled by a per-subject factor (Math needs more read+calc time
+// than a short German/English multiple-choice prompt). Tuned for an 11-12yo, Gymnasium Jgst. 6,
+// reviewing Year 5 material. Difficulty 2/3 rows are forward-compatible for future harder items.
+const TIME_LIMIT_BASE_SEC = { 1: 20, 2: 30, 3: 45 };
+const TIME_LIMIT_SUBJECT_FACTOR = { German: 1, English: 1, Math: 1.5 };
+
+// Governs the round timer regardless of any timeLimitSec authored in the bank data, so a single
+// table (not 900 records) controls fairness. Vocab-test questions keep their own authored value.
+function computeTimeLimitSec(subject, difficulty) {
+  const base = TIME_LIMIT_BASE_SEC[difficulty] ?? TIME_LIMIT_BASE_SEC[1];
+  const factor = TIME_LIMIT_SUBJECT_FACTOR[subject] ?? 1;
+  return Math.round(base * factor);
+}
 
 // End-of-round mini-games under src/games/<id>/. Folder name doubles as the persistence/log id.
 const GAMES = [
@@ -104,6 +131,7 @@ const I18N = {
     dashboardOverall: 'Overall',
     dashboardBudget: 'Game time saved',
     dashboardMastered: 'words mastered',
+    budgetMaxBadge: '⭐ MAX',
     needNameAlert: 'Please enter a name first.',
     questionCounter: 'Question {i}/{n}',
     budgetLabel: 'Collected game time: {s}s',
@@ -189,6 +217,7 @@ const I18N = {
     dashboardOverall: 'Gesamt',
     dashboardBudget: 'Gesammelte Spielzeit',
     dashboardMastered: 'gemeisterte Wörter',
+    budgetMaxBadge: '⭐ MAXIMUM',
     needNameAlert: 'Bitte zuerst einen Namen eingeben.',
     questionCounter: 'Frage {i}/{n}',
     budgetLabel: 'Gesammelte Spielzeit: {s}s',
@@ -314,14 +343,14 @@ function emptyDb() {
   return { schemaVersion: 2, learners: {}, attempts: [], rounds: [], vocab: {}, settings: { lang: 'de', miniGames: true } };
 }
 
-// Coerces a stored budget to a finite whole-second value >= 0; corrupt/negative data never survives this.
+// Coerces a stored budget to a finite whole-second value in [0, MAX_GAME_BUDGET_SEC]; corrupt/negative/oversized data never survives this.
 function normalizeBudget(v) {
-  return Math.round(safeNum(v, 0, 0));
+  return Math.round(safeNum(v, 0, 0, MAX_GAME_BUDGET_SEC));
 }
 
 // Never rounds up: a game exiting with fractional seconds left must not refund play time.
 function floorGameBudget(v) {
-  return Math.max(0, Math.floor(safeNum(v, 0, 0)));
+  return Math.floor(safeNum(v, 0, 0, MAX_GAME_BUDGET_SEC));
 }
 
 // v1 stored a flat {profiles,attempts:[{name,...}],vocab:[{name,word,...}]} shape.
@@ -336,6 +365,7 @@ function migrateIfNeeded(raw) {
       l.gameTimeBudget = normalizeBudget(l.gameTimeBudget);
       l.games ??= {};
       l.lastGameId ??= null;
+      l.recentQuestionIds ??= {};
     }
     return raw;
   }
@@ -402,7 +432,7 @@ function saveDb(db) {
 // Creates the learner record on first sight only, so a normalized key's ORIGINAL
 // spelling/casing sticks even if the same person types it differently later.
 function ensureLearner(db, key, typedName) {
-  return db.learners[key] ??= { key, displayName: displayNameFrom(typedName), gameTimeBudget: 0, games: {}, lastGameId: null, createdAt: new Date().toISOString() };
+  return db.learners[key] ??= { key, displayName: displayNameFrom(typedName), gameTimeBudget: 0, games: {}, lastGameId: null, recentQuestionIds: {}, createdAt: new Date().toISOString() };
 }
 
 /* ---------- utils ---------- */
@@ -521,9 +551,15 @@ function learnerSummary(db, key) {
 
 /* ---------- round composition (topic + difficulty caps) ---------- */
 
-function selectQuestions(fullPool, count, solvedIds) {
-  const unsolved = fullPool.filter(q => !solvedIds.has(q.id));
-  const solved = fullPool.filter(q => solvedIds.has(q.id));
+// recentIds: question ids served to this learner/subject in recent rounds (see start()'s rolling
+// window). Excluded first so consecutive rounds spread across the bank instead of reusing the same
+// handful of picks; if excluding them would leave fewer candidates than the round needs, the whole
+// pool is used instead (the bank has genuinely cycled through, so recency stops mattering).
+function selectQuestions(fullPool, count, solvedIds, recentIds = new Set()) {
+  const fresh = fullPool.filter(q => !recentIds.has(q.id));
+  const pool = fresh.length >= count ? fresh : fullPool;
+  const unsolved = pool.filter(q => !solvedIds.has(q.id));
+  const solved = pool.filter(q => solvedIds.has(q.id));
   return pickWithCaps(unsolved, solved, count);
 }
 
@@ -718,11 +754,13 @@ function home() {
       return `<div class="subj-grade"><span>${esc(subjectName(subj))}</span><b>${pct === null ? '—' : pct + '%'}</b></div>`;
     }).join('');
     const overallPct = sum.overall.total ? Math.round((sum.overall.correct / sum.overall.total) * 100) : null;
+    const budget = normalizeBudget(l.gameTimeBudget);
+    const atMax = budget >= MAX_GAME_BUDGET_SEC;
     return `<div class="card learner-card">
       <h3>${esc(l.displayName)}</h3>
       <p class="overall">${t('dashboardOverall')}: <b>${overallPct === null ? '—' : overallPct + '%'}</b></p>
       <div class="subj-grades">${subjectsHtml}</div>
-      <p class="budget-line">⏱ ${t('dashboardBudget')}: <b>${safeNum(l.gameTimeBudget, 0, 0)}${t('unitSeconds')}</b></p>
+      <p class="budget-line">⏱ ${t('dashboardBudget')}: <b>${budget}${t('unitSeconds')}</b>${atMax ? ` <span class="budget-max">${t('budgetMaxBadge')}</span>` : ''}</p>
       <p class="vocab-line">📚 ${sum.masteredCount} ${t('dashboardMastered')}</p>
     </div>`;
   }).join('')}</div>` : `<p class="dashboard-empty">${esc(t('dashboardEmpty'))}</p>`;
@@ -816,9 +854,12 @@ function start(subject, chosenGameId) {
   const count = state.pendingCount;
 
   const db = loadDb();
+  const learner = ensureLearner(db, state.learnerKey, state.displayName);
+  learner.recentQuestionIds ??= {};
   const solvedIds = new Set(db.attempts.filter(a => a.learnerKey === state.learnerKey && a.subject === subject && a.correct).map(a => a.questionId));
   const subjectPool = state.bank.filter(q => q.subject === subject);
-  const questions = selectQuestions(subjectPool, count, solvedIds);
+  const recentIds = new Set(learner.recentQuestionIds[subject] || []);
+  const questions = selectQuestions(subjectPool, count, solvedIds, recentIds);
 
   if (questions.length < count) {
     Log.info('selection.insufficient', { subject, have: questions.length, need: count });
@@ -826,8 +867,15 @@ function start(subject, chosenGameId) {
     return;
   }
 
+  // Rolling recent-history window sized to the subject pool: keeps as many ids excluded as the
+  // pool can spare while still filling a round, so a repeat can't happen until the bank has
+  // genuinely cycled through (older ids age back out as new ones are served).
+  const recentCap = Math.max(0, subjectPool.length - count);
+  learner.recentQuestionIds[subject] = [...recentIds, ...questions.map(q => q.id)].slice(-recentCap);
+  saveDb(db);
+
   state.session = { mode: 'subject', subject, questions, index: 0, answers: [], startedAt: Date.now(), questionStartedAt: 0, timer: null, chosenGameId };
-  Log.info('session.start', { learnerKey: state.learnerKey, subject, count: questions.length, chosenGameId });
+  Log.info('session.start', { learnerKey: state.learnerKey, subject, count: questions.length, chosenGameId, recentExcluded: recentIds.size });
   showQuestion();
 }
 
@@ -836,7 +884,7 @@ function showQuestion() {
   const s = state.session;
   const q = s.questions[s.index];
   s.questionStartedAt = Date.now();
-  const timeLimitSec = safeNum(q.timeLimitSec, 30, 1, 600);
+  const timeLimitSec = q.isVocab ? safeNum(q.timeLimitSec, 30, 1, 600) : computeTimeLimitSec(q.subject, q.difficulty);
 
   const db = loadDb();
   const budget = safeNum(db.learners[state.learnerKey]?.gameTimeBudget, 0, 0);
@@ -846,6 +894,10 @@ function showQuestion() {
   const captionHtml = q.isVocab ? `<p class="vocab-caption">${esc(q.caption)}</p>` : '';
   const exclude = wrongOptionTokens(q);
   const promptHtml = q.isVocab ? `<b>${esc(q.prompt)}</b>` : decorate(q.prompt, exclude);
+  // Shuffled fresh per render (all question types, including vocab) so the correct answer's
+  // position carries no signal; grading compares the clicked VALUE against q.answer, so render
+  // order never affects correctness.
+  const renderOptions = shuffle(q.options.slice());
 
   app.innerHTML = `<main class="shell"><section class="card">
     <div class="topbar">
@@ -857,7 +909,7 @@ function showQuestion() {
     <div class="budget">⏱ ${t('budgetLabel', { s: budget })}</div>
     ${captionHtml}
     <h2${promptAttr}>${promptHtml}</h2>
-    <div id="options"${optionsAttr}>${q.options.map(o => `<button class="option" data-answer="${esc(o)}">${q.isVocab ? esc(o) : decorate(o, exclude)}</button>`).join('')}</div>
+    <div id="options"${optionsAttr}>${renderOptions.map(o => `<button class="option" data-answer="${esc(o)}">${q.isVocab ? esc(o) : decorate(o, exclude)}</button>`).join('')}</div>
     <button id="submit" disabled>${t('checkAnswer')}</button>
   </section></main>`;
 
@@ -880,7 +932,7 @@ function submit(answer) {
   const s = state.session;
   const q = s.questions[s.index];
   clearInterval(s.timer);
-  const timeLimitSec = safeNum(q.timeLimitSec, 30, 1, 600);
+  const timeLimitSec = q.isVocab ? safeNum(q.timeLimitSec, 30, 1, 600) : computeTimeLimitSec(q.subject, q.difficulty);
   const elapsedMs = Date.now() - s.questionStartedAt;
   const correct = String(answer).trim().toLowerCase() === String(q.answer).trim().toLowerCase();
   // Elapsed + remaining always sum to the time limit, so a real timeout (elapsed >= limit)
@@ -891,14 +943,17 @@ function submit(answer) {
   const db = loadDb();
   const learner = ensureLearner(db, state.learnerKey, state.displayName);
   // A corrupted/absent stored budget must not hit arithmetic as a string or NaN.
-  const before = safeNum(learner.gameTimeBudget, 0, 0);
+  const before = safeNum(learner.gameTimeBudget, 0, 0, MAX_GAME_BUDGET_SEC);
   if (correct) {
-    learner.gameTimeBudget = before + remainingSec;
+    learner.gameTimeBudget = Math.min(MAX_GAME_BUDGET_SEC, before + remainingSec);
   } else {
     learner.gameTimeBudget = Math.max(0, before - elapsedSec);
   }
-  // Displayed gain/loss reflects the real elapsed time, independent of the stored balance,
-  // which is clamped to >= 0 and so can under-report a loss once it hits zero.
+  const after = learner.gameTimeBudget;
+  // Displayed gain/loss reflects the real elapsed time, independent of the stored balance, which
+  // is clamped to [0, MAX_GAME_BUDGET_SEC] and so can under-report once already at either end.
+  // Keeping the raw value here (instead of `after - before`) is what lets the feedback screen
+  // still show a gain once the balance is already capped — see docs/ARCHITECTURE.md §4c.
   const timeGain = correct ? remainingSec : 0;
   const timeLoss = correct ? 0 : elapsedSec;
 
@@ -919,7 +974,9 @@ function submit(answer) {
 
   const answerRecord = { ...item, timeGain, timeLoss };
   s.answers.push(answerRecord);
-  Log.info('answer.checked', { questionId: q.id, correct, durationMs: elapsedMs, timeGain, timeLoss });
+  // budgetBefore/After/delta let a future regression (displayed loss != actual deduction) be
+  // caught straight from the console log instead of only by a child noticing in-app.
+  Log.info('answer.checked', { questionId: q.id, correct, elapsedSec, durationMs: elapsedMs, timeGain, timeLoss, budgetBefore: before, budgetAfter: after, budgetDelta: after - before });
   feedback(q, answerRecord);
 }
 
@@ -1046,7 +1103,7 @@ function playGame(gameId) {
   const link = document.createElement('link');
   link.id = 'game-style';
   link.rel = 'stylesheet';
-  link.href = `src/games/${gameId}/styles.css`;
+  link.href = `src/games/${gameId}/styles.css${VERSION_QUERY}`;
   document.head.appendChild(link);
 
   app.innerHTML = `<main class="shell"><section class="card">
@@ -1058,7 +1115,7 @@ function playGame(gameId) {
   </section></main>`;
   $('#backToApp').onclick = home;
 
-  import(`./games/${gameId}/game.js`).then(({ createGame }) => {
+  import(`./games/${gameId}/game.js${VERSION_QUERY}`).then(({ createGame }) => {
     const game = createGame($('#game-mount'), {
       playerId: state.learnerKey,
       sessionId: crypto.randomUUID?.() || String(Date.now()),
@@ -1201,8 +1258,8 @@ async function boot() {
     saveDb(db); // persist migration/defaults immediately
 
     [state.bank, state.dict] = await Promise.all([
-      fetch('data/questions.json').then(r => r.json()),
-      fetch('data/dictionary.json').then(r => r.json())
+      fetch(`data/questions.json${VERSION_QUERY}`).then(r => r.json()),
+      fetch(`data/dictionary.json${VERSION_QUERY}`).then(r => r.json())
     ]);
     document.documentElement.lang = state.lang;
     home();
@@ -1219,5 +1276,5 @@ boot();
 // Node-only export hook for throwaway test scripts (logs/Agent_working_txt/); a <script src>
 // load in the browser has no `module`, so this branch never runs there.
 if (typeof module !== 'undefined') {
-  module.exports = { migrateIfNeeded, ensureLearner, learnerSummary, buildCsv, selectQuestions, pickWithCaps, state };
+  module.exports = { migrateIfNeeded, ensureLearner, learnerSummary, buildCsv, selectQuestions, pickWithCaps, computeTimeLimitSec, normalizeBudget, floorGameBudget, MAX_GAME_BUDGET_SEC, state };
 }

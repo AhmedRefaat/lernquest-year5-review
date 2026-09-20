@@ -2,28 +2,30 @@
 
 Editable structured records. Keep each JSON block valid. Additional fields are allowed.
 
-## MA-001 · Addition
+## MA-001 · place value
 
 ```json
 {
   "id": "MA-001",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Rechne: 12 + 3",
+  "prompt": "What is the value of the digit in the ten-thousands place in 482,731?",
   "options": [
-    "15",
-    "25",
-    "9"
+    "80000",
+    "400000",
+    "2000",
+    "8",
+    "90000"
   ],
-  "answer": "15",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "80000",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Geh 12 Schritte, dann noch 3 weiter. Du landest bei 15.",
-    "en": "Walk 12 steps, then 3 more. You land on 15.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Die Ziffer an der Stelle „ten-thousands“ hat den Wert 80,000.",
+    "en": "The digit in the ten-thousands place has the value 80,000.",
+    "ar": "نحدد الرقم في منزلة عشرات الآلاف ثم نضربه في قيمة هذه المنزلة، فنحصل على 80000."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -31,28 +33,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-002 · Subtraction
+## MA-002 · place value
 
 ```json
 {
   "id": "MA-002",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Rechne: 15 − 3",
+  "prompt": "What is the value of the digit in the hundreds place in 705,064?",
   "options": [
-    "12",
-    "15",
-    "3"
+    "0",
+    "5000",
+    "60",
+    "100",
+    "200"
   ],
-  "answer": "12",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "0",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Du hast 15 Dinge, gibst 3 weg, und 12 bleiben übrig.",
-    "en": "Start with 15 objects, give away 3, and 12 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Die Ziffer an der Stelle „hundreds“ hat den Wert 0.",
+    "en": "The digit in the hundreds place has the value 0.",
+    "ar": "نحدد الرقم في منزلة المئات ثم نضربه في قيمة هذه المنزلة، فنحصل على 0."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -60,28 +64,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-003 · Multiplication
+## MA-003 · place value
 
 ```json
 {
   "id": "MA-003",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Rechne: 2 × 2",
+  "prompt": "What is the value of the digit in the thousands place in 930,518?",
   "options": [
-    "4",
-    "4",
-    "6"
+    "0",
+    "30000",
+    "500",
+    "1000",
+    "2000"
   ],
-  "answer": "4",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "0",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Male 2 Gruppen mit je 2 Punkten. Insgesamt sind das 4 Punkte.",
-    "en": "Draw 2 groups with 2 dots. Altogether there are 4 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Die Ziffer an der Stelle „thousands“ hat den Wert 0.",
+    "en": "The digit in the thousands place has the value 0.",
+    "ar": "نحدد الرقم في منزلة الآلاف ثم نضربه في قيمة هذه المنزلة، فنحصل على 0."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -89,28 +95,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-004 · Division
+## MA-004 · place value
 
 ```json
 {
   "id": "MA-004",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Rechne: 4 ÷ 2",
+  "prompt": "What is the value of the digit in the tens place in 246,809?",
   "options": [
-    "2",
-    "2",
-    "2"
+    "0",
+    "800",
+    "9",
+    "10",
+    "20"
   ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "0",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Verteile 4 Sterne gleichmäßig auf 2 Teams. Jedes bekommt 2.",
-    "en": "Share 4 stars equally among 2 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Die Ziffer an der Stelle „tens“ hat den Wert 0.",
+    "en": "The digit in the tens place has the value 0.",
+    "ar": "نحدد الرقم في منزلة العشرات ثم نضربه في قيمة هذه المنزلة، فنحصل على 0."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -118,28 +126,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-005 · Fractions
+## MA-005 · place value
 
 ```json
 {
   "id": "MA-005",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
+  "prompt": "What is the value of the digit in the hundred-thousands place in 571,392?",
   "options": [
-    "1/2",
-    "2/1",
-    "1/3"
+    "500000",
+    "0",
+    "70000",
+    "5",
+    "600000"
   ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "500000",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Die Ziffer an der Stelle „hundred-thousands“ hat den Wert 500,000.",
+    "en": "The digit in the hundred-thousands place has the value 500,000.",
+    "ar": "نحدد الرقم في منزلة مئات الآلاف ثم نضربه في قيمة هذه المنزلة، فنحصل على 500000."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -147,28 +157,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-006 · Number comparison
+## MA-006 · place value
 
 ```json
 {
   "id": "MA-006",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "What is the value of the digit in the ones place in 804,175?",
   "options": [
-    "12",
-    "3",
-    "24"
+    "5",
+    "70",
+    "6",
+    "7",
+    "4"
   ],
-  "answer": "24",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "5",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Der größte Wert ist 24. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 24. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Die Ziffer an der Stelle „ones“ hat den Wert 5.",
+    "en": "The digit in the ones place has the value 5.",
+    "ar": "نحدد الرقم في منزلة الآحاد ثم نضربه في قيمة هذه المنزلة، فنحصل على 5."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -176,28 +188,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-007 · Perimeter
+## MA-007 · place value
 
 ```json
 {
   "id": "MA-007",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 3 cm lang und 2 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "What is the value of the digit in the thousands place in 369,240?",
   "options": [
-    "10 cm",
-    "6 cm²",
-    "5 cm"
+    "9000",
+    "60000",
+    "200",
+    "9",
+    "10000"
   ],
-  "answer": "10 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "9000",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 3+2+3+2 = 10 cm.",
-    "en": "Walk around all four sides: 3+2+3+2 = 10 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Die Ziffer an der Stelle „thousands“ hat den Wert 9,000.",
+    "en": "The digit in the thousands place has the value 9,000.",
+    "ar": "نحدد الرقم في منزلة الآلاف ثم نضربه في قيمة هذه المنزلة، فنحصل على 9000."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -205,28 +219,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-008 · Time
+## MA-008 · place value
 
 ```json
 {
   "id": "MA-008",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "place value",
   "type": "multiple-choice",
-  "prompt": "Es ist 08:00 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "What is the value of the digit in the hundreds place in 618,957?",
   "options": [
-    "08:20",
-    "08:10",
-    "09:00"
+    "900",
+    "8000",
+    "50",
+    "9",
+    "1000"
   ],
-  "answer": "08:20",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "900",
+  "rule": "A digit’s value equals the digit multiplied by its place value.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 08:20 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 08:20.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Die Ziffer an der Stelle „hundreds“ hat den Wert 900.",
+    "en": "The digit in the hundreds place has the value 900.",
+    "ar": "نحدد الرقم في منزلة المئات ثم نضربه في قيمة هذه المنزلة، فنحصل على 900."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -234,28 +250,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-009 · Place value
+## MA-009 · written operations
 
 ```json
 {
   "id": "MA-009",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 2040?",
+  "prompt": "Calculate accurately: Calculate carefully using the written method: 4,876 + 2,958.",
   "options": [
-    "0",
-    "40",
-    "2000"
+    "7834",
+    "7844",
+    "7734",
+    "1918",
+    "7835"
   ],
-  "answer": "0",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "7834",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Setze 2040 in die Stellenwerttafel ein. Das Hunderterfeld ist 0 wert.",
-    "en": "Put 2040 into place-value boxes. The hundreds box is worth 0.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 7,834.",
+    "en": "Align equal place values and calculate column by column. The result is 7,834.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 7,834."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -263,28 +281,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-010 · Patterns
+## MA-010 · written operations
 
 ```json
 {
   "id": "MA-010",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 2, 5, 8, ___",
+  "prompt": "A pupil must solve this without a calculator. Calculate carefully using the written method: 9,304 - 4,678.",
   "options": [
-    "11",
-    "12",
-    "14"
+    "4626",
+    "4636",
+    "4526",
+    "13982",
+    "4627"
   ],
-  "answer": "11",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "4626",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 11.",
-    "en": "Each number jumps by 3, so the next landing point is 11.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 4,626.",
+    "en": "Align equal place values and calculate column by column. The result is 4,626.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 4,626."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -292,28 +312,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-011 · Addition
+## MA-011 · written operations
 
 ```json
 {
   "id": "MA-011",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 19 + 8",
+  "prompt": "Which option gives the correct result? Calculate carefully using the written method: 7,659 + 1,847.",
   "options": [
-    "27",
-    "37",
-    "11"
+    "9506",
+    "9516",
+    "9406",
+    "5812",
+    "9507"
   ],
-  "answer": "27",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "9506",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Geh 19 Schritte, dann noch 8 weiter. Du landest bei 27.",
-    "en": "Walk 19 steps, then 8 more. You land on 27.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 9,506.",
+    "en": "Align equal place values and calculate column by column. The result is 9,506.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 9,506."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -321,28 +343,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-012 · Subtraction
+## MA-012 · written operations
 
 ```json
 {
   "id": "MA-012",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 27 − 8",
+  "prompt": "Use a suitable written or mental strategy. Calculate carefully using the written method: 12,000 - 5,386.",
   "options": [
-    "19",
-    "27",
-    "8"
+    "6614",
+    "6624",
+    "6514",
+    "17386",
+    "6615"
   ],
-  "answer": "19",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "6614",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Du hast 27 Dinge, gibst 8 weg, und 19 bleiben übrig.",
-    "en": "Start with 27 objects, give away 8, and 19 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 6,614.",
+    "en": "Align equal place values and calculate column by column. The result is 6,614.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 6,614."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -350,28 +374,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-013 · Multiplication
+## MA-013 · written operations
 
 ```json
 {
   "id": "MA-013",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 3 × 5",
+  "prompt": "Check the possible answers and select the only valid one. Calculate carefully using the written method: 6,895 + 3,976.",
   "options": [
-    "15",
-    "8",
-    "18"
+    "10871",
+    "10881",
+    "10771",
+    "2919",
+    "10872"
   ],
-  "answer": "15",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "10871",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Male 3 Gruppen mit je 5 Punkten. Insgesamt sind das 15 Punkte.",
-    "en": "Draw 3 groups with 5 dots. Altogether there are 15 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 10,871.",
+    "en": "Align equal place values and calculate column by column. The result is 10,871.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 10,871."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -379,28 +405,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-014 · Division
+## MA-014 · written operations
 
 ```json
 {
   "id": "MA-014",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 12 ÷ 3",
+  "prompt": "This appears in a homework check. Solve it and identify the correct choice: Calculate carefully using the written method: 15,003 - 7,849.",
   "options": [
-    "4",
-    "3",
-    "9"
+    "7154",
+    "7164",
+    "7054",
+    "22852",
+    "7155"
   ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "7154",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Verteile 12 Sterne gleichmäßig auf 3 Teams. Jedes bekommt 4.",
-    "en": "Share 12 stars equally among 3 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 7,154.",
+    "en": "Align equal place values and calculate column by column. The result is 7,154.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 7,154."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -408,28 +436,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-015 · Fractions
+## MA-015 · written operations
 
 ```json
 {
   "id": "MA-015",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 3 gleichen Teilen?",
+  "prompt": "Work backwards or use the inverse operation where helpful. Calculate carefully using the written method: 43,876 + 7,659.",
   "options": [
-    "2/3",
-    "3/2",
-    "2/4"
+    "51535",
+    "51545",
+    "51435",
+    "36217",
+    "51536"
   ],
-  "answer": "2/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "51535",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 2 davon ein. Das ist 2/3.",
-    "en": "Cut a pizza into 3 equal slices and color 2. That is 2/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 51,535.",
+    "en": "Align equal place values and calculate column by column. The result is 51,535.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 51,535."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -437,57 +467,61 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-016 · Number comparison
+## MA-016 · written operations
 
 ```json
 {
   "id": "MA-016",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "written operations",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Estimate first, then choose the exact answer. Calculate carefully using the written method: 50,000 - 28,647.",
   "options": [
-    "19",
-    "8",
-    "38"
+    "21353",
+    "21363",
+    "21253",
+    "78647",
+    "21354"
   ],
-  "answer": "38",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "21353",
+  "rule": "Align equal place values and carry or borrow whenever necessary.",
   "explanation": {
-    "de": "Der größte Wert ist 38. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 38. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Ordne Einer unter Einer und rechne stellenweise. Das Ergebnis ist 21,353.",
+    "en": "Align equal place values and calculate column by column. The result is 21,353.",
+    "ar": "رتّب المنازل المتساوية واحسب عمودًا بعد عمود. النتيجة هي 21,353."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-017 · Perimeter
+## MA-017 · multiplication and division
 
 ```json
 {
   "id": "MA-017",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 4 cm lang und 4 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Calculate accurately: Work out 37 × 8.",
   "options": [
-    "16 cm",
-    "16 cm²",
-    "8 cm"
+    "296",
+    "304",
+    "288",
+    "45",
+    "2960"
   ],
-  "answer": "16 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "296",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 4+4+4+4 = 16 cm.",
-    "en": "Walk around all four sides: 4+4+4+4 = 16 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 296.",
+    "en": "Place-value calculation or the inverse operation gives 296.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 296."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -495,28 +529,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-018 · Time
+## MA-018 · multiplication and division
 
 ```json
 {
   "id": "MA-018",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Es ist 09:05 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A pupil must solve this without a calculator. Work out 864 ÷ 6.",
   "options": [
-    "09:25",
-    "09:15",
-    "10:05"
+    "144",
+    "150",
+    "138",
+    "870",
+    "1440"
   ],
-  "answer": "09:25",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "144",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 09:25 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 09:25.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 144.",
+    "en": "Place-value calculation or the inverse operation gives 144.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 144."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -524,28 +560,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-019 · Place value
+## MA-019 · multiplication and division
 
 ```json
 {
   "id": "MA-019",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 3141?",
+  "prompt": "Which option gives the correct result? Work out 46 × 23.",
   "options": [
-    "100",
-    "40",
-    "3000"
+    "1058",
+    "1081",
+    "1035",
+    "69",
+    "10580"
   ],
-  "answer": "100",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "1058",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Setze 3141 in die Stellenwerttafel ein. Das Hunderterfeld ist 100 wert.",
-    "en": "Put 3141 into place-value boxes. The hundreds box is worth 100.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 1,058.",
+    "en": "Place-value calculation or the inverse operation gives 1,058.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 1,058."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -553,1333 +591,1425 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-020 · Patterns
+## MA-020 · multiplication and division
 
 ```json
 {
   "id": "MA-020",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 3, 6, 9, ___",
+  "prompt": "Use a suitable written or mental strategy. Work out 1,728 ÷ 12.",
   "options": [
-    "12",
-    "13",
-    "15"
+    "144",
+    "156",
+    "132",
+    "1740",
+    "1440"
   ],
-  "answer": "12",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "144",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 12.",
-    "en": "Each number jumps by 3, so the next landing point is 12.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 144.",
+    "en": "Place-value calculation or the inverse operation gives 144.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 144."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-021 · Addition
+## MA-021 · multiplication and division
 
 ```json
 {
   "id": "MA-021",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Rechne: 26 + 13",
+  "prompt": "Check the possible answers and select the only valid one. Work out 125 × 48.",
   "options": [
-    "39",
-    "49",
-    "13"
+    "6000",
+    "6048",
+    "5952",
+    "173",
+    "60000"
   ],
-  "answer": "39",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "6000",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Geh 26 Schritte, dann noch 13 weiter. Du landest bei 39.",
-    "en": "Walk 26 steps, then 13 more. You land on 39.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 6,000.",
+    "en": "Place-value calculation or the inverse operation gives 6,000.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 6,000."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-022 · Subtraction
+## MA-022 · multiplication and division
 
 ```json
 {
   "id": "MA-022",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Rechne: 39 − 13",
+  "prompt": "This appears in a homework check. Solve it and identify the correct choice: Work out 2,345 × 7.",
   "options": [
-    "26",
-    "39",
-    "13"
+    "16415",
+    "16422",
+    "16408",
+    "2352",
+    "164150"
   ],
-  "answer": "26",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "16415",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Du hast 39 Dinge, gibst 13 weg, und 26 bleiben übrig.",
-    "en": "Start with 39 objects, give away 13, and 26 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 16,415.",
+    "en": "Place-value calculation or the inverse operation gives 16,415.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 16,415."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-023 · Multiplication
+## MA-023 · multiplication and division
 
 ```json
 {
   "id": "MA-023",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Rechne: 4 × 8",
+  "prompt": "Work backwards or use the inverse operation where helpful. Work out 3,960 ÷ 15.",
   "options": [
-    "32",
-    "12",
-    "36"
+    "264",
+    "279",
+    "249",
+    "3975",
+    "2640"
   ],
-  "answer": "32",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "264",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Male 4 Gruppen mit je 8 Punkten. Insgesamt sind das 32 Punkte.",
-    "en": "Draw 4 groups with 8 dots. Altogether there are 32 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 264.",
+    "en": "Place-value calculation or the inverse operation gives 264.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 264."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-024 · Division
+## MA-024 · multiplication and division
 
 ```json
 {
   "id": "MA-024",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "multiplication and division",
   "type": "multiple-choice",
-  "prompt": "Rechne: 24 ÷ 4",
+  "prompt": "Estimate first, then choose the exact answer. Work out 612 × 34.",
   "options": [
-    "6",
-    "4",
-    "20"
+    "20808",
+    "20842",
+    "20774",
+    "646",
+    "208080"
   ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "20808",
+  "rule": "Use place-value multiplication or the inverse relationship between multiplication and division.",
   "explanation": {
-    "de": "Verteile 24 Sterne gleichmäßig auf 4 Teams. Jedes bekommt 6.",
-    "en": "Share 24 stars equally among 4 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Durch Stellenwertrechnung oder die Umkehraufgabe erhält man 20,808.",
+    "en": "Place-value calculation or the inverse operation gives 20,808.",
+    "ar": "باستخدام القيمة المكانية أو العملية العكسية نحصل على 20,808."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-025 · Fractions
+## MA-025 · order of operations
 
 ```json
 {
   "id": "MA-025",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 3 von 4 gleichen Teilen?",
+  "prompt": "Calculate accurately: Calculate using the correct order of operations: 8 + 6 × 4.",
   "options": [
-    "3/4",
-    "4/3",
-    "3/5"
+    "32",
+    "56",
+    "38",
+    "24",
+    "14"
   ],
-  "answer": "3/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "32",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 3 davon ein. Das ist 3/4.",
-    "en": "Cut a pizza into 4 equal slices and color 3. That is 3/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 32.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 32.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 32."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-026 · Number comparison
+## MA-026 · order of operations
 
 ```json
 {
   "id": "MA-026",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A pupil must solve this without a calculator. Calculate using the correct order of operations: 45 − 18 ÷ 3.",
   "options": [
-    "26",
-    "13",
-    "52"
+    "39",
+    "9",
+    "21",
+    "42",
+    "27"
   ],
-  "answer": "52",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "39",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Der größte Wert ist 52. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 52. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 39.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 39.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 39."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-027 · Perimeter
+## MA-027 · order of operations
 
 ```json
 {
   "id": "MA-027",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 5 cm lang und 6 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Which option gives the correct result? Calculate using the correct order of operations: (12 + 8) × 5.",
   "options": [
-    "22 cm",
-    "30 cm²",
-    "11 cm"
+    "100",
+    "52",
+    "60",
+    "25",
+    "80"
   ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "100",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 5+6+5+6 = 22 cm.",
-    "en": "Walk around all four sides: 5+6+5+6 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 100.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 100.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 100."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-028 · Time
+## MA-028 · order of operations
 
 ```json
 {
   "id": "MA-028",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Es ist 10:10 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Use a suitable written or mental strategy. Calculate using the correct order of operations: 72 ÷ (3 × 4).",
   "options": [
-    "10:30",
-    "10:20",
-    "11:10"
+    "6",
+    "96",
+    "24",
+    "18",
+    "9"
   ],
-  "answer": "10:30",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "6",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 10:30 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 10:30.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 6.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 6.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 6."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-029 · Place value
+## MA-029 · order of operations
 
 ```json
 {
   "id": "MA-029",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 4242?",
+  "prompt": "Check the possible answers and select the only valid one. Calculate using the correct order of operations: 7 × 9 − 16.",
   "options": [
-    "200",
-    "40",
-    "4000"
+    "47",
+    "63",
+    "35",
+    "49",
+    "79"
   ],
-  "answer": "200",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "47",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Setze 4242 in die Stellenwerttafel ein. Das Hunderterfeld ist 200 wert.",
-    "en": "Put 4242 into place-value boxes. The hundreds box is worth 200.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 47.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 47.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 47."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-030 · Patterns
+## MA-030 · order of operations
 
 ```json
 {
   "id": "MA-030",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 4, 7, 10, ___",
+  "prompt": "This appears in a homework check. Solve it and identify the correct choice: Calculate using the correct order of operations: 120 − 6 × 15.",
   "options": [
-    "13",
-    "14",
-    "16"
+    "30",
+    "1710",
+    "90",
+    "114",
+    "45"
   ],
-  "answer": "13",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "30",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 13.",
-    "en": "Each number jumps by 3, so the next landing point is 13.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 30.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 30.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 30."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-031 · Addition
+## MA-031 · order of operations
 
 ```json
 {
   "id": "MA-031",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 33 + 18",
+  "prompt": "Work backwards or use the inverse operation where helpful. Calculate using the correct order of operations: (84 − 36) ÷ 6.",
   "options": [
-    "51",
-    "61",
-    "15"
+    "8",
+    "78",
+    "14",
+    "48",
+    "6"
   ],
-  "answer": "51",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "8",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Geh 33 Schritte, dann noch 18 weiter. Du landest bei 51.",
-    "en": "Walk 33 steps, then 18 more. You land on 51.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 8.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 8.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-032 · Subtraction
+## MA-032 · order of operations
 
 ```json
 {
   "id": "MA-032",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "order of operations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 51 − 18",
+  "prompt": "Estimate first, then choose the exact answer. Calculate using the correct order of operations: 5 + 3 × (14 − 8).",
   "options": [
+    "23",
+    "48",
     "33",
-    "51",
+    "21",
     "18"
   ],
-  "answer": "33",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "23",
+  "rule": "Calculate brackets first, then multiplication or division, then addition or subtraction.",
   "explanation": {
-    "de": "Du hast 51 Dinge, gibst 18 weg, und 33 bleiben übrig.",
-    "en": "Start with 51 objects, give away 18, and 33 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Zuerst Klammern, dann Punktrechnung, dann Strichrechnung. Das ergibt 23.",
+    "en": "Do brackets first, then multiplication or division, then addition or subtraction. The result is 23.",
+    "ar": "نحسب الأقواس أولًا، ثم الضرب أو القسمة، ثم الجمع أو الطرح. النتيجة 23."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-033 · Multiplication
+## MA-033 · divisibility rules
 
 ```json
 {
   "id": "MA-033",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Rechne: 5 × 11",
+  "prompt": "Which number is divisible by 3?",
   "options": [
-    "55",
-    "16",
-    "60"
+    "324",
+    "325",
+    "326",
+    "328",
+    "331"
   ],
-  "answer": "55",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "324",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Male 5 Gruppen mit je 11 Punkten. Insgesamt sind das 55 Punkte.",
-    "en": "Draw 5 groups with 11 dots. Altogether there are 55 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit Endziffer und Quersumme erkennt man: 324 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 324 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 324 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-034 · Division
+## MA-034 · divisibility rules
 
 ```json
 {
   "id": "MA-034",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Rechne: 40 ÷ 5",
+  "prompt": "Which number is divisible by 5 and 3?",
   "options": [
-    "8",
-    "5",
-    "35"
+    "735",
+    "740",
+    "742",
+    "745",
+    "751"
   ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "735",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Verteile 40 Sterne gleichmäßig auf 5 Teams. Jedes bekommt 8.",
-    "en": "Share 40 stars equally among 5 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit Endziffer und Quersumme erkennt man: 735 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 735 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 735 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-035 · Fractions
+## MA-035 · divisibility rules
 
 ```json
 {
   "id": "MA-035",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 4 von 5 gleichen Teilen?",
+  "prompt": "Which number is divisible by 2 but not by 4?",
   "options": [
-    "4/5",
-    "5/4",
-    "4/6"
+    "418",
+    "420",
+    "424",
+    "425",
+    "429"
   ],
-  "answer": "4/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "418",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 4 davon ein. Das ist 4/5.",
-    "en": "Cut a pizza into 5 equal slices and color 4. That is 4/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit Endziffer und Quersumme erkennt man: 418 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 418 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 418 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-036 · Number comparison
+## MA-036 · divisibility rules
 
 ```json
 {
   "id": "MA-036",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Which number is divisible by 4?",
   "options": [
-    "33",
-    "18",
-    "66"
+    "924",
+    "922",
+    "926",
+    "930",
+    "934"
   ],
-  "answer": "66",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "924",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Der größte Wert ist 66. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 66. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit Endziffer und Quersumme erkennt man: 924 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 924 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 924 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-037 · Perimeter
+## MA-037 · divisibility rules
 
 ```json
 {
   "id": "MA-037",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 6 cm lang und 8 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Which number is divisible by 10 and 3?",
   "options": [
-    "28 cm",
-    "48 cm²",
-    "14 cm"
+    "1110",
+    "1112",
+    "1115",
+    "1120",
+    "1123"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "1110",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 6+8+6+8 = 28 cm.",
-    "en": "Walk around all four sides: 6+8+6+8 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit Endziffer und Quersumme erkennt man: 1110 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 1110 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 1110 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-038 · Time
+## MA-038 · divisibility rules
 
 ```json
 {
   "id": "MA-038",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Es ist 11:15 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Which number is divisible by 4 but not by 3?",
   "options": [
-    "11:35",
-    "11:25",
-    "12:15"
+    "572",
+    "570",
+    "573",
+    "575",
+    "578"
   ],
-  "answer": "11:35",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "572",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 11:35 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 11:35.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit Endziffer und Quersumme erkennt man: 572 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 572 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 572 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-039 · Place value
+## MA-039 · divisibility rules
 
 ```json
 {
   "id": "MA-039",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 5343?",
+  "prompt": "Which number is divisible by 9?",
   "options": [
-    "300",
-    "40",
-    "5000"
+    "999",
+    "995",
+    "997",
+    "1000",
+    "1003"
   ],
-  "answer": "300",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "999",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Setze 5343 in die Stellenwerttafel ein. Das Hunderterfeld ist 300 wert.",
-    "en": "Put 5343 into place-value boxes. The hundreds box is worth 300.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit Endziffer und Quersumme erkennt man: 999 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 999 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 999 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-040 · Patterns
+## MA-040 · divisibility rules
 
 ```json
 {
   "id": "MA-040",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "divisibility rules",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 5, 8, 11, ___",
+  "prompt": "Which number is divisible by 2 but not by 5?",
   "options": [
-    "14",
-    "15",
-    "17"
+    "1234",
+    "1235",
+    "1240",
+    "1245",
+    "1255"
   ],
-  "answer": "14",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "1234",
+  "rule": "Use the final digit or the digit sum to test divisibility by 2, 3, 4, 5, 9, or 10.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 14.",
-    "en": "Each number jumps by 3, so the next landing point is 14.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit Endziffer und Quersumme erkennt man: 1234 erfüllt die Bedingung.",
+    "en": "Using the last digit and digit sum shows that 1234 meets the condition.",
+    "ar": "باستخدام الرقم الأخير ومجموع الأرقام نعرف أن 1234 يحقق الشرط."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-041 · Addition
+## MA-041 · prime numbers and factors
 
 ```json
 {
   "id": "MA-041",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Rechne: 40 + 23",
+  "prompt": "Which number is prime?",
   "options": [
-    "63",
-    "73",
-    "17"
+    "29",
+    "27",
+    "33",
+    "39",
+    "51"
   ],
-  "answer": "63",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "29",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Geh 40 Schritte, dann noch 23 weiter. Du landest bei 63.",
-    "en": "Walk 40 steps, then 23 more. You land on 63.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „29“.",
+    "en": "Systematically checking factors gives “29”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «29»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-042 · Subtraction
+## MA-042 · prime numbers and factors
 
 ```json
 {
   "id": "MA-042",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Rechne: 63 − 23",
+  "prompt": "What is the prime factorisation of 36?",
   "options": [
-    "40",
-    "63",
-    "23"
+    "2 × 2 × 3 × 3",
+    "2 × 18",
+    "4 × 9",
+    "6 × 6",
+    "2 × 3 × 6"
   ],
-  "answer": "40",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "2 × 2 × 3 × 3",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Du hast 63 Dinge, gibst 23 weg, und 40 bleiben übrig.",
-    "en": "Start with 63 objects, give away 23, and 40 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „2 × 2 × 3 × 3“.",
+    "en": "Systematically checking factors gives “2 × 2 × 3 × 3”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «2 × 2 × 3 × 3»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-043 · Multiplication
+## MA-043 · prime numbers and factors
 
 ```json
 {
   "id": "MA-043",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Rechne: 6 × 4",
+  "prompt": "Which number has exactly the factors 1, 5, 7 and 35?",
   "options": [
-    "24",
-    "10",
-    "30"
+    "35",
+    "25",
+    "42",
+    "49",
+    "70"
   ],
-  "answer": "24",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "35",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Male 6 Gruppen mit je 4 Punkten. Insgesamt sind das 24 Punkte.",
-    "en": "Draw 6 groups with 4 dots. Altogether there are 24 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „35“.",
+    "en": "Systematically checking factors gives “35”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «35»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-044 · Division
+## MA-044 · prime numbers and factors
 
 ```json
 {
   "id": "MA-044",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Rechne: 60 ÷ 6",
+  "prompt": "What is the greatest common factor of 18 and 24?",
   "options": [
-    "10",
     "6",
-    "54"
+    "2",
+    "3",
+    "9",
+    "12"
   ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "6",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Verteile 60 Sterne gleichmäßig auf 6 Teams. Jedes bekommt 10.",
-    "en": "Share 60 stars equally among 6 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „6“.",
+    "en": "Systematically checking factors gives “6”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «6»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-045 · Fractions
+## MA-045 · prime numbers and factors
 
 ```json
 {
   "id": "MA-045",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
+  "prompt": "Which pair consists only of prime numbers?",
   "options": [
-    "5/6",
-    "6/5",
-    "5/7"
+    "13 and 19",
+    "15 and 17",
+    "21 and 23",
+    "29 and 33",
+    "31 and 39"
   ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "13 and 19",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „13 and 19“.",
+    "en": "Systematically checking factors gives “13 and 19”.",
+    "ar": "نبحث عن المضاعف المشترك الأصغر للعددين 6 و8، لذلك تكون الإجابة 24."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-046 · Number comparison
+## MA-046 · prime numbers and factors
 
 ```json
 {
   "id": "MA-046",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A red light flashes every 6 seconds and a blue light every 8 seconds. They flash together now. After how many seconds will they next flash together?",
   "options": [
-    "40",
-    "23",
-    "80"
+    "24",
+    "12",
+    "14",
+    "36",
+    "48"
   ],
-  "answer": "80",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "24",
+  "rule": "Find the least common multiple when two repeating cycles must occur together.",
   "explanation": {
-    "de": "Der größte Wert ist 80. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 80. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Gesucht ist das kleinste gemeinsame Vielfache von 6 und 8. Die erste gemeinsame positive Zeit ist 24 Sekunden.",
+    "en": "Find the least common multiple of 6 and 8. The first shared positive time is 24 seconds.",
+    "ar": "نبحث عن المضاعف المشترك الأصغر للعددين 6 و8، وأول زمن موجب مشترك هو 24 ثانية."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-047 · Perimeter
+## MA-047 · prime numbers and factors
 
 ```json
 {
   "id": "MA-047",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 7 cm lang und 10 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Which is a factor of 84?",
   "options": [
-    "34 cm",
-    "70 cm²",
-    "17 cm"
+    "14",
+    "15",
+    "16",
+    "18",
+    "20"
   ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "14",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 7+10+7+10 = 34 cm.",
-    "en": "Walk around all four sides: 7+10+7+10 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „14“.",
+    "en": "Systematically checking factors gives “14”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «14»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-048 · Time
+## MA-048 · prime numbers and factors
 
 ```json
 {
   "id": "MA-048",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "prime numbers and factors",
   "type": "multiple-choice",
-  "prompt": "Es ist 12:20 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "How many positive factors does 12 have?",
   "options": [
-    "12:40",
-    "12:30",
-    "13:20"
+    "6",
+    "4",
+    "5",
+    "7",
+    "12"
   ],
-  "answer": "12:40",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "6",
+  "rule": "A prime has exactly two positive factors; factorisation and common multiples use exact divisibility.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 12:40 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 12:40.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Durch systematisches Prüfen der Teiler erhält man „6“.",
+    "en": "Systematically checking factors gives “6”.",
+    "ar": "بفحص القواسم بطريقة منظمة نحصل على «6»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-049 · Place value
+## MA-049 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-049",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 6444?",
+  "prompt": "Which fraction is greatest?",
   "options": [
-    "400",
-    "40",
-    "6000"
+    "3/4",
+    "2/3",
+    "5/8",
+    "7/12",
+    "1/2"
   ],
-  "answer": "400",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "3/4",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Setze 6444 in die Stellenwerttafel ein. Das Hunderterfeld ist 400 wert.",
-    "en": "Put 6444 into place-value boxes. The hundreds box is worth 400.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „3/4“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “3/4” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «3/4» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-050 · Patterns
+## MA-050 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-050",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 6, 9, 12, ___",
+  "prompt": "Which fraction is equivalent to 2/3?",
   "options": [
-    "15",
-    "16",
-    "18"
+    "8/12",
+    "6/12",
+    "10/12",
+    "4/9",
+    "12/15"
   ],
-  "answer": "15",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "8/12",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 15.",
-    "en": "Each number jumps by 3, so the next landing point is 15.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „8/12“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “8/12” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «8/12» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-051 · Addition
+## MA-051 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-051",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Rechne: 47 + 28",
+  "prompt": "Put 1/2 and 3/5 in the correct relation.",
   "options": [
-    "75",
-    "85",
-    "19"
+    "1/2 < 3/5",
+    "1/2 > 3/5",
+    "1/2 = 3/5",
+    "1/2 ≤ 2/5",
+    "3/5 < 1/3"
   ],
-  "answer": "75",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "1/2 < 3/5",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Geh 47 Schritte, dann noch 28 weiter. Du landest bei 75.",
-    "en": "Walk 47 steps, then 28 more. You land on 75.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „1/2 < 3/5“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “1/2 < 3/5” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «1/2 < 3/5» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-052 · Subtraction
+## MA-052 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-052",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Rechne: 75 − 28",
+  "prompt": "Which fraction is smallest?",
   "options": [
-    "47",
-    "75",
-    "28"
+    "3/10",
+    "2/5",
+    "1/2",
+    "7/20",
+    "4/9"
   ],
-  "answer": "47",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "3/10",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Du hast 75 Dinge, gibst 28 weg, und 47 bleiben übrig.",
-    "en": "Start with 75 objects, give away 28, and 47 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „3/10“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “3/10” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «3/10» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-053 · Multiplication
+## MA-053 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-053",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Rechne: 7 × 7",
+  "prompt": "Which fraction equals 0.75?",
   "options": [
-    "49",
-    "14",
-    "56"
+    "3/4",
+    "2/3",
+    "7/10",
+    "4/5",
+    "5/8"
   ],
-  "answer": "49",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "3/4",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Male 7 Gruppen mit je 7 Punkten. Insgesamt sind das 49 Punkte.",
-    "en": "Draw 7 groups with 7 dots. Altogether there are 49 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „3/4“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “3/4” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «3/4» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-054 · Division
+## MA-054 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-054",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Rechne: 14 ÷ 7",
+  "prompt": "What fraction of 24 is 6?",
   "options": [
-    "2",
-    "7",
-    "7"
+    "1/4",
+    "1/3",
+    "1/6",
+    "3/4",
+    "6/24 simplified to 1/6"
   ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "1/4",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Verteile 14 Sterne gleichmäßig auf 7 Teams. Jedes bekommt 2.",
-    "en": "Share 14 stars equally among 7 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „1/4“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “1/4” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «1/4» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-055 · Fractions
+## MA-055 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-055",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
+  "prompt": "Which improper fraction equals 1 1/2?",
   "options": [
-    "1/2",
-    "2/1",
-    "1/3"
+    "3/2",
+    "2/3",
+    "4/2",
+    "5/3",
+    "1/2"
   ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "3/2",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „3/2“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “3/2” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «3/2» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-056 · Number comparison
+## MA-056 · fractions: compare and represent
 
 ```json
 {
   "id": "MA-056",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "fractions: compare and represent",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Which fraction lies between 1/3 and 1/2?",
   "options": [
-    "47",
-    "28",
-    "94"
+    "5/12",
+    "1/4",
+    "2/3",
+    "7/12",
+    "3/10"
   ],
-  "answer": "94",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "5/12",
+  "rule": "Compare fractions using a common denominator, equivalent fractions, or decimal values.",
   "explanation": {
-    "de": "Der größte Wert ist 94. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 94. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit einem gemeinsamen Nenner oder Dezimalwert erkennt man: „5/12“ ist richtig.",
+    "en": "A common denominator or decimal value shows that “5/12” is correct.",
+    "ar": "باستخدام مقام مشترك أو قيمة عشرية نعرف أن «5/12» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-057 · Perimeter
+## MA-057 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-057",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 8 cm lang und 3 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Calculate accurately: Calculate and give the simplified result: 1/4 + 2/4.",
   "options": [
-    "22 cm",
-    "24 cm²",
-    "11 cm"
+    "3/4",
+    "3/8",
+    "2/8",
+    "1/2",
+    "4/4"
   ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "3/4",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 8+3+8+3 = 22 cm.",
-    "en": "Walk around all four sides: 8+3+8+3 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 3/4.",
+    "en": "After using a common denominator and simplifying, the result is 3/4.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 3/4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-058 · Time
+## MA-058 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-058",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Es ist 13:25 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A pupil must solve this without a calculator. Calculate and give the simplified result: 5/6 − 1/6.",
   "options": [
-    "13:45",
-    "13:35",
-    "14:25"
+    "2/3",
+    "5/6",
+    "4/12",
+    "1/6",
+    "5/12"
   ],
-  "answer": "13:45",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "2/3",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 13:45 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 13:45.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 2/3.",
+    "en": "After using a common denominator and simplifying, the result is 2/3.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 2/3."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-059 · Place value
+## MA-059 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-059",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 7545?",
+  "prompt": "Which option gives the correct result? Calculate and give the simplified result: 2/3 + 1/6.",
   "options": [
-    "500",
-    "40",
-    "7000"
+    "5/6",
+    "3/9",
+    "4/9",
+    "2/5",
+    "4/6"
   ],
-  "answer": "500",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "5/6",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Setze 7545 in die Stellenwerttafel ein. Das Hunderterfeld ist 500 wert.",
-    "en": "Put 7545 into place-value boxes. The hundreds box is worth 500.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 5/6.",
+    "en": "After using a common denominator and simplifying, the result is 5/6.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 5/6."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-060 · Patterns
+## MA-060 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-060",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 7, 10, 13, ___",
+  "prompt": "Use a suitable written or mental strategy. Calculate and give the simplified result: 7/8 − 1/4.",
   "options": [
-    "16",
-    "17",
-    "19"
+    "5/8",
+    "6/4",
+    "6/8",
+    "3/8",
+    "1/2"
   ],
-  "answer": "16",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "5/8",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 16.",
-    "en": "Each number jumps by 3, so the next landing point is 16.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 5/8.",
+    "en": "After using a common denominator and simplifying, the result is 5/8.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 5/8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-061 · Addition
+## MA-061 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-061",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Rechne: 54 + 33",
+  "prompt": "Check the possible answers and select the only valid one. Calculate and give the simplified result: 3/5 + 2/3.",
   "options": [
-    "87",
-    "97",
-    "21"
+    "19/15",
+    "5/8",
+    "5/15",
+    "17/15",
+    "1 1/5"
   ],
-  "answer": "87",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "19/15",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Geh 54 Schritte, dann noch 33 weiter. Du landest bei 87.",
-    "en": "Walk 54 steps, then 33 more. You land on 87.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 19/15.",
+    "en": "After using a common denominator and simplifying, the result is 19/15.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 19/15."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-062 · Subtraction
+## MA-062 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-062",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Rechne: 87 − 33",
+  "prompt": "This appears in a homework check. Solve it and identify the correct choice: Calculate and give the simplified result: 1 1/2 + 2 1/4.",
   "options": [
-    "54",
-    "87",
-    "33"
+    "3 3/4",
+    "3 2/6",
+    "3 1/4",
+    "4 1/4",
+    "2 3/4"
   ],
-  "answer": "54",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "3 3/4",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Du hast 87 Dinge, gibst 33 weg, und 54 bleiben übrig.",
-    "en": "Start with 87 objects, give away 33, and 54 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 3 3/4.",
+    "en": "After using a common denominator and simplifying, the result is 3 3/4.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 3 3/4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-063 · Multiplication
+## MA-063 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-063",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Rechne: 8 × 10",
+  "prompt": "Work backwards or use the inverse operation where helpful. Calculate and give the simplified result: 4/7 − 2/5.",
   "options": [
-    "80",
-    "18",
-    "88"
+    "6/35",
+    "2/2",
+    "2/12",
+    "8/35",
+    "14/35"
   ],
-  "answer": "80",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "6/35",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Male 8 Gruppen mit je 10 Punkten. Insgesamt sind das 80 Punkte.",
-    "en": "Draw 8 groups with 10 dots. Altogether there are 80 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 6/35.",
+    "en": "After using a common denominator and simplifying, the result is 6/35.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 6/35."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-064 · Division
+## MA-064 · fractions: addition and subtraction
 
 ```json
 {
   "id": "MA-064",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "fractions: addition and subtraction",
   "type": "multiple-choice",
-  "prompt": "Rechne: 32 ÷ 8",
+  "prompt": "Estimate first, then choose the exact answer. Calculate and give the simplified result: 2 3/8 − 1 5/8.",
   "options": [
-    "4",
-    "8",
-    "24"
+    "3/4",
+    "1 1/4",
+    "1/2",
+    "7/8",
+    "5/8"
   ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "3/4",
+  "rule": "Use a common denominator, operate on the numerators, and simplify the result.",
   "explanation": {
-    "de": "Verteile 32 Sterne gleichmäßig auf 8 Teams. Jedes bekommt 4.",
-    "en": "Share 32 stars equally among 8 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Nach dem Erweitern auf einen gemeinsamen Nenner und Kürzen erhält man 3/4.",
+    "en": "After using a common denominator and simplifying, the result is 3/4.",
+    "ar": "بعد توحيد المقامات وإجراء العملية ثم الاختصار تكون النتيجة 3/4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-065 · Fractions
+## MA-065 · decimals
 
 ```json
 {
   "id": "MA-065",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 3 gleichen Teilen?",
+  "prompt": "Calculate accurately: Calculate: 3.7 + 2.45.",
   "options": [
-    "1/3",
-    "3/1",
-    "1/4"
+    "6.15",
+    "5.82",
+    "6.05",
+    "61.5",
+    "3.945"
   ],
-  "answer": "1/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "6.15",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 1 davon ein. Das ist 1/3.",
-    "en": "Cut a pizza into 3 equal slices and color 1. That is 1/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 6.15.",
+    "en": "Careful place-value calculation with aligned decimal points gives 6.15.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 6.15."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -1887,28 +2017,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-066 · Number comparison
+## MA-066 · decimals
 
 ```json
 {
   "id": "MA-066",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A pupil must solve this without a calculator. Calculate: 8.2 − 3.68.",
   "options": [
-    "54",
-    "33",
-    "108"
+    "4.52",
+    "5.48",
+    "4.42",
+    "0.452",
+    "11.88"
   ],
-  "answer": "108",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "4.52",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Der größte Wert ist 108. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 108. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 4.52.",
+    "en": "Careful place-value calculation with aligned decimal points gives 4.52.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 4.52."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -1916,28 +2048,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-067 · Perimeter
+## MA-067 · decimals
 
 ```json
 {
   "id": "MA-067",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 9 cm lang und 5 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Which option gives the correct result? Calculate: 4.6 × 10.",
   "options": [
-    "28 cm",
-    "45 cm²",
-    "14 cm"
+    "46",
+    "4.60",
+    "460",
+    "0.46",
+    "14.6"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "46",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 9+5+9+5 = 28 cm.",
-    "en": "Walk around all four sides: 9+5+9+5 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 46.",
+    "en": "Careful place-value calculation with aligned decimal points gives 46.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 46."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -1945,173 +2079,185 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-068 · Time
+## MA-068 · decimals
 
 ```json
 {
   "id": "MA-068",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Es ist 14:30 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Use a suitable written or mental strategy. Calculate: 7.35 ÷ 100.",
   "options": [
-    "14:50",
-    "14:40",
-    "15:30"
+    "0.0735",
+    "0.735",
+    "7.035",
+    "73.5",
+    "0.00735"
   ],
-  "answer": "14:50",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "0.0735",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 14:50 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 14:50.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 0.0735.",
+    "en": "Careful place-value calculation with aligned decimal points gives 0.0735.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 0.0735."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-069 · Place value
+## MA-069 · decimals
 
 ```json
 {
   "id": "MA-069",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 8646?",
+  "prompt": "Check the possible answers and select the only valid one. Calculate: 12.08 + 0.9.",
   "options": [
-    "600",
-    "40",
-    "8000"
+    "12.98",
+    "12.17",
+    "12.89",
+    "129.8",
+    "11.18"
   ],
-  "answer": "600",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "12.98",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Setze 8646 in die Stellenwerttafel ein. Das Hunderterfeld ist 600 wert.",
-    "en": "Put 8646 into place-value boxes. The hundreds box is worth 600.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 12.98.",
+    "en": "Careful place-value calculation with aligned decimal points gives 12.98.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 12.98."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-070 · Patterns
+## MA-070 · decimals
 
 ```json
 {
   "id": "MA-070",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 8, 11, 14, ___",
+  "prompt": "This appears in a homework check. Solve it and identify the correct choice: Calculate: 5 − 2.375.",
   "options": [
-    "17",
-    "18",
-    "20"
+    "2.625",
+    "3.375",
+    "2.735",
+    "26.25",
+    "2.525"
   ],
-  "answer": "17",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "2.625",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 17.",
-    "en": "Each number jumps by 3, so the next landing point is 17.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 2.625.",
+    "en": "Careful place-value calculation with aligned decimal points gives 2.625.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 2.625."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-071 · Addition
+## MA-071 · decimals
 
 ```json
 {
   "id": "MA-071",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 61 + 38",
+  "prompt": "Work backwards or use the inverse operation where helpful. Calculate: 0.48 × 25.",
   "options": [
-    "99",
-    "109",
-    "23"
+    "12",
+    "1.2",
+    "120",
+    "10",
+    "12.5"
   ],
-  "answer": "99",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "12",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Geh 61 Schritte, dann noch 38 weiter. Du landest bei 99.",
-    "en": "Walk 61 steps, then 38 more. You land on 99.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 12.",
+    "en": "Careful place-value calculation with aligned decimal points gives 12.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 12."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-072 · Subtraction
+## MA-072 · decimals
 
 ```json
 {
   "id": "MA-072",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 99 − 38",
+  "prompt": "Estimate first, then choose the exact answer. Which decimal is nearest to 3?",
   "options": [
-    "61",
-    "99",
-    "38"
+    "2.98",
+    "3.12",
+    "2.79",
+    "3.25",
+    "2.6"
   ],
-  "answer": "61",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "2.98",
+  "rule": "Align decimal points for addition or subtraction and shift the decimal correctly for powers of ten.",
   "explanation": {
-    "de": "Du hast 99 Dinge, gibst 38 weg, und 61 bleiben übrig.",
-    "en": "Start with 99 objects, give away 38, and 61 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Saubere Stellenwertrechnung mit ausgerichteten Kommas ergibt 2.98.",
+    "en": "Careful place-value calculation with aligned decimal points gives 2.98.",
+    "ar": "الحساب الدقيق للقيمة المكانية مع محاذاة الفواصل العشرية يعطي 2.98."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-073 · Multiplication
+## MA-073 · unit conversions
 
 ```json
 {
   "id": "MA-073",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 9 × 3",
+  "prompt": "Convert 3.5 m to centimetres.",
   "options": [
-    "27",
-    "12",
-    "36"
+    "350 cm",
+    "35 cm",
+    "3,500 cm",
+    "305 cm",
+    "0.35 cm"
   ],
-  "answer": "27",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "350 cm",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Male 9 Gruppen mit je 3 Punkten. Insgesamt sind das 27 Punkte.",
-    "en": "Draw 9 groups with 3 dots. Altogether there are 27 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 350 cm.",
+    "en": "Using the correct conversion factor gives 350 cm.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 350 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2119,28 +2265,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-074 · Division
+## MA-074 · unit conversions
 
 ```json
 {
   "id": "MA-074",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 54 ÷ 9",
+  "prompt": "Convert 2.4 kg to grams.",
   "options": [
-    "6",
-    "9",
-    "45"
+    "2,400 g",
+    "240 g",
+    "24 g",
+    "2,040 g",
+    "24,000 g"
   ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "2,400 g",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Verteile 54 Sterne gleichmäßig auf 9 Teams. Jedes bekommt 6.",
-    "en": "Share 54 stars equally among 9 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 2,400 g.",
+    "en": "Using the correct conversion factor gives 2,400 g.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 2,400 g."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2148,28 +2296,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-075 · Fractions
+## MA-075 · unit conversions
 
 ```json
 {
   "id": "MA-075",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 4 gleichen Teilen?",
+  "prompt": "Convert 1.75 l to millilitres.",
   "options": [
-    "2/4",
-    "4/2",
-    "2/5"
+    "1,750 ml",
+    "175 ml",
+    "17.5 ml",
+    "1,075 ml",
+    "17,500 ml"
   ],
-  "answer": "2/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "1,750 ml",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 2 davon ein. Das ist 2/4.",
-    "en": "Cut a pizza into 4 equal slices and color 2. That is 2/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 1,750 ml.",
+    "en": "Using the correct conversion factor gives 1,750 ml.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 1,750 ml."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2177,28 +2327,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-076 · Number comparison
+## MA-076 · unit conversions
 
 ```json
 {
   "id": "MA-076",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "How many minutes are 2 h 35 min?",
   "options": [
-    "61",
-    "38",
-    "122"
+    "155 min",
+    "135 min",
+    "235 min",
+    "125 min",
+    "175 min"
   ],
-  "answer": "122",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "155 min",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Der größte Wert ist 122. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 122. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 155 min.",
+    "en": "Using the correct conversion factor gives 155 min.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 155 min."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2206,144 +2358,154 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-077 · Perimeter
+## MA-077 · unit conversions
 
 ```json
 {
   "id": "MA-077",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 10 cm lang und 7 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Convert 4,500 m to kilometres.",
   "options": [
-    "34 cm",
-    "70 cm²",
-    "17 cm"
+    "4.5 km",
+    "45 km",
+    "0.45 km",
+    "450 km",
+    "4.05 km"
   ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "4.5 km",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 10+7+10+7 = 34 cm.",
-    "en": "Walk around all four sides: 10+7+10+7 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 4.5 km.",
+    "en": "Using the correct conversion factor gives 4.5 km.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 4.5 km."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-078 · Time
+## MA-078 · unit conversions
 
 ```json
 {
   "id": "MA-078",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Es ist 15:35 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Convert 325 cm to metres.",
   "options": [
-    "15:55",
-    "15:45",
-    "16:35"
+    "3.25 m",
+    "32.5 m",
+    "0.325 m",
+    "3.025 m",
+    "3250 m"
   ],
-  "answer": "15:55",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "3.25 m",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 15:55 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 15:55.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 3.25 m.",
+    "en": "Using the correct conversion factor gives 3.25 m.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 3.25 m."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-079 · Place value
+## MA-079 · unit conversions
 
 ```json
 {
   "id": "MA-079",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 9747?",
+  "prompt": "A parcel weighs 1 kg 250 g. What is that in grams?",
   "options": [
-    "700",
-    "40",
-    "9000"
+    "1,250 g",
+    "1,025 g",
+    "250 g",
+    "12,500 g",
+    "1,205 g"
   ],
-  "answer": "700",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "1,250 g",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Setze 9747 in die Stellenwerttafel ein. Das Hunderterfeld ist 700 wert.",
-    "en": "Put 9747 into place-value boxes. The hundreds box is worth 700.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 1,250 g.",
+    "en": "Using the correct conversion factor gives 1,250 g.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 1,250 g."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-080 · Patterns
+## MA-080 · unit conversions
 
 ```json
 {
   "id": "MA-080",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 9, 12, 15, ___",
+  "prompt": "A bottle holds 750 ml. How many litres is that?",
   "options": [
-    "18",
-    "19",
-    "21"
+    "0.75 l",
+    "7.5 l",
+    "0.075 l",
+    "75 l",
+    "0.705 l"
   ],
-  "answer": "18",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "0.75 l",
+  "rule": "Multiply or divide by the correct metric conversion factor and keep the requested unit.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 18.",
-    "en": "Each number jumps by 3, so the next landing point is 18.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit dem richtigen Umrechnungsfaktor erhält man 0.75 l.",
+    "en": "Using the correct conversion factor gives 0.75 l.",
+    "ar": "باستخدام معامل التحويل الصحيح نحصل على 0.75 l."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-081 · Addition
+## MA-081 · perimeter and area
 
 ```json
 {
   "id": "MA-081",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Rechne: 68 + 6",
+  "prompt": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
   "options": [
-    "74",
-    "84",
-    "62"
+    "26 cm",
+    "40 cm",
+    "13 cm",
+    "16 cm",
+    "21 cm"
   ],
-  "answer": "74",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "26 cm",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Geh 68 Schritte, dann noch 6 weiter. Du landest bei 74.",
-    "en": "Walk 68 steps, then 6 more. You land on 74.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 26 cm.",
+    "en": "Using the correct perimeter or area formula gives 26 cm.",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 26 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2351,28 +2513,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-082 · Subtraction
+## MA-082 · perimeter and area
 
 ```json
 {
   "id": "MA-082",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Rechne: 74 − 6",
+  "prompt": "A square has side length 7 cm. What is its area?",
   "options": [
-    "68",
-    "74",
-    "6"
+    "49 cm²",
+    "28 cm²",
+    "14 cm²",
+    "42 cm²",
+    "56 cm²"
   ],
-  "answer": "68",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "49 cm²",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Du hast 74 Dinge, gibst 6 weg, und 68 bleiben übrig.",
-    "en": "Start with 74 objects, give away 6, and 68 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 49 cm².",
+    "en": "Using the correct perimeter or area formula gives 49 cm².",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 49 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2380,28 +2544,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-083 · Multiplication
+## MA-083 · perimeter and area
 
 ```json
 {
   "id": "MA-083",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Rechne: 10 × 6",
+  "prompt": "A rectangle measures 12 m by 4 m. What is its area?",
   "options": [
-    "60",
-    "16",
-    "70"
+    "48 m²",
+    "32 m²",
+    "16 m²",
+    "52 m²",
+    "96 m²"
   ],
-  "answer": "60",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "48 m²",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Male 10 Gruppen mit je 6 Punkten. Insgesamt sind das 60 Punkte.",
-    "en": "Draw 10 groups with 6 dots. Altogether there are 60 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 48 m².",
+    "en": "Using the correct perimeter or area formula gives 48 m².",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 48 m²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2409,173 +2575,185 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-084 · Division
+## MA-084 · perimeter and area
 
 ```json
 {
   "id": "MA-084",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Rechne: 80 ÷ 10",
+  "prompt": "A square has perimeter 36 cm. What is its area?",
   "options": [
-    "8",
-    "10",
-    "70"
+    "81 cm²",
+    "36 cm²",
+    "72 cm²",
+    "144 cm²",
+    "18 cm²"
   ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "81 cm²",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Verteile 80 Sterne gleichmäßig auf 10 Teams. Jedes bekommt 8.",
-    "en": "Share 80 stars equally among 10 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 81 cm².",
+    "en": "Using the correct perimeter or area formula gives 81 cm².",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 81 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-085 · Fractions
+## MA-085 · perimeter and area
 
 ```json
 {
   "id": "MA-085",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 5 gleichen Teilen?",
+  "prompt": "A rectangle has area 54 cm² and width 6 cm. What is its length?",
   "options": [
-    "1/5",
-    "5/1",
-    "1/6"
+    "9 cm",
+    "48 cm",
+    "60 cm",
+    "18 cm",
+    "324 cm"
   ],
-  "answer": "1/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "9 cm",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 1 davon ein. Das ist 1/5.",
-    "en": "Cut a pizza into 5 equal slices and color 1. That is 1/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 9 cm.",
+    "en": "Using the correct perimeter or area formula gives 9 cm.",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 9 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-086 · Number comparison
+## MA-086 · perimeter and area
 
 ```json
 {
   "id": "MA-086",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A 10 cm by 8 cm rectangle has a 4 cm by 3 cm corner removed. What area remains?",
   "options": [
-    "68",
-    "6",
-    "136"
+    "68 cm²",
+    "80 cm²",
+    "12 cm²",
+    "56 cm²",
+    "74 cm²"
   ],
-  "answer": "136",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "68 cm²",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Der größte Wert ist 136. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 136. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 68 cm².",
+    "en": "Using the correct perimeter or area formula gives 68 cm².",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 68 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-087 · Perimeter
+## MA-087 · perimeter and area
 
 ```json
 {
   "id": "MA-087",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 11 cm lang und 9 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A garden is 15 m by 9 m. A fence goes around it except for a 3 m gate. How much fence is needed?",
   "options": [
-    "40 cm",
-    "99 cm²",
-    "20 cm"
+    "45 m",
+    "48 m",
+    "42 m",
+    "132 m",
+    "135 m"
   ],
-  "answer": "40 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "45 m",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 11+9+11+9 = 40 cm.",
-    "en": "Walk around all four sides: 11+9+11+9 = 40 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 45 m.",
+    "en": "Using the correct perimeter or area formula gives 45 m.",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 45 m."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-088 · Time
+## MA-088 · perimeter and area
 
 ```json
 {
   "id": "MA-088",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "perimeter and area",
   "type": "multiple-choice",
-  "prompt": "Es ist 16:40 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Two identical 6 cm by 4 cm rectangles are joined along a 4 cm side. What is the new perimeter?",
   "options": [
-    "17:00",
-    "16:50",
-    "17:40"
+    "32 cm",
+    "40 cm",
+    "48 cm",
+    "24 cm",
+    "28 cm"
   ],
-  "answer": "17:00",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "32 cm",
+  "rule": "Perimeter is the distance around a figure; rectangle area is length × width.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 17:00 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 17:00.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Umfangs- oder Flächenformel erhält man 32 cm.",
+    "en": "Using the correct perimeter or area formula gives 32 cm.",
+    "ar": "باستخدام قانون المحيط أو المساحة المناسب نحصل على 32 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-089 · Place value
+## MA-089 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-089",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 10848?",
+  "prompt": "How many faces does a cube have?",
   "options": [
-    "800",
-    "40",
-    "0"
+    "6",
+    "4",
+    "5",
+    "8",
+    "12"
   ],
-  "answer": "800",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "6",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Setze 10848 in die Stellenwerttafel ein. Das Hunderterfeld ist 800 wert.",
-    "en": "Put 10848 into place-value boxes. The hundreds box is worth 800.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „6“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “6” is correct.",
+    "ar": "توضح أوجه المجسم وحوافه ورؤوسه أو شبكته أن «6» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2583,28 +2761,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-090 · Patterns
+## MA-090 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-090",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 10, 13, 16, ___",
+  "prompt": "How many vertices does a cuboid have?",
   "options": [
-    "19",
-    "20",
-    "22"
+    "8",
+    "6",
+    "10",
+    "12",
+    "16"
   ],
-  "answer": "19",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "8",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 19.",
-    "en": "Each number jumps by 3, so the next landing point is 19.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „8“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “8” is correct.",
+    "ar": "توضح أوجه المجسم وحوافه ورؤوسه أو شبكته أن «8» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2612,28 +2792,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-091 · Addition
+## MA-091 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-091",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Rechne: 75 + 11",
+  "prompt": "Which solid has one circular base and one curved surface?",
   "options": [
-    "86",
-    "96",
-    "64"
+    "cone",
+    "cylinder",
+    "sphere",
+    "cube",
+    "triangular prism"
   ],
-  "answer": "86",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "cone",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Geh 75 Schritte, dann noch 11 weiter. Du landest bei 86.",
-    "en": "Walk 75 steps, then 11 more. You land on 86.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „cone“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “cone” is correct.",
+    "ar": "للمكعب ستة أوجه مربعة متساوية، لذلك الإجابة هي 6."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2641,28 +2823,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-092 · Subtraction
+## MA-092 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-092",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Rechne: 86 − 11",
+  "prompt": "Which collection can form a cube net?",
   "options": [
-    "75",
-    "86",
-    "11"
+    "six equal squares",
+    "four squares",
+    "six rectangles of different sizes",
+    "two circles and one rectangle",
+    "four triangles"
   ],
-  "answer": "75",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "six equal squares",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Du hast 86 Dinge, gibst 11 weg, und 75 bleiben übrig.",
-    "en": "Start with 86 objects, give away 11, and 75 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „six equal squares“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “six equal squares” is correct.",
+    "ar": "لمتوازي المستطيلات ثمانية رؤوس، لذلك الإجابة هي 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2670,144 +2854,154 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-093 · Multiplication
+## MA-093 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-093",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Rechne: 11 × 9",
+  "prompt": "How many edges does a triangular prism have?",
   "options": [
-    "99",
-    "20",
-    "110"
+    "9",
+    "6",
+    "8",
+    "10",
+    "12"
   ],
-  "answer": "99",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "9",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Male 11 Gruppen mit je 9 Punkten. Insgesamt sind das 99 Punkte.",
-    "en": "Draw 11 groups with 9 dots. Altogether there are 99 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „9“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “9” is correct.",
+    "ar": "توضح أوجه المجسم وحوافه ورؤوسه أو شبكته أن «9» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-094 · Division
+## MA-094 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-094",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Rechne: 20 ÷ 2",
+  "prompt": "Which solid has no edges and no vertices?",
   "options": [
-    "10",
-    "2",
-    "18"
+    "sphere",
+    "cone",
+    "cylinder",
+    "cube",
+    "pyramid"
   ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "sphere",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Verteile 20 Sterne gleichmäßig auf 2 Teams. Jedes bekommt 10.",
-    "en": "Share 20 stars equally among 2 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „sphere“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “sphere” is correct.",
+    "ar": "تتكون شبكة المكعب من ستة مربعات متساوية يمكن طيها لتكوين المكعب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-095 · Fractions
+## MA-095 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-095",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
+  "prompt": "A cylinder net contains which shapes?",
   "options": [
-    "5/6",
-    "6/5",
-    "5/7"
+    "two circles and one rectangle",
+    "one circle and two rectangles",
+    "six squares",
+    "four triangles and a square",
+    "two triangles and three rectangles"
   ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "two circles and one rectangle",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „two circles and one rectangle“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “two circles and one rectangle” is correct.",
+    "ar": "للمنشور الثلاثي تسعة أحرف، لذا تكون الإجابة 9."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-096 · Number comparison
+## MA-096 · geometric bodies and nets
 
 ```json
 {
   "id": "MA-096",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "geometric bodies and nets",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "How many faces meet at each vertex of a cube?",
   "options": [
-    "75",
-    "11",
-    "150"
+    "3",
+    "2",
+    "4",
+    "6",
+    "8"
   ],
-  "answer": "150",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "3",
+  "rule": "Identify solids by their faces, edges, vertices, and the two-dimensional shapes in their nets.",
   "explanation": {
-    "de": "Der größte Wert ist 150. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 150. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Die Eigenschaften des Körpers zeigen, dass „3“ richtig ist.",
+    "en": "The solid’s faces, edges, vertices, or net show that “3” is correct.",
+    "ar": "توضح أوجه المجسم وحوافه ورؤوسه أو شبكته أن «3» صحيحة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-097 · Perimeter
+## MA-097 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-097",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 12 cm lang und 2 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Which angle is greater than 90° but less than 180°?",
   "options": [
-    "28 cm",
-    "24 cm²",
-    "14 cm"
+    "an obtuse angle",
+    "an acute angle",
+    "a right angle",
+    "a straight angle",
+    "a reflex angle"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "an obtuse angle",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 12+2+12+2 = 28 cm.",
-    "en": "Walk around all four sides: 12+2+12+2 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „an obtuse angle“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “an obtuse angle”.",
+    "ar": "تتكون شبكة الأسطوانة من دائرتين ومستطيل واحد."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2815,28 +3009,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-098 · Time
+## MA-098 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-098",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Es ist 17:45 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "What type of angle is 90°?",
   "options": [
-    "18:05",
-    "17:55",
-    "18:45"
+    "a right angle",
+    "an acute angle",
+    "an obtuse angle",
+    "a straight angle",
+    "a reflex angle"
   ],
-  "answer": "18:05",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "a right angle",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 18:05 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 18:05.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „a right angle“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “a right angle”.",
+    "ar": "تلتقي ثلاثة أوجه عند كل رأس من رؤوس المكعب."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2844,28 +3040,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-099 · Place value
+## MA-099 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-099",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 11949?",
+  "prompt": "How many lines of symmetry does a square have?",
   "options": [
-    "900",
-    "40",
-    "1000"
+    "4",
+    "1",
+    "2",
+    "3",
+    "8"
   ],
-  "answer": "900",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "4",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Setze 11949 in die Stellenwerttafel ein. Das Hunderterfeld ist 900 wert.",
-    "en": "Put 11949 into place-value boxes. The hundreds box is worth 900.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „4“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “4”.",
+    "ar": "تؤدي قاعدة الزوايا أو التناظر أو الإحداثيات المناسبة إلى «4»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -2873,405 +3071,433 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-100 · Patterns
+## MA-100 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-100",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 11, 14, 17, ___",
+  "prompt": "Reflect the point (3, 2) across the y-axis.",
   "options": [
-    "20",
-    "21",
-    "23"
+    "(−3, 2)",
+    "(3, −2)",
+    "(−3, −2)",
+    "(2, 3)",
+    "(3, 2)"
   ],
-  "answer": "20",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "(−3, 2)",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 20.",
-    "en": "Each number jumps by 3, so the next landing point is 20.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „(−3, 2)“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “(−3, 2)”.",
+    "ar": "تؤدي قاعدة الزوايا أو التناظر أو الإحداثيات المناسبة إلى «(−3, 2)»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-101 · Addition
+## MA-101 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-101",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 82 + 16",
+  "prompt": "Start at (2, 1), move 4 right and 3 up. Where do you finish?",
   "options": [
-    "98",
-    "108",
-    "66"
+    "(6, 4)",
+    "(−2, 4)",
+    "(6, −2)",
+    "(5, 5)",
+    "(4, 6)"
   ],
-  "answer": "98",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "(6, 4)",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Geh 82 Schritte, dann noch 16 weiter. Du landest bei 98.",
-    "en": "Walk 82 steps, then 16 more. You land on 98.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „(6, 4)“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “(6, 4)”.",
+    "ar": "تؤدي قاعدة الزوايا أو التناظر أو الإحداثيات المناسبة إلى «(6, 4)»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-102 · Subtraction
+## MA-102 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-102",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 98 − 16",
+  "prompt": "Two angles on a straight line include 68°. What is the other angle?",
   "options": [
-    "82",
-    "98",
-    "16"
+    "112°",
+    "22°",
+    "68°",
+    "122°",
+    "292°"
   ],
-  "answer": "82",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "112°",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Du hast 98 Dinge, gibst 16 weg, und 82 bleiben übrig.",
-    "en": "Start with 98 objects, give away 16, and 82 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „112°“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “112°”.",
+    "ar": "تؤدي قاعدة الزوايا أو التناظر أو الإحداثيات المناسبة إلى «112°»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-103 · Multiplication
+## MA-103 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-103",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 12 × 2",
+  "prompt": "A regular hexagon has 6 lines of symmetry. A designer draws the same motif on both sides of every symmetry line. If one motif uses 3 dots in each of the 6 equal sectors, how many dots are used altogether?",
   "options": [
-    "24",
-    "14",
+    "18",
+    "6",
+    "9",
+    "12",
     "36"
   ],
-  "answer": "24",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "18",
+  "rule": "Use the symmetry to identify equal sectors, then multiply the amount in one sector by the number of sectors.",
   "explanation": {
-    "de": "Male 12 Gruppen mit je 2 Punkten. Insgesamt sind das 24 Punkte.",
-    "en": "Draw 12 groups with 2 dots. Altogether there are 24 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Der Hexagon wird in 6 gleiche Bereiche geteilt. Mit 3 Punkten je Bereich sind es 6 · 3 = 18 Punkte.",
+    "en": "The hexagon is split into 6 equal sectors. With 3 dots per sector, 6 × 3 = 18 dots.",
+    "ar": "ينقسم السداسي إلى 6 أقسام متساوية. ومع 3 نقاط في كل قسم يكون المجموع 6 × 3 = 18 نقطة."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-104 · Division
+## MA-104 · angles symmetry and coordinates
 
 ```json
 {
   "id": "MA-104",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "angles symmetry and coordinates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 6 ÷ 3",
+  "prompt": "A full turn is split into angles of 120°, 95° and x. Find x.",
   "options": [
-    "2",
-    "3",
-    "3"
+    "145°",
+    "155°",
+    "135°",
+    "215°",
+    "125°"
   ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "145°",
+  "rule": "Use angle definitions, coordinate-direction rules, symmetry, and angle sums of 180° or 360°.",
   "explanation": {
-    "de": "Verteile 6 Sterne gleichmäßig auf 3 Teams. Jedes bekommt 2.",
-    "en": "Share 6 stars equally among 3 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Die passende Winkel-, Symmetrie- oder Koordinatenregel führt zu „145°“.",
+    "en": "The relevant angle, symmetry, or coordinate rule leads to “145°”.",
+    "ar": "تؤدي قاعدة الزوايا أو التناظر أو الإحداثيات المناسبة إلى «145°»."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-105 · Fractions
+## MA-105 · simple equations
 
 ```json
 {
   "id": "MA-105",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
+  "prompt": "Solve the equation: x + 17 = 46.",
   "options": [
-    "1/2",
-    "2/1",
-    "1/3"
+    "29",
+    "19",
+    "27",
+    "53",
+    "63"
   ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "29",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 29.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 29.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 29."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-106 · Number comparison
+## MA-106 · simple equations
 
 ```json
 {
   "id": "MA-106",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Solve the equation: 5x = 65.",
   "options": [
-    "82",
-    "16",
-    "164"
+    "13",
+    "12",
+    "15",
+    "60",
+    "70"
   ],
-  "answer": "164",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "13",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Der größte Wert ist 164. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 164. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 13.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 13.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 13."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-107 · Perimeter
+## MA-107 · simple equations
 
 ```json
 {
   "id": "MA-107",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 13 cm lang und 4 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Solve the equation: 72 − x = 28.",
   "options": [
-    "34 cm",
-    "52 cm²",
-    "17 cm"
+    "44",
+    "54",
+    "100",
+    "34",
+    "26"
   ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "44",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 13+4+13+4 = 34 cm.",
-    "en": "Walk around all four sides: 13+4+13+4 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 44.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 44.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 44."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-108 · Time
+## MA-108 · simple equations
 
 ```json
 {
   "id": "MA-108",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Es ist 08:50 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Solve the equation: x ÷ 6 = 9.",
   "options": [
-    "09:10",
-    "08:00",
-    "09:50"
+    "54",
+    "15",
+    "3",
+    "45",
+    "63"
   ],
-  "answer": "09:10",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "54",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 09:10 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 09:10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 54.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 54.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 54."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-109 · Place value
+## MA-109 · simple equations
 
 ```json
 {
   "id": "MA-109",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 12040?",
+  "prompt": "Solve the equation: 3x + 4 = 25.",
   "options": [
-    "0",
-    "40",
-    "2000"
+    "7",
+    "9",
+    "21",
+    "29",
+    "6"
   ],
-  "answer": "0",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "7",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Setze 12040 in die Stellenwerttafel ein. Das Hunderterfeld ist 0 wert.",
-    "en": "Put 12040 into place-value boxes. The hundreds box is worth 0.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 7.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 7.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 7."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-110 · Patterns
+## MA-110 · simple equations
 
 ```json
 {
   "id": "MA-110",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 12, 15, 18, ___",
+  "prompt": "Solve the equation: 4(x + 2) = 32.",
   "options": [
-    "21",
-    "22",
-    "24"
+    "6",
+    "8",
+    "10",
+    "30",
+    "4"
   ],
-  "answer": "21",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "6",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 21.",
-    "en": "Each number jumps by 3, so the next landing point is 21.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 6.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 6.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 6."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-111 · Addition
+## MA-111 · simple equations
 
 ```json
 {
   "id": "MA-111",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 89 + 21",
+  "prompt": "Solve the equation: 2x − 9 = 17.",
   "options": [
-    "110",
-    "120",
-    "68"
+    "13",
+    "4",
+    "8",
+    "17",
+    "26"
   ],
-  "answer": "110",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "13",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Geh 89 Schritte, dann noch 21 weiter. Du landest bei 110.",
-    "en": "Walk 89 steps, then 21 more. You land on 110.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 13.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 13.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 13."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-112 · Subtraction
+## MA-112 · simple equations
 
 ```json
 {
   "id": "MA-112",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "simple equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 110 − 21",
+  "prompt": "A number is doubled and then increased by 5 to give 31. What is the number?",
   "options": [
-    "89",
-    "110",
-    "21"
+    "13",
+    "18",
+    "26",
+    "36",
+    "62"
   ],
-  "answer": "89",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "13",
+  "rule": "Undo operations in reverse order and perform the same operation on both sides.",
   "explanation": {
-    "de": "Du hast 110 Dinge, gibst 21 weg, und 89 bleiben übrig.",
-    "en": "Start with 110 objects, give away 21, and 89 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mache die Rechenschritte rückwärts und gleich auf beiden Seiten. Dann ist x = 13.",
+    "en": "Undo the operations in reverse order on both sides. Then x = 13.",
+    "ar": "نعكس العمليات بالترتيب العكسي على الطرفين، فنحصل على x = 13."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-113 · Multiplication
+## MA-113 · data and word problems
 
 ```json
 {
   "id": "MA-113",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Rechne: 2 × 5",
+  "prompt": "The scores are 6, 8, 7, 9 and 10. What is the mean?",
   "options": [
-    "10",
+    "8",
     "7",
-    "12"
+    "9",
+    "40",
+    "6"
   ],
-  "answer": "10",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "8",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Male 2 Gruppen mit je 5 Punkten. Insgesamt sind das 10 Punkte.",
-    "en": "Draw 2 groups with 5 dots. Altogether there are 10 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 8.",
+    "en": "Translate the situation into the correct operations. This gives 8.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -3279,28 +3505,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-114 · Division
+## MA-114 · data and word problems
 
 ```json
 {
   "id": "MA-114",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Rechne: 16 ÷ 4",
+  "prompt": "A bar chart shows 12 cats, 9 dogs, 5 rabbits and 4 fish. How many pets are shown altogether?",
   "options": [
-    "4",
-    "4",
-    "12"
+    "30",
+    "26",
+    "21",
+    "34",
+    "120"
   ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "30",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Verteile 16 Sterne gleichmäßig auf 4 Teams. Jedes bekommt 4.",
-    "en": "Share 16 stars equally among 4 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 30.",
+    "en": "Translate the situation into the correct operations. This gives 30.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 30."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -3308,202 +3536,216 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-115 · Fractions
+## MA-115 · data and word problems
 
 ```json
 {
   "id": "MA-115",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 3 gleichen Teilen?",
+  "prompt": "The temperatures were 4°C, 7°C, 2°C, 9°C and 3°C. What is the range?",
   "options": [
-    "2/3",
-    "3/2",
-    "2/4"
+    "7°C",
+    "5°C",
+    "9°C",
+    "11°C",
+    "2°C"
   ],
-  "answer": "2/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "7°C",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 2 davon ein. Das ist 2/3.",
-    "en": "Cut a pizza into 3 equal slices and color 2. That is 2/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 7°C.",
+    "en": "Translate the situation into the correct operations. This gives 7°C.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 7°C."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-116 · Number comparison
+## MA-116 · data and word problems
 
 ```json
 {
   "id": "MA-116",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Mia buys three notebooks at €2.40 each and pays with €10. How much change does she receive?",
   "options": [
-    "89",
-    "21",
-    "178"
+    "€2.80",
+    "€7.20",
+    "€3.20",
+    "€2.60",
+    "€0.80"
   ],
-  "answer": "178",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "€2.80",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Der größte Wert ist 178. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 178. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man €2.80.",
+    "en": "Translate the situation into the correct operations. This gives €2.80.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على €2.80."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-117 · Perimeter
+## MA-117 · data and word problems
 
 ```json
 {
   "id": "MA-117",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 14 cm lang und 6 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A bus carries 48 pupils. At the first stop, 13 leave and 7 enter. How many pupils are now on the bus?",
   "options": [
-    "40 cm",
-    "84 cm²",
-    "20 cm"
+    "42",
+    "28",
+    "54",
+    "34",
+    "68"
   ],
-  "answer": "40 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "42",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 14+6+14+6 = 40 cm.",
-    "en": "Walk around all four sides: 14+6+14+6 = 40 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 42.",
+    "en": "Translate the situation into the correct operations. This gives 42.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 42."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-118 · Time
+## MA-118 · data and word problems
 
 ```json
 {
   "id": "MA-118",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Es ist 09:55 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Four teams collected 18, 24, 21 and 17 kg of paper. What was the mean mass?",
   "options": [
-    "10:15",
-    "09:05",
-    "10:55"
+    "20 kg",
+    "19 kg",
+    "21 kg",
+    "80 kg",
+    "22 kg"
   ],
-  "answer": "10:15",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "20 kg",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 10:15 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 10:15.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 20 kg.",
+    "en": "Translate the situation into the correct operations. This gives 20 kg.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 20 kg."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-119 · Place value
+## MA-119 · data and word problems
 
 ```json
 {
   "id": "MA-119",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 13141?",
+  "prompt": "A recipe for 4 people needs 300 g of flour. How much flour is needed for 10 people?",
   "options": [
-    "100",
-    "40",
-    "3000"
+    "750 g",
+    "600 g",
+    "1,200 g",
+    "3,000 g",
+    "120 g"
   ],
-  "answer": "100",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "750 g",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Setze 13141 in die Stellenwerttafel ein. Das Hunderterfeld ist 100 wert.",
-    "en": "Put 13141 into place-value boxes. The hundreds box is worth 100.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 750 g.",
+    "en": "Translate the situation into the correct operations. This gives 750 g.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 750 g."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-120 · Patterns
+## MA-120 · data and word problems
 
 ```json
 {
   "id": "MA-120",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "data and word problems",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 13, 16, 19, ___",
+  "prompt": "A cyclist travels 36 km in 2 hours at a constant rate. How far in 5 hours?",
   "options": [
-    "22",
-    "23",
-    "25"
+    "90 km",
+    "72 km",
+    "180 km",
+    "41 km",
+    "14.4 km"
   ],
-  "answer": "22",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "90 km",
+  "rule": "Translate the situation into operations; for a mean, divide the total by the number of values.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 22.",
-    "en": "Each number jumps by 3, so the next landing point is 22.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Übersetze den Text in passende Rechenschritte. So erhält man 90 km.",
+    "en": "Translate the situation into the correct operations. This gives 90 km.",
+    "ar": "نحوّل المسألة إلى العمليات المناسبة، فنحصل على 90 km."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-121 · Addition
+## MA-121 · percentages
 
 ```json
 {
   "id": "MA-121",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Rechne: 96 + 26",
+  "prompt": "What is 25% of 80?",
   "options": [
-    "122",
-    "132",
-    "70"
+    "20",
+    "25",
+    "40",
+    "60",
+    "5"
   ],
-  "answer": "122",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "20",
+  "rule": "Convert the percentage to a fraction or decimal and multiply by the whole.",
   "explanation": {
-    "de": "Geh 96 Schritte, dann noch 26 weiter. Du landest bei 122.",
-    "en": "Walk 96 steps, then 26 more. You land on 122.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20.",
+    "en": "Applying the correct rule and calculating carefully gives 20.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -3511,231 +3753,247 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-122 · Subtraction
+## MA-122 · percentages
 
 ```json
 {
   "id": "MA-122",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Rechne: 122 − 26",
+  "prompt": "A €60 jacket is reduced by 20%. Which calculation gives the sale price?",
   "options": [
-    "96",
-    "122",
-    "26"
+    "€48",
+    "€12",
+    "€40",
+    "€50",
+    "€72"
   ],
-  "answer": "96",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "€48",
+  "rule": "Find the discount and subtract it from the original price.",
   "explanation": {
-    "de": "Du hast 122 Dinge, gibst 26 weg, und 96 bleiben übrig.",
-    "en": "Start with 122 objects, give away 26, and 96 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €48.",
+    "en": "Applying the correct rule and calculating carefully gives €48.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €48."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-123 · Multiplication
+## MA-123 · percentages
 
 ```json
 {
   "id": "MA-123",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Rechne: 3 × 8",
+  "prompt": "15 of 60 pupils cycle. What percentage is this?",
   "options": [
-    "24",
-    "11",
-    "27"
+    "25%",
+    "15%",
+    "4%",
+    "40%",
+    "75%"
   ],
-  "answer": "24",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "25%",
+  "rule": "Divide the part by the whole and multiply by 100%.",
   "explanation": {
-    "de": "Male 3 Gruppen mit je 8 Punkten. Insgesamt sind das 24 Punkte.",
-    "en": "Draw 3 groups with 8 dots. Altogether there are 24 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 25%.",
+    "en": "Applying the correct rule and calculating carefully gives 25%.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 25%."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-124 · Division
+## MA-124 · percentages
 
 ```json
 {
   "id": "MA-124",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Rechne: 30 ÷ 5",
+  "prompt": "A pupil says 10% of 350 is 3.5. What is the correct value?",
   "options": [
-    "6",
-    "5",
-    "25"
+    "35",
+    "3.5",
+    "3500",
+    "315",
+    "45"
   ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "35",
+  "rule": "Ten percent is one tenth of the whole.",
   "explanation": {
-    "de": "Verteile 30 Sterne gleichmäßig auf 5 Teams. Jedes bekommt 6.",
-    "en": "Share 30 stars equally among 5 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 35.",
+    "en": "Applying the correct rule and calculating carefully gives 35.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 35."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-125 · Fractions
+## MA-125 · percentages
 
 ```json
 {
   "id": "MA-125",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 4 gleichen Teilen?",
+  "prompt": "A tank holds 200 l and is 75% full. How much water is inside?",
   "options": [
-    "1/4",
-    "4/1",
-    "1/5"
+    "150 l",
+    "75 l",
+    "125 l",
+    "175 l",
+    "266 l"
   ],
-  "answer": "1/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "150 l",
+  "rule": "Multiply the full capacity by 0.75.",
   "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 1 davon ein. Das ist 1/4.",
-    "en": "Cut a pizza into 4 equal slices and color 1. That is 1/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 150 l.",
+    "en": "Applying the correct rule and calculating carefully gives 150 l.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 150 l."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-126 · Number comparison
+## MA-126 · percentages
 
 ```json
 {
   "id": "MA-126",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "After a 15% discount a game costs €34. Find the original price.",
   "options": [
-    "96",
-    "26",
-    "192"
+    "€40",
+    "€39.10",
+    "€49",
+    "€28.90",
+    "€46"
   ],
-  "answer": "192",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "€40",
+  "rule": "The sale price is 85% of the original, so divide by 0.85.",
   "explanation": {
-    "de": "Der größte Wert ist 192. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 192. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €40.",
+    "en": "Applying the correct rule and calculating carefully gives €40.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €40."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-127 · Perimeter
+## MA-127 · percentages
 
 ```json
 {
   "id": "MA-127",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 3 cm lang und 8 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A €120 bicycle receives discounts of 10% and then 20%. What is the final price?",
   "options": [
-    "22 cm",
-    "24 cm²",
-    "11 cm"
+    "€86.40",
+    "€84",
+    "€90",
+    "€92",
+    "€96"
   ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "€86.40",
+  "rule": "Apply successive percentage changes one after another, not by adding them.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 3+8+3+8 = 22 cm.",
-    "en": "Walk around all four sides: 3+8+3+8 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €86.40.",
+    "en": "Applying the correct rule and calculating carefully gives €86.40.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €86.40."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-128 · Time
+## MA-128 · percentages
 
 ```json
 {
   "id": "MA-128",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "percentages",
   "type": "multiple-choice",
-  "prompt": "Es ist 10:00 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A number decreases by 30% and becomes 70. What was it originally?",
   "options": [
-    "10:20",
-    "10:10",
-    "11:00"
+    "100",
+    "91",
+    "49",
+    "130",
+    "233"
   ],
-  "answer": "10:20",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "100",
+  "rule": "After a 30% decrease, 70% of the original remains.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 10:20 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 10:20.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 100.",
+    "en": "Applying the correct rule and calculating carefully gives 100.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 100."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-129 · Place value
+## MA-129 · ratios and rates
 
 ```json
 {
   "id": "MA-129",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 14242?",
+  "prompt": "Simplify 18:24 completely.",
   "options": [
-    "200",
-    "40",
-    "4000"
+    "3:4",
+    "6:8",
+    "9:12",
+    "2:3",
+    "4:5"
   ],
-  "answer": "200",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "3:4",
+  "rule": "Divide both terms by their greatest common factor.",
   "explanation": {
-    "de": "Setze 14242 in die Stellenwerttafel ein. Das Hunderterfeld ist 200 wert.",
-    "en": "Put 14242 into place-value boxes. The hundreds box is worth 200.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 3:4.",
+    "en": "Applying the correct rule and calculating carefully gives 3:4.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 3:4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -3743,231 +4001,247 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-130 · Patterns
+## MA-130 · ratios and rates
 
 ```json
 {
   "id": "MA-130",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 14, 17, 20, ___",
+  "prompt": "Red:blue beads = 2:3. There are 12 blue beads. How many red?",
   "options": [
-    "23",
-    "24",
-    "26"
+    "8",
+    "6",
+    "10",
+    "18",
+    "24"
   ],
-  "answer": "23",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "8",
+  "rule": "Scale both ratio parts by the same factor.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 23.",
-    "en": "Each number jumps by 3, so the next landing point is 23.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 8.",
+    "en": "Applying the correct rule and calculating carefully gives 8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-131 · Addition
+## MA-131 · ratios and rates
 
 ```json
 {
   "id": "MA-131",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 14 + 31",
+  "prompt": "A recipe uses flour:sugar = 5:2. For 750 g flour, sugar needed?",
   "options": [
-    "45",
-    "55",
-    "17"
+    "300 g",
+    "150 g",
+    "375 g",
+    "500 g",
+    "1,875 g"
   ],
-  "answer": "45",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "300 g",
+  "rule": "Find one ratio part, then multiply by the required number of parts.",
   "explanation": {
-    "de": "Geh 14 Schritte, dann noch 31 weiter. Du landest bei 45.",
-    "en": "Walk 14 steps, then 31 more. You land on 45.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 300 g.",
+    "en": "Applying the correct rule and calculating carefully gives 300 g.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 300 g."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-132 · Subtraction
+## MA-132 · ratios and rates
 
 ```json
 {
   "id": "MA-132",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 45 − 31",
+  "prompt": "Divide €84 in ratio 3:4. What is the larger share?",
   "options": [
-    "14",
-    "45",
-    "31"
+    "€48",
+    "€36",
+    "€42",
+    "€56",
+    "€63"
   ],
-  "answer": "14",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "€48",
+  "rule": "Divide the total by seven parts, then take four parts.",
   "explanation": {
-    "de": "Du hast 45 Dinge, gibst 31 weg, und 14 bleiben übrig.",
-    "en": "Start with 45 objects, give away 31, and 14 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €48.",
+    "en": "Applying the correct rule and calculating carefully gives €48.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €48."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-133 · Multiplication
+## MA-133 · ratios and rates
 
 ```json
 {
   "id": "MA-133",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 4 × 11",
+  "prompt": "Six notebooks cost €9. Estimate first, then find the exact cost of ten.",
   "options": [
-    "44",
-    "15",
-    "48"
+    "€15",
+    "€13",
+    "€16",
+    "€54",
+    "€90"
   ],
-  "answer": "44",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "€15",
+  "rule": "Find the unit price and scale to ten.",
   "explanation": {
-    "de": "Male 4 Gruppen mit je 11 Punkten. Insgesamt sind das 44 Punkte.",
-    "en": "Draw 4 groups with 11 dots. Altogether there are 44 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €15.",
+    "en": "Applying the correct rule and calculating carefully gives €15.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €15."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-134 · Division
+## MA-134 · ratios and rates
 
 ```json
 {
   "id": "MA-134",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Rechne: 48 ÷ 6",
+  "prompt": "On a 1:25 model, a real wall is 5 m. Model length?",
   "options": [
-    "8",
-    "6",
-    "42"
+    "20 cm",
+    "2 cm",
+    "12.5 cm",
+    "25 cm",
+    "125 cm"
   ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "20 cm",
+  "rule": "Convert units first, then divide the real length by the scale factor.",
   "explanation": {
-    "de": "Verteile 48 Sterne gleichmäßig auf 6 Teams. Jedes bekommt 8.",
-    "en": "Share 48 stars equally among 6 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20 cm.",
+    "en": "Applying the correct rule and calculating carefully gives 20 cm.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-135 · Fractions
+## MA-135 · ratios and rates
 
 ```json
 {
   "id": "MA-135",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 5 gleichen Teilen?",
+  "prompt": "Boys:girls = 4:5 in a class of 36. How many girls?",
   "options": [
-    "2/5",
-    "5/2",
-    "2/6"
+    "20",
+    "16",
+    "18",
+    "25",
+    "45"
   ],
-  "answer": "2/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "20",
+  "rule": "There are nine equal parts; determine one part and then five parts.",
   "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 2 davon ein. Das ist 2/5.",
-    "en": "Cut a pizza into 5 equal slices and color 2. That is 2/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20.",
+    "en": "Applying the correct rule and calculating carefully gives 20.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-136 · Number comparison
+## MA-136 · ratios and rates
 
 ```json
 {
   "id": "MA-136",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "ratios and rates",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Juice:water = 1:4. How much water is in 2.5 l?",
   "options": [
-    "14",
-    "31",
-    "45"
+    "2 l",
+    "0.5 l",
+    "1 l",
+    "1.5 l",
+    "10 l"
   ],
-  "answer": "45",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "2 l",
+  "rule": "Water is four of five equal parts of the total.",
   "explanation": {
-    "de": "Der größte Wert ist 45. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 45. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 2 l.",
+    "en": "Applying the correct rule and calculating carefully gives 2 l.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 2 l."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-137 · Perimeter
+## MA-137 · probability and data
 
 ```json
 {
   "id": "MA-137",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 4 cm lang und 10 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A fair die is rolled. Probability of an even number?",
   "options": [
-    "28 cm",
-    "40 cm²",
-    "14 cm"
+    "1/2",
+    "1/3",
+    "2/3",
+    "1/6",
+    "3/4"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "1/2",
+  "rule": "Favourable outcomes divided by all equally likely outcomes gives probability.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 4+10+4+10 = 28 cm.",
-    "en": "Walk around all four sides: 4+10+4+10 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 1/2.",
+    "en": "Applying the correct rule and calculating carefully gives 1/2.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 1/2."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -3975,28 +4249,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-138 · Time
+## MA-138 · probability and data
 
 ```json
 {
   "id": "MA-138",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Es ist 11:05 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A bag has 3 red and 5 blue counters. Probability of red?",
   "options": [
-    "11:25",
-    "11:15",
-    "12:05"
+    "3/8",
+    "3/5",
+    "5/8",
+    "1/3",
+    "8/3"
   ],
-  "answer": "11:25",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "3/8",
+  "rule": "There are three favourable outcomes out of eight total.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 11:25 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 11:25.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 3/8.",
+    "en": "Applying the correct rule and calculating carefully gives 3/8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 3/8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4004,28 +4280,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-139 · Place value
+## MA-139 · probability and data
 
 ```json
 {
   "id": "MA-139",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 15343?",
+  "prompt": "Find the median of 3, 8, 5, 11, 7.",
   "options": [
-    "300",
-    "40",
-    "5000"
+    "7",
+    "5",
+    "6.8",
+    "8",
+    "11"
   ],
-  "answer": "300",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "7",
+  "rule": "Order the values and take the middle one.",
   "explanation": {
-    "de": "Setze 15343 in die Stellenwerttafel ein. Das Hunderterfeld ist 300 wert.",
-    "en": "Put 15343 into place-value boxes. The hundreds box is worth 300.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 7.",
+    "en": "Applying the correct rule and calculating carefully gives 7.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 7."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4033,28 +4311,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-140 · Patterns
+## MA-140 · probability and data
 
 ```json
 {
   "id": "MA-140",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 15, 18, 21, ___",
+  "prompt": "Which value is the mode of 4, 6, 4, 7, 6, 4, 8?",
   "options": [
-    "24",
-    "25",
-    "27"
+    "4",
+    "6",
+    "7",
+    "8",
+    "no mode"
   ],
-  "answer": "24",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "4",
+  "rule": "The mode is the value occurring most often.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 24.",
-    "en": "Each number jumps by 3, so the next landing point is 24.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 4.",
+    "en": "Applying the correct rule and calculating carefully gives 4.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4062,144 +4342,154 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-141 · Addition
+## MA-141 · probability and data
 
 ```json
 {
   "id": "MA-141",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Rechne: 21 + 36",
+  "prompt": "Mean of 6, 9 and x is 8. Find x.",
   "options": [
-    "57",
-    "67",
-    "15"
+    "9",
+    "8",
+    "10",
+    "15",
+    "24"
   ],
-  "answer": "57",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "9",
+  "rule": "Use total = mean × number of values, then subtract known values.",
   "explanation": {
-    "de": "Geh 21 Schritte, dann noch 36 weiter. Du landest bei 57.",
-    "en": "Walk 21 steps, then 36 more. You land on 57.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 9.",
+    "en": "Applying the correct rule and calculating carefully gives 9.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 9."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-142 · Subtraction
+## MA-142 · probability and data
 
 ```json
 {
   "id": "MA-142",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Rechne: 57 − 36",
+  "prompt": "A coin is tossed twice. Probability of two heads?",
   "options": [
-    "21",
-    "57",
-    "36"
+    "1/4",
+    "1/2",
+    "1/3",
+    "2/3",
+    "3/4"
   ],
-  "answer": "21",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "1/4",
+  "rule": "List the four equally likely ordered outcomes.",
   "explanation": {
-    "de": "Du hast 57 Dinge, gibst 36 weg, und 21 bleiben übrig.",
-    "en": "Start with 57 objects, give away 36, and 21 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 1/4.",
+    "en": "Applying the correct rule and calculating carefully gives 1/4.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 1/4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-143 · Multiplication
+## MA-143 · probability and data
 
 ```json
 {
   "id": "MA-143",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Rechne: 5 × 4",
+  "prompt": "Mean of five numbers is 14; four total 49. Fifth number?",
   "options": [
-    "20",
-    "9",
-    "25"
+    "21",
+    "14",
+    "19",
+    "49",
+    "70"
   ],
-  "answer": "20",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "21",
+  "rule": "Find the required total, then subtract the known subtotal.",
   "explanation": {
-    "de": "Male 5 Gruppen mit je 4 Punkten. Insgesamt sind das 20 Punkte.",
-    "en": "Draw 5 groups with 4 dots. Altogether there are 20 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 21.",
+    "en": "Applying the correct rule and calculating carefully gives 21.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 21."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-144 · Division
+## MA-144 · probability and data
 
 ```json
 {
   "id": "MA-144",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "probability and data",
   "type": "multiple-choice",
-  "prompt": "Rechne: 70 ÷ 7",
+  "prompt": "A fair die is rolled twice. Probability of two sixes?",
   "options": [
-    "10",
-    "7",
-    "63"
+    "1/36",
+    "1/6",
+    "1/12",
+    "1/18",
+    "2/6"
   ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "1/36",
+  "rule": "Multiply independent probabilities: one sixth times one sixth.",
   "explanation": {
-    "de": "Verteile 70 Sterne gleichmäßig auf 7 Teams. Jedes bekommt 10.",
-    "en": "Share 70 stars equally among 7 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 1/36.",
+    "en": "Applying the correct rule and calculating carefully gives 1/36.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 1/36."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-145 · Fractions
+## MA-145 · geometry
 
 ```json
 {
   "id": "MA-145",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
+  "prompt": "Triangle angles are 52° and 68°. Third angle?",
   "options": [
-    "5/6",
-    "6/5",
-    "5/7"
+    "60°",
+    "50°",
+    "70°",
+    "112°",
+    "120°"
   ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "60°",
+  "rule": "Interior angles of a triangle sum to 180°.",
   "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 60°.",
+    "en": "Applying the correct rule and calculating carefully gives 60°.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 60°."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4207,463 +4497,495 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-146 · Number comparison
+## MA-146 · geometry
 
 ```json
 {
   "id": "MA-146",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "An isosceles triangle has equal angles of 70°. Find the third.",
   "options": [
-    "21",
-    "36",
-    "57"
+    "40°",
+    "70°",
+    "110°",
+    "140°",
+    "20°"
   ],
-  "answer": "57",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "40°",
+  "rule": "Subtract both equal angles from 180°.",
   "explanation": {
-    "de": "Der größte Wert ist 57. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 57. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 40°.",
+    "en": "Applying the correct rule and calculating carefully gives 40°.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 40°."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-147 · Perimeter
+## MA-147 · geometry
 
 ```json
 {
   "id": "MA-147",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 5 cm lang und 3 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Circle diameter 10 cm, π≈3.14. Circumference?",
   "options": [
-    "16 cm",
-    "15 cm²",
-    "8 cm"
+    "31.4 cm",
+    "15.7 cm",
+    "62.8 cm",
+    "78.5 cm",
+    "314 cm"
   ],
-  "answer": "16 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "31.4 cm",
+  "rule": "Circumference equals π times diameter.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 5+3+5+3 = 16 cm.",
-    "en": "Walk around all four sides: 5+3+5+3 = 16 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 31.4 cm.",
+    "en": "Applying the correct rule and calculating carefully gives 31.4 cm.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 31.4 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-148 · Time
+## MA-148 · geometry
 
 ```json
 {
   "id": "MA-148",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Es ist 12:10 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Circle radius 4 cm, π≈3.14. Area?",
   "options": [
-    "12:30",
-    "12:20",
-    "13:10"
+    "50.24 cm²",
+    "12.56 cm²",
+    "25.12 cm²",
+    "100.48 cm²",
+    "16 cm²"
   ],
-  "answer": "12:30",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "50.24 cm²",
+  "rule": "Area equals π times radius squared.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 12:30 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 12:30.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 50.24 cm².",
+    "en": "Applying the correct rule and calculating carefully gives 50.24 cm².",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 50.24 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-149 · Place value
+## MA-149 · geometry
 
 ```json
 {
   "id": "MA-149",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 16444?",
+  "prompt": "A 12 cm by 7 cm triangle: what area if 12 cm is the base and 7 cm the perpendicular height?",
   "options": [
-    "400",
-    "40",
-    "6000"
+    "42 cm²",
+    "84 cm²",
+    "38 cm²",
+    "19 cm²",
+    "72 cm²"
   ],
-  "answer": "400",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "42 cm²",
+  "rule": "Triangle area is one half times base times perpendicular height.",
   "explanation": {
-    "de": "Setze 16444 in die Stellenwerttafel ein. Das Hunderterfeld ist 400 wert.",
-    "en": "Put 16444 into place-value boxes. The hundreds box is worth 400.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 42 cm².",
+    "en": "Applying the correct rule and calculating carefully gives 42 cm².",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 42 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-150 · Patterns
+## MA-150 · geometry
 
 ```json
 {
   "id": "MA-150",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 16, 19, 22, ___",
+  "prompt": "Quadrilateral angles are 90°, 110°, 75° and x. Find x.",
   "options": [
-    "25",
-    "26",
-    "28"
+    "85°",
+    "75°",
+    "95°",
+    "105°",
+    "265°"
   ],
-  "answer": "25",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "85°",
+  "rule": "Interior angles of a quadrilateral sum to 360°.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 25.",
-    "en": "Each number jumps by 3, so the next landing point is 25.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 85°.",
+    "en": "Applying the correct rule and calculating carefully gives 85°.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 85°."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-151 · Addition
+## MA-151 · geometry
 
 ```json
 {
   "id": "MA-151",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Rechne: 28 + 4",
+  "prompt": "Semicircle radius 6 cm, π≈3.14. Area?",
   "options": [
-    "32",
-    "42",
-    "24"
+    "56.52 cm²",
+    "18.84 cm²",
+    "37.68 cm²",
+    "113.04 cm²",
+    "36 cm²"
   ],
-  "answer": "32",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "56.52 cm²",
+  "rule": "Find the full circle area then divide by two.",
   "explanation": {
-    "de": "Geh 28 Schritte, dann noch 4 weiter. Du landest bei 32.",
-    "en": "Walk 28 steps, then 4 more. You land on 32.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 56.52 cm².",
+    "en": "Applying the correct rule and calculating carefully gives 56.52 cm².",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 56.52 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-152 · Subtraction
+## MA-152 · geometry
 
 ```json
 {
   "id": "MA-152",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "geometry",
   "type": "multiple-choice",
-  "prompt": "Rechne: 32 − 4",
+  "prompt": "Trapezium parallel sides 8 cm and 14 cm, height 5 cm. Area?",
   "options": [
-    "28",
-    "32",
-    "4"
+    "55 cm²",
+    "44 cm²",
+    "70 cm²",
+    "110 cm²",
+    "27.5 cm²"
   ],
-  "answer": "28",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "55 cm²",
+  "rule": "Area is half the sum of parallel sides times height.",
   "explanation": {
-    "de": "Du hast 32 Dinge, gibst 4 weg, und 28 bleiben übrig.",
-    "en": "Start with 32 objects, give away 4, and 28 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 55 cm².",
+    "en": "Applying the correct rule and calculating carefully gives 55 cm².",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 55 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-153 · Multiplication
+## MA-153 · multi-step problems
 
 ```json
 {
   "id": "MA-153",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Rechne: 6 × 7",
+  "prompt": "18 boxes hold 24 pencils each. After giving away 175, how many remain?",
   "options": [
-    "42",
-    "13",
-    "48"
+    "257",
+    "281",
+    "175",
+    "432",
+    "607"
   ],
-  "answer": "42",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "257",
+  "rule": "Multiply to find the total, then subtract the amount given away.",
   "explanation": {
-    "de": "Male 6 Gruppen mit je 7 Punkten. Insgesamt sind das 42 Punkte.",
-    "en": "Draw 6 groups with 7 dots. Altogether there are 42 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 257.",
+    "en": "Applying the correct rule and calculating carefully gives 257.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 257."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-154 · Division
+## MA-154 · multi-step problems
 
 ```json
 {
   "id": "MA-154",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Rechne: 16 ÷ 8",
+  "prompt": "A theatre has 28 rows of 36 seats; 85 are empty. Occupied seats?",
   "options": [
-    "2",
-    "8",
-    "8"
+    "923",
+    "1008",
+    "951",
+    "837",
+    "1121"
   ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "923",
+  "rule": "Find total seats, then subtract empty seats.",
   "explanation": {
-    "de": "Verteile 16 Sterne gleichmäßig auf 8 Teams. Jedes bekommt 2.",
-    "en": "Share 16 stars equally among 8 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 923.",
+    "en": "Applying the correct rule and calculating carefully gives 923.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 923."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-155 · Fractions
+## MA-155 · multi-step problems
 
 ```json
 {
   "id": "MA-155",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
+  "prompt": "A journey has parts 145 km, 87 km and 63 km. Full distance?",
   "options": [
-    "1/2",
-    "2/1",
-    "1/3"
+    "295 km",
+    "232 km",
+    "208 km",
+    "169 km",
+    "358 km"
   ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "295 km",
+  "rule": "Add all journey sections.",
   "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 295 km.",
+    "en": "Applying the correct rule and calculating carefully gives 295 km.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 295 km."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-156 · Number comparison
+## MA-156 · multi-step problems
 
 ```json
 {
   "id": "MA-156",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Seven packs of six bottles cost €1.25 per bottle. Total?",
   "options": [
-    "28",
-    "4",
-    "56"
+    "€52.50",
+    "€8.75",
+    "€42",
+    "€43.75",
+    "€63"
   ],
-  "answer": "56",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "€52.50",
+  "rule": "Find the number of bottles, then multiply by the unit price.",
   "explanation": {
-    "de": "Der größte Wert ist 56. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 56. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €52.50.",
+    "en": "Applying the correct rule and calculating carefully gives €52.50.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €52.50."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-157 · Perimeter
+## MA-157 · multi-step problems
 
 ```json
 {
   "id": "MA-157",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 6 cm lang und 5 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A 1,200 l tank is 3/4 full; 180 l are used. Remaining?",
   "options": [
-    "22 cm",
-    "30 cm²",
-    "11 cm"
+    "720 l",
+    "900 l",
+    "1,020 l",
+    "620 l",
+    "1,080 l"
   ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "720 l",
+  "rule": "Find three quarters of capacity, then subtract usage.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 6+5+6+5 = 22 cm.",
-    "en": "Walk around all four sides: 6+5+6+5 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 720 l.",
+    "en": "Applying the correct rule and calculating carefully gives 720 l.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 720 l."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-158 · Time
+## MA-158 · multi-step problems
 
 ```json
 {
   "id": "MA-158",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Es ist 13:15 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Train leaves 09:47 and travels 2 h 38 min. Arrival?",
   "options": [
-    "13:35",
-    "13:25",
-    "14:15"
+    "12:25",
+    "11:25",
+    "12:15",
+    "12:35",
+    "13:25"
   ],
-  "answer": "13:35",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "12:25",
+  "rule": "Add hours and minutes, regrouping sixty minutes as one hour.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 13:35 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 13:35.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 12:25.",
+    "en": "Applying the correct rule and calculating carefully gives 12:25.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 12:25."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-159 · Place value
+## MA-159 · multi-step problems
 
 ```json
 {
   "id": "MA-159",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 17545?",
+  "prompt": "A 48 m² floor uses tiles covering 0.25 m² each. Tiles needed?",
   "options": [
-    "500",
-    "40",
-    "7000"
+    "192",
+    "48",
+    "96",
+    "144",
+    "200"
   ],
-  "answer": "500",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "192",
+  "rule": "Divide total area by area per tile.",
   "explanation": {
-    "de": "Setze 17545 in die Stellenwerttafel ein. Das Hunderterfeld ist 500 wert.",
-    "en": "Put 17545 into place-value boxes. The hundreds box is worth 500.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 192.",
+    "en": "Applying the correct rule and calculating carefully gives 192.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 192."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-160 · Patterns
+## MA-160 · multi-step problems
 
 ```json
 {
   "id": "MA-160",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "multi-step problems",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 17, 20, 23, ___",
+  "prompt": "Three friends share €96 in ratio 2:3:7. Largest share?",
   "options": [
-    "26",
-    "27",
-    "29"
+    "€56",
+    "€16",
+    "€24",
+    "€42",
+    "€64"
   ],
-  "answer": "26",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "€56",
+  "rule": "Find one of twelve parts, then take seven parts.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 26.",
-    "en": "Each number jumps by 3, so the next landing point is 26.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man €56.",
+    "en": "Applying the correct rule and calculating carefully gives €56.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على €56."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-161 · Addition
+## MA-161 · unit conversions
 
 ```json
 {
   "id": "MA-161",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 35 + 9",
+  "prompt": "Convert 3.75 m to centimetres.",
   "options": [
-    "44",
-    "54",
-    "26"
+    "375 cm",
+    "37.5 cm",
+    "3,750 cm",
+    "305 cm",
+    "0.375 cm"
   ],
-  "answer": "44",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "375 cm",
+  "rule": "One metre equals 100 centimetres.",
   "explanation": {
-    "de": "Geh 35 Schritte, dann noch 9 weiter. Du landest bei 44.",
-    "en": "Walk 35 steps, then 9 more. You land on 44.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 375 cm.",
+    "en": "Applying the correct rule and calculating carefully gives 375 cm.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 375 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4671,57 +4993,61 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-162 · Subtraction
+## MA-162 · unit conversions
 
 ```json
 {
   "id": "MA-162",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 44 − 9",
+  "prompt": "A parcel is 2 kg 350 g. What is its mass in grams?",
   "options": [
-    "35",
-    "44",
-    "9"
+    "2,350 g",
+    "235 g",
+    "2,035 g",
+    "23,500 g",
+    "350 g"
   ],
-  "answer": "35",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "2,350 g",
+  "rule": "Convert kilograms to grams, then add grams.",
   "explanation": {
-    "de": "Du hast 44 Dinge, gibst 9 weg, und 35 bleiben übrig.",
-    "en": "Start with 44 objects, give away 9, and 35 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 2,350 g.",
+    "en": "Applying the correct rule and calculating carefully gives 2,350 g.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 2,350 g."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-163 · Multiplication
+## MA-163 · unit conversions
 
 ```json
 {
   "id": "MA-163",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 7 × 10",
+  "prompt": "A bottle contains 1.25 l. How many millilitres?",
   "options": [
-    "70",
-    "17",
-    "77"
+    "1,250 ml",
+    "125 ml",
+    "12.5 ml",
+    "1,025 ml",
+    "12,500 ml"
   ],
-  "answer": "70",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "1,250 ml",
+  "rule": "One litre equals 1,000 millilitres.",
   "explanation": {
-    "de": "Male 7 Gruppen mit je 10 Punkten. Insgesamt sind das 70 Punkte.",
-    "en": "Draw 7 groups with 10 dots. Altogether there are 70 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 1,250 ml.",
+    "en": "Applying the correct rule and calculating carefully gives 1,250 ml.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 1,250 ml."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4729,57 +5055,61 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-164 · Division
+## MA-164 · unit conversions
 
 ```json
 {
   "id": "MA-164",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Rechne: 36 ÷ 9",
+  "prompt": "How many minutes are 3 h 25 min?",
   "options": [
-    "4",
-    "9",
-    "27"
+    "205 min",
+    "185 min",
+    "325 min",
+    "175 min",
+    "225 min"
   ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "205 min",
+  "rule": "Convert hours to minutes and add the remaining minutes.",
   "explanation": {
-    "de": "Verteile 36 Sterne gleichmäßig auf 9 Teams. Jedes bekommt 4.",
-    "en": "Share 36 stars equally among 9 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 205 min.",
+    "en": "Applying the correct rule and calculating carefully gives 205 min.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 205 min."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-165 · Fractions
+## MA-165 · unit conversions
 
 ```json
 {
   "id": "MA-165",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 3 gleichen Teilen?",
+  "prompt": "A runner covers 4,500 m. Express this in kilometres.",
   "options": [
-    "1/3",
-    "3/1",
-    "1/4"
+    "4.5 km",
+    "45 km",
+    "0.45 km",
+    "450 km",
+    "4.05 km"
   ],
-  "answer": "1/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "4.5 km",
+  "rule": "Divide metres by 1,000 to obtain kilometres.",
   "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 1 davon ein. Das ist 1/3.",
-    "en": "Cut a pizza into 3 equal slices and color 1. That is 1/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 4.5 km.",
+    "en": "Applying the correct rule and calculating carefully gives 4.5 km.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 4.5 km."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4787,115 +5117,123 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-166 · Number comparison
+## MA-166 · unit conversions
 
 ```json
 {
   "id": "MA-166",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A 2.4 m board loses 35 cm. Remaining length in centimetres?",
   "options": [
-    "35",
-    "9",
-    "70"
+    "205 cm",
+    "2.05 cm",
+    "239.65 cm",
+    "275 cm",
+    "170 cm"
   ],
-  "answer": "70",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "205 cm",
+  "rule": "Convert metres to centimetres before subtracting.",
   "explanation": {
-    "de": "Der größte Wert ist 70. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 70. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 205 cm.",
+    "en": "Applying the correct rule and calculating carefully gives 205 cm.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 205 cm."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-167 · Perimeter
+## MA-167 · unit conversions
 
 ```json
 {
   "id": "MA-167",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 7 cm lang und 7 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Three bottles each hold 750 ml. Total in litres?",
   "options": [
-    "28 cm",
-    "49 cm²",
-    "14 cm"
+    "2.25 l",
+    "22.5 l",
+    "0.225 l",
+    "2.05 l",
+    "1.5 l"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "2.25 l",
+  "rule": "Multiply millilitres, then divide by 1,000.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 7+7+7+7 = 28 cm.",
-    "en": "Walk around all four sides: 7+7+7+7 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 2.25 l.",
+    "en": "Applying the correct rule and calculating carefully gives 2.25 l.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 2.25 l."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-168 · Time
+## MA-168 · unit conversions
 
 ```json
 {
   "id": "MA-168",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "unit conversions",
   "type": "multiple-choice",
-  "prompt": "Es ist 14:20 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A film lasts 1 h 48 min and starts at 18:35. When does it end?",
   "options": [
-    "14:40",
-    "14:30",
-    "15:20"
+    "20:23",
+    "19:23",
+    "20:13",
+    "20:33",
+    "21:23"
   ],
-  "answer": "14:40",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "20:23",
+  "rule": "Add duration to start time and regroup minutes.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 14:40 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 14:40.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20:23.",
+    "en": "Applying the correct rule and calculating carefully gives 20:23.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20:23."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-169 · Place value
+## MA-169 · equations
 
 ```json
 {
   "id": "MA-169",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 18646?",
+  "prompt": "Solve x + 28 = 73.",
   "options": [
-    "600",
-    "40",
-    "8000"
+    "45",
+    "55",
+    "101",
+    "35",
+    "41"
   ],
-  "answer": "600",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "45",
+  "rule": "Subtract the same amount from both sides.",
   "explanation": {
-    "de": "Setze 18646 in die Stellenwerttafel ein. Das Hunderterfeld ist 600 wert.",
-    "en": "Put 18646 into place-value boxes. The hundreds box is worth 600.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 45.",
+    "en": "Applying the correct rule and calculating carefully gives 45.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 45."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4903,28 +5241,30 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-170 · Patterns
+## MA-170 · equations
 
 ```json
 {
   "id": "MA-170",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 18, 21, 24, ___",
+  "prompt": "A pupil claims 7x = 84 gives x=77. Correct x?",
   "options": [
-    "27",
-    "28",
-    "30"
+    "12",
+    "7",
+    "14",
+    "77",
+    "91"
   ],
-  "answer": "27",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "12",
+  "rule": "Divide both sides by seven.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 27.",
-    "en": "Each number jumps by 3, so the next landing point is 27.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 12.",
+    "en": "Applying the correct rule and calculating carefully gives 12.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 12."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4932,57 +5272,61 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-171 · Addition
+## MA-171 · equations
 
 ```json
 {
   "id": "MA-171",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 42 + 14",
+  "prompt": "Solve 90 − x = 37.",
   "options": [
-    "56",
-    "66",
-    "28"
+    "53",
+    "127",
+    "63",
+    "47",
+    "27"
   ],
-  "answer": "56",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "53",
+  "rule": "Rearrange or subtract 37 from 90.",
   "explanation": {
-    "de": "Geh 42 Schritte, dann noch 14 weiter. Du landest bei 56.",
-    "en": "Walk 42 steps, then 14 more. You land on 56.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 53.",
+    "en": "Applying the correct rule and calculating carefully gives 53.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 53."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-172 · Subtraction
+## MA-172 · equations
 
 ```json
 {
   "id": "MA-172",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 56 − 14",
+  "prompt": "Solve x/8 = 7.",
   "options": [
-    "42",
     "56",
-    "14"
+    "15",
+    "1",
+    "49",
+    "64"
   ],
-  "answer": "42",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "56",
+  "rule": "Multiply both sides by eight.",
   "explanation": {
-    "de": "Du hast 56 Dinge, gibst 14 weg, und 42 bleiben übrig.",
-    "en": "Start with 56 objects, give away 14, and 42 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 56.",
+    "en": "Applying the correct rule and calculating carefully gives 56.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 56."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -4990,376 +5334,402 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-173 · Multiplication
+## MA-173 · equations
 
 ```json
 {
   "id": "MA-173",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 8 × 3",
+  "prompt": "Solve 3x + 5 = 29.",
   "options": [
+    "8",
+    "6",
+    "10",
     "24",
-    "11",
-    "32"
+    "34"
   ],
-  "answer": "24",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "8",
+  "rule": "Undo addition first, then division.",
   "explanation": {
-    "de": "Male 8 Gruppen mit je 3 Punkten. Insgesamt sind das 24 Punkte.",
-    "en": "Draw 8 groups with 3 dots. Altogether there are 24 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 8.",
+    "en": "Applying the correct rule and calculating carefully gives 8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-174 · Division
+## MA-174 · equations
 
 ```json
 {
   "id": "MA-174",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Rechne: 60 ÷ 10",
+  "prompt": "Solve 5(x − 2) = 40.",
   "options": [
-    "6",
     "10",
-    "50"
+    "6",
+    "8",
+    "42",
+    "200"
   ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "10",
+  "rule": "Divide by five, then undo subtraction.",
   "explanation": {
-    "de": "Verteile 60 Sterne gleichmäßig auf 10 Teams. Jedes bekommt 6.",
-    "en": "Share 60 stars equally among 10 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 10.",
+    "en": "Applying the correct rule and calculating carefully gives 10.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 10."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-175 · Fractions
+## MA-175 · equations
 
 ```json
 {
   "id": "MA-175",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 3 von 4 gleichen Teilen?",
+  "prompt": "Twice a number plus 7 is 31. Number?",
   "options": [
-    "3/4",
-    "4/3",
-    "3/5"
+    "12",
+    "19",
+    "24",
+    "38",
+    "62"
   ],
-  "answer": "3/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "12",
+  "rule": "Translate the words into 2x+7=31 and solve backwards.",
   "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 3 davon ein. Das ist 3/4.",
-    "en": "Cut a pizza into 4 equal slices and color 3. That is 3/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 12.",
+    "en": "Applying the correct rule and calculating carefully gives 12.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 12."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-176 · Number comparison
+## MA-176 · equations
 
 ```json
 {
   "id": "MA-176",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "equations",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "A number divided by 4, then increased by 3, equals 10. Number?",
   "options": [
-    "42",
-    "14",
-    "84"
+    "28",
+    "7",
+    "13",
+    "40",
+    "52"
   ],
-  "answer": "84",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "28",
+  "rule": "Undo addition, then undo division.",
   "explanation": {
-    "de": "Der größte Wert ist 84. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 84. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 28.",
+    "en": "Applying the correct rule and calculating carefully gives 28.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 28."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-177 · Perimeter
+## MA-177 · fractions and decimals
 
 ```json
 {
   "id": "MA-177",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 8 cm lang und 9 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Calculate 3/4 + 1/8 and simplify.",
   "options": [
-    "34 cm",
-    "72 cm²",
-    "17 cm"
+    "7/8",
+    "4/12",
+    "1/2",
+    "5/8",
+    "1 1/8"
   ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "7/8",
+  "rule": "Use a common denominator then add numerators.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 8+9+8+9 = 34 cm.",
-    "en": "Walk around all four sides: 8+9+8+9 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 7/8.",
+    "en": "Applying the correct rule and calculating carefully gives 7/8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 7/8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-178 · Time
+## MA-178 · fractions and decimals
 
 ```json
 {
   "id": "MA-178",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Es ist 15:25 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Calculate 5/6 − 1/4 and simplify.",
   "options": [
-    "15:45",
-    "15:35",
-    "16:25"
+    "7/12",
+    "4/2",
+    "1/2",
+    "3/10",
+    "11/12"
   ],
-  "answer": "15:45",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "7/12",
+  "rule": "Use a common denominator of twelve.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 15:45 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 15:45.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 7/12.",
+    "en": "Applying the correct rule and calculating carefully gives 7/12.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 7/12."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-179 · Place value
+## MA-179 · fractions and decimals
 
 ```json
 {
   "id": "MA-179",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 19747?",
+  "prompt": "Which fraction equals 0.625?",
   "options": [
-    "700",
-    "40",
-    "9000"
+    "5/8",
+    "3/5",
+    "11/20",
+    "7/8",
+    "5/6"
   ],
-  "answer": "700",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "5/8",
+  "rule": "Convert the decimal to thousandths and simplify.",
   "explanation": {
-    "de": "Setze 19747 in die Stellenwerttafel ein. Das Hunderterfeld ist 700 wert.",
-    "en": "Put 19747 into place-value boxes. The hundreds box is worth 700.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 5/8.",
+    "en": "Applying the correct rule and calculating carefully gives 5/8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 5/8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-180 · Patterns
+## MA-180 · fractions and decimals
 
 ```json
 {
   "id": "MA-180",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 19, 22, 25, ___",
+  "prompt": "Order check: which is greatest?",
   "options": [
-    "28",
-    "29",
-    "31"
+    "0.72",
+    "7/10",
+    "0.69",
+    "2/3",
+    "0.68"
   ],
-  "answer": "28",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "0.72",
+  "rule": "Convert to comparable decimals or common fractions.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 28.",
-    "en": "Each number jumps by 3, so the next landing point is 28.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 0.72.",
+    "en": "Applying the correct rule and calculating carefully gives 0.72.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 0.72."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-181 · Addition
+## MA-181 · fractions and decimals
 
 ```json
 {
   "id": "MA-181",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 49 + 19",
+  "prompt": "Calculate 2 1/3 + 1 5/6.",
   "options": [
-    "68",
-    "78",
-    "30"
+    "4 1/6",
+    "3 6/9",
+    "4 1/3",
+    "3 5/6",
+    "5 1/6"
   ],
-  "answer": "68",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "4 1/6",
+  "rule": "Use sixths, add, and convert the improper fraction.",
   "explanation": {
-    "de": "Geh 49 Schritte, dann noch 19 weiter. Du landest bei 68.",
-    "en": "Walk 49 steps, then 19 more. You land on 68.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 4 1/6.",
+    "en": "Applying the correct rule and calculating carefully gives 4 1/6.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 4 1/6."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-182 · Subtraction
+## MA-182 · fractions and decimals
 
 ```json
 {
   "id": "MA-182",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 68 − 19",
+  "prompt": "A 3.6 m ribbon is cut into 0.45 m pieces. Number of pieces?",
   "options": [
-    "49",
-    "68",
-    "19"
+    "8",
+    "6",
+    "7",
+    "9",
+    "80"
   ],
-  "answer": "49",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "8",
+  "rule": "Divide total length by piece length.",
   "explanation": {
-    "de": "Du hast 68 Dinge, gibst 19 weg, und 49 bleiben übrig.",
-    "en": "Start with 68 objects, give away 19, and 49 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 8.",
+    "en": "Applying the correct rule and calculating carefully gives 8.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 8."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-183 · Multiplication
+## MA-183 · fractions and decimals
 
 ```json
 {
   "id": "MA-183",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 9 × 6",
+  "prompt": "Calculate 0.48 × 2.5.",
   "options": [
-    "54",
-    "15",
-    "63"
+    "1.2",
+    "12",
+    "0.12",
+    "1.02",
+    "2.98"
   ],
-  "answer": "54",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "1.2",
+  "rule": "Multiply as whole numbers then place the decimal correctly.",
   "explanation": {
-    "de": "Male 9 Gruppen mit je 6 Punkten. Insgesamt sind das 54 Punkte.",
-    "en": "Draw 9 groups with 6 dots. Altogether there are 54 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 1.2.",
+    "en": "Applying the correct rule and calculating carefully gives 1.2.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 1.2."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-184 · Division
+## MA-184 · fractions and decimals
 
 ```json
 {
   "id": "MA-184",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "fractions and decimals",
   "type": "multiple-choice",
-  "prompt": "Rechne: 16 ÷ 2",
+  "prompt": "A tank is 2/5 full. After adding 0.35 of capacity, what fraction of capacity is filled?",
   "options": [
-    "8",
-    "2",
-    "14"
+    "3/4",
+    "7/10",
+    "11/20",
+    "17/20",
+    "2/7"
   ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "3/4",
+  "rule": "Convert 0.35 to 7/20 and add it to 8/20.",
   "explanation": {
-    "de": "Verteile 16 Sterne gleichmäßig auf 2 Teams. Jedes bekommt 8.",
-    "en": "Share 16 stars equally among 2 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 3/4.",
+    "en": "Applying the correct rule and calculating carefully gives 3/4.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 3/4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-185 · Fractions
+## MA-185 · order and estimation
 
 ```json
 {
   "id": "MA-185",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 3 von 5 gleichen Teilen?",
+  "prompt": "Estimate 398 × 21 by rounding to 400 × 20.",
   "options": [
-    "3/5",
-    "5/3",
-    "3/6"
+    "8,000",
+    "800",
+    "4,000",
+    "8,400",
+    "80,000"
   ],
-  "answer": "3/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "8,000",
+  "rule": "Round to convenient numbers and multiply.",
   "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 3 davon ein. Das ist 3/5.",
-    "en": "Cut a pizza into 5 equal slices and color 3. That is 3/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 8,000.",
+    "en": "Applying the correct rule and calculating carefully gives 8,000.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 8,000."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 30,
   "tags": [
     "year5-review"
   ],
@@ -5367,3337 +5737,467 @@ Editable structured records. Keep each JSON block valid. Additional fields are a
 }
 ```
 
-## MA-186 · Number comparison
+## MA-186 · order and estimation
 
 ```json
 {
   "id": "MA-186",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Calculate 18 + 6 × 7.",
   "options": [
-    "49",
-    "19",
-    "98"
+    "60",
+    "168",
+    "84",
+    "126",
+    "48"
   ],
-  "answer": "98",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "60",
+  "rule": "Multiplication comes before addition.",
   "explanation": {
-    "de": "Der größte Wert ist 98. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 98. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 60.",
+    "en": "Applying the correct rule and calculating carefully gives 60.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 60."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-187 · Perimeter
+## MA-187 · order and estimation
 
 ```json
 {
   "id": "MA-187",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 9 cm lang und 2 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "A pupil calculates (45−21)÷6 as 42. Correct result?",
   "options": [
-    "22 cm",
-    "18 cm²",
-    "11 cm"
+    "4",
+    "24",
+    "7",
+    "6",
+    "42"
   ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "4",
+  "rule": "Evaluate brackets before division.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 9+2+9+2 = 22 cm.",
-    "en": "Walk around all four sides: 9+2+9+2 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 4.",
+    "en": "Applying the correct rule and calculating carefully gives 4.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 4."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-188 · Time
+## MA-188 · order and estimation
 
 ```json
 {
   "id": "MA-188",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Es ist 16:30 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "Which value is closest to 49.8 × 6.1?",
   "options": [
-    "16:50",
-    "16:40",
-    "17:30"
+    "300",
+    "30",
+    "60",
+    "360",
+    "3000"
   ],
-  "answer": "16:50",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "300",
+  "rule": "Round to 50×6 for a sensible estimate.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 16:50 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 16:50.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 300.",
+    "en": "Applying the correct rule and calculating carefully gives 300.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 300."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-189 · Place value
+## MA-189 · order and estimation
 
 ```json
 {
   "id": "MA-189",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 20848?",
+  "prompt": "Calculate 120 − 4 × (18 + 7).",
   "options": [
-    "800",
-    "40",
-    "0"
+    "20",
+    "2900",
+    "116",
+    "100",
+    "500"
   ],
-  "answer": "800",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "20",
+  "rule": "Evaluate brackets, then multiplication, then subtraction.",
   "explanation": {
-    "de": "Setze 20848 in die Stellenwerttafel ein. Das Hunderterfeld ist 800 wert.",
-    "en": "Put 20848 into place-value boxes. The hundreds box is worth 800.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20.",
+    "en": "Applying the correct rule and calculating carefully gives 20.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-190 · Patterns
+## MA-190 · order and estimation
 
 ```json
 {
   "id": "MA-190",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 20, 23, 26, ___",
+  "prompt": "A result for 3,985 + 6,120 is given as 1,005. Best check?",
   "options": [
-    "29",
-    "30",
-    "32"
+    "It is impossible because the sum must exceed 6,120.",
+    "It is correct because 3+6=9.",
+    "It is close to 1,000.",
+    "Subtraction always checks addition.",
+    "The last digit alone proves it."
   ],
-  "answer": "29",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "It is impossible because the sum must exceed 6,120.",
+  "rule": "Use magnitude and bounds to test plausibility.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 29.",
-    "en": "Each number jumps by 3, so the next landing point is 29.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man It is impossible because the sum must exceed 6,120..",
+    "en": "Applying the correct rule and calculating carefully gives It is impossible because the sum must exceed 6,120..",
+    "ar": "نحسب ما داخل القوس أولًا، ثم نضرب في 4، ثم نطرح من 120، فنحصل على 20."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-191 · Addition
+## MA-191 · order and estimation
 
 ```json
 {
   "id": "MA-191",
   "subject": "Math",
-  "topic": "Addition",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Rechne: 56 + 24",
+  "prompt": "Calculate 72 ÷ 3 × 4.",
   "options": [
-    "80",
-    "90",
-    "32"
+    "96",
+    "6",
+    "24",
+    "9",
+    "72"
   ],
-  "answer": "80",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
+  "answer": "96",
+  "rule": "Perform division and multiplication from left to right.",
   "explanation": {
-    "de": "Geh 56 Schritte, dann noch 24 weiter. Du landest bei 80.",
-    "en": "Walk 56 steps, then 24 more. You land on 80.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 96.",
+    "en": "Applying the correct rule and calculating carefully gives 96.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 96."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-192 · Subtraction
+## MA-192 · order and estimation
 
 ```json
 {
   "id": "MA-192",
   "subject": "Math",
-  "topic": "Subtraction",
+  "topic": "order and estimation",
   "type": "multiple-choice",
-  "prompt": "Rechne: 80 − 24",
+  "prompt": "A shop has €250. It buys 18 items at €13 each. Is €250 enough and what remains?",
   "options": [
-    "56",
-    "80",
-    "24"
+    "Yes, €16 remains.",
+    "No, €16 is missing.",
+    "Yes, €26 remains.",
+    "No, €26 is missing.",
+    "Yes, €234 remains."
   ],
-  "answer": "56",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
+  "answer": "Yes, €16 remains.",
+  "rule": "Multiply cost first, compare with budget, then subtract.",
   "explanation": {
-    "de": "Du hast 80 Dinge, gibst 24 weg, und 56 bleiben übrig.",
-    "en": "Start with 80 objects, give away 24, and 56 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man Yes, €16 remains..",
+    "en": "Applying the correct rule and calculating carefully gives Yes, €16 remains..",
+    "ar": "نحسب من اليسار إلى اليمين لأن القسمة والضرب لهما الأولوية نفسها، فنحصل على 96."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-193 · Multiplication
+## MA-193 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-193",
   "subject": "Math",
-  "topic": "Multiplication",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Rechne: 10 × 9",
+  "prompt": "Reflect (4, −3) across the y-axis.",
   "options": [
-    "90",
-    "19",
-    "100"
+    "(−4, −3)",
+    "(4, 3)",
+    "(−4, 3)",
+    "(3, −4)",
+    "(4, −3)"
   ],
-  "answer": "90",
-  "rule": "Multiplikation ist wiederholte Addition.",
+  "answer": "(−4, −3)",
+  "rule": "Across the y-axis, change the x-coordinate sign only.",
   "explanation": {
-    "de": "Male 10 Gruppen mit je 9 Punkten. Insgesamt sind das 90 Punkte.",
-    "en": "Draw 10 groups with 9 dots. Altogether there are 90 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man (−4, −3).",
+    "en": "Applying the correct rule and calculating carefully gives (−4, −3).",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على (−4, −3)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-194 · Division
+## MA-194 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-194",
   "subject": "Math",
-  "topic": "Division",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Rechne: 30 ÷ 3",
+  "prompt": "Start (−2, 5), move 7 right and 4 down. Finish?",
   "options": [
-    "10",
-    "3",
-    "27"
+    "(5, 1)",
+    "(−9, 9)",
+    "(5, 9)",
+    "(−6, 12)",
+    "(1, 5)"
   ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
+  "answer": "(5, 1)",
+  "rule": "Add to x for right and subtract from y for down.",
   "explanation": {
-    "de": "Verteile 30 Sterne gleichmäßig auf 3 Teams. Jedes bekommt 10.",
-    "en": "Share 30 stars equally among 3 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man (5, 1).",
+    "en": "Applying the correct rule and calculating carefully gives (5, 1).",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على (5, 1)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-195 · Fractions
+## MA-195 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-195",
   "subject": "Math",
-  "topic": "Fractions",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
+  "prompt": "A square has side 6 cm. A diagonal symmetry line splits it into two equal triangles. Area of each?",
   "options": [
-    "5/6",
-    "6/5",
-    "5/7"
+    "18 cm²",
+    "36 cm²",
+    "12 cm²",
+    "24 cm²",
+    "72 cm²"
   ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
+  "answer": "18 cm²",
+  "rule": "Find square area and divide by two.",
   "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 18 cm².",
+    "en": "Applying the correct rule and calculating carefully gives 18 cm².",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 18 cm²."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-196 · Number comparison
+## MA-196 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-196",
   "subject": "Math",
-  "topic": "Number comparison",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
+  "prompt": "Point A(2,1) and B(2,7). Length AB?",
   "options": [
-    "56",
-    "24",
-    "112"
+    "6 units",
+    "5 units",
+    "8 units",
+    "9 units",
+    "14 units"
   ],
-  "answer": "112",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
+  "answer": "6 units",
+  "rule": "For a vertical segment, subtract y-coordinates.",
   "explanation": {
-    "de": "Der größte Wert ist 112. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 112. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 6 units.",
+    "en": "Applying the correct rule and calculating carefully gives 6 units.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 6 units."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-197 · Perimeter
+## MA-197 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-197",
   "subject": "Math",
-  "topic": "Perimeter",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 10 cm lang und 4 cm breit. Wie groß ist sein Umfang?",
+  "prompt": "Reflect (−5, 2) across x-axis, then move 3 right. Final point?",
   "options": [
-    "28 cm",
-    "40 cm²",
-    "14 cm"
+    "(−2, −2)",
+    "(−8, −2)",
+    "(−2, 2)",
+    "(5, −1)",
+    "(2, −5)"
   ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
+  "answer": "(−2, −2)",
+  "rule": "Reflect y first, then add three to x.",
   "explanation": {
-    "de": "Gehe alle vier Seiten ab: 10+4+10+4 = 28 cm.",
-    "en": "Walk around all four sides: 10+4+10+4 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man (−2, −2).",
+    "en": "Applying the correct rule and calculating carefully gives (−2, −2).",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على (−2, −2)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-198 · Time
+## MA-198 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-198",
   "subject": "Math",
-  "topic": "Time",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Es ist 17:35 Uhr. Wie spät ist es 20 Minuten später?",
+  "prompt": "A regular pentagon has 5 symmetry lines. If 4 stickers are placed in each equal sector, total?",
   "options": [
-    "17:55",
-    "17:45",
-    "18:35"
+    "20",
+    "9",
+    "16",
+    "25",
+    "40"
   ],
-  "answer": "17:55",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
+  "answer": "20",
+  "rule": "Multiply equal sectors by stickers per sector.",
   "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 17:55 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 17:55.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man 20.",
+    "en": "Applying the correct rule and calculating carefully gives 20.",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على 20."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
 
-## MA-199 · Place value
+## MA-199 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-199",
   "subject": "Math",
-  "topic": "Place value",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 21949?",
+  "prompt": "Midpoint between (2,4) and (8,10)?",
   "options": [
-    "900",
-    "40",
-    "1000"
+    "(5, 7)",
+    "(6, 6)",
+    "(10, 14)",
+    "(3, 3)",
+    "(4, 5)"
   ],
-  "answer": "900",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
+  "answer": "(5, 7)",
+  "rule": "Average the x-coordinates and the y-coordinates.",
   "explanation": {
-    "de": "Setze 21949 in die Stellenwerttafel ein. Das Hunderterfeld ist 900 wert.",
-    "en": "Put 21949 into place-value boxes. The hundreds box is worth 900.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man (5, 7).",
+    "en": "Applying the correct rule and calculating carefully gives (5, 7).",
+    "ar": "بتطبيق القاعدة المناسبة والحساب بدقة نحصل على (5, 7)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 68,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 3
 }
 ```
 
-## MA-200 · Patterns
+## MA-200 · coordinates and symmetry
 
 ```json
 {
   "id": "MA-200",
   "subject": "Math",
-  "topic": "Patterns",
+  "topic": "coordinates and symmetry",
   "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 21, 24, 27, ___",
+  "prompt": "Which transformation maps (3,2) to (−3,2)?",
   "options": [
-    "30",
-    "31",
-    "33"
+    "reflection in the y-axis",
+    "reflection in the x-axis",
+    "rotation 90° clockwise",
+    "translation 3 left",
+    "translation 6 up"
   ],
-  "answer": "30",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
+  "answer": "reflection in the y-axis",
+  "rule": "A y-axis reflection changes only the x sign.",
   "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 30.",
-    "en": "Each number jumps by 3, so the next landing point is 30.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
+    "de": "Mit der passenden Regel und sorgfältiger Rechnung erhält man reflection in the y-axis.",
+    "en": "Applying the correct rule and calculating carefully gives reflection in the y-axis.",
+    "ar": "الانعكاس حول محور الصادات يغيّر إشارة الإحداثي السيني فقط، لذلك يتحول (3، 2) إلى (−3، 2)."
   },
-  "timeLimitSec": 50,
+  "timeLimitSec": 45,
   "tags": [
     "year5-review"
   ],
-  "difficulty": 1
+  "difficulty": 2
 }
 ```
-
-## MA-201 · Addition
-
-```json
-{
-  "id": "MA-201",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 63 + 29",
-  "options": [
-    "92",
-    "102",
-    "34"
-  ],
-  "answer": "92",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 63 Schritte, dann noch 29 weiter. Du landest bei 92.",
-    "en": "Walk 63 steps, then 29 more. You land on 92.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-202 · Subtraction
-
-```json
-{
-  "id": "MA-202",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 92 − 29",
-  "options": [
-    "63",
-    "92",
-    "29"
-  ],
-  "answer": "63",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 92 Dinge, gibst 29 weg, und 63 bleiben übrig.",
-    "en": "Start with 92 objects, give away 29, and 63 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-203 · Multiplication
-
-```json
-{
-  "id": "MA-203",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 11 × 2",
-  "options": [
-    "22",
-    "13",
-    "33"
-  ],
-  "answer": "22",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 11 Gruppen mit je 2 Punkten. Insgesamt sind das 22 Punkte.",
-    "en": "Draw 11 groups with 2 dots. Altogether there are 22 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-204 · Division
-
-```json
-{
-  "id": "MA-204",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 8 ÷ 4",
-  "options": [
-    "2",
-    "4",
-    "4"
-  ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 8 Sterne gleichmäßig auf 4 Teams. Jedes bekommt 2.",
-    "en": "Share 8 stars equally among 4 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-205 · Fractions
-
-```json
-{
-  "id": "MA-205",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
-  "options": [
-    "1/2",
-    "2/1",
-    "1/3"
-  ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-206 · Number comparison
-
-```json
-{
-  "id": "MA-206",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "63",
-    "29",
-    "126"
-  ],
-  "answer": "126",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 126. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 126. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-207 · Perimeter
-
-```json
-{
-  "id": "MA-207",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 11 cm lang und 6 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "34 cm",
-    "66 cm²",
-    "17 cm"
-  ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 11+6+11+6 = 34 cm.",
-    "en": "Walk around all four sides: 11+6+11+6 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-208 · Time
-
-```json
-{
-  "id": "MA-208",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 08:40 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "09:00",
-    "08:50",
-    "09:40"
-  ],
-  "answer": "09:00",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 09:00 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 09:00.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-209 · Place value
-
-```json
-{
-  "id": "MA-209",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 22040?",
-  "options": [
-    "0",
-    "40",
-    "2000"
-  ],
-  "answer": "0",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 22040 in die Stellenwerttafel ein. Das Hunderterfeld ist 0 wert.",
-    "en": "Put 22040 into place-value boxes. The hundreds box is worth 0.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-210 · Patterns
-
-```json
-{
-  "id": "MA-210",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 22, 25, 28, ___",
-  "options": [
-    "31",
-    "32",
-    "34"
-  ],
-  "answer": "31",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 31.",
-    "en": "Each number jumps by 3, so the next landing point is 31.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-211 · Addition
-
-```json
-{
-  "id": "MA-211",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 70 + 34",
-  "options": [
-    "104",
-    "114",
-    "36"
-  ],
-  "answer": "104",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 70 Schritte, dann noch 34 weiter. Du landest bei 104.",
-    "en": "Walk 70 steps, then 34 more. You land on 104.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-212 · Subtraction
-
-```json
-{
-  "id": "MA-212",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 104 − 34",
-  "options": [
-    "70",
-    "104",
-    "34"
-  ],
-  "answer": "70",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 104 Dinge, gibst 34 weg, und 70 bleiben übrig.",
-    "en": "Start with 104 objects, give away 34, and 70 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-213 · Multiplication
-
-```json
-{
-  "id": "MA-213",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 12 × 5",
-  "options": [
-    "60",
-    "17",
-    "72"
-  ],
-  "answer": "60",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 12 Gruppen mit je 5 Punkten. Insgesamt sind das 60 Punkte.",
-    "en": "Draw 12 groups with 5 dots. Altogether there are 60 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-214 · Division
-
-```json
-{
-  "id": "MA-214",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 20 ÷ 5",
-  "options": [
-    "4",
-    "5",
-    "15"
-  ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 20 Sterne gleichmäßig auf 5 Teams. Jedes bekommt 4.",
-    "en": "Share 20 stars equally among 5 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-215 · Fractions
-
-```json
-{
-  "id": "MA-215",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 3 gleichen Teilen?",
-  "options": [
-    "2/3",
-    "3/2",
-    "2/4"
-  ],
-  "answer": "2/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 2 davon ein. Das ist 2/3.",
-    "en": "Cut a pizza into 3 equal slices and color 2. That is 2/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-216 · Number comparison
-
-```json
-{
-  "id": "MA-216",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "70",
-    "34",
-    "140"
-  ],
-  "answer": "140",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 140. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 140. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-217 · Perimeter
-
-```json
-{
-  "id": "MA-217",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 12 cm lang und 8 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "40 cm",
-    "96 cm²",
-    "20 cm"
-  ],
-  "answer": "40 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 12+8+12+8 = 40 cm.",
-    "en": "Walk around all four sides: 12+8+12+8 = 40 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-218 · Time
-
-```json
-{
-  "id": "MA-218",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 09:45 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "10:05",
-    "09:55",
-    "10:45"
-  ],
-  "answer": "10:05",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 10:05 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 10:05.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-219 · Place value
-
-```json
-{
-  "id": "MA-219",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 23141?",
-  "options": [
-    "100",
-    "40",
-    "3000"
-  ],
-  "answer": "100",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 23141 in die Stellenwerttafel ein. Das Hunderterfeld ist 100 wert.",
-    "en": "Put 23141 into place-value boxes. The hundreds box is worth 100.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-220 · Patterns
-
-```json
-{
-  "id": "MA-220",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 23, 26, 29, ___",
-  "options": [
-    "32",
-    "33",
-    "35"
-  ],
-  "answer": "32",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 32.",
-    "en": "Each number jumps by 3, so the next landing point is 32.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-221 · Addition
-
-```json
-{
-  "id": "MA-221",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 77 + 39",
-  "options": [
-    "116",
-    "126",
-    "38"
-  ],
-  "answer": "116",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 77 Schritte, dann noch 39 weiter. Du landest bei 116.",
-    "en": "Walk 77 steps, then 39 more. You land on 116.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-222 · Subtraction
-
-```json
-{
-  "id": "MA-222",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 116 − 39",
-  "options": [
-    "77",
-    "116",
-    "39"
-  ],
-  "answer": "77",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 116 Dinge, gibst 39 weg, und 77 bleiben übrig.",
-    "en": "Start with 116 objects, give away 39, and 77 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-223 · Multiplication
-
-```json
-{
-  "id": "MA-223",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 2 × 8",
-  "options": [
-    "16",
-    "10",
-    "18"
-  ],
-  "answer": "16",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 2 Gruppen mit je 8 Punkten. Insgesamt sind das 16 Punkte.",
-    "en": "Draw 2 groups with 8 dots. Altogether there are 16 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-224 · Division
-
-```json
-{
-  "id": "MA-224",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 36 ÷ 6",
-  "options": [
-    "6",
-    "6",
-    "30"
-  ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 36 Sterne gleichmäßig auf 6 Teams. Jedes bekommt 6.",
-    "en": "Share 36 stars equally among 6 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-225 · Fractions
-
-```json
-{
-  "id": "MA-225",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 2 von 4 gleichen Teilen?",
-  "options": [
-    "2/4",
-    "4/2",
-    "2/5"
-  ],
-  "answer": "2/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 2 davon ein. Das ist 2/4.",
-    "en": "Cut a pizza into 4 equal slices and color 2. That is 2/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-226 · Number comparison
-
-```json
-{
-  "id": "MA-226",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "77",
-    "39",
-    "154"
-  ],
-  "answer": "154",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 154. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 154. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-227 · Perimeter
-
-```json
-{
-  "id": "MA-227",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 13 cm lang und 10 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "46 cm",
-    "130 cm²",
-    "23 cm"
-  ],
-  "answer": "46 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 13+10+13+10 = 46 cm.",
-    "en": "Walk around all four sides: 13+10+13+10 = 46 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-228 · Time
-
-```json
-{
-  "id": "MA-228",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 10:50 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "11:10",
-    "10:00",
-    "11:50"
-  ],
-  "answer": "11:10",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 11:10 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 11:10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-229 · Place value
-
-```json
-{
-  "id": "MA-229",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 24242?",
-  "options": [
-    "200",
-    "40",
-    "4000"
-  ],
-  "answer": "200",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 24242 in die Stellenwerttafel ein. Das Hunderterfeld ist 200 wert.",
-    "en": "Put 24242 into place-value boxes. The hundreds box is worth 200.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-230 · Patterns
-
-```json
-{
-  "id": "MA-230",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 24, 27, 30, ___",
-  "options": [
-    "33",
-    "34",
-    "36"
-  ],
-  "answer": "33",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 33.",
-    "en": "Each number jumps by 3, so the next landing point is 33.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-231 · Addition
-
-```json
-{
-  "id": "MA-231",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 84 + 7",
-  "options": [
-    "91",
-    "101",
-    "77"
-  ],
-  "answer": "91",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 84 Schritte, dann noch 7 weiter. Du landest bei 91.",
-    "en": "Walk 84 steps, then 7 more. You land on 91.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-232 · Subtraction
-
-```json
-{
-  "id": "MA-232",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 91 − 7",
-  "options": [
-    "84",
-    "91",
-    "7"
-  ],
-  "answer": "84",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 91 Dinge, gibst 7 weg, und 84 bleiben übrig.",
-    "en": "Start with 91 objects, give away 7, and 84 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-233 · Multiplication
-
-```json
-{
-  "id": "MA-233",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 3 × 11",
-  "options": [
-    "33",
-    "14",
-    "36"
-  ],
-  "answer": "33",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 3 Gruppen mit je 11 Punkten. Insgesamt sind das 33 Punkte.",
-    "en": "Draw 3 groups with 11 dots. Altogether there are 33 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-234 · Division
-
-```json
-{
-  "id": "MA-234",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 56 ÷ 7",
-  "options": [
-    "8",
-    "7",
-    "49"
-  ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 56 Sterne gleichmäßig auf 7 Teams. Jedes bekommt 8.",
-    "en": "Share 56 stars equally among 7 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-235 · Fractions
-
-```json
-{
-  "id": "MA-235",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 4 von 5 gleichen Teilen?",
-  "options": [
-    "4/5",
-    "5/4",
-    "4/6"
-  ],
-  "answer": "4/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 4 davon ein. Das ist 4/5.",
-    "en": "Cut a pizza into 5 equal slices and color 4. That is 4/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-236 · Number comparison
-
-```json
-{
-  "id": "MA-236",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "84",
-    "7",
-    "168"
-  ],
-  "answer": "168",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 168. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 168. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-237 · Perimeter
-
-```json
-{
-  "id": "MA-237",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 14 cm lang und 3 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "34 cm",
-    "42 cm²",
-    "17 cm"
-  ],
-  "answer": "34 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 14+3+14+3 = 34 cm.",
-    "en": "Walk around all four sides: 14+3+14+3 = 34 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-238 · Time
-
-```json
-{
-  "id": "MA-238",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 11:55 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "12:15",
-    "11:05",
-    "12:55"
-  ],
-  "answer": "12:15",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 12:15 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 12:15.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-239 · Place value
-
-```json
-{
-  "id": "MA-239",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 25343?",
-  "options": [
-    "300",
-    "40",
-    "5000"
-  ],
-  "answer": "300",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 25343 in die Stellenwerttafel ein. Das Hunderterfeld ist 300 wert.",
-    "en": "Put 25343 into place-value boxes. The hundreds box is worth 300.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-240 · Patterns
-
-```json
-{
-  "id": "MA-240",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 25, 28, 31, ___",
-  "options": [
-    "34",
-    "35",
-    "37"
-  ],
-  "answer": "34",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 34.",
-    "en": "Each number jumps by 3, so the next landing point is 34.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-241 · Addition
-
-```json
-{
-  "id": "MA-241",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 91 + 12",
-  "options": [
-    "103",
-    "113",
-    "79"
-  ],
-  "answer": "103",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 91 Schritte, dann noch 12 weiter. Du landest bei 103.",
-    "en": "Walk 91 steps, then 12 more. You land on 103.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-242 · Subtraction
-
-```json
-{
-  "id": "MA-242",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 103 − 12",
-  "options": [
-    "91",
-    "103",
-    "12"
-  ],
-  "answer": "91",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 103 Dinge, gibst 12 weg, und 91 bleiben übrig.",
-    "en": "Start with 103 objects, give away 12, and 91 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-243 · Multiplication
-
-```json
-{
-  "id": "MA-243",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 4 × 4",
-  "options": [
-    "16",
-    "8",
-    "20"
-  ],
-  "answer": "16",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 4 Gruppen mit je 4 Punkten. Insgesamt sind das 16 Punkte.",
-    "en": "Draw 4 groups with 4 dots. Altogether there are 16 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-244 · Division
-
-```json
-{
-  "id": "MA-244",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 80 ÷ 8",
-  "options": [
-    "10",
-    "8",
-    "72"
-  ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 80 Sterne gleichmäßig auf 8 Teams. Jedes bekommt 10.",
-    "en": "Share 80 stars equally among 8 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-245 · Fractions
-
-```json
-{
-  "id": "MA-245",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
-  "options": [
-    "5/6",
-    "6/5",
-    "5/7"
-  ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-246 · Number comparison
-
-```json
-{
-  "id": "MA-246",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "91",
-    "12",
-    "182"
-  ],
-  "answer": "182",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 182. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 182. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-247 · Perimeter
-
-```json
-{
-  "id": "MA-247",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 3 cm lang und 5 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "16 cm",
-    "15 cm²",
-    "8 cm"
-  ],
-  "answer": "16 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 3+5+3+5 = 16 cm.",
-    "en": "Walk around all four sides: 3+5+3+5 = 16 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-248 · Time
-
-```json
-{
-  "id": "MA-248",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 12:00 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "12:20",
-    "12:10",
-    "13:00"
-  ],
-  "answer": "12:20",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 12:20 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 12:20.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-249 · Place value
-
-```json
-{
-  "id": "MA-249",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 26444?",
-  "options": [
-    "400",
-    "40",
-    "6000"
-  ],
-  "answer": "400",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 26444 in die Stellenwerttafel ein. Das Hunderterfeld ist 400 wert.",
-    "en": "Put 26444 into place-value boxes. The hundreds box is worth 400.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-250 · Patterns
-
-```json
-{
-  "id": "MA-250",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 26, 29, 32, ___",
-  "options": [
-    "35",
-    "36",
-    "38"
-  ],
-  "answer": "35",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 35.",
-    "en": "Each number jumps by 3, so the next landing point is 35.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-251 · Addition
-
-```json
-{
-  "id": "MA-251",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 98 + 17",
-  "options": [
-    "115",
-    "125",
-    "81"
-  ],
-  "answer": "115",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 98 Schritte, dann noch 17 weiter. Du landest bei 115.",
-    "en": "Walk 98 steps, then 17 more. You land on 115.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-252 · Subtraction
-
-```json
-{
-  "id": "MA-252",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 115 − 17",
-  "options": [
-    "98",
-    "115",
-    "17"
-  ],
-  "answer": "98",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 115 Dinge, gibst 17 weg, und 98 bleiben übrig.",
-    "en": "Start with 115 objects, give away 17, and 98 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-253 · Multiplication
-
-```json
-{
-  "id": "MA-253",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 5 × 7",
-  "options": [
-    "35",
-    "12",
-    "40"
-  ],
-  "answer": "35",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 5 Gruppen mit je 7 Punkten. Insgesamt sind das 35 Punkte.",
-    "en": "Draw 5 groups with 7 dots. Altogether there are 35 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-254 · Division
-
-```json
-{
-  "id": "MA-254",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 18 ÷ 9",
-  "options": [
-    "2",
-    "9",
-    "9"
-  ],
-  "answer": "2",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 18 Sterne gleichmäßig auf 9 Teams. Jedes bekommt 2.",
-    "en": "Share 18 stars equally among 9 teams. Each gets 2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-255 · Fractions
-
-```json
-{
-  "id": "MA-255",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 2 gleichen Teilen?",
-  "options": [
-    "1/2",
-    "2/1",
-    "1/3"
-  ],
-  "answer": "1/2",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 2 gleiche Stücke und färbe 1 davon ein. Das ist 1/2.",
-    "en": "Cut a pizza into 2 equal slices and color 1. That is 1/2.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-256 · Number comparison
-
-```json
-{
-  "id": "MA-256",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "98",
-    "17",
-    "196"
-  ],
-  "answer": "196",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 196. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 196. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-257 · Perimeter
-
-```json
-{
-  "id": "MA-257",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 4 cm lang und 7 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "22 cm",
-    "28 cm²",
-    "11 cm"
-  ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 4+7+4+7 = 22 cm.",
-    "en": "Walk around all four sides: 4+7+4+7 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-258 · Time
-
-```json
-{
-  "id": "MA-258",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 13:05 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "13:25",
-    "13:15",
-    "14:05"
-  ],
-  "answer": "13:25",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 13:25 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 13:25.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-259 · Place value
-
-```json
-{
-  "id": "MA-259",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 27545?",
-  "options": [
-    "500",
-    "40",
-    "7000"
-  ],
-  "answer": "500",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 27545 in die Stellenwerttafel ein. Das Hunderterfeld ist 500 wert.",
-    "en": "Put 27545 into place-value boxes. The hundreds box is worth 500.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-260 · Patterns
-
-```json
-{
-  "id": "MA-260",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 27, 30, 33, ___",
-  "options": [
-    "36",
-    "37",
-    "39"
-  ],
-  "answer": "36",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 36.",
-    "en": "Each number jumps by 3, so the next landing point is 36.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-261 · Addition
-
-```json
-{
-  "id": "MA-261",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 16 + 22",
-  "options": [
-    "38",
-    "48",
-    "6"
-  ],
-  "answer": "38",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 16 Schritte, dann noch 22 weiter. Du landest bei 38.",
-    "en": "Walk 16 steps, then 22 more. You land on 38.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-262 · Subtraction
-
-```json
-{
-  "id": "MA-262",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 38 − 22",
-  "options": [
-    "16",
-    "38",
-    "22"
-  ],
-  "answer": "16",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 38 Dinge, gibst 22 weg, und 16 bleiben übrig.",
-    "en": "Start with 38 objects, give away 22, and 16 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-263 · Multiplication
-
-```json
-{
-  "id": "MA-263",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 6 × 10",
-  "options": [
-    "60",
-    "16",
-    "66"
-  ],
-  "answer": "60",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 6 Gruppen mit je 10 Punkten. Insgesamt sind das 60 Punkte.",
-    "en": "Draw 6 groups with 10 dots. Altogether there are 60 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-264 · Division
-
-```json
-{
-  "id": "MA-264",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 40 ÷ 10",
-  "options": [
-    "4",
-    "10",
-    "30"
-  ],
-  "answer": "4",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 40 Sterne gleichmäßig auf 10 Teams. Jedes bekommt 4.",
-    "en": "Share 40 stars equally among 10 teams. Each gets 4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-265 · Fractions
-
-```json
-{
-  "id": "MA-265",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 3 gleichen Teilen?",
-  "options": [
-    "1/3",
-    "3/1",
-    "1/4"
-  ],
-  "answer": "1/3",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 3 gleiche Stücke und färbe 1 davon ein. Das ist 1/3.",
-    "en": "Cut a pizza into 3 equal slices and color 1. That is 1/3.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-266 · Number comparison
-
-```json
-{
-  "id": "MA-266",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "16",
-    "22",
-    "38"
-  ],
-  "answer": "38",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 38. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 38. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-267 · Perimeter
-
-```json
-{
-  "id": "MA-267",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 5 cm lang und 9 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "28 cm",
-    "45 cm²",
-    "14 cm"
-  ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 5+9+5+9 = 28 cm.",
-    "en": "Walk around all four sides: 5+9+5+9 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-268 · Time
-
-```json
-{
-  "id": "MA-268",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 14:10 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "14:30",
-    "14:20",
-    "15:10"
-  ],
-  "answer": "14:30",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 14:30 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 14:30.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-269 · Place value
-
-```json
-{
-  "id": "MA-269",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 28646?",
-  "options": [
-    "600",
-    "40",
-    "8000"
-  ],
-  "answer": "600",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 28646 in die Stellenwerttafel ein. Das Hunderterfeld ist 600 wert.",
-    "en": "Put 28646 into place-value boxes. The hundreds box is worth 600.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-270 · Patterns
-
-```json
-{
-  "id": "MA-270",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 28, 31, 34, ___",
-  "options": [
-    "37",
-    "38",
-    "40"
-  ],
-  "answer": "37",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 37.",
-    "en": "Each number jumps by 3, so the next landing point is 37.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-271 · Addition
-
-```json
-{
-  "id": "MA-271",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 23 + 27",
-  "options": [
-    "50",
-    "60",
-    "4"
-  ],
-  "answer": "50",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 23 Schritte, dann noch 27 weiter. Du landest bei 50.",
-    "en": "Walk 23 steps, then 27 more. You land on 50.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-272 · Subtraction
-
-```json
-{
-  "id": "MA-272",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 50 − 27",
-  "options": [
-    "23",
-    "50",
-    "27"
-  ],
-  "answer": "23",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 50 Dinge, gibst 27 weg, und 23 bleiben übrig.",
-    "en": "Start with 50 objects, give away 27, and 23 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-273 · Multiplication
-
-```json
-{
-  "id": "MA-273",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 7 × 3",
-  "options": [
-    "21",
-    "10",
-    "28"
-  ],
-  "answer": "21",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 7 Gruppen mit je 3 Punkten. Insgesamt sind das 21 Punkte.",
-    "en": "Draw 7 groups with 3 dots. Altogether there are 21 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-274 · Division
-
-```json
-{
-  "id": "MA-274",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 12 ÷ 2",
-  "options": [
-    "6",
-    "2",
-    "10"
-  ],
-  "answer": "6",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 12 Sterne gleichmäßig auf 2 Teams. Jedes bekommt 6.",
-    "en": "Share 12 stars equally among 2 teams. Each gets 6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-275 · Fractions
-
-```json
-{
-  "id": "MA-275",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 4 gleichen Teilen?",
-  "options": [
-    "1/4",
-    "4/1",
-    "1/5"
-  ],
-  "answer": "1/4",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 4 gleiche Stücke und färbe 1 davon ein. Das ist 1/4.",
-    "en": "Cut a pizza into 4 equal slices and color 1. That is 1/4.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-276 · Number comparison
-
-```json
-{
-  "id": "MA-276",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "23",
-    "27",
-    "50"
-  ],
-  "answer": "50",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 50. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 50. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-277 · Perimeter
-
-```json
-{
-  "id": "MA-277",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 6 cm lang und 2 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "16 cm",
-    "12 cm²",
-    "8 cm"
-  ],
-  "answer": "16 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 6+2+6+2 = 16 cm.",
-    "en": "Walk around all four sides: 6+2+6+2 = 16 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-278 · Time
-
-```json
-{
-  "id": "MA-278",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 15:15 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "15:35",
-    "15:25",
-    "16:15"
-  ],
-  "answer": "15:35",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 15:35 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 15:35.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-279 · Place value
-
-```json
-{
-  "id": "MA-279",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 29747?",
-  "options": [
-    "700",
-    "40",
-    "9000"
-  ],
-  "answer": "700",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 29747 in die Stellenwerttafel ein. Das Hunderterfeld ist 700 wert.",
-    "en": "Put 29747 into place-value boxes. The hundreds box is worth 700.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-280 · Patterns
-
-```json
-{
-  "id": "MA-280",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 29, 32, 35, ___",
-  "options": [
-    "38",
-    "39",
-    "41"
-  ],
-  "answer": "38",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 38.",
-    "en": "Each number jumps by 3, so the next landing point is 38.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-281 · Addition
-
-```json
-{
-  "id": "MA-281",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 30 + 32",
-  "options": [
-    "62",
-    "72",
-    "2"
-  ],
-  "answer": "62",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 30 Schritte, dann noch 32 weiter. Du landest bei 62.",
-    "en": "Walk 30 steps, then 32 more. You land on 62.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-282 · Subtraction
-
-```json
-{
-  "id": "MA-282",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 62 − 32",
-  "options": [
-    "30",
-    "62",
-    "32"
-  ],
-  "answer": "30",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 62 Dinge, gibst 32 weg, und 30 bleiben übrig.",
-    "en": "Start with 62 objects, give away 32, and 30 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-283 · Multiplication
-
-```json
-{
-  "id": "MA-283",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 8 × 6",
-  "options": [
-    "48",
-    "14",
-    "56"
-  ],
-  "answer": "48",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 8 Gruppen mit je 6 Punkten. Insgesamt sind das 48 Punkte.",
-    "en": "Draw 8 groups with 6 dots. Altogether there are 48 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-284 · Division
-
-```json
-{
-  "id": "MA-284",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 24 ÷ 3",
-  "options": [
-    "8",
-    "3",
-    "21"
-  ],
-  "answer": "8",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 24 Sterne gleichmäßig auf 3 Teams. Jedes bekommt 8.",
-    "en": "Share 24 stars equally among 3 teams. Each gets 8.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-285 · Fractions
-
-```json
-{
-  "id": "MA-285",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 1 von 5 gleichen Teilen?",
-  "options": [
-    "1/5",
-    "5/1",
-    "1/6"
-  ],
-  "answer": "1/5",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 5 gleiche Stücke und färbe 1 davon ein. Das ist 1/5.",
-    "en": "Cut a pizza into 5 equal slices and color 1. That is 1/5.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-286 · Number comparison
-
-```json
-{
-  "id": "MA-286",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "30",
-    "32",
-    "62"
-  ],
-  "answer": "62",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 62. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 62. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-287 · Perimeter
-
-```json
-{
-  "id": "MA-287",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 7 cm lang und 4 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "22 cm",
-    "28 cm²",
-    "11 cm"
-  ],
-  "answer": "22 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 7+4+7+4 = 22 cm.",
-    "en": "Walk around all four sides: 7+4+7+4 = 22 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-288 · Time
-
-```json
-{
-  "id": "MA-288",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 16:20 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "16:40",
-    "16:30",
-    "17:20"
-  ],
-  "answer": "16:40",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 16:40 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 16:40.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-289 · Place value
-
-```json
-{
-  "id": "MA-289",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 30848?",
-  "options": [
-    "800",
-    "40",
-    "0"
-  ],
-  "answer": "800",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 30848 in die Stellenwerttafel ein. Das Hunderterfeld ist 800 wert.",
-    "en": "Put 30848 into place-value boxes. The hundreds box is worth 800.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-290 · Patterns
-
-```json
-{
-  "id": "MA-290",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 30, 33, 36, ___",
-  "options": [
-    "39",
-    "40",
-    "42"
-  ],
-  "answer": "39",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 39.",
-    "en": "Each number jumps by 3, so the next landing point is 39.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-291 · Addition
-
-```json
-{
-  "id": "MA-291",
-  "subject": "Math",
-  "topic": "Addition",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 37 + 37",
-  "options": [
-    "74",
-    "84",
-    "0"
-  ],
-  "answer": "74",
-  "rule": "Addiere stellenweise: zuerst die Einer, dann die Zehner.",
-  "explanation": {
-    "de": "Geh 37 Schritte, dann noch 37 weiter. Du landest bei 74.",
-    "en": "Walk 37 steps, then 37 more. You land on 74.",
-    "ar": "تخيّل المسألة كقصة صغيرة. اجمع الآحاد ثم العشرات."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-292 · Subtraction
-
-```json
-{
-  "id": "MA-292",
-  "subject": "Math",
-  "topic": "Subtraction",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 74 − 37",
-  "options": [
-    "37",
-    "74",
-    "37"
-  ],
-  "answer": "37",
-  "rule": "Die Subtraktion macht die Addition rückgängig.",
-  "explanation": {
-    "de": "Du hast 74 Dinge, gibst 37 weg, und 37 bleiben übrig.",
-    "en": "Start with 74 objects, give away 37, and 37 remain.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الطرح يعكس الجمع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-293 · Multiplication
-
-```json
-{
-  "id": "MA-293",
-  "subject": "Math",
-  "topic": "Multiplication",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 9 × 9",
-  "options": [
-    "81",
-    "18",
-    "90"
-  ],
-  "answer": "81",
-  "rule": "Multiplikation ist wiederholte Addition.",
-  "explanation": {
-    "de": "Male 9 Gruppen mit je 9 Punkten. Insgesamt sind das 81 Punkte.",
-    "en": "Draw 9 groups with 9 dots. Altogether there are 81 dots.",
-    "ar": "تخيّل المسألة كقصة صغيرة. الضرب هو جمع متكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-294 · Division
-
-```json
-{
-  "id": "MA-294",
-  "subject": "Math",
-  "topic": "Division",
-  "type": "multiple-choice",
-  "prompt": "Rechne: 40 ÷ 4",
-  "options": [
-    "10",
-    "4",
-    "36"
-  ],
-  "answer": "10",
-  "rule": "Die Division teilt eine Menge in gleich große Gruppen auf.",
-  "explanation": {
-    "de": "Verteile 40 Sterne gleichmäßig auf 4 Teams. Jedes bekommt 10.",
-    "en": "Share 40 stars equally among 4 teams. Each gets 10.",
-    "ar": "تخيّل المسألة كقصة صغيرة. القسمة توزع العدد على مجموعات متساوية."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-295 · Fractions
-
-```json
-{
-  "id": "MA-295",
-  "subject": "Math",
-  "topic": "Fractions",
-  "type": "multiple-choice",
-  "prompt": "Welcher Bruch bedeutet 5 von 6 gleichen Teilen?",
-  "options": [
-    "5/6",
-    "6/5",
-    "5/7"
-  ],
-  "answer": "5/6",
-  "rule": "Der Zähler zählt die ausgewählten Teile, der Nenner zählt alle gleichen Teile.",
-  "explanation": {
-    "de": "Schneide eine Pizza in 6 gleiche Stücke und färbe 5 davon ein. Das ist 5/6.",
-    "en": "Cut a pizza into 6 equal slices and color 5. That is 5/6.",
-    "ar": "تخيّل المسألة كقصة صغيرة. البسط للأجزاء المختارة والمقام لكل الأجزاء."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-296 · Number comparison
-
-```json
-{
-  "id": "MA-296",
-  "subject": "Math",
-  "topic": "Number comparison",
-  "type": "multiple-choice",
-  "prompt": "Welche Zahl ist am größten?",
-  "options": [
-    "37",
-    "74"
-  ],
-  "answer": "74",
-  "rule": "Vergleiche die Ziffern von der höchsten Stelle aus, beginnend von links.",
-  "explanation": {
-    "de": "Der größte Wert ist 74. Vergleiche zuerst die Ziffern ganz links.",
-    "en": "The largest value is 74. Compare the leftmost digits first.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قارن من أكبر منزلة على اليسار."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-297 · Perimeter
-
-```json
-{
-  "id": "MA-297",
-  "subject": "Math",
-  "topic": "Perimeter",
-  "type": "multiple-choice",
-  "prompt": "Ein Rechteck ist 8 cm lang und 6 cm breit. Wie groß ist sein Umfang?",
-  "options": [
-    "28 cm",
-    "48 cm²",
-    "14 cm"
-  ],
-  "answer": "28 cm",
-  "rule": "Der Umfang ist die Strecke rund um eine Figur: 2 × (Länge + Breite).",
-  "explanation": {
-    "de": "Gehe alle vier Seiten ab: 8+6+8+6 = 28 cm.",
-    "en": "Walk around all four sides: 8+6+8+6 = 28 cm.",
-    "ar": "تخيّل المسألة كقصة صغيرة. المحيط هو مجموع أطوال الأضلاع."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-298 · Time
-
-```json
-{
-  "id": "MA-298",
-  "subject": "Math",
-  "topic": "Time",
-  "type": "multiple-choice",
-  "prompt": "Es ist 17:25 Uhr. Wie spät ist es 20 Minuten später?",
-  "options": [
-    "17:45",
-    "17:35",
-    "18:25"
-  ],
-  "answer": "17:45",
-  "rule": "Addiere die Minuten und wandle 60 Minuten in eine Stunde um.",
-  "explanation": {
-    "de": "Rücke die Uhr um 20 Minuten vor. Du kommst bei 17:45 Uhr an.",
-    "en": "Move 20 minute steps forward on a clock. You arrive at 17:45.",
-    "ar": "تخيّل المسألة كقصة صغيرة. كل 60 دقيقة تساوي ساعة."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-299 · Place value
-
-```json
-{
-  "id": "MA-299",
-  "subject": "Math",
-  "topic": "Place value",
-  "type": "multiple-choice",
-  "prompt": "Welchen Wert hat die Ziffer an der Hunderterstelle in 31949?",
-  "options": [
-    "900",
-    "40",
-    "1000"
-  ],
-  "answer": "900",
-  "rule": "Der Stellenwert zeigt, wie viel eine Ziffer wert ist: Einer, Zehner, Hunderter, Tausender.",
-  "explanation": {
-    "de": "Setze 31949 in die Stellenwerttafel ein. Das Hunderterfeld ist 900 wert.",
-    "en": "Put 31949 into place-value boxes. The hundreds box is worth 900.",
-    "ar": "تخيّل المسألة كقصة صغيرة. قيمة الرقم تعتمد على منزلته."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-
-## MA-300 · Patterns
-
-```json
-{
-  "id": "MA-300",
-  "subject": "Math",
-  "topic": "Patterns",
-  "type": "multiple-choice",
-  "prompt": "Setze die Reihe fort: 31, 34, 37, ___",
-  "options": [
-    "40",
-    "41",
-    "43"
-  ],
-  "answer": "40",
-  "rule": "Suche die immer gleiche Differenz zwischen benachbarten Zahlen.",
-  "explanation": {
-    "de": "Jede Zahl springt um 3 weiter, der nächste Landepunkt ist also 40.",
-    "en": "Each number jumps by 3, so the next landing point is 40.",
-    "ar": "تخيّل المسألة كقصة صغيرة. ابحث عن الفرق المتكرر."
-  },
-  "timeLimitSec": 50,
-  "tags": [
-    "year5-review"
-  ],
-  "difficulty": 1
-}
-```
-

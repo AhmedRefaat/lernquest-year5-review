@@ -15,6 +15,8 @@ LernQuest is a static, privacy-friendly study app for a child newly entering Yea
 - `scripts/build_questions.py`: compiles JSON blocks from Markdown.
 - `scripts/verify.py`: validates IDs, counts, answer membership, and required fields.
 
+GitHub Pages caches assets at `max-age=600`. `index.html` carries the sole `?v=` version on the `app.js`/`styles.css` tags; `app.js` reads it back off its own script URL and reuses it for game module/stylesheet/data-fetch URLs, so bumping one value in `index.html` on deploy is enough. A browser holding the old HTML needs a hard reload (Ctrl+Shift+R) or the 10-minute cache to expire.
+
 ## 3. Question schema
 
 Every question supports:
@@ -32,6 +34,8 @@ Unknown extra fields are ignored, making the schema forward-compatible.
 
 ## 4. Selection algorithm
 For the active learner and subject, the round is built by `selectQuestions`/`pickWithCaps` in `src/app.js`. Unsolved questions (never answered correctly by this learner) are always tried before solved ones. A topic cap (`max(1, ceil(count*0.10))` per topic) and a hard-difficulty cap (`floor(count*0.15)`) are applied through a documented, logged relaxation ladder so a thin bank still fills the round instead of returning short:
+
+Each learner also keeps a per-subject `recentQuestionIds` list (`start()`): questions served in recent rounds are excluded from selection until the bank has genuinely cycled through, so the same items can't repeat back-to-back. The window size (`recentCap`) is `subjectPool.length - count`, i.e. as many ids as the pool can spare while still filling a round; older ids age back out as new ones are served.
 
 1. Stage 1: both caps enforced.
 2. Stage 2: hard-difficulty cap relaxed.
@@ -52,7 +56,17 @@ Double-clicking a highlighted word (English dictionary key) records a lookup. `s
 Distractors are drawn from other dictionary entries' matching field. A word is `mastered` after 10 correct answers across either direction; mastered words drop out of future vocab tests.
 
 ## 4c. Game-time budget rules
-Every learner's `gameTimeBudget` is normalized (`normalizeBudget`: coerced to a finite whole number, clamped to a minimum of 0) at load/migration time and persisted back immediately, so a corrupted stored value (negative, string, `null`, non-numeric) can never reach a consumer. On submit, the stored budget is also re-read through `safeNum` as a defensive backstop before arithmetic runs. Elapsed time is clamped to the limit (`elapsedSec`), and `remainingSec = timeLimitSec - elapsedSec`:
+Every learner's `gameTimeBudget` is normalized (`normalizeBudget`: coerced to a finite whole number, clamped to `[0, MAX_GAME_BUDGET_SEC]`, 1200 seconds / 20 minutes) at load/migration time and persisted back immediately, so a corrupted stored value (negative, string, `null`, non-numeric, or an oversized runaway) can never reach a consumer. On submit, the stored budget is also re-read through `safeNum` as a defensive backstop before arithmetic runs, and every gain is clamped with `Math.min(MAX_GAME_BUDGET_SEC, ...)` so a long correct streak can't snowball past the cap. The home dashboard shows a "at maximum" badge (`budgetMaxBadge`, via `atMax = budget >= MAX_GAME_BUDGET_SEC`) next to a learner's budget once they've hit the cap. Elapsed time is clamped to the limit (`elapsedSec`), and `remainingSec = timeLimitSec - elapsedSec`:
+
+The question timer itself is not the authored `timeLimitSec` field — `computeTimeLimitSec(subject, difficulty)` looks up a fixed difficulty × subject table and OVERRIDES any per-question `timeLimitSec` in the bank data, so fairness is controlled by one table instead of 550 records (200 English, 200 Math, 150 German — each a distinct, higher-quality 5-option question):
+
+| difficulty | German / English | Math |
+| --- | --- | --- |
+| 1 | 20s | 30s |
+| 2 | 30s | 45s |
+| 3 | 45s | 68s |
+
+(Math uses a ×1.5 factor over the base seconds, rounded.) Vocab-test questions are the one exception and keep their own authored `timeLimitSec`.
 
 - Correct answer: budget gains `remainingSec`.
 - Wrong answer or timeout: budget loses `elapsedSec` (a real timeout has `elapsedSec === timeLimitSec`, i.e. the full question time is lost), clamped so the stored budget never drops below 0.
@@ -78,6 +92,8 @@ Both the JSON and CSV exports (from the Progress screen) include: attempts, roun
 
 ## 6. Vocabulary behavior
 Words longer than four letters are visually marked (`decorate()` in `src/app.js`) as clickable `.word` spans. A double-click opens a modal via `dictionary.json` lookup; every lookup is recorded. Unknown words are also recorded and can be added to the dictionary and reused for a future vocabulary test generator.
+
+**Per-render option shuffling:** `showQuestion()` reshuffles `q.options` fresh on every render, for every question type (subject questions and vocab-test questions alike), so the correct answer's on-screen position carries no signal across repeats. Grading (`submit()`) always compares the clicked VALUE against `q.answer`, never a position, so shuffling never affects correctness.
 
 **Wrong-option exclusion:** a deliberate misspelling in a distractor option must never become a clickable/lookupable vocabulary word — but a real word that also appears elsewhere in the same question must stay clickable, even if it's reused in a wrong option (e.g. "happy" in a comparative-forms question with "more happy" as a distractor). `wrongOptionTokens(q)` computes, per question, the lowercased 5+ letter tokens from wrong (non-answer) options minus the tokens that also appear in that question's `prompt`, `rule`, `answer`, any option equal to `answer`, and `explanation.de`/`explanation.en` (the Arabic explanation isn't part of this protected set, since its script never matches the Latin-letter token regex anyway). `showQuestion()` and `feedback()` pass this exclusion set to every `decorate()` call for that question (prompt, options, rule, explanation) so those tokens are still escaped as plain text but skip the `.word` span. Render sites with no question context (e.g. the vocabulary list) call `decorate()`/`esc()` with no exclusion set, since there is no per-question distractor to exclude.
 
