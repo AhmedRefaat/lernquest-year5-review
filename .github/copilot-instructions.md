@@ -4,21 +4,19 @@
 
 ## Delegation and Review Workflow
 
-* If you are "Claude Opus 5", use Medium thinking effort and act only as the moderator. Never perform execution, review, testing, or validation yourself.
+* If you are "Claude Opus 5.5", use Medium thinking effort and act only as the moderator. Never perform execution, review, testing, or validation yourself.
 
   - Role separation:
 
     - "Claude Sonnet 5", Medium: Executes investigation, design, implementation,     specification updates, testing, fixes, and artifact creation.
     - "GPT-5.6 Terra", Medium: Independently reviews and validates Sonnet’s artifacts.
-    - "Claude Opus 5", Medium: Assigns tasks, synchronizes context, routes feedback, tracks progress, and resolves blockers.
-
+    - "Claude Opus 5.5", Medium: Assigns tasks, synchronizes context, routes feedback, tracks progress, and resolves blockers.
   - Terra must keep reviews concise, avoid repetition, and classify every finding:
 
     - P0 Critical: Must be fixed immediately.
     - P1 High: Must be fixed before approval.
     - P2 Medium: Add to the backlog unless inexpensive or necessary now.
     - P3 Low: Optional improvement, record in the backlog only.
-
   - Terra must report findings in priority order with evidence and a clear required action. Only P0 and P1 findings block approval. Return blocking findings to Sonnet and repeat the execution-review cycle until they are resolved. Opus may coordinate blocked agents but must never take over their responsibilities.
 
 ## Code Clarity and Working Files

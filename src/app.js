@@ -49,7 +49,8 @@ const GAMES = [
   { id: 'game_build_world', icon: '🏝️' },
   { id: 'game_falling_stars', icon: '🌟' },
   { id: 'game_happy_pet', icon: '🐉' },
-  { id: 'game_treasure_chest', icon: '🏴‍☠️' }
+  { id: 'game_treasure_chest', icon: '🏴‍☠️' },
+  { id: 'game_os13k', icon: '🖥️' }
 ];
 
 function gameName(id) {
@@ -84,6 +85,10 @@ const GAME_LABELS = {
   game_treasure_chest: {
     en: { title: '🏴‍☠️ Treasure Chest Adventure', status: 'Choose a chest while the timer is running.', timeUpMsg: 'Time finished. Your treasure is safe!', pausedMsg: 'Paused. Come back when you earn more play time.', openChest: 'Open chest {n}' },
     de: { title: '🏴‍☠️ Schatztruhen-Abenteuer', status: 'Wähle eine Truhe, solange die Zeit läuft.', timeUpMsg: 'Zeit vorbei. Dein Schatz ist sicher!', pausedMsg: 'Pausiert. Komm zurück, wenn du mehr Spielzeit gesammelt hast.', openChest: 'Truhe {n} öffnen' }
+  },
+  game_os13k: {
+    en: { title: '🖥️ OS13k Arcade', status: 'Explore tiny games inside OS13k while your time lasts.', loading: 'Loading OS13k…', slow: 'Still loading… check your internet connection.', paused: 'Paused. Press Play to continue.', timeUpMsg: 'Time finished. See you next time!', home: 'Start page', reload: 'Reload', lockedSite: 'Locked site', fullscreenEnter: 'Fullscreen', fullscreenExit: 'Exit fullscreen', timeIsUp: 'Time is up!' },
+    de: { title: '🖥️ OS13k Arcade', status: 'Entdecke kleine Spiele in OS13k, solange deine Zeit reicht.', loading: 'OS13k lädt…', slow: 'Lädt noch… prüfe deine Internetverbindung.', paused: 'Pausiert. Drücke Spielen, um weiterzumachen.', timeUpMsg: 'Zeit vorbei. Bis zum nächsten Mal!', home: 'Startseite', reload: 'Neu laden', lockedSite: 'Feste Seite', fullscreenEnter: 'Vollbild', fullscreenExit: 'Vollbild beenden', timeIsUp: 'Zeit ist um!' }
   }
 };
 
@@ -103,6 +108,7 @@ const state = {
   gameReturnTimer: null,
   gameBudgetSyncTimer: null,
   gamePageHideHandler: null,
+  gameMountSeq: 0,
   settings: { miniGames: true }
 };
 
@@ -159,6 +165,7 @@ const I18N = {
     gameName_game_falling_stars: 'Falling Stars',
     gameName_game_happy_pet: 'Happy Pet',
     gameName_game_treasure_chest: 'Treasure Chest',
+    gameName_game_os13k: 'OS13k Arcade',
     playGamePrompt: 'You collected {s}s of game time! Ready to play {game}?',
     playGameBtn: '🎮 Play now',
     backToAppBtn: '⬅ Back to LernQuest',
@@ -245,6 +252,7 @@ const I18N = {
     gameName_game_falling_stars: 'Fallende Sterne',
     gameName_game_happy_pet: 'Glückliches Haustier',
     gameName_game_treasure_chest: 'Schatztruhe',
+    gameName_game_os13k: 'OS13k Arcade',
     playGamePrompt: 'Du hast {s}s Spielzeit gesammelt! Bereit, {game} zu spielen?',
     playGameBtn: '🎮 Jetzt spielen',
     backToAppBtn: '⬅ Zurück zu LernQuest',
@@ -727,6 +735,7 @@ function vocabList() {
 // fires submit()/showQuestion() against a session/screen that's no longer active. Also tears
 // down any mounted mini-game (saving its state via game:paused) and its scoped stylesheet.
 function clearTimers() {
+  state.gameMountSeq++; // invalidates any in-flight playGame() import so it can't mount stale
   if (state.session?.timer) clearInterval(state.session.timer);
   if (state.session) state.session.timer = null;
   if (state.gameReturnTimer) { clearTimeout(state.gameReturnTimer); state.gameReturnTimer = null; }
@@ -1093,6 +1102,7 @@ function gameStorageAdapter(learnerKey, gameId) {
 // budget syncs on every pause, and a budget-exhausted pause returns home after a short beat.
 function playGame(gameId) {
   clearTimers();
+  const mySeq = ++state.gameMountSeq; // this mount's token; a later playGame()/clearTimers() bumps past it
   const db = loadDb();
   const learner = ensureLearner(db, state.learnerKey, state.displayName);
   const budget = normalizeBudget(learner.gameTimeBudget);
@@ -1116,6 +1126,7 @@ function playGame(gameId) {
   $('#backToApp').onclick = home;
 
   import(`./games/${gameId}/game.js${VERSION_QUERY}`).then(({ createGame }) => {
+    if (state.gameMountSeq !== mySeq) return; // superseded by a later mount/teardown while importing
     const game = createGame($('#game-mount'), {
       playerId: state.learnerKey,
       sessionId: crypto.randomUUID?.() || String(Date.now()),
@@ -1140,6 +1151,7 @@ function playGame(gameId) {
     state.gamePageHideHandler = () => { if (state.activeGame) syncGameBudget(state.activeGame.remaining); };
     window.addEventListener('pagehide', state.gamePageHideHandler);
   }).catch(e => {
+    if (state.gameMountSeq !== mySeq) return; // superseded; don't yank the newer screen home
     Log.error('game.load', e);
     home();
   });

@@ -1,0 +1,67 @@
+const GAME_ID='os13k';
+const OS13K_URL='https://killedbyapixel.github.io/OS13k/';
+// Sandbox omits allow-top-navigation/allow-popups/allow-forms so the framed site can't navigate this
+// app or open windows, but a plain link can still navigate the iframe's OWN document elsewhere; the
+// outer 'load' event fires for that, so mountFrame/onFrameLoad detect an unexpected load and snap the
+// frame back to OS13K_URL. Nested iframes/windows OS13k spawns internally stay cross-origin and never
+// bubble a 'load' here, so this only reacts to the outer frame itself leaving the site.
+
+const VERSION = 1;
+const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const defaultStorage={load:key=>{try{return JSON.parse(localStorage.getItem(key))}catch{return null}},save:(key,value)=>localStorage.setItem(key,JSON.stringify(value))};
+export class BudgetGame {
+  constructor(container,options={}){
+    if(!container) throw new Error('A container element is required.');
+    this.el=container; this.options=options; this.playerId=options.playerId||'anonymous'; this.sessionId=options.sessionId||crypto.randomUUID?.()||String(Date.now());
+    this.storage=options.storage||defaultStorage; this.log=options.logger||((event,data={})=>console.info(JSON.stringify({ts:new Date().toISOString(),game:GAME_ID,event,...data})));
+    this.labels=options.labels||{};
+    this.key=`lernquest-game:${GAME_ID}:${this.playerId}`; this.remaining=clamp(Number(options.timeBudgetSec)||0,0,3600); this.running=false; this.timer=null; this.timers=[];
+    this.state=Object.assign(this.initialState(),this.storage.load(this.key)||{}); this.state.version=VERSION; this.sanitizeState(); this.save('loaded'); this.render();
+  }
+  initialState(){return {version:VERSION,totalPlayMs:0,rounds:0,coins:0,lastPlayedAt:null};}
+  L(key,fallback){return this.labels[key]??fallback}
+  start(){if(this.running||this.remaining<=0)return;this.running=true;this.lastTick=performance.now();this.state.rounds++;this.emit('game:start');this.loop();this.renderHud();}
+  loop(){if(!this.running)return;const now=performance.now(),delta=now-this.lastTick;this.lastTick=now;this.remaining=Math.max(0,this.remaining-delta/1000);this.state.totalPlayMs+=delta;this.onFrame(delta);this.renderHud();if(this.remaining<=0){this.pause('budget_exhausted');return}this.timer=requestAnimationFrame(()=>this.loop())}
+  pause(reason='manual'){if(!this.running)return;this.running=false;cancelAnimationFrame(this.timer);this.state.lastPlayedAt=new Date().toISOString();this.save(reason);this.emit('game:paused',{reason,remainingSec:this.remaining,state:this.publicState()});this.onPause(reason);this.renderHud();}
+  addBudget(seconds){this.remaining=clamp(this.remaining+Number(seconds||0),0,3600);this.emit('game:budget-added',{seconds:Number(seconds||0),remainingSec:this.remaining});this.renderHud();}
+  complete(extra={}){this.save('complete');this.emit('game:complete',{remainingSec:this.remaining,state:this.publicState(),...extra});}
+  save(reason){this.storage.save(this.key,this.state);this.log('state.saved',{reason,playerId:this.playerId,remainingSec:Number(this.remaining.toFixed(2))});}
+  emit(name,detail={}){this.el.dispatchEvent(new CustomEvent(name,{bubbles:true,detail:{gameId:GAME_ID,playerId:this.playerId,sessionId:this.sessionId,...detail}}));this.options.onEvent?.(name,detail)}
+  publicState(){return JSON.parse(JSON.stringify(this.state));}
+  destroy(){this.pause('destroy');this.destroyed=true;this.timers.forEach(id=>clearTimeout(id));this.timers=[];this.el.innerHTML='';}
+  renderHud(){const t=this.el.querySelector('[data-time]');if(t)t.textContent=`${Math.ceil(this.remaining)}s`;const b=this.el.querySelector('[data-start]');if(b)b.textContent=this.running?this.L('playing','Playing…'):this.remaining>0?this.L('play','Play / Resume'):this.L('timeUp','Time finished');if(b)b.disabled=this.running||this.remaining<=0;this.el.classList.toggle('paused',!this.running)}
+  render(){} onFrame(){} onPause(){} sanitizeState(){}
+}
+
+// Wraps the external OS13k arcade (killedbyapixel.github.io/OS13k) in a sandboxed iframe, mounted
+// only while this.running so the budget clock and the iframe's lifetime always stay in lockstep.
+export class Os13kGame extends BudgetGame{
+ initialState(){return {...super.initialState(),lastOpenedAt:null};}
+ // Renders a browser-style chrome bar (home/reload/address/fullscreen/time) locked to one site.
+ render(){if(this.destroyed)return;const t=k=>esc(this.L(k,GAME_OS13K_FALLBACK[k]));this.el.innerHTML=`<section class="game-shell os13k-shell"><h1>${t('title')}</h1><div class="os13k-browser" data-browser><div class="os13k-chrome" role="toolbar" aria-label="${t('lockedSite')}"><button class="os13k-btn" type="button" data-home title="${t('home')}" aria-label="${t('home')}">🏠</button><button class="os13k-btn" type="button" data-reload title="${t('reload')}" aria-label="${t('reload')}">⟳</button><span class="os13k-spacer" aria-hidden="true"></span><button class="os13k-btn" type="button" data-fullscreen title="${t('fullscreenEnter')}" aria-label="${t('fullscreenEnter')}">⛶</button><span class="os13k-time" data-time-wrap>⏱️ <b data-time></b></span></div><div class="arena os13k-wrap" data-frame-wrap><p class="os13k-placeholder" data-placeholder>${esc(this.L('paused','Paused. Press Play to continue.'))}</p></div></div><div class="status" data-result>${esc(this.L('status','Explore tiny games inside OS13k while your time lasts.'))}</div><button class="primary" data-start>${esc(this.L('play','Play / Resume'))}</button> <button class="secondary" data-pause>${esc(this.L('pause','Pause'))}</button></section>`;this.el.querySelector('[data-start]').onclick=()=>this.start();this.el.querySelector('[data-pause]').onclick=()=>this.pause();this.el.querySelector('[data-home]').onclick=()=>this.reloadFrame();this.el.querySelector('[data-reload]').onclick=()=>this.reloadFrame();this.el.querySelector('[data-fullscreen]').onclick=()=>this.toggleFullscreen();this._fsHandler=()=>this.updateFullscreenBtn();document.addEventListener('fullscreenchange',this._fsHandler);this.renderHud()}
+ // Low-time CSS hook only; the numeric format itself is unchanged from the shared HUD.
+ renderHud(){super.renderHud();const w=this.el.querySelector('[data-time-wrap]');if(w)w.classList.toggle('low-time',this.remaining>0&&this.remaining<=60)}
+ start(){super.start();if(this.running)this.mountFrame()}
+ // Home and Reload both just re-fetch the one locked start URL (via a fresh iframe, never
+ // contentWindow.location which is cross-origin and would throw) — there's no other page to go to.
+ reloadFrame(){if(this.destroyed||!this.running||!this.frameMounted)return;this.unmountFrame();this.mountFrame()}
+ // Toggles the Fullscreen API on the browser-window container; quietly no-ops if unsupported.
+ toggleFullscreen(){const box=this.el.querySelector('[data-browser]');if(!box)return;if(!document.fullscreenElement)box.requestFullscreen?.().catch(()=>{});else document.exitFullscreen?.().catch(()=>{})}
+ updateFullscreenBtn(){const btn=this.el.querySelector('[data-fullscreen]');if(!btn)return;const active=this.el.contains(document.fullscreenElement);const label=active?this.L('fullscreenExit','Exit fullscreen'):this.L('fullscreenEnter','Fullscreen');btn.title=label;btn.setAttribute('aria-label',label)}
+ // Lazily creates the sandboxed iframe on first play; if 'load' never fires, only the hint text changes.
+ mountFrame(){if(this.frameMounted||this.destroyed)return;const wrap=this.el.querySelector('[data-frame-wrap]');if(!wrap)return;wrap.innerHTML=`<p class="os13k-placeholder" data-placeholder>${esc(this.L('loading','Loading OS13k…'))}</p><iframe class="os13k-frame" data-frame src="${OS13K_URL}" title="${esc(this.L('title','OS13k Arcade'))}" sandbox="allow-scripts allow-same-origin allow-pointer-lock" referrerpolicy="no-referrer" allow="fullscreen; autoplay"></iframe>`;this.frameMounted=true;this.state.lastOpenedAt=new Date().toISOString();this.save('frame_open');const ph=wrap.querySelector('[data-placeholder]'),frame=wrap.querySelector('[data-frame]');frame._expectLoad=true;frame.onload=()=>this.onFrameLoad(frame);this._loadHintTimer=setTimeout(()=>{this._loadHintTimer=null;if(ph?.isConnected)ph.textContent=this.L('slow','Still loading… check your internet connection.')},6000)}
+ // Any 'load' we didn't cause via mount/reload means the framed site navigated itself elsewhere;
+ // snap it back to OS13K_URL. More than 3 of those inside 10s stops resetting (avoids a reset loop)
+ // and shows the same 'still loading' hint used when the frame never loads at all. The expected-load
+ // flag lives on the frame element itself (not a shared counter) so it can't outlive a fast unmount/remount.
+ onFrameLoad(frame){this.el.querySelector('[data-placeholder]')?.remove();if(frame._expectLoad){frame._expectLoad=false;return}const now=Date.now();this._unexpectedLoads=(this._unexpectedLoads||[]).filter(t=>now-t<10000);this._unexpectedLoads.push(now);console.info('[os13k] frame navigated away from the locked site; resetting to start URL');if(this._unexpectedLoads.length>3){this.unmountFrame();const p=this.el.querySelector('[data-placeholder]');if(p)p.textContent=this.L('slow','Still loading… check your internet connection.');return}frame._expectLoad=true;frame.src=OS13K_URL}
+ // Blanks src (and drops the load handler first) before removing the node so any audio/JS inside
+ // the cross-origin iframe stops immediately and a stray about:blank load can't reach onFrameLoad.
+ unmountFrame(){if(!this.frameMounted)return;if(this._loadHintTimer){clearTimeout(this._loadHintTimer);this._loadHintTimer=null}const wrap=this.el.querySelector('[data-frame-wrap]'),frame=wrap?.querySelector('[data-frame]');if(frame){frame._expectLoad=false;frame.onload=null;frame.src='about:blank';frame.remove()}if(wrap)wrap.innerHTML=`<p class="os13k-placeholder" data-placeholder>${esc(this.L('paused','Paused. Press Play to continue.'))}</p>`;this.frameMounted=false}
+ // Overlays a brief "time is up" banner over the browser area while the app's own 1500ms return-home delay runs.
+ onPause(reason){this.unmountFrame();const r=this.el.querySelector('[data-result]');if(reason==='budget_exhausted'){if(r)r.textContent=this.L('timeUpMsg','Time finished. See you next time!');const wrap=this.el.querySelector('[data-frame-wrap]');if(wrap)wrap.insertAdjacentHTML('beforeend',`<div class="os13k-overlay">${esc(this.L('timeIsUp','Time is up!'))}</div>`)}}
+ destroy(){if(this._fsHandler)document.removeEventListener('fullscreenchange',this._fsHandler);super.destroy()}
+}
+const GAME_OS13K_FALLBACK={title:'🖥️ OS13k Arcade',lockedSite:'Locked site',home:'Start page',reload:'Reload',fullscreenEnter:'Fullscreen'};
+export function createGame(container,options){return new Os13kGame(container,options)}
