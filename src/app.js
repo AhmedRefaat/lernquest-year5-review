@@ -1089,11 +1089,13 @@ function gameStorageAdapter(learnerKey, gameId) {
   return {
     load: () => loadDb().learners[learnerKey]?.games?.[gameId] || null,
     save: (_key, value) => {
+      state.activeGame?.ensureStorage?.(); // undo a same-origin frame's storage clear before reading it
       const db = loadDb();
       const learner = ensureLearner(db, learnerKey, state.displayName);
       learner.games ??= {};
       learner.games[gameId] = value;
       saveDb(db);
+      state.activeGame?.refreshSnapshot?.(); // this write is now the latest legit value to restore
     }
   };
 }
@@ -1158,11 +1160,17 @@ function playGame(gameId) {
 }
 
 // Keeps the stored budget matching the game's own live remaining time as it plays.
+// ensureStorage()/refreshSnapshot() close the race where a same-origin frame's localStorage.clear()
+// (e.g. OS13k's System Reset) takes effect before the async 'storage' event reaches this handler: the
+// restore-if-drifted happens synchronously up front, and the snapshot is refreshed right after this
+// save so a later storage event compares against (and never regresses) this write.
 function syncGameBudget(remainingSec) {
+  state.activeGame?.ensureStorage?.();
   const db = loadDb();
   const learner = ensureLearner(db, state.learnerKey, state.displayName);
   learner.gameTimeBudget = floorGameBudget(remainingSec);
   saveDb(db);
+  state.activeGame?.refreshSnapshot?.();
 }
 
 function report() {
